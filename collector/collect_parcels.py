@@ -4,7 +4,7 @@ import csv, json, os, pathlib, time, urllib.parse, urllib.request
 from datetime import datetime, timezone
 BASE="https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query"
 FIELDS=["OBJECTID","COUNTY_PIN","STATE_PIN","ANUMBER","ST_NAME","ST_POS_TYP","CTU_NAME","PLAT_NAME","ZIP","YEAR_BUILT"]
-WHERE="UPPER(CTU_NAME) = 'EAGAN' AND UPPER(ST_NAME) LIKE '%KINGS WOOD%'"
+WHERE="UPPER(CTU_NAME) = 'EAGAN' AND (UPPER(ST_NAME) LIKE '%KINGS WOOD%' OR UPPER(PLAT_NAME) LIKE '%KINGS WOOD%')"
 ROOT=pathlib.Path(__file__).resolve().parent.parent/"evidence"/"data"
 ROOT.mkdir(parents=True,exist_ok=True)
 def query(params):
@@ -28,7 +28,7 @@ while len(rows)<60:
     for feature in features:
         attrs=feature.get("attributes") or {}
         if not attrs.get("OBJECTID") or str(attrs.get("CTU_NAME","")).upper()!="EAGAN":continue
-        if "KINGS WOOD" not in str(attrs.get("ST_NAME","")).upper():continue
+        if "KINGS WOOD" not in (str(attrs.get("ST_NAME",""))+" "+str(attrs.get("PLAT_NAME",""))).upper():continue
         pin=attrs.get("COUNTY_PIN")
         oid=str(attrs["OBJECTID"])
         if oid in seen:continue
@@ -36,7 +36,7 @@ while len(rows)<60:
         number=attrs.get("ANUMBER")
         if not number:continue
         street=" ".join(str(attrs.get(k) or "") for k in ["ST_NAME","ST_POS_TYP"]).strip()
-        rows.append({"parcel_objectid":oid,"county_pin":pin or "","state_pin":attrs.get("STATE_PIN") or "","address":str(number)+" "+street+", Eagan, MN","street":street,"plat_name":attrs.get("PLAT_NAME") or "","year_built":attrs.get("YEAR_BUILT") or "","source":"metc_dakota_parcels_2025","source_record_url":BASE+"?"+urllib.parse.urlencode({"f":"json","where":"OBJECTID="+oid,"outFields":",".join(FIELDS),"returnGeometry":"false"}),"verification_status":"UNVERIFIED","match_scope":"Eagan Kings Wood street candidate; subdivision boundary NOT validated"})
+        rows.append({"parcel_objectid":oid,"county_pin":pin or "","state_pin":attrs.get("STATE_PIN") or "","address":str(number)+" "+street+", Eagan, MN","street":street,"plat_name":attrs.get("PLAT_NAME") or "","year_built":attrs.get("YEAR_BUILT") or "","source":"metc_dakota_parcels_2025","source_record_url":BASE+"?"+urllib.parse.urlencode({"f":"json","where":"OBJECTID="+oid,"outFields":",".join(FIELDS),"returnGeometry":"false"}),"verification_status":"UNVERIFIED","match_scope":"Eagan Kings Wood street or plat candidate; subdivision boundary NOT validated"})
         if len(rows)>=60:break
     offset+=len(features)
     if len(features)<100:break
