@@ -107,9 +107,29 @@ table{width:100%;border-collapse:collapse;text-align:left}th{background:#f8fafc;
 <script>
 "use strict";
 const byId=id=>document.getElementById(id);
-const allRecords=[]; // Inject only coordinator-verified data through a future authenticated read API.
+const allRecords=[]; // Authentic GIS candidates only, with unverified status.
+async function loadCandidates(){
+ try {
+  const endpoint='https://raw.githubusercontent.com/zaccboi8484/aero1/main/evidence/data/kingswood_parcel_candidates.csv';
+  const response=await fetch(endpoint+'?t='+Date.now(),{cache:'no-store'});
+  if(!response.ok) throw new Error('GIS export not published');
+  const lines=(await response.text()).trim().split(/\r?\n/);
+  const parse=s=>{let out=[],v='',quoted=false;for(let i=0;i<s.length;i++){if(s[i]==='"'){if(quoted&&s[i+1]==='"'){v+='"';i++}else quoted=!quoted}else if(s[i]===','&&!quoted){out.push(v);v=''}else v+=s[i]}out.push(v);return out};
+  const headers=parse(lines.shift());
+  const records=lines.filter(Boolean).map(l=>Object.fromEntries(parse(l).map((v,i)=>[headers[i],v])));
+  allRecords.length=0;
+  for(const r of records){
+    if(!r.parcel_objectid||!r.address||r.verification_status!=='UNVERIFIED')continue;
+    allRecords.push({parcel_id:r.county_pin||r.parcel_objectid,address:r.address,category:'Parcel candidate',verification_status:'UNVERIFIED',source_url:r.source_record_url});
+  }
+  document.getElementById('registryStatus').textContent=allRecords.length+' GIS candidates · Unverified';
+  document.querySelector('#properties .mini').textContent='Official GIS street candidates — plat boundary and permits not yet matched';
+  render();
+ }catch(e){document.getElementById('registryStatus').textContent='Official parcel import pending';render()}
+}
+
 function render(){const q=byId('query').value.trim().toLowerCase(),cat=byId('category').value;const rows=allRecords.filter(r=>(!q||(r.parcel_id+' '+r.address).toLowerCase().includes(q))&&(!cat||r.category===cat));byId('rows').replaceChildren();for(const r of rows){const tr=document.createElement('tr');for(const key of ['address','category','verification_status','source_url']){const td=document.createElement('td');if(key==='source_url'){const a=document.createElement('a');a.href=r.source_url;a.textContent='Official record ↗';a.target='_blank';a.rel='noopener noreferrer';td.append(a)}else td.textContent=String(r[key]||'—');tr.append(td)}byId('rows').append(tr)}byId('empty').hidden=rows.length>0}
-byId('query').addEventListener('input',render);byId('category').addEventListener('change',render);byId('refresh').addEventListener('click',()=>{render();byId('registryStatus').textContent='No live data connection'});render();
+byId('query').addEventListener('input',render);byId('category').addEventListener('change',render);byId('refresh').addEventListener('click',loadCandidates);render();loadCandidates();
 </script><script>
 (()=>{'use strict';
 const el=id=>document.getElementById(id), stage=el('photoStage'), img=el('evidencePhoto');
