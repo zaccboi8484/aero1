@@ -1,0 +1,11 @@
+{
+  "territory": "kings-wood-001",
+  "source_key": "metc_dakota_parcels_2025",
+  "url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query",
+  "where": "CTU_NAME = 'Eagan' AND UPPER(ST_NAME) LIKE '%KINGS WOOD%'",
+  "outFields": "OBJECTID,COUNTY_PIN,STATE_PIN,ANUMBER,ST_NAME,ST_POS_TYP,CTU_NAME,PLAT_NAME,ZIP,YEAR_BUILT,EDIT_DATE,EXP_DATE",
+  "pageSize": 500,
+  "orderByFields": "OBJECTID ASC",
+  "status": "SOURCE_DISCOVERED_RECORDS_UNVERIFIED",
+  "noOwnershipFields": true
+}
