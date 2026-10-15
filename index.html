@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AeroLeadAI · Kings Wood Recon</title>
+<meta name="description" content="GateKeeper-controlled property intelligence and cinematic reconnaissance for Kings Wood, Eagan, Minnesota.">
+<style>
+:root{color-scheme:dark;--bg:#060e19;--line:#214054;--ink:#e8f8ff;--muted:#8baebf;--mint:#87ecc4}
+*{box-sizing:border-box}body{background:radial-gradient(ellipse at 60% 0,#14334b 0,#06111e 44%,#040914);color:var(--ink);font:15px system-ui,-apple-system,Segoe UI,sans-serif;margin:0}
+header{padding:17px 24px;display:flex;align-items:center;gap:18px;border-bottom:1px solid var(--line);background:#06111add}
+.logo{font-weight:850;letter-spacing:.15em}.tag{background:#13342d;border:1px solid #2d6753;border-radius:20px;padding:6px 11px;color:var(--mint);font-size:11px;letter-spacing:.1em}
+header small{margin-left:auto;color:var(--muted)}main{display:grid;grid-template-columns:minmax(0,1fr) 335px;min-height:calc(100dvh - 65px)}
+.viewer{position:relative;min-height:620px;overflow:hidden;display:flex;align-items:center;justify-content:center;touch-action:none;perspective:1000px;outline:none}
+.glow{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 55%,#1b6b7650,transparent 55%),repeating-linear-gradient(0deg,#ffffff05 0 1px,transparent 1px 46px),repeating-linear-gradient(90deg,#ffffff05 0 1px,transparent 1px 46px)}
+.scene{width:min(77vw,740px);height:430px;position:relative;transform-style:preserve-3d;transform:translateY(25px) scale(var(--zoom,1)) rotateX(54deg) rotateZ(var(--yaw,-18deg));transition:transform .15s ease-out}
+.property{position:absolute;background:#0c2834;border:3px solid #3a737c;box-shadow:0 0 35px #20b4c044}
+.lot{width:530px;height:285px;left:95px;top:75px;border:3px solid #529e83;background:repeating-linear-gradient(45deg,#10483d,#10483d 17px,#12493f 17px,#12493f 34px)}
+.house{width:235px;height:152px;left:240px;top:125px;background:#405967;border:10px solid #9aadb4;box-shadow:10px 18px 0 #0b283c,0 0 0 9px #233d4c}
+.roof{position:absolute;inset:-14px;background:repeating-linear-gradient(90deg,#3b5160,#3b5160 20px,#45606d 21px,#45606d 40px);clip-path:polygon(0 44%,50% 0,100% 44%,100% 100%,0 100%);border:2px solid #b2c6c9}
+.drive{width:85px;height:200px;left:438px;top:247px;background:#58636c;transform:skewX(-13deg);border-color:#87969a}
+.tree{width:90px;height:90px;border-radius:50%;background:radial-gradient(circle at 30% 20%,#448a55,#174b42 60%,#102b38);border:4px solid #549d72;box-shadow:0 13px 0 #183c33}
+.tree.a{left:120px;top:92px}.tree.b{left:512px;top:118px}.tree.c{left:160px;top:300px}
+.labelpoint{position:absolute;left:340px;top:110px;background:#061720ec;border:1px solid #72d7cf;border-radius:8px;padding:9px 12px;transform:rotateZ(18deg) rotateX(-54deg);white-space:nowrap;font-size:12px}
+.hero{position:absolute;left:26px;top:27px;pointer-events:none}.eyebrow{letter-spacing:.22em;color:var(--mint);font-size:11px;font-weight:700}
+h1{font-size:clamp(24px,3vw,42px);margin:9px 0 6px;letter-spacing:-.035em}.sub{color:var(--muted);font-size:13px}
+.controls{position:absolute;left:22px;bottom:20px;right:22px;border:1px solid #3b6074;border-radius:16px;background:#071624e8;padding:14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+button{background:#123547;color:#e9fbff;border:1px solid #3e7180;padding:10px 13px;border-radius:9px;cursor:pointer;font-weight:650}button:hover,button:focus-visible{background:#22516b;outline:2px solid #77daca}button.active{background:#216657;border-color:#83ecca}
+input[type=range]{width:130px;accent-color:#78e8bb}.pct{min-width:42px;font-variant-numeric:tabular-nums}
+aside{border-left:1px solid var(--line);padding:25px 21px;background:#071522ef;display:flex;flex-direction:column;gap:20px}
+.card{border:1px solid #2d4c5f;background:#0b2030;border-radius:15px;padding:16px}.card h2{margin:0 0 12px;font-size:16px}.card p{color:var(--muted);line-height:1.55;font-size:13px}
+.status{color:#facb80;font-size:12px;font-weight:700}.kind{font-size:12px;color:var(--muted)}
+.tabs{display:grid;gap:9px}.tabs button{text-align:left}.divider{border-top:1px solid var(--line);margin:3px 0}
+footer{color:#769baa;font-size:12px;line-height:1.5;margin-top:auto}
+@media(max-width:900px){main{grid-template-columns:1fr}aside{border-left:0;border-top:1px solid var(--line)}.viewer{min-height:570px}.scene{width:620px;flex-shrink:0;transform:translateY(30px) scale(calc(var(--zoom,1) * .72)) rotateX(54deg) rotateZ(var(--yaw,-18deg))}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
+</style></head><body>
+<header><div class="logo">AEROLEAD<span style="color:#87ecc4">AI</span></div><span class="tag">GATEKEEPER</span><small>KINGS WOOD · EAGAN, MN · TERRITORY 001</small></header>
+<main><section class="viewer" id="viewer" tabindex="0" aria-label="Illustrative Kings Wood property viewer. Drag to orbit, scroll or pinch to zoom.">
+<div class="glow"></div><div class="hero"><div class="eyebrow">CINEMATIC RECON · TERRITORY 001</div><h1>Kings Wood Intelligence</h1><div class="sub">Visual survey interface · Evidence pending · Not drone imagery</div></div>
+<div class="scene" id="scene"><div class="property lot"></div><div class="property house"><div class="roof"></div></div><div class="property drive"></div><div class="property tree a"></div><div class="property tree b"></div><div class="property tree c"></div><div class="labelpoint">Property visualization · illustrative</div></div>
+<div class="controls" aria-label="Camera controls"><button id="play">▶ Fly-down</button><button id="orbit">⟳ Orbit</button><button id="minus" aria-label="Zoom out">−</button><label for="zoom">Zoom</label><input id="zoom" type="range" min="50" max="300" step="5" value="100" aria-label="Camera zoom"><output id="pct" class="pct">100%</output><button id="plus" aria-label="Zoom in">+</button><button id="reset">Reset</button></div>
+</section><aside><div><div class="eyebrow">LIVE INTELLIGENCE CONSOLE</div><h1 style="font-size:24px">Inspection layers</h1><p class="kind">Choose an inspection priority. The scene is a representation, not an assessment.</p></div>
+<div class="tabs"><button data-layer="Roofing" class="active">01 · Roofing</button><button data-layer="Driveway">02 · Cracked driveways</button><button data-layer="Trees">03 · Dangerous trees</button></div>
+<div class="card"><h2 id="layerTitle">Roofing</h2><div class="status">UNVERIFIED · No inspection evidence</div><p id="layerText">Roof material, age, damage and repair need field, permit or authenticated imagery evidence. No condition is inferred from this artwork.</p></div>
+<div class="card"><h2>GateKeeper verification</h2><p><strong>REAL-NOW:</strong> A territory viewer exists.<br><strong>UNVERIFIED:</strong> Parcel coverage, permits and condition findings.<br><strong>SIMULATED:</strong> Fly-down, orbit and 2.5D property rendering.</p></div>
+<div class="card"><h2>Data pipeline</h2><p>Separate crawler → lightweight work queue → evidence coordinator → Supabase audit history. Infrastructure is coded in the <a href="https://github.com/zaccboi8484/aero1" style="color:#8deacb">GitHub repository</a>, but live source ingestion is not connected.</p></div>
+<footer>No fabricated addresses, scores or inspection claims. Actual property evidence will be displayed with timestamp, source and verification status.</footer></aside></main>
+<script>
+const scene=document.querySelector('#scene'),view=document.querySelector('#viewer'),slider=document.querySelector('#zoom'),pct=document.querySelector('#pct');
+let z=100,yaw=-18,auto=false,raf=0,pointers=new Map(),pinch=null,lastX=null;
+function update(){scene.style.setProperty('--zoom',z/100);scene.style.setProperty('--yaw',yaw+'deg');slider.value=z;pct.value=z+'%';pct.textContent=z+'%'}
+function setZoom(next){z=Math.min(300,Math.max(50,Math.round(next/5)*5));update()}
+document.querySelector('#plus').onclick=()=>setZoom(z+15);
+document.querySelector('#minus').onclick=()=>setZoom(z-15);
+document.querySelector('#reset').onclick=()=>{stop();z=100;yaw=-18;update()};
+slider.oninput=()=>setZoom(Number(slider.value));
+view.addEventListener('wheel',e=>{if(e.target===slider)return;e.preventDefault();setZoom(z+(e.deltaY<0?10:-10))},{passive:false});
+view.onpointerdown=e=>{if(e.target.closest('.controls'))return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});view.setPointerCapture(e.pointerId);lastX=e.clientX};
+view.onpointermove=e=>{if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
+if(pointers.size>1){const [a,b]=[...pointers.values()],d=Math.hypot(a.x-b.x,a.y-b.y);if(pinch!==null)setZoom(z+(d-pinch)/2);pinch=d;lastX=null}
+else{pinch=null;if(lastX!==null){stop();yaw=Math.max(-70,Math.min(70,yaw+(e.clientX-lastX)*.25));update()}lastX=e.clientX}};
+function release(e){pointers.delete(e.pointerId);pinch=null;lastX=null}
+['pointerup','pointercancel','lostpointercapture'].forEach(k=>view.addEventListener(k,release));
+view.onkeydown=e=>{if(e.target===slider)return;if(e.key==='+'||e.key==='=')setZoom(z+10);if(e.key==='-')setZoom(z-10);if(e.key==='0')setZoom(100)};
+function stop(){auto=false;cancelAnimationFrame(raf);document.querySelector('#orbit').textContent='⟳ Orbit';document.querySelector('#orbit').classList.remove('active')}
+function run(){if(!auto)return;yaw=yaw+.11;if(yaw>70)yaw=-70;update();raf=requestAnimationFrame(run)}
+document.querySelector('#orbit').onclick=()=>{if(auto){stop()}else{auto=true;document.querySelector('#orbit').textContent='Ⅱ Pause orbit';document.querySelector('#orbit').classList.add('active');run()}};
+document.querySelector('#play').onclick=()=>{stop();scene.animate([{transform:'translateY(-75px) scale(.46) rotateX(54deg) rotateZ(-18deg)',opacity:.55},{transform:'translateY(30px) scale('+(z/100)+') rotateX(54deg) rotateZ('+yaw+'deg)',opacity:1}],{duration:1600,easing:'cubic-bezier(.16,.8,.22,1)'})};
+const details={Roofing:'Roof material, age, damage and repair need field, permit or authenticated imagery evidence. No condition is inferred from this artwork.',Driveway:'Surface cracking and repair urgency require a date-stamped field observation or usable street-level evidence.',Trees:'Hazardous limbs, proximity and risk require qualified inspection; this illustration cannot establish danger.'};
+for(const b of document.querySelectorAll('[data-layer]'))b.onclick=()=>{document.querySelectorAll('[data-layer]').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelector('#layerTitle').textContent=b.dataset.layer;document.querySelector('#layerText').textContent=details[b.dataset.layer]};
+update();
+</script></body></html>
