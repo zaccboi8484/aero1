@@ -1,0 +1,35 @@
+name: Official Kings Wood parcel acquisition
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'collector/collect_parcels.py'
+      - '.github/workflows/parcel-evidence.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '23 8 * * 1'
+permissions:
+  contents: write
+concurrency:
+  group: parcel-evidence
+  cancel-in-progress: false
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Retrieve county GIS records
+        run: python collector/collect_parcels.py
+      - name: Commit timestamped source evidence
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence/data/kingswood_parcel_candidates.csv evidence/data/collection_manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update official Kings Wood parcel candidate evidence"
+            git push
+          fi
