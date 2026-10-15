@@ -1,0 +1,32 @@
+name: Download first 60 real county aerial images
+on:
+  push:
+    branches: [main]
+    paths: ['collector/download_images.py','.github/workflows/download-images.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: county-image-download
+  cancel-in-progress: false
+jobs:
+  get-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download verified JPEG images from county GIS
+        run: python collector/download_images.py
+      - name: Commit images and SHA256 manifest
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence/images/ evidence/data/imagery_downloads.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Store authentic county aerial images for first 60 parcels"
+            git pull --rebase
+            git push
+          fi
