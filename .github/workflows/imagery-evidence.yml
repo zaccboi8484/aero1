@@ -1,0 +1,33 @@
+name: Parcel georeferenced county imagery
+on:
+  push:
+    branches: [main]
+    paths: ['collector/collect_imagery.py','.github/workflows/imagery-evidence.yml']
+  workflow_dispatch:
+  schedule:
+    - cron: '47 9 * * 1'
+permissions:
+  contents: write
+concurrency:
+  group: kingswood-imagery
+  cancel-in-progress: false
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Acquire georeferenced source imagery URLs
+        run: python collector/collect_imagery.py
+      - name: Commit only source metadata, not restricted imagery bytes
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence/data/imagery_manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Index official county aerial imagery by parcel geometry"
+            git pull --rebase
+            git push
+          fi
