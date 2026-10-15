@@ -41,6 +41,28 @@ table{width:100%;border-collapse:collapse;text-align:left}th{background:#f8fafc;
 .statusgrid:last-child{border:0}.statusgrid strong{color:#9a7440}
 .foot{color:#95a4af;font-size:11px;line-height:1.5;margin-top:25px}
 @media(max-width:1050px){.columns{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){.app{display:block}nav{height:auto;position:relative;padding:15px;gap:10px}.navbottom,.navlabel,.navlink:not(.selected){display:none}.topbar{padding:0 18px;height:62px}.content{padding:22px 16px}.stats{gap:10px}.stat{padding:15px}.statval{font-size:25px}.panel{padding:16px}table th:nth-child(3),table td:nth-child(3){display:none}}
+
+/* Opt-in, source-backed image inspection */
+.capture-workspace{margin-top:22px;background:white;border:1px solid #dce7ee;border-radius:15px;padding:24px;box-shadow:0 3px 20px #16364b08}
+.capture-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.capture-heading h2{font-size:18px;color:#173548;margin:4px 0}
+.capture-toolbar{display:flex;gap:9px;flex-wrap:wrap;margin:19px 0 13px;align-items:center}
+.capture-toolbar button{border:1px solid #cadce4;background:#f7fbfc;color:#234b5e;border-radius:9px;padding:10px 13px;font-weight:650;font-size:12px}
+.capture-toolbar button:hover,.capture-toolbar button:focus{outline:2px solid #75c9d3;background:#eaf6f8}
+.capture-toolbar button:disabled{opacity:.43;cursor:not-allowed}
+.capture-toolbar .capture-primary{background:#116e7c;color:white;border-color:#116e7c}
+.capture-toolbar label{font-size:12px;color:#61798a}
+.capture-stage{height:410px;position:relative;background:#0b1a29;overflow:hidden;border-radius:13px;touch-action:none;cursor:grab;outline:none;user-select:none}
+.capture-stage.dragging{cursor:grabbing}
+.capture-stage img{position:absolute;left:50%;top:50%;max-width:none;max-height:none;transform-origin:center;pointer-events:none;will-change:transform;display:none}
+.capture-placeholder{position:absolute;inset:0;display:grid;place-content:center;text-align:center;color:#bed0db;padding:20px;pointer-events:none}
+.capture-placeholder b{font-size:17px;margin:6px}.capture-placeholder small{font-size:12px;max-width:350px;line-height:1.6}
+.capture-hud{position:absolute;top:13px;left:13px;background:#071420d9;color:#dceef4;border:1px solid #35546a;padding:8px 11px;border-radius:8px;font-size:11px;font-variant-numeric:tabular-nums}
+.capture-meta{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:11px;color:#71899b;margin-top:13px}
+.capture-warn{margin-top:12px;padding:12px;border-radius:9px;background:#f3f8fb;border:1px solid #dae7ee;color:#537181;font-size:12px;line-height:1.6}
+#photoZoom{width:140px;accent-color:#168b98}
+@media(max-width:700px){.capture-workspace{padding:15px}.capture-stage{height:320px}}
+
 </style></head>
 <body><div class="app"><nav aria-label="Primary">
 <div class="brand"><div class="brandmark">⌁</div><div>AeroLeadAI<small>PROPERTY INTELLIGENCE</small></div></div>
@@ -61,11 +83,92 @@ table{width:100%;border-collapse:collapse;text-align:left}th{background:#f8fafc;
 <div class="source"><div class="sourceicon">▣</div><div><strong>Dakota County aerial imagery</strong><p>Historical and oblique imagery viewer. Imagery access does not establish property condition.</p><a target="_blank" rel="noopener noreferrer" href="https://gis.co.dakota.mn.us/ObliqueViewer/">Open imagery viewer ↗</a></div></div>
 <div class="source"><div class="sourceicon">↗</div><div><strong>Source code and audit design</strong><p>Separate crawler, queue, coordinator, and provenance workflow.</p><a target="_blank" rel="noopener noreferrer" href="https://github.com/zaccboi8484/aero1">View GitHub repository ↗</a></div></div></section>
 <section class="panel" style="margin-top:20px"><div class="paneltitle"><h2>GateKeeper review</h2><span class="pill amber">Pending</span></div><div class="statusgrid"><span>Roofing evidence</span><strong>Unverified</strong></div><div class="statusgrid"><span>Driveway evidence</span><strong>Unverified</strong></div><div class="statusgrid"><span>Tree evidence</span><strong>Unverified</strong></div><div class="statusgrid"><span>Territory boundary</span><strong>Unverified</strong></div></section></div></div>
-<div class="foot">AeroLeadAI · Kings Wood Territory 001. Data provenance and defensible classifications take precedence over visual impressions. Interface online does not imply crawler or database availability.</div></div></main></div>
+<section class="capture-workspace" id="image-capture" aria-label="Photographic evidence inspection">
+<div class="capture-heading"><div><div class="kicker">IMAGE EVIDENCE · INTERACTIVE VIEWER</div><h2>Capture & inspect</h2><p class="subtitle">Import an authentic image or take a photo. Camera navigation works only on the photo you provide.</p></div><span class="pill amber" id="photoBadge">NO EVIDENCE IMAGE LOADED</span></div>
+<input type="file" id="photoFile" accept="image/*" hidden aria-label="Choose inspection photo"><input type="file" id="photoCamera" accept="image/*" capture="environment" hidden aria-label="Capture inspection photo with camera">
+<div class="capture-toolbar">
+<button class="capture-primary" id="choosePhoto">▧ Open photo</button>
+<button id="takePhoto">◎ Camera capture</button>
+<button data-photo="spiral" disabled id="spiralPhoto">↻ Spiral orbit</button>
+<button data-photo="panorama" disabled id="panoramaPhoto">◉ Panoramic scan</button>
+<button data-photo="gyro" disabled id="gyroPhoto">◈ Gyroscope</button>
+<button data-photo="stop" disabled id="stopPhoto">Ⅱ Stop motion</button>
+<button data-photo="reset" disabled id="resetPhoto">Reset view</button>
+<button id="saveFrame" disabled>↓ Export current view</button>
+<label for="photoZoom">Zoom <output id="photoZoomLabel">100%</output></label><input type="range" id="photoZoom" min="50" max="300" value="100" step="5" disabled aria-label="Photographic zoom from 50 to 300 percent">
+</div>
+<div class="capture-stage" id="photoStage" tabindex="0" aria-label="Photo viewer: drag to inspect; scroll or pinch to zoom">
+<img id="evidencePhoto" alt="User-selected inspection evidence" draggable="false">
+<div class="capture-placeholder" id="photoPlaceholder"><b>Open a real image to begin</b><small>Zoom, pan, gyro control and cinematic movement are locked until an authentic photograph is selected.</small></div>
+<div class="capture-hud" id="photoHud">NO IMAGE · 100% · NAVIGATION OFF</div></div>
+<div class="capture-meta"><span id="photoMeta">No local image selected</span><span id="photoMode">Mode: idle</span></div>
+<div class="capture-warn" id="photoNotice" role="status">Evidence policy: an imported image is not a verified property inspection. The viewer does not fabricate depth, imagery or condition findings. Exporting a frame saves a local derivative only; it does not upload evidence or certify provenance.</div>
+</section><div class="foot">AeroLeadAI · Kings Wood Territory 001. Data provenance and defensible classifications take precedence over visual impressions. Interface online does not imply crawler or database availability.</div></div></main></div>
 <script>
 "use strict";
 const byId=id=>document.getElementById(id);
 const allRecords=[]; // Inject only coordinator-verified data through a future authenticated read API.
 function render(){const q=byId('query').value.trim().toLowerCase(),cat=byId('category').value;const rows=allRecords.filter(r=>(!q||(r.parcel_id+' '+r.address).toLowerCase().includes(q))&&(!cat||r.category===cat));byId('rows').replaceChildren();for(const r of rows){const tr=document.createElement('tr');for(const key of ['address','category','verification_status','source_url']){const td=document.createElement('td');if(key==='source_url'){const a=document.createElement('a');a.href=r.source_url;a.textContent='Official record ↗';a.target='_blank';a.rel='noopener noreferrer';td.append(a)}else td.textContent=String(r[key]||'—');tr.append(td)}byId('rows').append(tr)}byId('empty').hidden=rows.length>0}
 byId('query').addEventListener('input',render);byId('category').addEventListener('change',render);byId('refresh').addEventListener('click',()=>{render();byId('registryStatus').textContent='No live data connection'});render();
-</script></body></html>
+</script><script>
+(()=>{'use strict';
+const el=id=>document.getElementById(id), stage=el('photoStage'), img=el('evidencePhoto');
+let objectUrl=null, ready=false,zoom=100,panX=0,panY=0,angle=0,perspective=0,mode='idle',timer=0,drag=null,pointers=new Map(),pinch=null,gyroActive=false,gyroListener=null;
+let naturalW=0,naturalH=0,fileName='';
+const buttons=['spiralPhoto','panoramaPhoto','gyroPhoto','stopPhoto','resetPhoto','saveFrame','photoZoom'];
+const note=t=>el('photoNotice').textContent=t;
+const clamp=(n,a,b)=>Math.min(b,Math.max(a,n));
+function setZoom(z){zoom=clamp(Math.round(z/5)*5,50,300);el('photoZoom').value=zoom;el('photoZoomLabel').textContent=zoom+'%';render()}
+function render(){if(!ready)return;const fit=Math.min(stage.clientWidth/naturalW,stage.clientHeight/naturalH);
+const w=naturalW*fit,h=naturalH*fit;
+img.style.width=w+'px';img.style.height=h+'px';
+img.style.transform='translate(-50%,-50%) translate('+panX+'px,'+panY+'px) scale('+(zoom/100)+') rotate('+angle+'deg) rotateY('+perspective+'deg)';
+el('photoHud').textContent=mode.toUpperCase()+' · '+zoom+'% · '+naturalW+'×'+naturalH;
+el('photoMode').textContent='Mode: '+mode;}
+function stop(){if(timer)cancelAnimationFrame(timer);timer=0;if(gyroListener)window.removeEventListener('deviceorientation',gyroListener);gyroListener=null;gyroActive=false;mode='manual';angle=0;perspective=0;render()}
+function animate(kind){if(!ready)return;stop();mode=kind;let prev=0;function tick(t){if(!prev)prev=t;const dt=Math.min(40,t-prev);prev=t;
+if(kind==='spiral'){angle=(angle+.009*dt)%360;panX=Math.sin(t/1550)*Math.min(45,stage.clientWidth*.06);panY=Math.cos(t/1900)*Math.min(25,stage.clientHeight*.06)}
+else{panX=Math.sin(t/2400)*Math.min(100,stage.clientWidth*.12);perspective=Math.sin(t/3200)*11;}
+render();timer=requestAnimationFrame(tick)}timer=requestAnimationFrame(tick);}
+async function gyro(){if(!ready)return;stop();if(!('DeviceOrientationEvent' in window)){note('Gyroscope is not supported by this browser. Drag and pinch still work.');return}
+try{if(typeof DeviceOrientationEvent.requestPermission==='function'){const permission=await DeviceOrientationEvent.requestPermission();if(permission!=='granted'){note('Gyroscope permission was denied. Use drag or panoramic scan instead.');return}}
+mode='gyroscope';gyroActive=true;gyroListener=e=>{if(!gyroActive)return;panX=clamp((e.gamma||0)*2,-stage.clientWidth*.27,stage.clientWidth*.27);panY=clamp((e.beta||0)*1.2,-stage.clientHeight*.27,stage.clientHeight*.27);render()};window.addEventListener('deviceorientation',gyroListener);note('Gyroscope enabled for local image navigation. Device orientation moves the selected image, not a reconstructed 3D scene.')}
+catch(e){note('Unable to enable gyroscope: '+String(e.message||e))}}
+async function load(file){if(!file)return;
+if(!file.type.startsWith('image/')){note('Only image files are supported.');return}
+if(file.size>25*1024*1024){note('Please choose an image smaller than 25 MB.');return}
+stop();const temp=URL.createObjectURL(file);const preview=new Image();
+preview.onload=()=>{if(objectUrl)URL.revokeObjectURL(objectUrl);objectUrl=temp;img.src=temp;img.style.display='block';naturalW=preview.naturalWidth;naturalH=preview.naturalHeight;
+if(!naturalW||!naturalH){note('Image has invalid dimensions.');URL.revokeObjectURL(temp);return}
+ready=true;zoom=100;panX=panY=angle=perspective=0;mode='manual';fileName=file.name;el('photoPlaceholder').hidden=true;el('photoBadge').textContent='LOCAL IMAGE · UNVERIFIED';
+el('photoMeta').textContent=file.name+' · '+naturalW+'×'+naturalH+' · '+(file.size/1024/1024).toFixed(2)+' MB';
+buttons.forEach(id=>el(id).disabled=false);note('Local photo opened. No server upload or verification has occurred. Use motion controls for inspection, then export a view if needed.');render();}
+preview.onerror=()=>{URL.revokeObjectURL(temp);note('Unable to read the selected image.');};
+preview.src=temp;}
+el('choosePhoto').onclick=()=>el('photoFile').click();el('takePhoto').onclick=()=>el('photoCamera').click();
+el('photoFile').onchange=e=>load(e.target.files?.[0]);el('photoCamera').onchange=e=>load(e.target.files?.[0]);
+el('spiralPhoto').onclick=()=>animate('spiral');el('panoramaPhoto').onclick=()=>animate('panorama');
+el('gyroPhoto').onclick=()=>gyro();el('stopPhoto').onclick=()=>stop();
+el('resetPhoto').onclick=()=>{stop();panX=panY=0;setZoom(100)};
+el('photoZoom').oninput=e=>setZoom(Number(e.target.value));
+stage.addEventListener('wheel',e=>{if(!ready)return;e.preventDefault();setZoom(zoom+(e.deltaY<0?10:-10))},{passive:false});
+stage.addEventListener('pointerdown',e=>{if(!ready)return;stop();pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});stage.setPointerCapture(e.pointerId);drag={x:e.clientX,y:e.clientY,panX,panY};stage.classList.add('dragging')});
+stage.addEventListener('pointermove',e=>{if(!ready||!pointers.has(e.pointerId))return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
+if(pointers.size>=2){const [a,b]=[...pointers.values()],d=Math.hypot(a.x-b.x,a.y-b.y);if(pinch!==null)setZoom(zoom+(d-pinch)/3);pinch=d;drag=null}
+else if(drag){panX=drag.panX+e.clientX-drag.x;panY=drag.panY+e.clientY-drag.y;render()}});
+for(const name of ['pointerup','pointercancel','lostpointercapture'])stage.addEventListener(name,e=>{pointers.delete(e.pointerId);pinch=null;drag=null;stage.classList.remove('dragging')});
+stage.addEventListener('keydown',e=>{if(!ready)return;if(e.key==='+'||e.key==='=')setZoom(zoom+10);if(e.key==='-')setZoom(zoom-10);if(e.key==='0'){panX=panY=0;setZoom(100)}
+if(e.key.startsWith('Arrow')){e.preventDefault();stop();panX+=(e.key==='ArrowRight'?20:e.key==='ArrowLeft'?-20:0);panY+=(e.key==='ArrowDown'?20:e.key==='ArrowUp'?-20:0);render()}});
+el('saveFrame').onclick=()=>{if(!ready)return;
+const c=document.createElement('canvas'),ratio=Math.min(2,window.devicePixelRatio||1),w=stage.clientWidth,h=stage.clientHeight;c.width=Math.round(w*ratio);c.height=Math.round(h*ratio);
+const ctx=c.getContext('2d');if(!ctx){note('Canvas export is unavailable.');return}
+ctx.scale(ratio,ratio);ctx.fillStyle='#0b1a29';ctx.fillRect(0,0,w,h);
+ctx.save();ctx.translate(w/2+panX,h/2+panY);ctx.rotate(angle*Math.PI/180);
+const fit=Math.min(w/naturalW,h/naturalH),scale=fit*(zoom/100),project=Math.cos(perspective*Math.PI/180);
+ctx.scale(scale*project,scale);ctx.drawImage(img,-naturalW/2,-naturalH/2,naturalW,naturalH);ctx.restore();
+c.toBlob(blob=>{if(!blob){note('Image export failed.');return}const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='aeroleadai-view-'+Date.now()+'.png';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),5000);
+note('View exported locally as PNG. This derivative does not replace the original and is not a verified finding.')},'image/png')};
+new ResizeObserver(()=>{if(ready)render()}).observe(stage);
+})();
+</script>
+</body></html>
