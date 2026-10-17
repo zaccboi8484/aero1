@@ -1,0 +1,25 @@
+name: Metro territory discovery
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 11 * * 2'
+permissions:
+  contents: write
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python collector/metro_expansion.py
+      - name: Commit public municipal index
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence/data/metro_expansion_manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh MetroGIS municipality expansion index"
+            git pull --rebase
+            git push
+          fi
