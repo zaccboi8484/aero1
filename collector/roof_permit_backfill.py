@@ -68,6 +68,11 @@ def build(d,permit_csv=None):
  # Existing permit_match_review.json is evidence only if it actually has unique,
  # independently reviewed municipal records; no self-approval.
  existing=readjson(d,"permit_match_review.json").get("records",[])
+ export_audit=readjson(d,"municipal_permit_export_audit.json")
+ export_by_oid={}
+ for imported in export_audit.get("records",[]):
+  if imported.get("parcel_objectid") and imported.get("permit_number"):
+   export_by_oid.setdefault(str(imported["parcel_objectid"]),[]).append(imported)
  source_rows=rowscsv(permit_csv)+existing
  eligible=defaultdict(list);rejected=[]
  for record in source_rows:
@@ -98,6 +103,8 @@ def build(d,permit_csv=None):
  for pin,p in bypin.items():
   base=prior.get(pin,{}).get("review",{}).get("data_review_priority")
   if not isinstance(base,(int,float)):base=50
+  export_matches=export_by_oid.get(str(p.get("parcel_objectid")),[])
+  export_roof_2025=[x for x in export_matches if x.get("permit_kind")=="ROOF_CANDIDATE_PENDING_DOCUMENT_REVIEW" and str(x.get("issued_date","")).startswith("2025-")]
   events=eligible.get(pin,[])
   validated=[x for x in events if x["review_status"]=="VERIFIED_RECENT_REROOF"]
   # This score controls roofing outreach/review order, NOT hail/damage/Mindex.
@@ -106,14 +113,17 @@ def build(d,permit_csv=None):
   ordered.append({"parcel_objectid":str(p.get("parcel_objectid")),"county_pin":pin,
    "address":p.get("address"),"ring":p.get("ring","territory_001"),
    "base_data_priority":int(base),"roofing_outreach_priority":next_score,
+   "recommended_priority_if_2025_roof_permit_approved":max(0,int(base)-45) if export_roof_2025 else None,
+   "export_permit_match_count":len(export_matches),"export_2025_roof_candidates":len(export_roof_2025),
+   "review_required_before_priority_reduction":bool(export_roof_2025) and not bool(validated),
    "priority_adjustment":adjustment,"last_year":YEAR,"matched_roof_permits":events,
    "recent_roof_verified":bool(validated),"search_status":"VERIFIED_2025_REROOF" if validated else
-    ("PENDING_PERMIT_REVIEW" if events else "NO_MATCH_FROM_AVAILABLE_EVIDENCE"),
+    ("PENDING_PERMIT_REVIEW" if events else ("2025_ROOF_EXPORT_CANDIDATE_PENDING_REVIEW" if export_roof_2025 else "NO_MATCH_FROM_AVAILABLE_EVIDENCE")),
    "condition_status":"UNKNOWN","priority_is_damage_score":False})
  ordered.sort(key=lambda r:(-r["roofing_outreach_priority"],r["county_pin"]))
  payload={"generated_utc":dt.datetime.now(dt.timezone.utc).isoformat(),"scope":"AeroLeadAI only, no legacy bulk lead or image imports",
  "year":YEAR,"properties":len(ordered),"reviewed_recent_reroofs":sum(x["recent_roof_verified"] for x in ordered),
- "source_export_rows":len(source_rows),"rejected_matches":rejected,
+ "source_export_rows":len(source_rows),"municipal_export_events_matched":len(export_audit.get("records",[])),"municipal_export_properties_matched":export_audit.get("properties_with_matches",0),"municipal_export_2025_roof_candidates":export_audit.get("properties_with_2025_roof_candidates",0),"rejected_matches":rejected,
  "municipal_export_connected":bool(permit_csv and permit_csv.is_file()),
  "warning":"Absent permit evidence is UNKNOWN. Only verified final 2025 reroof permits lower outreach priority. No property damage or replacement finding is inferred.",
  "records":ordered}
