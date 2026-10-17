@@ -73,7 +73,7 @@ table{width:100%;border-collapse:collapse;text-align:left}th{background:#f8fafc;
 <div class="content"><section class="headline"><div><div class="kicker">Territory 001 · Evidence workspace</div><h1>Kings Wood Property Intelligence</h1><p class="subtitle">Verified property records, municipal permits and source-traceable inspection evidence.</p></div><div class="actions"><button class="btn" id="refresh">↻ Refresh records</button><a class="btn primary" href="https://gis.co.dakota.mn.us/PropertyInformation" target="_blank" rel="noopener noreferrer">Open county GIS ↗</a></div></section>
 <section class="stats" aria-label="Territory metrics"><article class="stat"><div class="statcap">Verified parcels <span>◈</span></div><div class="statval" id="parcelCount">0</div><div class="statnote">No verified parcel import connected</div></article><article class="stat"><div class="statcap">Matched permits <span>▤</span></div><div class="statval" id="permitCount">0</div><div class="statnote">Source matches required</div></article><article class="stat"><div class="statcap">Reviewed findings <span>✓</span></div><div class="statval" id="findingCount">0</div><div class="statnote">Provenance and reviewer required</div></article><article class="stat"><div class="statcap">Target sample <span>◎</span></div><div class="statval">60</div><div class="statnote warn">Research goal; not verified inventory</div></article></section>
 <div class="columns"><div><section class="panel" id="properties"><div class="paneltitle"><div><h2>Property evidence register</h2><div class="mini" style="margin-top:6px">Only confirmed parcel IDs and reviewed evidence appear here</div></div><span class="pill amber" id="registryStatus">Awaiting official data</span></div>
-<div class="filters"><input class="field search" type="search" id="query" placeholder="Search parcel or address" aria-label="Search verified records"><select class="field" aria-label="Evidence filter" id="category"><option value="">All categories</option><option>Roofing</option><option>Driveways</option><option>Trees</option></select></div>
+<div class="filters"><select class="field" id="territorySelect" aria-label="Select territory"><option value="kings-wood-001">Kings Wood · Eagan</option><option value="burnsville-expansion">Burnsville · Expansion</option></select><input class="field search" type="search" id="query" placeholder="Search parcel or address" aria-label="Search verified records"><select class="field" aria-label="Evidence filter" id="category"><option value="">All categories</option><option>Roofing</option><option>Driveways</option><option>Trees</option></select></div>
 <table><thead><tr><th>Parcel / Address</th><th>Evidence</th><th>Review</th><th>Source</th></tr></thead><tbody id="rows"></tbody></table>
 <div class="empty" id="empty"><div class="emptyicon">▤</div><h3>No verified properties imported yet</h3><p>County parcel identifiers and permit matches will appear here after the evidence coordinator validates them. No placeholder properties are displayed.</p><a class="btn" href="https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2" target="_blank" rel="noopener noreferrer">Inspect parcel source ↗</a></div></section>
 <section class="notice" id="pipeline"><strong>Pipeline status · Not connected</strong><div>Collection → queue → validation → Supabase audit history. Source registry and worker code exist in GitHub, but no connected Supabase project or successful ingestion run has been verified. This interface will not claim operational coverage until ingestion is confirmed.</div></section></div>
@@ -115,7 +115,7 @@ const byId=id=>document.getElementById(id);
 const allRecords=[]; // Authentic GIS candidates only, with unverified status.
 async function loadCandidates(){
  try {
-  const endpoint='https://raw.githubusercontent.com/zaccboi8484/aero1/main/evidence/data/kingswood_parcel_candidates.csv';
+  const territory=byId('territorySelect').value;const endpoint='https://raw.githubusercontent.com/zaccboi8484/aero1/main/evidence/data/'+(territory==='burnsville-expansion'?'burnsville_first60_parcels.csv':'kingswood_parcel_candidates.csv');
   const response=await fetch(endpoint+'?t='+Date.now(),{cache:'no-store'});
   if(!response.ok) throw new Error('GIS export not published');
   const lines=(await response.text()).trim().split(/\r?\n/);
@@ -128,13 +128,13 @@ async function loadCandidates(){
     allRecords.push({parcel_id:r.county_pin||r.parcel_objectid,address:r.address,category:'Parcel candidate',verification_status:'UNVERIFIED',source_url:r.source_record_url});
   }
   document.getElementById('registryStatus').textContent=allRecords.length+' GIS candidates · Unverified';
-  document.querySelector('#properties .mini').textContent='Official GIS street candidates — plat boundary and permits not yet matched';
+  document.querySelector('#properties .mini').textContent=territory==='burnsville-expansion'?'Burnsville official GIS parcel candidates — permit search and evidence review pending':'Kings Wood official GIS candidate records — plat boundary and permits not yet matched';
   render();
  }catch(e){document.getElementById('registryStatus').textContent='Official parcel import pending';render()}
 }
 
 function render(){const q=byId('query').value.trim().toLowerCase(),cat=byId('category').value;const rows=allRecords.filter(r=>(!q||(r.parcel_id+' '+r.address).toLowerCase().includes(q))&&(!cat||r.category===cat));byId('rows').replaceChildren();for(const r of rows){const tr=document.createElement('tr');for(const key of ['address','category','verification_status','source_url']){const td=document.createElement('td');if(key==='source_url'){const a=document.createElement('a');a.href=r.source_url;a.textContent='Official record ↗';a.target='_blank';a.rel='noopener noreferrer';td.append(a)}else td.textContent=String(r[key]||'—');tr.append(td)}byId('rows').append(tr)}byId('empty').hidden=rows.length>0}
-byId('query').addEventListener('input',render);byId('category').addEventListener('change',render);byId('refresh').addEventListener('click',loadCandidates);render();loadCandidates();
+byId('query').addEventListener('input',render);byId('category').addEventListener('change',render);byId('refresh').addEventListener('click',loadCandidates);byId('territorySelect').addEventListener('change',loadCandidates);render();loadCandidates();
 </script><script>
 (()=>{'use strict';
 const el=id=>document.getElementById(id), stage=el('photoStage'), img=el('evidencePhoto');
