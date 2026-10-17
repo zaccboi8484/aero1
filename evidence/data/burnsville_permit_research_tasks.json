@@ -1,0 +1,1692 @@
+{
+  "created_utc": "2026-10-17T01:50:58.044958+00:00",
+  "jurisdiction": "burnsville",
+  "input_parcels": 60,
+  "tasks": 60,
+  "completed_permit_searches": 0,
+  "confirmed_permit_matches": 0,
+  "type": "RESEARCH_QUEUE_NOT_FINDINGS",
+  "source_registry": "evidence/config/jurisdictions.json",
+  "records": [
+    {
+      "id": "005c038ea203ad14d95dbe7a",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "1200 Burnsville Parkway, Burnsville, MN",
+      "parcel_objectid": "2016356",
+      "county_pin": "020070001010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016356&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "edce337ea046c47b6586a343",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2100 Burnsville Parkway, Burnsville, MN",
+      "parcel_objectid": "2016358",
+      "county_pin": "020080001010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016358&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "29c2814d5f4ab4b325373b47",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "1898 Burnsville Parkway, Burnsville, MN",
+      "parcel_objectid": "2016359",
+      "county_pin": "020080025010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016359&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "4659f2dbbc1e7ab1fd9cf072",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "12340 Nicollet Avenue, Burnsville, MN",
+      "parcel_objectid": "2016364",
+      "county_pin": "020120006010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016364&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "02f0bae9e67a57cd8384ce64",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "12400 Pillsbury Avenue, Burnsville, MN",
+      "parcel_objectid": "2016368",
+      "county_pin": "020130004020",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016368&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "0a4cf14da8ed081c6ed36d0c",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "201 Travelers Trail, Burnsville, MN",
+      "parcel_objectid": "2016369",
+      "county_pin": "020130006010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016369&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "47d00dda6f4517bcc0f7629c",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "12904 Nicollet Avenue, Burnsville, MN",
+      "parcel_objectid": "2016370",
+      "county_pin": "020130008031",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016370&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "be91a249c9f63e043d1f5828",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "12908 Nicollet Avenue, Burnsville, MN",
+      "parcel_objectid": "2016371",
+      "county_pin": "020130008032",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016371&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "12fdab160bf738e38890725b",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "600 Travelers Trail, Burnsville, MN",
+      "parcel_objectid": "2016372",
+      "county_pin": "020130021011",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016372&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "710a2c3562439ea936820ec5",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "301 Burnsville Parkway, Burnsville, MN",
+      "parcel_objectid": "2016373",
+      "county_pin": "020130022022",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016373&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "abfe43dbaa1fa57dfd060a6b",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "401 Burnsville Parkway, Burnsville, MN",
+      "parcel_objectid": "2016374",
+      "county_pin": "020130022032",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016374&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "bfaef8f23c505494358a680e",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "451 Burnsville Parkway, Burnsville, MN",
+      "parcel_objectid": "2016375",
+      "county_pin": "020130022034",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016375&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "7eadd898923dec8cfad02a1b",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "501 Burnsville Parkway, Burnsville, MN",
+      "parcel_objectid": "2016376",
+      "county_pin": "020130023012",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016376&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "117e92d7a76dd54d8ea75e91",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "12940 Harriet Avenue, Burnsville, MN",
+      "parcel_objectid": "2016377",
+      "county_pin": "020130023013",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016377&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "bb4414704e28518c14fcacf7",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "12930 Harriet Avenue, Burnsville, MN",
+      "parcel_objectid": "2016378",
+      "county_pin": "020130023014",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016378&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "370afe20dd8b009c037609f5",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "1000 Burnsville Parkway, Burnsville, MN",
+      "parcel_objectid": "2016380",
+      "county_pin": "020130029010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016380&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "ac2e4527281c798d98ad4e7c",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "950 Burnsville Parkway, Burnsville, MN",
+      "parcel_objectid": "2016381",
+      "county_pin": "020130030010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016381&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "97ec9eb1ce9e3eea68aff77e",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "900 Burnsville Parkway, Burnsville, MN",
+      "parcel_objectid": "2016382",
+      "county_pin": "020130031011",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016382&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "a77e2810ecee9df335cd0850",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "900 128th Street, Burnsville, MN",
+      "parcel_objectid": "2016383",
+      "county_pin": "020130032010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016383&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "970c36ea895ed15522530840",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "1105 Burnsville Parkway, Burnsville, MN",
+      "parcel_objectid": "2016385",
+      "county_pin": "020130037010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016385&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "ce17456be77a38158c7601fd",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "1300 Highway 13, Burnsville, MN",
+      "parcel_objectid": "2016386",
+      "county_pin": "020130040010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016386&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "c54efed675cb52f4b7f3c71a",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "12950 Girard Avenue, Burnsville, MN",
+      "parcel_objectid": "2016389",
+      "county_pin": "020130053013",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016389&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "f982f156a3e2c936adca6c02",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "12951 Girard Avenue, Burnsville, MN",
+      "parcel_objectid": "2016390",
+      "county_pin": "020130053014",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016390&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "14e21e435818deecb2932f36",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "13000 Aldrich Avenue, Burnsville, MN",
+      "parcel_objectid": "2016392",
+      "county_pin": "020130061014",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016392&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "c14e8374de2e7e77b112356d",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "205 Arbor Lane, Burnsville, MN",
+      "parcel_objectid": "2016394",
+      "county_pin": "020130076010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016394&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "4e8eb53893bc5bdb2409e76b",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "13020 Nicollet Avenue, Burnsville, MN",
+      "parcel_objectid": "2016395",
+      "county_pin": "020130078010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016395&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "ebafa6f033718a032b87cf53",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "13010 Nicollet Avenue, Burnsville, MN",
+      "parcel_objectid": "2016397",
+      "county_pin": "020130081010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016397&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "06827c7b83cbb864142e0356",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "13000 Nicollet Avenue, Burnsville, MN",
+      "parcel_objectid": "2016398",
+      "county_pin": "020130082010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016398&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "783df2795a228e8d5184a76c",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "1550 Highway 13, Burnsville, MN",
+      "parcel_objectid": "2016400",
+      "county_pin": "020140010016",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016400&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "9ab9662974beb01a265c4551",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "1801 Highway 13, Burnsville, MN",
+      "parcel_objectid": "2016401",
+      "county_pin": "020140012015",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016401&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "b383fb70139e073ed45e0af9",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2009 Old County Road 34 Place, Burnsville, MN",
+      "parcel_objectid": "2016406",
+      "county_pin": "020140017010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016406&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "0fe21d072263646d31015a40",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2120 Old County Road 34 Place, Burnsville, MN",
+      "parcel_objectid": "2016408",
+      "county_pin": "020140018032",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016408&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "be92b0c5fe6cd083333e559e",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2101 Highway 13, Burnsville, MN",
+      "parcel_objectid": "2016412",
+      "county_pin": "020140019013",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016412&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "34e0b10674ad049ff1a9d5e6",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2000 Old County Road 34 Place, Burnsville, MN",
+      "parcel_objectid": "2016414",
+      "county_pin": "020140019015",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016414&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "dec8835e6e90b8808f0d6317",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2121 Old County Road 34 Place, Burnsville, MN",
+      "parcel_objectid": "2016415",
+      "county_pin": "020140020010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016415&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "879455ccd482813b393ad3be",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2508 Williams Drive, Burnsville, MN",
+      "parcel_objectid": "2016416",
+      "county_pin": "020140025020",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016416&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "b6b638e51dbc631b871ce4ca",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2504 Williams Drive, Burnsville, MN",
+      "parcel_objectid": "2016417",
+      "county_pin": "020140025030",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016417&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "5b679af2da710a045438da28",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2612 Williams Drive, Burnsville, MN",
+      "parcel_objectid": "2016418",
+      "county_pin": "020140025040",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016418&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "703cec845452e419dbe83554",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2600 Williams Drive, Burnsville, MN",
+      "parcel_objectid": "2016419",
+      "county_pin": "020140025050",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016419&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "4730a868ac18435517ea26e9",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2608 Williams Drive, Burnsville, MN",
+      "parcel_objectid": "2016420",
+      "county_pin": "020140025060",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016420&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "e7ec4a4e0196b9a566f4a9ae",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2712 Williams Drive, Burnsville, MN",
+      "parcel_objectid": "2016421",
+      "county_pin": "020140025070",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016421&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "6c22136644ad17d691e1d166",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2708 Williams Drive, Burnsville, MN",
+      "parcel_objectid": "2016422",
+      "county_pin": "020140025080",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016422&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "bf52940d284dd94de05cef14",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2720 Williams Drive, Burnsville, MN",
+      "parcel_objectid": "2016423",
+      "county_pin": "020140025090",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016423&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "66a24cc8fac8baaa75ac0202",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2808 Williams Drive, Burnsville, MN",
+      "parcel_objectid": "2016424",
+      "county_pin": "020140025100",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016424&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "feb923ed74cc729adf9895c8",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2820 Williams Drive, Burnsville, MN",
+      "parcel_objectid": "2016425",
+      "county_pin": "020140025120",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016425&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "024e7052b33359f430f02f8d",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2933 Highway 13, Burnsville, MN",
+      "parcel_objectid": "2016426",
+      "county_pin": "020140030010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016426&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "0488c0f2060fd7e12f40b877",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2420 Old County Road 34 Place, Burnsville, MN",
+      "parcel_objectid": "2016427",
+      "county_pin": "020140035010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016427&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "e49018b5f86ccca915f0fbd1",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2316 Old County Road 34 Place, Burnsville, MN",
+      "parcel_objectid": "2016428",
+      "county_pin": "020140040010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016428&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "fc1b191e700bf4b46e2549b4",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2208 Old County Road 34 Place, Burnsville, MN",
+      "parcel_objectid": "2016429",
+      "county_pin": "020140040021",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016429&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "62535bfa39653b7cfae95def",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2217 Old County Road 34 Place, Burnsville, MN",
+      "parcel_objectid": "2016430",
+      "county_pin": "020140041031",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016430&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "dc62bc8fec7e4d11d0ab3477",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2305 Old County Road 34 Place, Burnsville, MN",
+      "parcel_objectid": "2016431",
+      "county_pin": "020140041041",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016431&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "de58d4f1c4aa29ccbcbe5441",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2309 Old County Road 34 Place, Burnsville, MN",
+      "parcel_objectid": "2016432",
+      "county_pin": "020140041042",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016432&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "39403cae3803fe5a4d08cb81",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "12921 Penn Avenue, Burnsville, MN",
+      "parcel_objectid": "2016433",
+      "county_pin": "020140041081",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016433&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "ce287a59040f380415ff7184",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "12917 Penn Avenue, Burnsville, MN",
+      "parcel_objectid": "2016434",
+      "county_pin": "020140044021",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016434&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "bef1bf46a3a13eef4912056a",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "13115 Penn Avenue, Burnsville, MN",
+      "parcel_objectid": "2016435",
+      "county_pin": "020140052011",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016435&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "e3d06cbe3caf7d5153771fcf",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "13117 Penn Circle, Burnsville, MN",
+      "parcel_objectid": "2016437",
+      "county_pin": "020140053020",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016437&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "98e9c04ca761331e27435288",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "2341 Brookview Drive, Burnsville, MN",
+      "parcel_objectid": "2016438",
+      "county_pin": "020140055010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016438&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "a4c35173bc7fae12998c95c6",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "13217 Penn Avenue, Burnsville, MN",
+      "parcel_objectid": "2016439",
+      "county_pin": "020140059010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016439&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "04539306daa773b365905bdf",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "1701 Burnsville Parkway, Burnsville, MN",
+      "parcel_objectid": "2016441",
+      "county_pin": "020140077010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016441&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "bac9a639eed6023efe686bc9",
+      "jurisdiction": "burnsville",
+      "county": "Dakota",
+      "address": "13001 County Road 5, Burnsville, MN",
+      "parcel_objectid": "2016442",
+      "county_pin": "020140083010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=OBJECTID%3D2016442&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "public_reports_url": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    }
+  ]
+}
