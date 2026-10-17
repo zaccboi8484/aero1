@@ -9,7 +9,7 @@ on:
       - '.github/workflows/parcel-evidence.yml'
   workflow_dispatch:
   schedule:
-    - cron: '23 8 * * 1'
+    - cron: '23 8 * * *'
 permissions:
   contents: write
 concurrency:
