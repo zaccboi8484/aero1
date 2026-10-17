@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'collector/collect_parcels.py'
+      - 'collector/discover_official_sources.py'
       - '.github/workflows/parcel-evidence.yml'
   workflow_dispatch:
   schedule:
@@ -24,11 +25,13 @@ jobs:
           python-version: '3.12'
       - name: Retrieve county GIS records
         run: python collector/collect_parcels.py
+      - name: Discover official permit and subdivision sources
+        run: python collector/discover_official_sources.py
       - name: Commit timestamped source evidence
         run: |
           git config user.name 'AeroLeadAI Evidence Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add evidence/data/kingswood_parcel_candidates.csv evidence/data/collection_manifest.json
+          git add evidence/data/kingswood_parcel_candidates.csv evidence/data/collection_manifest.json evidence/data/official_source_discovery.json
           if ! git diff --cached --quiet; then
             git commit -m "Update official Kings Wood parcel candidate evidence"
             git push
