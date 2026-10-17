@@ -1,0 +1,9 @@
+{
+  "fetched_at_utc": "2026-10-17T01:50:31.861749+00:00",
+  "count": 60,
+  "requested": 60,
+  "status": "SOURCE_RECORD_CANDIDATES_NOT_PERMIT_VERIFIED",
+  "source_requests": [
+    "https://arcgis.metc.state.mn.us/arcgis/rest/services/LPH/Administrative_Parcels/FeatureServer/0/query?f=json&where=UPPER%28CTU_NAME%29+%3D+%27BURNSVILLE%27+AND+UPPER%28CO_NAME%29+%3D+%27DAKOTA%27&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CCO_NAME%2CPLAT_NAME&returnGeometry=false&resultOffset=0&resultRecordCount=100&orderByFields=OBJECTID+ASC"
+  ]
+}
