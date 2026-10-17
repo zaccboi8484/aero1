@@ -317,6 +317,8 @@ function propertyCard(question){
  const value=liveEnrichment.get(String(p.parcel_objectid))?.valuation;
  const permits=permitReview.filter(x=>String(x.parcel_objectid)===String(p.parcel_objectid));
  const checks=Object.fromEntries((audit?.checks||[]).map(x=>[x.search_id,x.status]));
+ const intel=propertyCategories.get(String(p.parcel_objectid));const ct=intel?.categories||{};
+ const catLines=['roofing','tree_service','cracked_driveway'].map(key=>{const x=ct[key];return (x?.label||key)+': '+(x?.finding||'UNKNOWN')+' / '+(x?.evidence_status||'not loaded')}).join('\n');
  const assessment=value?.gatekeeper==='SOURCE_RECORDED'&&Number.isFinite(Number(value.amount_usd))
     ?'City GIS reported value $'+Number(value.amount_usd).toLocaleString('en-US')+' (assessment year not established; reviewer pending).'
     :'No unambiguous official valuation matched yet.';
@@ -326,7 +328,7 @@ function propertyCard(question){
  '\nSubdivision: '+(audit?.subdivision_status==='OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED'?'official city GIS center-in-plat confirmed; property legal boundary not surveyed':audit?.subdivision_status==='OFFICIAL_PLAT_NAME_CORROBORATED'?'plat name corroborated; boundary not yet spatially checked':'boundary/plat review pending')+
  '\nValue: '+assessment+
  '\nPermit search: '+(permits.length?permits.length+' address match(es) pending human review':'No imported permit match; this does NOT establish no permits')+
- '\nImagery: '+(checks.imagery||'Not assessed')+
+ '\nImagery: '+(checks.imagery||'Not assessed')+'\nService categories: \n'+catLines+
  '\nMindex: NOT SCORED; condition/storm evidence not reviewed.'+
  '\nCurrent NOAA regional alerts: '+activeAlerts.length+' (not proof of parcel damage).'+
  '\nParcel evidence: '+p.source_url;
