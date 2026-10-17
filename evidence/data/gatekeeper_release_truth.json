@@ -1,0 +1,166 @@
+{
+  "generated_at_utc": "2026-10-17T08:16:39.180402+00:00",
+  "product": "AeroLeadAI",
+  "assistant": "Embedded GateKeeper",
+  "release_certified": false,
+  "meaning": "Each gate requires source evidence. PASS of an internal test never certifies physical condition.",
+  "pipeline_integrity_pass": true,
+  "property_records": 60,
+  "fully_reviewed_properties": 0,
+  "pending_search_tasks": 304,
+  "gates": [
+    {
+      "id": "01_PARCEL",
+      "name": "Official GIS parcel identity",
+      "status": "VERIFIED",
+      "done": 60,
+      "target": 60,
+      "evidence_file": "progressive_search_status.json",
+      "blocking": "GIS identity not found"
+    },
+    {
+      "id": "02_PLAT",
+      "name": "City subdivision point-in-polygon",
+      "status": "VERIFIED",
+      "done": 60,
+      "target": 60,
+      "evidence_file": "subdivision_geometry_checks.json",
+      "blocking": "Official city polygon intersection incomplete"
+    },
+    {
+      "id": "03_ADDRESS",
+      "name": "Minnesota GIS address match",
+      "status": "BLOCKED",
+      "done": 0,
+      "target": 60,
+      "evidence_file": "mn_address_validation.json",
+      "blocking": "No source-matched address-point report; USPS OAuth is separate"
+    },
+    {
+      "id": "04_VALUES",
+      "name": "Official source-matched property valuations",
+      "status": "PARTIAL",
+      "done": 56,
+      "target": 60,
+      "evidence_file": "live_property_enrichment.json",
+      "blocking": "Assessment year and reviewer still require confirmation"
+    },
+    {
+      "id": "05_MUNICIPAL_PERMITS",
+      "name": "Eagan municipal permits reviewed",
+      "status": "BLOCKED",
+      "done": 0,
+      "target": 60,
+      "evidence_file": "permit_match_review.json",
+      "blocking": "Municipal portal access denied; no fully reviewed authorized records"
+    },
+    {
+      "id": "06_REGIONAL_PERMITS",
+      "name": "Regional permit candidate matching",
+      "status": "BLOCKED",
+      "done": 0,
+      "target": 60,
+      "evidence_file": "regional_residential_permit_matches.json",
+      "blocking": "Regional source does not substitute for municipal reroof history"
+    },
+    {
+      "id": "07_IMAGERY",
+      "name": "Valid image response per parcel",
+      "status": "BLOCKED",
+      "done": 0,
+      "target": 60,
+      "evidence_file": "imagery_source_probe.json / mngeo_aerial_evidence.json",
+      "blocking": "Source imagery missing or failed; illustrative imagery is not evidence"
+    },
+    {
+      "id": "08_CONDITIONS",
+      "name": "Reviewed roof/tree/driveway evidence",
+      "status": "BLOCKED",
+      "done": 0,
+      "target": 60,
+      "evidence_file": "property_category_intelligence.json",
+      "blocking": "Need suitable imagery, permits or dated reviewer findings"
+    },
+    {
+      "id": "09_MINDEX",
+      "name": "Evidence-supported Mindex",
+      "status": "BLOCKED",
+      "done": 0,
+      "target": 60,
+      "evidence_file": "progressive_search_status.json",
+      "blocking": "Never issue unreviewed scores"
+    },
+    {
+      "id": "10_INTEGRITY",
+      "name": "Pipeline cross-file integrity",
+      "status": "VERIFIED",
+      "done": 1,
+      "target": 1,
+      "evidence_file": "pipeline_integrity.json",
+      "blocking": "Cross-file integrity checks not passed"
+    }
+  ],
+  "stale_warnings": [],
+  "decisions_for_human": [
+    {
+      "gate": "03_ADDRESS",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "priority": "MEDIUM",
+      "reason": "No source-matched address-point report; USPS OAuth is separate",
+      "evidence": "mn_address_validation.json"
+    },
+    {
+      "gate": "04_VALUES",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "priority": "MEDIUM",
+      "reason": "Assessment year and reviewer still require confirmation",
+      "evidence": "live_property_enrichment.json"
+    },
+    {
+      "gate": "05_MUNICIPAL_PERMITS",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "priority": "HIGH",
+      "reason": "Municipal portal access denied; no fully reviewed authorized records",
+      "evidence": "permit_match_review.json"
+    },
+    {
+      "gate": "06_REGIONAL_PERMITS",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "priority": "MEDIUM",
+      "reason": "Regional source does not substitute for municipal reroof history",
+      "evidence": "regional_residential_permit_matches.json"
+    },
+    {
+      "gate": "07_IMAGERY",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "priority": "HIGH",
+      "reason": "Source imagery missing or failed; illustrative imagery is not evidence",
+      "evidence": "imagery_source_probe.json / mngeo_aerial_evidence.json"
+    },
+    {
+      "gate": "08_CONDITIONS",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "priority": "HIGH",
+      "reason": "Need suitable imagery, permits or dated reviewer findings",
+      "evidence": "property_category_intelligence.json"
+    },
+    {
+      "gate": "09_MINDEX",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "priority": "MEDIUM",
+      "reason": "Never issue unreviewed scores",
+      "evidence": "progressive_search_status.json"
+    }
+  ],
+  "external_original_site": {
+    "status": "NOT_VERIFIED_FROM_THIS_REPOSITORY",
+    "note": "Original Twin Cities application may be an entirely separate project; do not infer absence."
+  }
+}
