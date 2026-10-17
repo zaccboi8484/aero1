@@ -1,0 +1,1319 @@
+{
+  "generated_utc": "2026-10-17T03:14:15.876914+00:00",
+  "source_catalog": [
+    "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query",
+    "https://api.weather.gov/alerts/active?point=44.819,-93.167"
+  ],
+  "records": [
+    {
+      "parcel_objectid": "44001",
+      "county_pin": "104200101010",
+      "address": "1402 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 718000.0,
+        "land_value_usd": 144300.0,
+        "building_value_usd": 573700.0,
+        "year_built": 1996.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118337,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44002",
+      "county_pin": "104200101020",
+      "address": "1410 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 502700.0,
+        "land_value_usd": 148100.0,
+        "building_value_usd": 354600.0,
+        "year_built": 1996.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118983,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44003",
+      "county_pin": "104200101030",
+      "address": "1414 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 517800.0,
+        "land_value_usd": 148100.0,
+        "building_value_usd": 369700.0,
+        "year_built": 1994.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118499,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44004",
+      "county_pin": "104200101040",
+      "address": "1418 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 588100.0,
+        "land_value_usd": 148100.0,
+        "building_value_usd": 440000.0,
+        "year_built": 1993.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118338,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44005",
+      "county_pin": "104200101050",
+      "address": "1401 Rocky Lane, Eagan, MN",
+      "valuation": {
+        "amount_usd": 517700.0,
+        "land_value_usd": 129600.0,
+        "building_value_usd": 388100.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118984,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44006",
+      "county_pin": "104200101060",
+      "address": "1405 Rocky Lane, Eagan, MN",
+      "valuation": {
+        "amount_usd": 529500.0,
+        "land_value_usd": 124900.0,
+        "building_value_usd": 404600.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118500,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44007",
+      "county_pin": "104200101070",
+      "address": "1422 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 667700.0,
+        "land_value_usd": 179600.0,
+        "building_value_usd": 488100.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118339,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44008",
+      "county_pin": "104200101080",
+      "address": "1426 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 700000.0,
+        "land_value_usd": 185200.0,
+        "building_value_usd": 514800.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117982,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44009",
+      "county_pin": "104200101090",
+      "address": "1430 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 617100.0,
+        "land_value_usd": 185200.0,
+        "building_value_usd": 431900.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118549,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44010",
+      "county_pin": "104200101100",
+      "address": "1434 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 610800.0,
+        "land_value_usd": 185200.0,
+        "building_value_usd": 425600.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117983,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44011",
+      "county_pin": "104200101110",
+      "address": "1438 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 745000.0,
+        "land_value_usd": 194400.0,
+        "building_value_usd": 550600.0,
+        "year_built": 1990.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118340,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44012",
+      "county_pin": "104200101120",
+      "address": "1444 Kings Wood Lane, Eagan, MN",
+      "valuation": {
+        "amount_usd": 650200.0,
+        "land_value_usd": 185200.0,
+        "building_value_usd": 465000.0,
+        "year_built": 1993.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118985,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44013",
+      "county_pin": "104200101130",
+      "address": "1448 Kings Wood Lane, Eagan, MN",
+      "valuation": {
+        "amount_usd": 727500.0,
+        "land_value_usd": 185200.0,
+        "building_value_usd": 542300.0,
+        "year_built": 1990.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118550,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44014",
+      "county_pin": "104200101140",
+      "address": "1452 Kings Wood Lane, Eagan, MN",
+      "valuation": {
+        "amount_usd": 778500.0,
+        "land_value_usd": 194400.0,
+        "building_value_usd": 584100.0,
+        "year_built": 1989.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118341,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44015",
+      "county_pin": "104200101150",
+      "address": "1456 Kings Wood Lane, Eagan, MN",
+      "valuation": {
+        "amount_usd": 793000.0,
+        "land_value_usd": 203700.0,
+        "building_value_usd": 589300.0,
+        "year_built": 1993.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118342,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44016",
+      "county_pin": "104200101160",
+      "address": "1460 Kings Wood Lane, Eagan, MN",
+      "valuation": {
+        "amount_usd": 680500.0,
+        "land_value_usd": 222200.0,
+        "building_value_usd": 458300.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118551,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44017",
+      "county_pin": "104200101170",
+      "address": "1463 Kings Wood Lane, Eagan, MN",
+      "valuation": {
+        "amount_usd": 682400.0,
+        "land_value_usd": 222200.0,
+        "building_value_usd": 460200.0,
+        "year_built": 1993.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118343,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44018",
+      "county_pin": "104200101180",
+      "address": "1459 Kings Wood Lane, Eagan, MN",
+      "valuation": {
+        "amount_usd": 672000.0,
+        "land_value_usd": 185200.0,
+        "building_value_usd": 486800.0,
+        "year_built": 1991.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117984,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44019",
+      "county_pin": "104200101190",
+      "address": "1455 Kings Wood Lane, Eagan, MN",
+      "valuation": {
+        "amount_usd": 664400.0,
+        "land_value_usd": 185200.0,
+        "building_value_usd": 479200.0,
+        "year_built": 1993.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118552,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44020",
+      "county_pin": "104200101200",
+      "address": "1451 Kings Wood Lane, Eagan, MN",
+      "valuation": {
+        "amount_usd": 629400.0,
+        "land_value_usd": 185200.0,
+        "building_value_usd": 444200.0,
+        "year_built": 1994.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118344,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44021",
+      "county_pin": "104200101210",
+      "address": "1447 Kings Wood Lane, Eagan, MN",
+      "valuation": {
+        "amount_usd": 720500.0,
+        "land_value_usd": 185200.0,
+        "building_value_usd": 535300.0,
+        "year_built": 1994.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117985,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44022",
+      "county_pin": "104200101220",
+      "address": "1454 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 630500.0,
+        "land_value_usd": 166700.0,
+        "building_value_usd": 463800.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118553,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44023",
+      "county_pin": "104200101230",
+      "address": "1462 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 530400.0,
+        "land_value_usd": 166700.0,
+        "building_value_usd": 363700.0,
+        "year_built": 1993.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118345,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44024",
+      "county_pin": "104200101240",
+      "address": "1470 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 621700.0,
+        "land_value_usd": 166700.0,
+        "building_value_usd": 455000.0,
+        "year_built": 1993.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117986,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44025",
+      "county_pin": "104200101250",
+      "address": "1474 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 536700.0,
+        "land_value_usd": 166700.0,
+        "building_value_usd": 370000.0,
+        "year_built": 1998.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117987,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44026",
+      "county_pin": "104200101260",
+      "address": "1478 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 539800.0,
+        "land_value_usd": 155100.0,
+        "building_value_usd": 384700.0,
+        "year_built": 1996.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118986,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44027",
+      "county_pin": "104200101270",
+      "address": "1482 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 609600.0,
+        "land_value_usd": 157500.0,
+        "building_value_usd": 452100.0,
+        "year_built": 1996.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117988,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44028",
+      "county_pin": "104200101280",
+      "address": "1486 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 547900.0,
+        "land_value_usd": 157500.0,
+        "building_value_usd": 390400.0,
+        "year_built": 1995.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118554,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44029",
+      "county_pin": "104200101290",
+      "address": "1490 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 589500.0,
+        "land_value_usd": 157500.0,
+        "building_value_usd": 432000.0,
+        "year_built": 1995.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118987,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44030",
+      "county_pin": "104200101300",
+      "address": "1494 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 555000.0,
+        "land_value_usd": 157500.0,
+        "building_value_usd": 397500.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118346,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44031",
+      "county_pin": "104200101310",
+      "address": "1498 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 497500.0,
+        "land_value_usd": 157500.0,
+        "building_value_usd": 340000.0,
+        "year_built": 1991.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118988,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44032",
+      "county_pin": "104200102010",
+      "address": "1401 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 442000.0,
+        "land_value_usd": 175900.0,
+        "building_value_usd": 266100.0,
+        "year_built": 1964.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117989,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44033",
+      "county_pin": "104200102020",
+      "address": "1405 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 673200.0,
+        "land_value_usd": 192700.0,
+        "building_value_usd": 480500.0,
+        "year_built": 2001.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118555,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44034",
+      "county_pin": "104200102030",
+      "address": "1409 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 661300.0,
+        "land_value_usd": 185200.0,
+        "building_value_usd": 476100.0,
+        "year_built": 1990.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118556,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44035",
+      "county_pin": "104200102040",
+      "address": "1413 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 607100.0,
+        "land_value_usd": 185200.0,
+        "building_value_usd": 421900.0,
+        "year_built": 1991.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118347,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44036",
+      "county_pin": "104200102050",
+      "address": "1421 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 434600.0,
+        "land_value_usd": 194400.0,
+        "building_value_usd": 240200.0,
+        "year_built": 1964.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118557,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44037",
+      "county_pin": "104200102060",
+      "address": "1433 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 688000.0,
+        "land_value_usd": 203700.0,
+        "building_value_usd": 484300.0,
+        "year_built": 1991.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118558,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44038",
+      "county_pin": "104200102070",
+      "address": "1445 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 621800.0,
+        "land_value_usd": 203700.0,
+        "building_value_usd": 418100.0,
+        "year_built": 1991.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117990,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44039",
+      "county_pin": "104200102080",
+      "address": "1449 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 602100.0,
+        "land_value_usd": 203700.0,
+        "building_value_usd": 398400.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118348,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44040",
+      "county_pin": "104200102090",
+      "address": "1453 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 669600.0,
+        "land_value_usd": 203700.0,
+        "building_value_usd": 465900.0,
+        "year_built": 1993.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118989,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44041",
+      "county_pin": "104200102100",
+      "address": "1457 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 758800.0,
+        "land_value_usd": 213900.0,
+        "building_value_usd": 544900.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118349,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44042",
+      "county_pin": "104200102110",
+      "address": "1461 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 882300.0,
+        "land_value_usd": 213900.0,
+        "building_value_usd": 668400.0,
+        "year_built": 2009.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118351,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44043",
+      "county_pin": "104200102120",
+      "address": "1465 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 762700.0,
+        "land_value_usd": 224100.0,
+        "building_value_usd": 538600.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118992,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44044",
+      "county_pin": "104200102130",
+      "address": "1469 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 730900.0,
+        "land_value_usd": 220000.0,
+        "building_value_usd": 510900.0,
+        "year_built": 1995.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271401%27+OR+PHOUSE%3D%271402%27+OR+PHOUSE%3D%271405%27+OR+PHOUSE%3D%271409%27+OR+PHOUSE%3D%271410%27+OR+PHOUSE%3D%271413%27+OR+PHOUSE%3D%271414%27+OR+PHOUSE%3D%271418%27+OR+PHOUSE%3D%271421%27+OR+PHOUSE%3D%271422%27+OR+PHOUSE%3D%271426%27+OR+PHOUSE%3D%271430%27+OR+PHOUSE%3D%271433%27+OR+PHOUSE%3D%271434%27+OR+PHOUSE%3D%271438%27+OR+PHOUSE%3D%271444%27+OR+PHOUSE%3D%271445%27+OR+PHOUSE%3D%271447%27+OR+PHOUSE%3D%271448%27+OR+PHOUSE%3D%271449%27+OR+PHOUSE%3D%271451%27+OR+PHOUSE%3D%271452%27+OR+PHOUSE%3D%271453%27+OR+PHOUSE%3D%271454%27+OR+PHOUSE%3D%271455%27+OR+PHOUSE%3D%271456%27+OR+PHOUSE%3D%271457%27+OR+PHOUSE%3D%271459%27+OR+PHOUSE%3D%271460%27+OR+PHOUSE%3D%271461%27+OR+PHOUSE%3D%271462%27+OR+PHOUSE%3D%271463%27+OR+PHOUSE%3D%271465%27+OR+PHOUSE%3D%271467%27+OR+PHOUSE%3D%271469%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118994,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44045",
+      "county_pin": "104200102140",
+      "address": "1473 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 651700.0,
+        "land_value_usd": 203700.0,
+        "building_value_usd": 448000.0,
+        "year_built": 1993.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117991,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44046",
+      "county_pin": "104200102150",
+      "address": "3849 Kings Wood Court, Eagan, MN",
+      "valuation": {
+        "amount_usd": 609100.0,
+        "land_value_usd": 166700.0,
+        "building_value_usd": 442400.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118995,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44047",
+      "county_pin": "104200102160",
+      "address": "3853 Kings Wood Court, Eagan, MN",
+      "valuation": {
+        "amount_usd": 650000.0,
+        "land_value_usd": 166700.0,
+        "building_value_usd": 483300.0,
+        "year_built": 1996.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117992,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44048",
+      "county_pin": "104200102170",
+      "address": "3857 Kings Wood Court, Eagan, MN",
+      "valuation": {
+        "amount_usd": 594100.0,
+        "land_value_usd": 150000.0,
+        "building_value_usd": 444100.0,
+        "year_built": 1994.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118352,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44049",
+      "county_pin": "104200102180",
+      "address": "3854 Kings Wood Court, Eagan, MN",
+      "valuation": {
+        "amount_usd": 643800.0,
+        "land_value_usd": 150000.0,
+        "building_value_usd": 493800.0,
+        "year_built": 1996.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118559,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44050",
+      "county_pin": "104200102190",
+      "address": "1481 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 598800.0,
+        "land_value_usd": 158400.0,
+        "building_value_usd": 440400.0,
+        "year_built": 1995.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118560,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44051",
+      "county_pin": "104200102200",
+      "address": "1485 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 541600.0,
+        "land_value_usd": 137500.0,
+        "building_value_usd": 404100.0,
+        "year_built": 1994.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118996,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44052",
+      "county_pin": "104200102210",
+      "address": "1489 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 552300.0,
+        "land_value_usd": 135000.0,
+        "building_value_usd": 417300.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118997,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44053",
+      "county_pin": "104200102220",
+      "address": "1493 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 536700.0,
+        "land_value_usd": 135000.0,
+        "building_value_usd": 401700.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117993,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44054",
+      "county_pin": "104200102230",
+      "address": "1497 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 534800.0,
+        "land_value_usd": 135000.0,
+        "building_value_usd": 399800.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117994,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44055",
+      "county_pin": "104200102240",
+      "address": "1501 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 497300.0,
+        "land_value_usd": 135000.0,
+        "building_value_usd": 362300.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14118561,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44056",
+      "county_pin": "104200102250",
+      "address": "1505 Kings Wood Road, Eagan, MN",
+      "valuation": {
+        "amount_usd": 491500.0,
+        "land_value_usd": 135000.0,
+        "building_value_usd": 356500.0,
+        "year_built": 1992.0,
+        "assessment_year": "NOT_PUBLISHED_IN_LAYER",
+        "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query?f=json&where=PCITY+%3D+%27EAGAN%27+AND+%28PHOUSE%3D%271470%27+OR+PHOUSE%3D%271471%27+OR+PHOUSE%3D%271473%27+OR+PHOUSE%3D%271474%27+OR+PHOUSE%3D%271478%27+OR+PHOUSE%3D%271481%27+OR+PHOUSE%3D%271482%27+OR+PHOUSE%3D%271485%27+OR+PHOUSE%3D%271486%27+OR+PHOUSE%3D%271489%27+OR+PHOUSE%3D%271490%27+OR+PHOUSE%3D%271493%27+OR+PHOUSE%3D%271494%27+OR+PHOUSE%3D%271497%27+OR+PHOUSE%3D%271498%27+OR+PHOUSE%3D%271501%27+OR+PHOUSE%3D%271505%27+OR+PHOUSE%3D%273849%27+OR+PHOUSE%3D%273853%27+OR+PHOUSE%3D%273854%27+OR+PHOUSE%3D%273857%27%29&outFields=OBJECTID_1%2COLDPIN%2CTAXPIN%2CPHOUSE%2CPSTREET%2CPCITY%2CYRBUILT%2CLANDVAL%2CBLDGVAL%2CTOTALVAL&returnGeometry=false&resultOffset=0&resultRecordCount=500",
+        "source_objectid": 14117995,
+        "acquired_at_utc": "2026-10-17T03:14:15.876914+00:00",
+        "gatekeeper": "SOURCE_RECORDED",
+        "review_status": "UNREVIEWED"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "No independently reviewed property-condition and storm evidence"
+      }
+    },
+    {
+      "parcel_objectid": "44057",
+      "county_pin": "104200201010",
+      "address": "1459 Kings Crest, Eagan, MN",
+      "valuation": {
+        "amount_usd": null,
+        "gatekeeper": "NOT_RETRIEVED",
+        "reason": "No unambiguous public CITY parcel match and county PIN confirmation"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "Reviewed evidence missing"
+      }
+    },
+    {
+      "parcel_objectid": "44058",
+      "county_pin": "104200201020",
+      "address": "1463 Kings Crest, Eagan, MN",
+      "valuation": {
+        "amount_usd": null,
+        "gatekeeper": "NOT_RETRIEVED",
+        "reason": "No unambiguous public CITY parcel match and county PIN confirmation"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "Reviewed evidence missing"
+      }
+    },
+    {
+      "parcel_objectid": "44059",
+      "county_pin": "104200201030",
+      "address": "1467 Kings Crest, Eagan, MN",
+      "valuation": {
+        "amount_usd": null,
+        "gatekeeper": "NOT_RETRIEVED",
+        "reason": "No unambiguous public CITY parcel match and county PIN confirmation"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "Reviewed evidence missing"
+      }
+    },
+    {
+      "parcel_objectid": "44060",
+      "county_pin": "104200201040",
+      "address": "1471 Kings Crest, Eagan, MN",
+      "valuation": {
+        "amount_usd": null,
+        "gatekeeper": "NOT_RETRIEVED",
+        "reason": "No unambiguous public CITY parcel match and county PIN confirmation"
+      },
+      "mindex": {
+        "score": null,
+        "status": "NOT_SCORED",
+        "reason": "Reviewed evidence missing"
+      }
+    }
+  ],
+  "active_area_alerts": [
+    {
+      "event": "Freeze Warning",
+      "identifier": "urn:oid:2.49.0.1.840.0.f50dc475fc02684ef070fd3399cf585eb257d400.002.1",
+      "sent": "2026-10-16T16:57:00-05:00",
+      "effective": "2026-10-16T16:57:00-05:00",
+      "expires": "2026-10-17T09:00:00-05:00",
+      "severity": "Severe",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f50dc475fc02684ef070fd3399cf585eb257d400.002.1"
+    }
+  ],
+  "disclaimer": "Current regional NOAA alerts, NOT verified historical property storm exposure. Eagan assessment year not available from returned fields.",
+  "counts": {
+    "parcels": 60,
+    "assessments_sourced": 56,
+    "reviewed_mindex": 0,
+    "noaa_active_alerts": 1
+  }
+}
