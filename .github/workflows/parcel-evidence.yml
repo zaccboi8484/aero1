@@ -50,11 +50,14 @@ jobs:
         run: |
           python collector/check_pipeline_integrity.py
           node pipeline/gatekeeper-release-gates.mjs
-      - name: Commit timestamped source evidence
+      - name: Commit timestamped source evidence and diagnostic failures
+        if: always()
         run: |
           git config user.name 'AeroLeadAI Evidence Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add evidence/data/kingswood_parcel_candidates.csv evidence/data/collection_manifest.json evidence/data/official_source_discovery.json evidence/data/progressive_search_status.json evidence/data/live_property_enrichment.json evidence/data/live_acquisition_audit.json evidence/data/gatekeeper_property_audit.json evidence/data/search_retry_queue.json evidence/data/property_category_intelligence.json evidence/data/subdivision_geometry_checks.json evidence/data/pipeline_integrity.json evidence/data/imagery_source_probe.json evidence/data/regional_residential_permit_matches.json
+          for evidence in evidence/data/kingswood_parcel_candidates.csv evidence/data/collection_manifest.json evidence/data/official_source_discovery.json evidence/data/progressive_search_status.json evidence/data/live_property_enrichment.json evidence/data/live_acquisition_audit.json evidence/data/gatekeeper_property_audit.json evidence/data/search_retry_queue.json evidence/data/property_category_intelligence.json evidence/data/subdivision_geometry_checks.json evidence/data/pipeline_integrity.json evidence/data/imagery_source_probe.json evidence/data/regional_residential_permit_matches.json; do
+            if test -f "$evidence"; then git add -- "$evidence"; fi
+          done
           if ! git diff --cached --quiet; then
             git commit -m "Update official Kings Wood parcel candidate evidence"
             git push
