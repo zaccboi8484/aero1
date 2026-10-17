@@ -313,6 +313,7 @@ if(municipal.length){
   const item=document.createElement('div');item.className='permit-item';
   const roof=m.permit_kind==='ROOF_CANDIDATE_PENDING_DOCUMENT_REVIEW';
   item.textContent=(roof?'◈ 2025 ROOFING REVIEW · ':'Municipal record · ')+m.permit_number+' · '+(m.issued_date||'Issue date not shown')+' · '+(roof?'Explicit roofing notation':m.permit_kind==='EXTERIOR_MAINTENANCE_UNSPECIFIED'?'Exterior maintenance (work unspecified)':'Other permit category')+' · supplied Eagan report, pending original permit review ';
+  if(m.third_party_corroboration?.url){const link=safeLink(m.third_party_corroboration.url,'Independent reroof-scope listing ↗');item.append(link);const qualifier=document.createElement('small');qualifier.textContent=' Third-party listing describes shingle replacement; original city document/inspection review pending.';item.append(qualifier)}
   permitBox.append(item);
  }
 }
