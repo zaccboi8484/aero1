@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-17T09:55:12.356789+00:00",
+  "generated_at_utc": "2026-10-17T10:21:41.764324+00:00",
   "count": 60,
   "priority_scored": 60,
-  "verified_source_jpegs": 48,
+  "verified_source_jpegs": 56,
   "reviewed_roof_condition_scores": 0,
   "reference": {
     "issuer": "Insurance Institute for Business & Home Safety",
@@ -1024,9 +1024,8 @@
       "county_pin": "104200102180",
       "address": "3854 Kings Wood Court, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -1034,7 +1033,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1046,9 +1045,8 @@
       "county_pin": "104200102190",
       "address": "1481 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -1056,7 +1054,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1068,9 +1066,8 @@
       "county_pin": "104200102200",
       "address": "1485 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -1078,7 +1075,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1090,9 +1087,8 @@
       "county_pin": "104200102210",
       "address": "1489 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -1100,7 +1096,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1112,9 +1108,8 @@
       "county_pin": "104200102220",
       "address": "1493 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -1122,7 +1117,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1134,9 +1129,8 @@
       "county_pin": "104200102230",
       "address": "1497 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -1144,7 +1138,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1156,9 +1150,8 @@
       "county_pin": "104200102240",
       "address": "1501 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -1166,7 +1159,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1178,9 +1171,8 @@
       "county_pin": "104200102250",
       "address": "1505 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -1188,7 +1180,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
