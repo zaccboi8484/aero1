@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AeroLeadAI | Residential Roofing Scorecards</title>
+<style>
+:root{font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#173245;background:#f2f6f9}*{box-sizing:border-box}
+body{margin:0}header{background:#092436;color:#eaf8fd;padding:24px max(20px,calc((100vw - 1400px)/2));border-bottom:3px solid #1596a2}
+.header{max-width:1360px;margin:auto;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+h1{font-size:clamp(23px,2.8vw,35px);margin:5px 0 8px;letter-spacing:-.04em}.kicker{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.13em;color:#56d8da}
+header p{font-size:13px;color:#b9d2db;margin:0;line-height:1.5}.back{border:1px solid #3e667b;color:#e4fcff;padding:12px 16px;border-radius:9px;text-decoration:none;font-size:12px}
+main{max-width:1400px;margin:auto;padding:24px 19px 80px}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.metric,.panel,.card{background:white;border:1px solid #dbe5ec;border-radius:13px;box-shadow:0 3px 13px #0b30430a}
+.metric{padding:17px}.metric .label{color:#6b8292;font-size:11px;font-weight:650}.metric strong{display:block;font-size:30px;margin:9px 0 3px}.metric small{color:#708693;font-size:11px}
+.panel{margin:17px 0;padding:16px;display:flex;gap:14px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+fieldset{border:0;padding:0;margin:0;display:flex;gap:8px;flex-wrap:wrap}
+button,input{font:inherit;font-size:12px}button{background:#edf6f7;color:#175369;border:1px solid #c5dfe4;padding:11px 14px;border-radius:8px;cursor:pointer;font-weight:700}
+button.selected{background:#136d77;color:white;border-color:#136d77}input{border:1px solid #cfdee6;border-radius:8px;padding:11px;width:min(100%,350px)}
+.alert{margin:17px 0;padding:14px;border-left:3px solid #c39040;background:#fff8ea;font-size:12px;color:#635638;line-height:1.7}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:13px}
+.card{padding:18px;display:flex;flex-direction:column;gap:10px}.card h2{font-size:16px;margin:0;line-height:1.3}.muted{font-size:11px;color:#718795;line-height:1.55}
+.line{border-top:1px solid #e7edf1;padding-top:9px;font-size:12px;line-height:1.6}.line strong{color:#274d61}
+.pill{display:inline-block;border-radius:30px;padding:5px 9px;color:#716019;background:#fff2c8;font-size:10px;font-weight:750}
+.pill.neutral{background:#e9f2f6;color:#325c70}
+.permit{border:1px solid #efe1bb;border-radius:8px;background:#fff9ef;padding:10px;font-size:12px;line-height:1.7}
+.permit strong{font-size:12px}.links{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto;padding-top:6px}
+.links a{font-size:11px;font-weight:700;border:1px solid #cbdde6;border-radius:7px;padding:8px 10px;color:#165e83;text-decoration:none}
+.empty{padding:30px;text-align:center;color:#5d7889}#login{position:fixed;inset:0;background:#071722e9;display:none;align-items:center;justify-content:center;padding:20px;z-index:10}
+#login form{width:min(100%,410px);border:1px solid #326075;background:#122f41;border-radius:15px;padding:30px;color:white}
+#login input{width:100%;margin:15px 0;color:#203a49}#login p{color:#b4cbd7;font-size:12px;line-height:1.7}
+@media(max-width:720px){.metrics{grid-template-columns:repeat(2,1fr)}.metric strong{font-size:25px}}
+</style></head>
+<body><header><div class="header"><div><div class="kicker">AeroLeadAI · GateKeeper · Source-backed intelligence</div><h1>Residential Roofing Scorecards</h1><p>Original Kings Wood 60 · Municipal permits · Valuations · Human-review gates · No fabricated roof ratings</p></div><a class="back" href="/">← Main dashboard</a></div></header>
+<main><section class="metrics" aria-label="Evidence register summary">
+<div class="metric"><div class="label">Residential parcels</div><strong id="parcels">—</strong><small>Original inventory only</small></div>
+<div class="metric"><div class="label">Matched Eagan permits</div><strong id="permits">—</strong><small>Source-report matches</small></div>
+<div class="metric"><div class="label">Properties with permit matches</div><strong id="matched">—</strong><small>18 reported</small></div>
+<div class="metric"><div class="label">Reviewed roof condition scores</div><strong id="reviewed">—</strong><small>GateKeeper approval required</small></div></section>
+<div class="alert" id="truth">Checking evidence sources. Property construction year is not roof age; an image-response hash is not inspection evidence. A permit-export match is pending issuer and human review.</div>
+<section class="panel"><fieldset aria-label="Select card list"><button id="top20" class="selected" type="button">Top 20 research priority</button><button id="all60" type="button">All 60 properties</button></fieldset><input id="search" type="search" placeholder="Search residential address or county PIN" aria-label="Search residences"><span class="muted" id="status">Loading source evidence…</span></section>
+<div class="grid" id="cards" aria-live="polite"></div><p class="muted">The priority is a missing-evidence research queue, not a roof-damage score. Permit matches are unreviewed until official original records and outcomes are checked.</p></main>
+<div id="login" role="dialog" aria-modal="true" aria-labelledby="loginTitle"><form id="loginForm"><h2 id="loginTitle">GateKeeper access</h2><p>Enter the existing AeroLeadAI access passcode to view scorecards. No additional credentials are required.</p><input type="password" id="pass" required autocomplete="current-password" placeholder="Existing passcode"><button type="submit">Unlock</button><p id="loginMessage" aria-live="polite"></p></form></div>
+<script>
+'use strict';
+const el=id=>document.getElementById(id);let data=[],mode=20;
+const set=(id,t)=>el(id).textContent=String(t);
+const text=(tag,content,cls)=>{const n=document.createElement(tag);n.textContent=String(content??'');if(cls)n.className=cls;return n};
+function link(label,url){if(!/^https:\/\//.test(url||''))return null;const a=text('a',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a}
+const money=n=>Number.isFinite(n)?new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n):'Not source-matched';
+function card(p){
+ const out=text('article','', 'card');out.append(text('h2',p.address),text('div','County PIN '+p.county_pin+' · '+p.subdivision,'muted'));
+ out.append(text('span','Mindex: NOT SCORED · Human-reviewed physical evidence required','pill'));
+ out.append(text('div','Research priority '+p.research_priority+'/100 · NOT a roof damage score','line'));
+ out.append(text('div','Year built: '+(p.year_built??'Unknown')+' · City GIS value: '+money(p.valuation_usd),'line'));
+ out.append(text('div','Imagery: '+(p.image_response_verified_in_source_ledger?'Government JPEG response hash recorded; condition unreviewed':'No verified JPEG source record')+' · Roof condition: NOT SCORED','line'));
+ const permitBox=text('section',p.permit_matches.length+' matched permit report(s) · review pending','permit');
+ if(!p.permit_matches.length)permitBox.append(text('div','No report match is NOT evidence of no permits.','muted'));
+ for(const permit of p.permit_matches){
+  const row=text('div','', 'line');
+  row.append(text('strong',permit.permit_number+' · '+(permit.issued_date||'Date unreported')));
+  row.append(text('div',permit.classification==='ROOF_CANDIDATE_PENDING_DOCUMENT_REVIEW'?'ROOFING CANDIDATE — city original document required':permit.classification==='EXTERIOR_MAINTENANCE_UNSPECIFIED'?'Exterior maintenance — scope not established':'Other municipal work category'));
+  const ref=link('Independent scope listing ↗',permit.roof_scope_reference);if(ref)row.append(ref);
+  permitBox.append(row);
+ }out.append(permitBox);
+ const links=text('div','','links');
+ for(const [title,url] of [['GIS source ↗',p.official_parcel_source],['City permits ↗',p.official_permit_search],['MN aerial ↗',p.image_source_url]]){const a=link(title,url);if(a)links.append(a)}
+ out.append(links);
+ return out;
+}
+function render(){
+ const q=el('search').value.trim().toLowerCase();
+ const items=data.filter(x=>(x.county_pin+' '+x.address).toLowerCase().includes(q));
+ el('cards').replaceChildren(...items.map(card));
+ set('status',items.length+' source-backed property cards · '+(mode===20?'Top 20 review priorities':'Entire original inventory'));
+ if(!items.length)el('cards').append(text('div','No matching property in the selected existing inventory','empty'));
+}
+async function load(){
+ set('status','Connecting to existing evidence feeds…');
+ try{
+  const r=await fetch('/api/roofing-scorecards?limit='+mode,{cache:'no-store',credentials:'same-origin'});
+  if(r.status===401){el('login').style.display='flex';set('status','GateKeeper session required');return}
+  const j=await r.json();
+  if(!r.ok)throw Error(j.detail||j.error||'Source unavailable');
+  data=j.records;const c=j.counts;
+  set('parcels',c.residential_properties);set('permits',c.municipal_export_permit_matches);
+  set('matched',c.residential_properties_with_permit_matches);set('reviewed',c.human_reviewed_roof_scores);
+  set('truth',c.government_imagery_response_hashes+' government imagery response hashes recorded; '+c.valuations_source_matched+' GIS valuations; '+c.research_priority_cards+' evidence-completion priority cards. Permits, imagery and scoring still require independent review. Supabase append-only audit persistence is not yet connected.');
+  render();
+ }catch(e){set('status','Pipeline unavailable: '+String(e.message||e));el('cards').replaceChildren(text('div','Evidence source failed; no fabricated property data','empty'))}
+}
+for(const [id,count] of [['top20',20],['all60',60]]){
+ el(id).addEventListener('click',()=>{mode=count;el('top20').classList.toggle('selected',mode===20);el('all60').classList.toggle('selected',mode===60);load()})
+}
+el('search').addEventListener('input',render);
+el('loginForm').addEventListener('submit',async e=>{
+ e.preventDefault();set('loginMessage','Verifying existing access…');
+ try{
+  const r=await fetch('/api/auth',{method:'POST',headers:{'Content-Type':'application/json'},credentials:'same-origin',body:JSON.stringify({passcode:el('pass').value})});
+  const j=await r.json();el('pass').value='';
+  if(!r.ok)throw Error(j.error||'Access denied');
+  el('login').style.display='none';load();
+ }catch(e){set('loginMessage',String(e.message||e))}
+});
+load();
+</script></body></html>
