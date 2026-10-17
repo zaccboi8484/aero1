@@ -1,0 +1,1886 @@
+{
+  "content_hashes": {
+    "074b7c20761ec13af1f4ecba797a31685abc14bfc47afb90b24e9cb53cd75d32": "050ac6520c0aceda068ce22798940995d5ebb1cf12988f627b56220bb6361276",
+    "0d29a0394d9b655bfff78da82941a1f1e51e7b96577d2a6b3c21beb54e1063e9": "ff4da8ac8af5c8c00715f15540a7f598fa33b30b6d03c2e3e4dd3c09ad1c4945",
+    "0d328ed4d316227295be70f73f3dab9c4a51f072595c28251ac887a575e0dd82": "25a79c956f6cb44a13b93088a435e100b13d93c51d5b1c81dd08cff7de9ed101",
+    "15f7c86cf4d3b509a6e402394ce0c6ea492ed6609e6c6309e5aa976fac6f56e5": "c97c514f9f54f7f10bbcd5981fa50c062e0791f25887bff97a3012517a5f1b96",
+    "1972c1dc0932a901ccf48d59d15e56d31da664a5d71cab85e684552270b796fb": "23fe35837a95c916e11c44a04328ae52909f5be3683d53ccca70fcbe11b856df",
+    "1e547c3afd6620f5ab95e5c048182d519ab3e9035988fee8b63266ddf8a429a3": "d78e21ebc34e6170a9fe0fbede3df59f0ae0ebe5cf6dbd9ea7e64cdb6c0ec882",
+    "28c12e408a5d17490b68bb94872312fc86490965fd5889d3c274c5fb2fae9ac2": "30a8d9f2f92bf3099ae91bcda3090dd2b22fe3a85d68bf7de29bfe6372d9770f",
+    "2c4637c87dacfbffc4e2bffd8a311e08d7d9120c514a49bbe8d380d44c47a678": "3e5790d793600a8d35a5452ccb7646d7eafda60f2c59348754aa349a6084cd2f",
+    "2d7774fb773368b35900e63506fa33a01947bd62c28b172078617de564153f00": "b1885640d0f64509171b8323be74a9d462407b121c6bcfae48bf087d0b8191c2",
+    "3637122f727a1c6324faaac0d2a97d1b3ba2cbff4b7516e0b14482b6c5c88a68": "8239e43a8ea736100f45c06649912321c7d6ae500aec83d2f55959bcf7889d75",
+    "3653b43f70a096717a2e117345044379057d9e31282373945aebf95432ccb8c5": "e9fa44394f017bc95217a531739dc7cff866369eb36e5c76a251007bd4dc7c0a",
+    "3a375c4b4278dca18503fb1f27013ccc288b6bf6b48adc049086263cc2e87284": "d2566c3b73274d86fbe83ab2bb30e547f5ea5edbdec46b702572c95cfbd8b4a8",
+    "3bdf8c2151e23e1c1388e64ef4b97e052034bd4689dcf5503879b005946b11a1": "0b25d3ab584ce42fc4a8fea8c5ec4cc564f4481f5cf7cac0a4cc25c628f4bce1",
+    "48b033f1ad1c1d4d653fae3cd080fe2683a0fc9eadd819dbb955e544c74dc847": "20fe93d2a753e9d8f29d10a91ce7f8330716502be9236bdf981ef481e95c5dc1",
+    "4b8f94e8489a38ffee1e5ddd0d7b1cd40ae088742c0a24a9f020ba86e77c7b41": "dd91b2f33e83dfd1760575479c87b03878d73ef7837a2fc5f22546bd4fe5d480",
+    "50a7db859628ea539203fbe1f90630c5d362e6a450f9e1059f84a9422dc1df05": "772ad7c09edf2cf39efeee722d9ac9955276fe2082b593f335ce0b7cdbc81c8c",
+    "57616361c96cadbb023a87022c7588d646819b412b1d8813fd45e0c5eaa59414": "e5b2a19fe9cea1b3554ba4c15248789422c199041bcf72b1474dffe44a76483e",
+    "587d34e34398db58536ffb16fd962763b5a02c111093863c8557befabfe0689a": "3f98bcd070a4d13d9c92c4fc170c673da5ed3a0d0165f5e94a96911c5b3ba65a",
+    "5adafbff40c0437dae8afc3844c46d17d3d63e232d4f1f4590226a6b9f80cda7": "b2a0b5a372bf46428e29d8021a9bba053249afc6aa4eb31382b81f3a17c6d2fa",
+    "5c7b476f91f77c17a1527367f4e9da4cfed7538f347a049484314a6059e0cd82": "87846ece6970c58ffad4a2e12543456fb2b265e9ec7aca3bc53c10bc140d3283",
+    "5e9d7acec29247ad8e58676ed8244d2708e8c199814a28b178c1b8fb814eb85e": "0630e0658095f655da662a747b97c9e183e75462b8389bf9071dba2175ab51f7",
+    "5fd45e33ea806482f045521ce4a48a4ce74d86fd960260b48ca6187629d9dc9b": "2acfb0a516a271ed05d58b192395b35bdaa826845a66abea049f11132ced0e07",
+    "68d21ba72642b7c7a321889b7994b5b5292a903e72f10092d9bbc2104533f352": "c70018d9df8d77378c6c85b89448cdba2a492e67f58b901f2baf94892ee91b43",
+    "6b14eb14a7c6ab9bb1e2b01ebc34f974b1a4df8060792c8ca6a260bc12876e0c": "c0d90c32cd241195d512a74ec31ff0716c961e2a6eba977ae8e64f7014188439",
+    "6c74491f6f88ce4af6942bc8512cb3571c7f998bf4e132c1a3146cd790c907c9": "3e3b3d1faf9a31ab6f64ea4ed676f2104a2926e8e71fbe3e972cbfcff49e7209",
+    "78a3ba6bc887cb5f8d4b429a38d4ad116987700e9d3089bef8d18318c0bfe4e4": "e35c4764f02fefd334da39ed844504f73c3df0b022c68febd5d312101602a6ba",
+    "7d956f055e18fd8d26de12ac9c11f8fbf7ff5df5f72504a6159478162fe2ea57": "33edfd98dace758a7417ef491b816a35b927e3e9e4ef811fd5829154457d71cb",
+    "7e21809551d6fd27298db69a2bca49301091b4d881aaf6dcddd9cf674e2a593b": "cb3e8227f8531498afff834116ba53d3e7ac1b55c59e0d309224339a35f2a205",
+    "7ebcbd6b4b8d5392c95c9c2e47040fd983a5524e26f40493961507cfa9a188db": "a1091f80a1d345ac954c4183ab8bf47b77811fb809d289a574b269e8adaee884",
+    "899bcdbc73c6f34fcfd9242fc48ac6280afd80df496d010c6feece5d99dc2368": "79ee78b9545007c042eff51a95118730ae16a00efee34ebc349ae249bf543425",
+    "8a56c6d69bfac762424e977942c22ba151edf0f57b9b08fcfb5618ec040b74aa": "d5e6c38e0fd75b20fbaaa8e594635b941164b9706f05aed8ac6b937f0a5dab2e",
+    "8da4254de6b93649f9fadd886e65de4eba0adc650663102546028e357a6187c4": "096e5bbc7b3f524657c333bbcbd8bdf126817ae3ae285c962d353921b14aa96f",
+    "90b6a07fd5e2370c8a4529bce7093bb7f794443294a183b4ea5cb7fd7dc689d8": "1c7ddb273aae5f0027736e965805ac5b77f095c5bdad50a6bd004d23b017e869",
+    "925128455eee11a0675b14903f4c37e4a6de304ca638fb1e690f84c259ca5f4b": "edeb07a10f7a13b5ecdd6b300223f141322422e6ae9dc20af8b516bb10e85f77",
+    "94d49ab79acdc9bf1e98106b0316431352c492506a848108ec342011d967bd49": "6540519d1fc111528b587cfd8d43a597abf3fcbcf2ab2f44f38630d89b2965af",
+    "97d40e67c6f2212e4a1f6cb0e31c677bdeb9989437ffdac85f14b9f57483bc99": "0130465df733dd5dc08c4c70e5118f291600491cfc8a4739171fc70563721763",
+    "98fd36b9e73a9497e90bf1c6c97649349a337e691a2eac0375cd30d96a230abb": "21f21df40f5de61f9d63b0ca9d77fad09a149a9cc5f96b7d85f2e7610f9bc4ec",
+    "9dbdb97a05e95e12aef8785c867513fdcaaf4b4fa5b69dc70c33f6f9afe7e6cb": "bc6c812a241497fa0d14514effa9edb8b8810c6a89a0139319bd009953d738be",
+    "a10f88f5bb5253c9189b1f8ab399db4030dd5bb152aa8715cfc94cb40ba661b5": "bf6ebec256dc1a2c80fdc1af40af1bbacd222ee66884fc6be8c7f4fdc8ae68c8",
+    "a325908ed00ec39151241a3ce2261de22f670701005ab4739287a1685eb6c19a": "2682a9af2c8e1bd6475c71c2e15d57d2bf8e5465204e2d472d7adfc5cc848b43",
+    "a8d808f0d2c0d9d0e3629d9c0f35d8625eead36c046faba65eefab39db6157c5": "4643230097f927d4a56f29466721cca61527fbe46e66fc1016ec38662778e126",
+    "a9c8d0e625015a972b89ee8ea7156df3e3717050bcec7968d02515ae5e8d762d": "ba7f0b05724eed525a6aa143816c1f4a29de9f546293cf53a9c696118e7de85b",
+    "b2c704aacd1935fc734334a48b14189741c3b9e745a5edafe253c06fafb0c33b": "29e7a335addf8ac63492dc1fc525f83de7bdca847f8dcfc7dda14b8894498649",
+    "ba01fe5ee814805dc9db3341dbabab1fc4e73c393401cf929d6926ae78ea81e3": "46b90f113eb7832792e5d98aec2a8b2496d0647e3b1268be29dc901249323338",
+    "ba7a5091e7927f8195ab3cb6e271d76f5de786b04a6c5d1236fbcdba4c64e119": "4615b95af00cf021850db1dd57d0e73e6b6c4cc30930ae61a1f02b07395fbe75",
+    "c7140eb06c372b0eba9573222fc63ed4e9e5b1673724645d42383f4d916440dd": "2accb0754a5ebd9369f6fbf180f5af41812a766c64f2f345ea5286279294d112",
+    "ccc98172ee364f4140e54b424bc6c982217c1951440b61ef68e3f514c986432c": "cf1b0b697ad390ffa9b0a60c1fb4c3588bd42f33e21b0e3d6feb786f0dd509e5",
+    "ce586798bfec2f644e3f8217888e7a4901178a5fb7f13efd4bf36709b329d89f": "43bf9fef7308941e973153b6c9514085755dbded0ef389e5d73739b28629adc6",
+    "d123a5a2dcf690e6d2834da9e043466564ae42f951f352c3b60a7c8d079cd7a2": "cc5e288f75b1629c9d033cac55623528f68bbd12d3b63ac55d998fba77640212",
+    "df591ed2700fae9b01b941c5372a98b3c5a128a83317509fcf2bd94e8fe89090": "816890396dfd4f3ab329f201b1cc53a12e0a9ff0e445de495a052dab373a601c",
+    "e4a77154d1f256e508d8513e10e619965cec2fcde524edeee81c62ace043096d": "5c5a9919ce81790cc8afbefddf8e17eed708c519adfbd3d6e6c0e855f04707e3",
+    "e4cce2ef87f8fb5c23a32e3efdfd2121aba4ad14ad9c048aae9cbd9c8df03925": "d7ba5d2ef863b8df1771b985ac0b3fbb96ae1edb1b58898ab3bcf87ff69e90a5",
+    "e6e30ba14523b54541a97e562d05964956f955f6484d0de3b230e50e5e3cca34": "39c4f017a479de3f7cf7b7d8d932c867c65bf777befa72d7ad7dcd14861513b9",
+    "eaa3167a5e08944896aa8724b084f2f617a13f2762fc1a965d1b9258ba9bf8ce": "b6abf7f49c948870448c47ebea0fd05cd78d1e72ba671cfdaa653fbc648455a0",
+    "ec01fc9f1ab8b198770e28da1a1153798f1baf68a485614e1031f7a41194ad51": "cab6fa088bda3a17cae4987b88dbced21480f4c4a291e40676cb77f095528db6",
+    "ec13a9fb5e39308dbf415384370fed0774bdf3889eb8d93dadcd4fc770f93cfa": "f3646f5e1b4baae4e695a06684c2975eebc1a46770dbd93d06ca63e67cd9029f",
+    "f469cdd08805aac2944dafe6250bd772d11a6c34d1a5c67da3972bcf16a90250": "af5f27ef7419763913f68274b89d89c0c7f747a105450dbe60c908b69756f5da",
+    "f79ab0fa236a0606ecfd932c06a499615f45cda6e17fb4548f5ed379c75f349a": "dd8c0f8ea24b2e62e196c1b387bdd9e4dc58558b5bcae8345635a208f9366bf5",
+    "f8bcdd5fa673ce50f057e6f58f3b98e2bc62329aec6fb4f45fe77d9f0503956a": "6ea58bb739c14a688fed94308335ea338a02716d6e528508ea37293d23d48885",
+    "f9fc64aab533e47d84aacba292fe3980bac19cd5cf090554d363d908e3806983": "0d56451b9e6786c16934870f79ddec7874ecf3cd3e3109624af2fbf21c944ebb"
+  },
+  "history": [
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44001",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:00.476177+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683527%2C44.8165728%2C-93.1669527%2C44.8173728&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "ec01fc9f1ab8b198770e28da1a1153798f1baf68a485614e1031f7a41194ad51",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44001",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:01.003960+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44002",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:01.004665+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683416%2C44.8162813%2C-93.1669416%2C44.8170813&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "0d29a0394d9b655bfff78da82941a1f1e51e7b96577d2a6b3c21beb54e1063e9",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44002",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:01.509242+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44003",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:01.509922+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683443%2C44.8159861%2C-93.1669443%2C44.8167861&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "8a56c6d69bfac762424e977942c22ba151edf0f57b9b08fcfb5618ec040b74aa",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44003",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:02.020731+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44004",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:02.021610+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1684568%2C44.8157096%2C-93.1670568%2C44.8165096&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "5e9d7acec29247ad8e58676ed8244d2708e8c199814a28b178c1b8fb814eb85e",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44004",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:02.581565+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44005",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:02.582550+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1684388%2C44.8152607%2C-93.1670388%2C44.8160607&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "899bcdbc73c6f34fcfd9242fc48ac6280afd80df496d010c6feece5d99dc2368",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44005",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:03.139549+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44006",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:03.140606+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1687487%2C44.8150539%2C-93.1673487%2C44.8158539&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "7e21809551d6fd27298db69a2bca49301091b4d881aaf6dcddd9cf674e2a593b",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44006",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:03.663729+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44007",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:03.664701+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1688065%2C44.8155582%2C-93.1674065%2C44.8163582&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "ce586798bfec2f644e3f8217888e7a4901178a5fb7f13efd4bf36709b329d89f",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44007",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:05.348526+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44008",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:05.349475+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1691044%2C44.8153635%2C-93.1677044%2C44.8161635&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "57616361c96cadbb023a87022c7588d646819b412b1d8813fd45e0c5eaa59414",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44008",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:05.966873+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44009",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:05.967985+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1693268%2C44.8152644%2C-93.1679268%2C44.8160644&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "e4cce2ef87f8fb5c23a32e3efdfd2121aba4ad14ad9c048aae9cbd9c8df03925",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44009",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:06.553134+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44010",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:06.554101+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1699828%2C44.8152569%2C-93.1685828%2C44.8160569&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "e4a77154d1f256e508d8513e10e619965cec2fcde524edeee81c62ace043096d",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44010",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:07.085164+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44011",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:07.086274+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704059%2C44.8153327%2C-93.1690059%2C44.8161327&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "15f7c86cf4d3b509a6e402394ce0c6ea492ed6609e6c6309e5aa976fac6f56e5",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44011",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:07.734364+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44012",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:07.735433+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704099%2C44.8156763%2C-93.1690099%2C44.8164763&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "ba01fe5ee814805dc9db3341dbabab1fc4e73c393401cf929d6926ae78ea81e3",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44012",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:08.338104+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44013",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:08.339173+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1708829%2C44.8156262%2C-93.1694829%2C44.8164262&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "df591ed2700fae9b01b941c5372a98b3c5a128a83317509fcf2bd94e8fe89090",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44013",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:08.942905+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44014",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:08.944059+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1709177%2C44.815389%2C-93.1695177%2C44.816189&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "a9c8d0e625015a972b89ee8ea7156df3e3717050bcec7968d02515ae5e8d762d",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44014",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:09.490399+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44015",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:09.491464+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1713771%2C44.815227%2C-93.1699771%2C44.816027&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "3bdf8c2151e23e1c1388e64ef4b97e052034bd4689dcf5503879b005946b11a1",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44015",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:10.038762+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44016",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:10.040062+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.171904%2C44.8152842%2C-93.170504%2C44.8160842&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "48b033f1ad1c1d4d653fae3cd080fe2683a0fc9eadd819dbb955e544c74dc847",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44016",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:10.624621+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44017",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:10.625793+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1719163%2C44.8157118%2C-93.1705163%2C44.8165118&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "f469cdd08805aac2944dafe6250bd772d11a6c34d1a5c67da3972bcf16a90250",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44017",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:11.281533+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44018",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:11.282725+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1716255%2C44.8159514%2C-93.1702255%2C44.8167514&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "e6e30ba14523b54541a97e562d05964956f955f6484d0de3b230e50e5e3cca34",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44018",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:11.853725+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44019",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:11.855014+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.171276%2C44.8161304%2C-93.169876%2C44.8169304&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "a325908ed00ec39151241a3ce2261de22f670701005ab4739287a1685eb6c19a",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44019",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:12.488706+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44020",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:12.490001+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1708807%2C44.8161914%2C-93.1694807%2C44.8169914&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "925128455eee11a0675b14903f4c37e4a6de304ca638fb1e690f84c259ca5f4b",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44020",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:13.180466+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44021",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:13.181996+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704089%2C44.8162148%2C-93.1690089%2C44.8170148&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "ec13a9fb5e39308dbf415384370fed0774bdf3889eb8d93dadcd4fc770f93cfa",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44021",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:13.740505+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44022",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:13.742008+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1705463%2C44.8166044%2C-93.1691463%2C44.8174044&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "587d34e34398db58536ffb16fd962763b5a02c111093863c8557befabfe0689a",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44022",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:14.294365+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44023",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:14.295721+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.170731%2C44.8167461%2C-93.169331%2C44.8175461&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "1e547c3afd6620f5ab95e5c048182d519ab3e9035988fee8b63266ddf8a429a3",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44023",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:14.824094+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44024",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:14.825581+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1711884%2C44.8166977%2C-93.1697884%2C44.8174977&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "7ebcbd6b4b8d5392c95c9c2e47040fd983a5524e26f40493961507cfa9a188db",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44024",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:15.394344+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44025",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:15.395706+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1715133%2C44.816578%2C-93.1701133%2C44.817378&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "2c4637c87dacfbffc4e2bffd8a311e08d7d9120c514a49bbe8d380d44c47a678",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44025",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:15.932715+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44026",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:15.934109+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1717963%2C44.8163865%2C-93.1703963%2C44.8171865&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "d123a5a2dcf690e6d2834da9e043466564ae42f951f352c3b60a7c8d079cd7a2",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44026",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:16.493458+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44027",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:16.494876+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.172078%2C44.816201%2C-93.170678%2C44.817001&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "3637122f727a1c6324faaac0d2a97d1b3ba2cbff4b7516e0b14482b6c5c88a68",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44027",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:17.067282+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44028",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:17.068739+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1723132%2C44.8159829%2C-93.1709132%2C44.8167829&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "ba7a5091e7927f8195ab3cb6e271d76f5de786b04a6c5d1236fbcdba4c64e119",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44028",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:17.672206+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44029",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:17.673824+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1724565%2C44.8157309%2C-93.1710565%2C44.8165309&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "5fd45e33ea806482f045521ce4a48a4ce74d86fd960260b48ca6187629d9dc9b",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44029",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:18.233893+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44030",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:18.235632+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1725097%2C44.8154715%2C-93.1711097%2C44.8162715&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "ccc98172ee364f4140e54b424bc6c982217c1951440b61ef68e3f514c986432c",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44030",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:18.806976+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44031",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:18.808535+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1725391%2C44.8151831%2C-93.1711391%2C44.8159831&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "4b8f94e8489a38ffee1e5ddd0d7b1cd40ae088742c0a24a9f020ba86e77c7b41",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44031",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:19.398222+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44032",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:19.400110+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1688839%2C44.8169946%2C-93.1674839%2C44.8177946&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "28c12e408a5d17490b68bb94872312fc86490965fd5889d3c274c5fb2fae9ac2",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44032",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:20.091407+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44033",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:20.093233+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690695%2C44.8169048%2C-93.1676695%2C44.8177048&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "3a375c4b4278dca18503fb1f27013ccc288b6bf6b48adc049086263cc2e87284",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44033",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:20.704825+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44034",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:20.706519+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1691128%2C44.816548%2C-93.1677128%2C44.817348&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "0d328ed4d316227295be70f73f3dab9c4a51f072595c28251ac887a575e0dd82",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44034",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:21.322045+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44035",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:21.323698+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690896%2C44.8162942%2C-93.1676896%2C44.8170942&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "a10f88f5bb5253c9189b1f8ab399db4030dd5bb152aa8715cfc94cb40ba661b5",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44035",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:21.899302+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44036",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:21.901110+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690833%2C44.8159088%2C-93.1676833%2C44.8167088&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "b2c704aacd1935fc734334a48b14189741c3b9e745a5edafe253c06fafb0c33b",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44036",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:22.509423+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44037",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:22.511190+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.169708%2C44.815746%2C-93.168308%2C44.816546&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "7d956f055e18fd8d26de12ac9c11f8fbf7ff5df5f72504a6159478162fe2ea57",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44037",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:23.115066+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44038",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:23.116885+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1697065%2C44.8160672%2C-93.1683065%2C44.8168672&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "eaa3167a5e08944896aa8724b084f2f617a13f2762fc1a965d1b9258ba9bf8ce",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44038",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:23.701121+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44039",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:23.702942+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1697062%2C44.816365%2C-93.1683062%2C44.817165&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "78a3ba6bc887cb5f8d4b429a38d4ad116987700e9d3089bef8d18318c0bfe4e4",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44039",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:24.327554+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44040",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:24.329760+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.169754%2C44.8167184%2C-93.168354%2C44.8175184&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "a8d808f0d2c0d9d0e3629d9c0f35d8625eead36c046faba65eefab39db6157c5",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44040",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:24.847228+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44041",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:24.849113+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1698517%2C44.8171132%2C-93.1684517%2C44.8179132&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "90b6a07fd5e2370c8a4529bce7093bb7f794443294a183b4ea5cb7fd7dc689d8",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44041",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:25.417811+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44042",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:25.419771+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1700176%2C44.8173564%2C-93.1686176%2C44.8181564&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "2d7774fb773368b35900e63506fa33a01947bd62c28b172078617de564153f00",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44042",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:25.996547+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44043",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:25.998560+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704811%2C44.8176307%2C-93.1690811%2C44.8184307&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "3653b43f70a096717a2e117345044379057d9e31282373945aebf95432ccb8c5",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44043",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:26.597469+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44044",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:26.599541+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1712596%2C44.8176437%2C-93.1698596%2C44.8184437&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "94d49ab79acdc9bf1e98106b0316431352c492506a848108ec342011d967bd49",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44044",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:27.184247+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44045",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:27.186717+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1716497%2C44.8173937%2C-93.1702497%2C44.8181937&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "6b14eb14a7c6ab9bb1e2b01ebc34f974b1a4df8060792c8ca6a260bc12876e0c",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44045",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:27.799133+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44046",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:27.801046+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1719013%2C44.8170969%2C-93.1705013%2C44.8178969&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "97d40e67c6f2212e4a1f6cb0e31c677bdeb9989437ffdac85f14b9f57483bc99",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44046",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:28.400647+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44047",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:28.402643+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1722127%2C44.8174237%2C-93.1708127%2C44.8182237&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "074b7c20761ec13af1f4ecba797a31685abc14bfc47afb90b24e9cb53cd75d32",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44047",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:29.037836+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44048",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:29.039938+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1728086%2C44.817414%2C-93.1714086%2C44.818214&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "50a7db859628ea539203fbe1f90630c5d362e6a450f9e1059f84a9422dc1df05",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44048",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:29.601889+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44049",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:29.603881+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1729659%2C44.8169658%2C-93.1715659%2C44.8177658&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "98fd36b9e73a9497e90bf1c6c97649349a337e691a2eac0375cd30d96a230abb",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44049",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:30.169608+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44050",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:30.171926+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1723996%2C44.816688%2C-93.1709996%2C44.817488&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "f8bcdd5fa673ce50f057e6f58f3b98e2bc62329aec6fb4f45fe77d9f0503956a",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44050",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:30.735693+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44051",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:30.737932+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1727662%2C44.8165293%2C-93.1713662%2C44.8173293&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "8da4254de6b93649f9fadd886e65de4eba0adc650663102546028e357a6187c4",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44051",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:31.234272+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44052",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:31.236329+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1729448%2C44.8163427%2C-93.1715448%2C44.8171427&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "68d21ba72642b7c7a321889b7994b5b5292a903e72f10092d9bbc2104533f352",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44052",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:31.758771+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44053",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:31.767169+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1731016%2C44.8160522%2C-93.1717016%2C44.8168522&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "9dbdb97a05e95e12aef8785c867513fdcaaf4b4fa5b69dc70c33f6f9afe7e6cb",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44053",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:32.361526+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44054",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:32.363949+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1732314%2C44.8157669%2C-93.1718314%2C44.8165669&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "f9fc64aab533e47d84aacba292fe3980bac19cd5cf090554d363d908e3806983",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44054",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:32.898820+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44055",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:32.901022+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1733353%2C44.8154813%2C-93.1719353%2C44.8162813&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "6c74491f6f88ce4af6942bc8512cb3571c7f998bf4e132c1a3146cd790c907c9",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44055",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:33.425721+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44056",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:33.428138+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1734355%2C44.8151835%2C-93.1720355%2C44.8159835&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "c7140eb06c372b0eba9573222fc63ed4e9e5b1673724645d42383f4d916440dd",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44056",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:34.016290+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44057",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:34.018556+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1732298%2C44.8148474%2C-93.1718298%2C44.8156474&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "5c7b476f91f77c17a1527367f4e9da4cfed7538f347a049484314a6059e0cd82",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44057",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:34.642666+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44058",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:34.644931+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1736755%2C44.8148244%2C-93.1722755%2C44.8156244&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "1972c1dc0932a901ccf48d59d15e56d31da664a5d71cab85e684552270b796fb",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44058",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:35.214583+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44059",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:35.216997+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1741738%2C44.8147277%2C-93.1727738%2C44.8155277&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "f79ab0fa236a0606ecfd932c06a499615f45cda6e17fb4548f5ed379c75f349a",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44059",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:35.779832+00:00"
+    },
+    {
+      "action": "FETCH",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44060",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:35.782166+00:00",
+      "url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.174801%2C44.8142873%2C-93.173401%2C44.8150873&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700"
+    },
+    {
+      "action": "ACQUIRED",
+      "error": null,
+      "sha256": "5adafbff40c0437dae8afc3844c46d17d3d63e232d4f1f4590226a6b9f80cda7",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44060",
+      "territory": "kings-wood-001",
+      "timestamp": "2026-10-17T02:35:36.336932+00:00"
+    }
+  ],
+  "schema": 1,
+  "sources": {
+    "0130465df733dd5dc08c4c70e5118f291600491cfc8a4739171fc70563721763": {
+      "bytes": 132432,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1719013%2C44.8170969%2C-93.1705013%2C44.8178969&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:28.400634+00:00",
+      "etag": "\"2ad36d9e\"",
+      "sha256": "97d40e67c6f2212e4a1f6cb0e31c677bdeb9989437ffdac85f14b9f57483bc99",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44046",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "050ac6520c0aceda068ce22798940995d5ebb1cf12988f627b56220bb6361276": {
+      "bytes": 132550,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1722127%2C44.8174237%2C-93.1708127%2C44.8182237&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:29.037823+00:00",
+      "etag": "\"7058d2c8\"",
+      "sha256": "074b7c20761ec13af1f4ecba797a31685abc14bfc47afb90b24e9cb53cd75d32",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44047",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "0630e0658095f655da662a747b97c9e183e75462b8389bf9071dba2175ab51f7": {
+      "bytes": 125809,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1684568%2C44.8157096%2C-93.1670568%2C44.8165096&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:02.581546+00:00",
+      "etag": "\"21ec2787\"",
+      "sha256": "5e9d7acec29247ad8e58676ed8244d2708e8c199814a28b178c1b8fb814eb85e",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44004",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "096e5bbc7b3f524657c333bbcbd8bdf126817ae3ae285c962d353921b14aa96f": {
+      "bytes": 123899,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1727662%2C44.8165293%2C-93.1713662%2C44.8173293&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:31.234260+00:00",
+      "etag": "\"5e97aa39\"",
+      "sha256": "8da4254de6b93649f9fadd886e65de4eba0adc650663102546028e357a6187c4",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44051",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "0b25d3ab584ce42fc4a8fea8c5ec4cc564f4481f5cf7cac0a4cc25c628f4bce1": {
+      "bytes": 130970,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1713771%2C44.815227%2C-93.1699771%2C44.816027&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:10.038750+00:00",
+      "etag": "\"e59f67c6\"",
+      "sha256": "3bdf8c2151e23e1c1388e64ef4b97e052034bd4689dcf5503879b005946b11a1",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44015",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "0d56451b9e6786c16934870f79ddec7874ecf3cd3e3109624af2fbf21c944ebb": {
+      "bytes": 123670,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1732314%2C44.8157669%2C-93.1718314%2C44.8165669&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:32.898811+00:00",
+      "etag": "\"bf404d1\"",
+      "sha256": "f9fc64aab533e47d84aacba292fe3980bac19cd5cf090554d363d908e3806983",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44054",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "1c7ddb273aae5f0027736e965805ac5b77f095c5bdad50a6bd004d23b017e869": {
+      "bytes": 140103,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1698517%2C44.8171132%2C-93.1684517%2C44.8179132&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:25.417803+00:00",
+      "etag": "\"ecc15742\"",
+      "sha256": "90b6a07fd5e2370c8a4529bce7093bb7f794443294a183b4ea5cb7fd7dc689d8",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44041",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "20fe93d2a753e9d8f29d10a91ce7f8330716502be9236bdf981ef481e95c5dc1": {
+      "bytes": 132344,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.171904%2C44.8152842%2C-93.170504%2C44.8160842&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:10.624612+00:00",
+      "etag": "\"e1d30211\"",
+      "sha256": "48b033f1ad1c1d4d653fae3cd080fe2683a0fc9eadd819dbb955e544c74dc847",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44016",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "21f21df40f5de61f9d63b0ca9d77fad09a149a9cc5f96b7d85f2e7610f9bc4ec": {
+      "bytes": 122424,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1729659%2C44.8169658%2C-93.1715659%2C44.8177658&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:30.169596+00:00",
+      "etag": "\"453d9501\"",
+      "sha256": "98fd36b9e73a9497e90bf1c6c97649349a337e691a2eac0375cd30d96a230abb",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44049",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "23fe35837a95c916e11c44a04328ae52909f5be3683d53ccca70fcbe11b856df": {
+      "bytes": 126768,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1736755%2C44.8148244%2C-93.1722755%2C44.8156244&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:35.214570+00:00",
+      "etag": "\"f58f11a2\"",
+      "sha256": "1972c1dc0932a901ccf48d59d15e56d31da664a5d71cab85e684552270b796fb",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44058",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "25a79c956f6cb44a13b93088a435e100b13d93c51d5b1c81dd08cff7de9ed101": {
+      "bytes": 135431,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1691128%2C44.816548%2C-93.1677128%2C44.817348&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:21.322034+00:00",
+      "etag": "\"7b27a207\"",
+      "sha256": "0d328ed4d316227295be70f73f3dab9c4a51f072595c28251ac887a575e0dd82",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44034",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "2682a9af2c8e1bd6475c71c2e15d57d2bf8e5465204e2d472d7adfc5cc848b43": {
+      "bytes": 136481,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.171276%2C44.8161304%2C-93.169876%2C44.8169304&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:12.488694+00:00",
+      "etag": "\"822ec446\"",
+      "sha256": "a325908ed00ec39151241a3ce2261de22f670701005ab4739287a1685eb6c19a",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44019",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "29e7a335addf8ac63492dc1fc525f83de7bdca847f8dcfc7dda14b8894498649": {
+      "bytes": 135435,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690833%2C44.8159088%2C-93.1676833%2C44.8167088&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:22.509411+00:00",
+      "etag": "\"11e66b82\"",
+      "sha256": "b2c704aacd1935fc734334a48b14189741c3b9e745a5edafe253c06fafb0c33b",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44036",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "2accb0754a5ebd9369f6fbf180f5af41812a766c64f2f345ea5286279294d112": {
+      "bytes": 125594,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1734355%2C44.8151835%2C-93.1720355%2C44.8159835&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:34.016278+00:00",
+      "etag": "\"7e67b00\"",
+      "sha256": "c7140eb06c372b0eba9573222fc63ed4e9e5b1673724645d42383f4d916440dd",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44056",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "2acfb0a516a271ed05d58b192395b35bdaa826845a66abea049f11132ced0e07": {
+      "bytes": 130503,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1724565%2C44.8157309%2C-93.1710565%2C44.8165309&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:18.233880+00:00",
+      "etag": "\"f6b732c5\"",
+      "sha256": "5fd45e33ea806482f045521ce4a48a4ce74d86fd960260b48ca6187629d9dc9b",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44029",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "30a8d9f2f92bf3099ae91bcda3090dd2b22fe3a85d68bf7de29bfe6372d9770f": {
+      "bytes": 134894,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1688839%2C44.8169946%2C-93.1674839%2C44.8177946&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:20.091394+00:00",
+      "etag": "\"e3918635\"",
+      "sha256": "28c12e408a5d17490b68bb94872312fc86490965fd5889d3c274c5fb2fae9ac2",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44032",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "33edfd98dace758a7417ef491b816a35b927e3e9e4ef811fd5829154457d71cb": {
+      "bytes": 131636,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.169708%2C44.815746%2C-93.168308%2C44.816546&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:23.115055+00:00",
+      "etag": "\"995edf9c\"",
+      "sha256": "7d956f055e18fd8d26de12ac9c11f8fbf7ff5df5f72504a6159478162fe2ea57",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44037",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "39c4f017a479de3f7cf7b7d8d932c867c65bf777befa72d7ad7dcd14861513b9": {
+      "bytes": 137499,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1716255%2C44.8159514%2C-93.1702255%2C44.8167514&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:11.853711+00:00",
+      "etag": "\"d41efa01\"",
+      "sha256": "e6e30ba14523b54541a97e562d05964956f955f6484d0de3b230e50e5e3cca34",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44018",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "3e3b3d1faf9a31ab6f64ea4ed676f2104a2926e8e71fbe3e972cbfcff49e7209": {
+      "bytes": 126392,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1733353%2C44.8154813%2C-93.1719353%2C44.8162813&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:33.425708+00:00",
+      "etag": "\"4080a67e\"",
+      "sha256": "6c74491f6f88ce4af6942bc8512cb3571c7f998bf4e132c1a3146cd790c907c9",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44055",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "3e5790d793600a8d35a5452ccb7646d7eafda60f2c59348754aa349a6084cd2f": {
+      "bytes": 131980,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1715133%2C44.816578%2C-93.1701133%2C44.817378&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:15.932706+00:00",
+      "etag": "\"1bd7fe5b\"",
+      "sha256": "2c4637c87dacfbffc4e2bffd8a311e08d7d9120c514a49bbe8d380d44c47a678",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44025",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "3f98bcd070a4d13d9c92c4fc170c673da5ed3a0d0165f5e94a96911c5b3ba65a": {
+      "bytes": 128546,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1705463%2C44.8166044%2C-93.1691463%2C44.8174044&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:14.294351+00:00",
+      "etag": "\"7741e362\"",
+      "sha256": "587d34e34398db58536ffb16fd962763b5a02c111093863c8557befabfe0689a",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44022",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "43bf9fef7308941e973153b6c9514085755dbded0ef389e5d73739b28629adc6": {
+      "bytes": 136486,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1688065%2C44.8155582%2C-93.1674065%2C44.8163582&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:05.348515+00:00",
+      "etag": "\"99dad6f3\"",
+      "sha256": "ce586798bfec2f644e3f8217888e7a4901178a5fb7f13efd4bf36709b329d89f",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44007",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "4615b95af00cf021850db1dd57d0e73e6b6c4cc30930ae61a1f02b07395fbe75": {
+      "bytes": 129342,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1723132%2C44.8159829%2C-93.1709132%2C44.8167829&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:17.672188+00:00",
+      "etag": "\"17036a22\"",
+      "sha256": "ba7a5091e7927f8195ab3cb6e271d76f5de786b04a6c5d1236fbcdba4c64e119",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44028",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "4643230097f927d4a56f29466721cca61527fbe46e66fc1016ec38662778e126": {
+      "bytes": 135642,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.169754%2C44.8167184%2C-93.168354%2C44.8175184&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:24.847218+00:00",
+      "etag": "\"9e8b0170\"",
+      "sha256": "a8d808f0d2c0d9d0e3629d9c0f35d8625eead36c046faba65eefab39db6157c5",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44040",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "46b90f113eb7832792e5d98aec2a8b2496d0647e3b1268be29dc901249323338": {
+      "bytes": 127599,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704099%2C44.8156763%2C-93.1690099%2C44.8164763&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:08.338091+00:00",
+      "etag": "\"8212fbfb\"",
+      "sha256": "ba01fe5ee814805dc9db3341dbabab1fc4e73c393401cf929d6926ae78ea81e3",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44012",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "5c5a9919ce81790cc8afbefddf8e17eed708c519adfbd3d6e6c0e855f04707e3": {
+      "bytes": 127581,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1699828%2C44.8152569%2C-93.1685828%2C44.8160569&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:07.085152+00:00",
+      "etag": "\"f7795c97\"",
+      "sha256": "e4a77154d1f256e508d8513e10e619965cec2fcde524edeee81c62ace043096d",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44010",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "6540519d1fc111528b587cfd8d43a597abf3fcbcf2ab2f44f38630d89b2965af": {
+      "bytes": 121856,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1712596%2C44.8176437%2C-93.1698596%2C44.8184437&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:27.184235+00:00",
+      "etag": "\"a0624d1d\"",
+      "sha256": "94d49ab79acdc9bf1e98106b0316431352c492506a848108ec342011d967bd49",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44044",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "6ea58bb739c14a688fed94308335ea338a02716d6e528508ea37293d23d48885": {
+      "bytes": 124629,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1723996%2C44.816688%2C-93.1709996%2C44.817488&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:30.735681+00:00",
+      "etag": "\"5461a122\"",
+      "sha256": "f8bcdd5fa673ce50f057e6f58f3b98e2bc62329aec6fb4f45fe77d9f0503956a",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44050",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "772ad7c09edf2cf39efeee722d9ac9955276fe2082b593f335ce0b7cdbc81c8c": {
+      "bytes": 121637,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1728086%2C44.817414%2C-93.1714086%2C44.818214&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:29.601880+00:00",
+      "etag": "\"96b59d6\"",
+      "sha256": "50a7db859628ea539203fbe1f90630c5d362e6a450f9e1059f84a9422dc1df05",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44048",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "79ee78b9545007c042eff51a95118730ae16a00efee34ebc349ae249bf543425": {
+      "bytes": 116439,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1684388%2C44.8152607%2C-93.1670388%2C44.8160607&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:03.139539+00:00",
+      "etag": "\"bd7ef529\"",
+      "sha256": "899bcdbc73c6f34fcfd9242fc48ac6280afd80df496d010c6feece5d99dc2368",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44005",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "816890396dfd4f3ab329f201b1cc53a12e0a9ff0e445de495a052dab373a601c": {
+      "bytes": 132240,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1708829%2C44.8156262%2C-93.1694829%2C44.8164262&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:08.942892+00:00",
+      "etag": "\"f06a1ed8\"",
+      "sha256": "df591ed2700fae9b01b941c5372a98b3c5a128a83317509fcf2bd94e8fe89090",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44013",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "8239e43a8ea736100f45c06649912321c7d6ae500aec83d2f55959bcf7889d75": {
+      "bytes": 129355,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.172078%2C44.816201%2C-93.170678%2C44.817001&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:17.067270+00:00",
+      "etag": "\"7b0514c9\"",
+      "sha256": "3637122f727a1c6324faaac0d2a97d1b3ba2cbff4b7516e0b14482b6c5c88a68",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44027",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "87846ece6970c58ffad4a2e12543456fb2b265e9ec7aca3bc53c10bc140d3283": {
+      "bytes": 120374,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1732298%2C44.8148474%2C-93.1718298%2C44.8156474&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:34.642656+00:00",
+      "etag": "\"f3d87c94\"",
+      "sha256": "5c7b476f91f77c17a1527367f4e9da4cfed7538f347a049484314a6059e0cd82",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44057",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "a1091f80a1d345ac954c4183ab8bf47b77811fb809d289a574b269e8adaee884": {
+      "bytes": 132637,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1711884%2C44.8166977%2C-93.1697884%2C44.8174977&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:15.394303+00:00",
+      "etag": "\"1759dd5e\"",
+      "sha256": "7ebcbd6b4b8d5392c95c9c2e47040fd983a5524e26f40493961507cfa9a188db",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44024",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "af5f27ef7419763913f68274b89d89c0c7f747a105450dbe60c908b69756f5da": {
+      "bytes": 138583,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1719163%2C44.8157118%2C-93.1705163%2C44.8165118&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:11.281520+00:00",
+      "etag": "\"e3dbacab\"",
+      "sha256": "f469cdd08805aac2944dafe6250bd772d11a6c34d1a5c67da3972bcf16a90250",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44017",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "b1885640d0f64509171b8323be74a9d462407b121c6bcfae48bf087d0b8191c2": {
+      "bytes": 136426,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1700176%2C44.8173564%2C-93.1686176%2C44.8181564&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:25.996535+00:00",
+      "etag": "\"e447d4d8\"",
+      "sha256": "2d7774fb773368b35900e63506fa33a01947bd62c28b172078617de564153f00",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44042",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "b2a0b5a372bf46428e29d8021a9bba053249afc6aa4eb31382b81f3a17c6d2fa": {
+      "bytes": 129156,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.174801%2C44.8142873%2C-93.173401%2C44.8150873&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:36.336923+00:00",
+      "etag": "\"c81a0e27\"",
+      "sha256": "5adafbff40c0437dae8afc3844c46d17d3d63e232d4f1f4590226a6b9f80cda7",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44060",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "b6abf7f49c948870448c47ebea0fd05cd78d1e72ba671cfdaa653fbc648455a0": {
+      "bytes": 129222,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1697065%2C44.8160672%2C-93.1683065%2C44.8168672&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:23.701110+00:00",
+      "etag": "\"1f9bb434\"",
+      "sha256": "eaa3167a5e08944896aa8724b084f2f617a13f2762fc1a965d1b9258ba9bf8ce",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44038",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "ba7f0b05724eed525a6aa143816c1f4a29de9f546293cf53a9c696118e7de85b": {
+      "bytes": 132803,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1709177%2C44.815389%2C-93.1695177%2C44.816189&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:09.490388+00:00",
+      "etag": "\"ee1b9c02\"",
+      "sha256": "a9c8d0e625015a972b89ee8ea7156df3e3717050bcec7968d02515ae5e8d762d",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44014",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "bc6c812a241497fa0d14514effa9edb8b8810c6a89a0139319bd009953d738be": {
+      "bytes": 123366,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1731016%2C44.8160522%2C-93.1717016%2C44.8168522&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:32.361514+00:00",
+      "etag": "\"9dec3961\"",
+      "sha256": "9dbdb97a05e95e12aef8785c867513fdcaaf4b4fa5b69dc70c33f6f9afe7e6cb",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44053",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "bf6ebec256dc1a2c80fdc1af40af1bbacd222ee66884fc6be8c7f4fdc8ae68c8": {
+      "bytes": 134135,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690896%2C44.8162942%2C-93.1676896%2C44.8170942&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:21.899290+00:00",
+      "etag": "\"d7669008\"",
+      "sha256": "a10f88f5bb5253c9189b1f8ab399db4030dd5bb152aa8715cfc94cb40ba661b5",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44035",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "c0d90c32cd241195d512a74ec31ff0716c961e2a6eba977ae8e64f7014188439": {
+      "bytes": 131271,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1716497%2C44.8173937%2C-93.1702497%2C44.8181937&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:27.799124+00:00",
+      "etag": "\"b8af413d\"",
+      "sha256": "6b14eb14a7c6ab9bb1e2b01ebc34f974b1a4df8060792c8ca6a260bc12876e0c",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44045",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "c70018d9df8d77378c6c85b89448cdba2a492e67f58b901f2baf94892ee91b43": {
+      "bytes": 126171,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1729448%2C44.8163427%2C-93.1715448%2C44.8171427&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:31.758759+00:00",
+      "etag": "\"9b64731f\"",
+      "sha256": "68d21ba72642b7c7a321889b7994b5b5292a903e72f10092d9bbc2104533f352",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44052",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "c97c514f9f54f7f10bbcd5981fa50c062e0791f25887bff97a3012517a5f1b96": {
+      "bytes": 129464,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704059%2C44.8153327%2C-93.1690059%2C44.8161327&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:07.734351+00:00",
+      "etag": "\"fbc07d77\"",
+      "sha256": "15f7c86cf4d3b509a6e402394ce0c6ea492ed6609e6c6309e5aa976fac6f56e5",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44011",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "cab6fa088bda3a17cae4987b88dbced21480f4c4a291e40676cb77f095528db6": {
+      "bytes": 117829,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683527%2C44.8165728%2C-93.1669527%2C44.8173728&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:01.003944+00:00",
+      "etag": "\"5f362d90\"",
+      "sha256": "ec01fc9f1ab8b198770e28da1a1153798f1baf68a485614e1031f7a41194ad51",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44001",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "cb3e8227f8531498afff834116ba53d3e7ac1b55c59e0d309224339a35f2a205": {
+      "bytes": 120435,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1687487%2C44.8150539%2C-93.1673487%2C44.8158539&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:03.663717+00:00",
+      "etag": "\"d8807f2d\"",
+      "sha256": "7e21809551d6fd27298db69a2bca49301091b4d881aaf6dcddd9cf674e2a593b",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44006",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "cc5e288f75b1629c9d033cac55623528f68bbd12d3b63ac55d998fba77640212": {
+      "bytes": 133401,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1717963%2C44.8163865%2C-93.1703963%2C44.8171865&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:16.493443+00:00",
+      "etag": "\"48eee6e5\"",
+      "sha256": "d123a5a2dcf690e6d2834da9e043466564ae42f951f352c3b60a7c8d079cd7a2",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44026",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "cf1b0b697ad390ffa9b0a60c1fb4c3588bd42f33e21b0e3d6feb786f0dd509e5": {
+      "bytes": 127415,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1725097%2C44.8154715%2C-93.1711097%2C44.8162715&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:18.806966+00:00",
+      "etag": "\"da05cfbf\"",
+      "sha256": "ccc98172ee364f4140e54b424bc6c982217c1951440b61ef68e3f514c986432c",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44030",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "d2566c3b73274d86fbe83ab2bb30e547f5ea5edbdec46b702572c95cfbd8b4a8": {
+      "bytes": 136588,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690695%2C44.8169048%2C-93.1676695%2C44.8177048&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:20.704815+00:00",
+      "etag": "\"c6bc2183\"",
+      "sha256": "3a375c4b4278dca18503fb1f27013ccc288b6bf6b48adc049086263cc2e87284",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44033",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "d5e6c38e0fd75b20fbaaa8e594635b941164b9706f05aed8ac6b937f0a5dab2e": {
+      "bytes": 120029,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683443%2C44.8159861%2C-93.1669443%2C44.8167861&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:02.020716+00:00",
+      "etag": "\"a7dcfb54\"",
+      "sha256": "8a56c6d69bfac762424e977942c22ba151edf0f57b9b08fcfb5618ec040b74aa",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44003",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "d78e21ebc34e6170a9fe0fbede3df59f0ae0ebe5cf6dbd9ea7e64cdb6c0ec882": {
+      "bytes": 130835,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.170731%2C44.8167461%2C-93.169331%2C44.8175461&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:14.824082+00:00",
+      "etag": "\"695062cf\"",
+      "sha256": "1e547c3afd6620f5ab95e5c048182d519ab3e9035988fee8b63266ddf8a429a3",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44023",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "d7ba5d2ef863b8df1771b985ac0b3fbb96ae1edb1b58898ab3bcf87ff69e90a5": {
+      "bytes": 127985,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1693268%2C44.8152644%2C-93.1679268%2C44.8160644&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:06.553124+00:00",
+      "etag": "\"bdca6842\"",
+      "sha256": "e4cce2ef87f8fb5c23a32e3efdfd2121aba4ad14ad9c048aae9cbd9c8df03925",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44009",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "dd8c0f8ea24b2e62e196c1b387bdd9e4dc58558b5bcae8345635a208f9366bf5": {
+      "bytes": 124781,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1741738%2C44.8147277%2C-93.1727738%2C44.8155277&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:35.779819+00:00",
+      "etag": "\"43ae3a0c\"",
+      "sha256": "f79ab0fa236a0606ecfd932c06a499615f45cda6e17fb4548f5ed379c75f349a",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44059",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "dd91b2f33e83dfd1760575479c87b03878d73ef7837a2fc5f22546bd4fe5d480": {
+      "bytes": 122622,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1725391%2C44.8151831%2C-93.1711391%2C44.8159831&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:19.398210+00:00",
+      "etag": "\"587e3695\"",
+      "sha256": "4b8f94e8489a38ffee1e5ddd0d7b1cd40ae088742c0a24a9f020ba86e77c7b41",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44031",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "e35c4764f02fefd334da39ed844504f73c3df0b022c68febd5d312101602a6ba": {
+      "bytes": 131449,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1697062%2C44.816365%2C-93.1683062%2C44.817165&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:24.327542+00:00",
+      "etag": "\"4562c269\"",
+      "sha256": "78a3ba6bc887cb5f8d4b429a38d4ad116987700e9d3089bef8d18318c0bfe4e4",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44039",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "e5b2a19fe9cea1b3554ba4c15248789422c199041bcf72b1474dffe44a76483e": {
+      "bytes": 129864,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1691044%2C44.8153635%2C-93.1677044%2C44.8161635&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:05.966861+00:00",
+      "etag": "\"d2c4c12d\"",
+      "sha256": "57616361c96cadbb023a87022c7588d646819b412b1d8813fd45e0c5eaa59414",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44008",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "e9fa44394f017bc95217a531739dc7cff866369eb36e5c76a251007bd4dc7c0a": {
+      "bytes": 126347,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704811%2C44.8176307%2C-93.1690811%2C44.8184307&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:26.597454+00:00",
+      "etag": "\"3dcfb4e3\"",
+      "sha256": "3653b43f70a096717a2e117345044379057d9e31282373945aebf95432ccb8c5",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44043",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "edeb07a10f7a13b5ecdd6b300223f141322422e6ae9dc20af8b516bb10e85f77": {
+      "bytes": 133007,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1708807%2C44.8161914%2C-93.1694807%2C44.8169914&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:13.180447+00:00",
+      "etag": "\"eab30340\"",
+      "sha256": "925128455eee11a0675b14903f4c37e4a6de304ca638fb1e690f84c259ca5f4b",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44020",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "f3646f5e1b4baae4e695a06684c2975eebc1a46770dbd93d06ca63e67cd9029f": {
+      "bytes": 126119,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704089%2C44.8162148%2C-93.1690089%2C44.8170148&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:13.740492+00:00",
+      "etag": "\"72321d65\"",
+      "sha256": "ec13a9fb5e39308dbf415384370fed0774bdf3889eb8d93dadcd4fc770f93cfa",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44021",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    },
+    "ff4da8ac8af5c8c00715f15540a7f598fa33b30b6d03c2e3e4dd3c09ad1c4945": {
+      "bytes": 118384,
+      "canonical_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683416%2C44.8162813%2C-93.1669416%2C44.8170813&bboxSR=4326&f=image&format=jpg&imageSR=4326&size=900%2C700",
+      "checked_at": "2026-10-17T02:35:01.509229+00:00",
+      "etag": "\"84407d05\"",
+      "sha256": "0d29a0394d9b655bfff78da82941a1f1e51e7b96577d2a6b3c21beb54e1063e9",
+      "source_key": "dakota-aerial-2025-leaf-off",
+      "source_record_id": "44002",
+      "status": "ACQUIRED",
+      "territories": [
+        "kings-wood-001"
+      ]
+    }
+  },
+  "territories": {
+    "burnsville-expansion": {
+      "jurisdiction": "burnsville",
+      "name": "Burnsville Expansion",
+      "parent": "dakota-county"
+    },
+    "dakota-county": {
+      "jurisdiction": "dakota_county",
+      "name": "Dakota County",
+      "parent": null
+    },
+    "kings-wood-001": {
+      "jurisdiction": "eagan",
+      "name": "Kings Wood \u00b7 Eagan",
+      "parent": "dakota-county"
+    }
+  }
+}
