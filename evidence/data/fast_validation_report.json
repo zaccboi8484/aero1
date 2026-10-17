@@ -1,9 +1,9 @@
 {
-  "run_utc": "2026-10-17T17:40:00.502857+00:00",
+  "run_utc": "2026-10-17T18:00:54.812448+00:00",
   "interval_target_minutes": 15,
   "total_indexed": 417,
   "batch_attempted": 8,
-  "next_cursor": 184,
+  "next_cursor": 192,
   "records": [
     {
       "parcel_objectid": "34727",
@@ -118,6 +118,34 @@
       "regional_record_ids": []
     },
     {
+      "parcel_objectid": "34851",
+      "county_pin": "100220050014",
+      "address": "1330 Deerwood Drive, Eagan, MN",
+      "last_checked_utc": "2026-10-17T18:00:54.812448+00:00",
+      "parcel_validation": "OFFICIAL_PIN_CONFIRMED",
+      "municipal_permits": "NOT_QUERIED",
+      "regional_permits": "NO_MATCH_IN_REGIONAL_SOURCE",
+      "imagery": "NO_BOUNDING_BOX_YET",
+      "parcel_source_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=COUNTY_PIN%3D%27100220050014%27&outFields=OBJECTID%2CCOUNTY_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME&returnGeometry=false&resultRecordCount=6",
+      "regional_permit_count": 0,
+      "regional_source_url": "https://arcgis.metc.state.mn.us/server/rest/services/EnterpriseLibrary/DTATResidentialPermits/FeatureServer/0/query?f=json&where=UPPER%28CTU_NAME%29%3D%27EAGAN%27+AND+UPPER%28ADDRESS%29+LIKE+%27%251330%25%27+AND+UPPER%28ADDRESS%29+LIKE+%27%25Deerwood%25%27&outFields=OBJECTID%2CADDRESS%2CYEAR%2CRES_PERMIT_TYPE%2CPERMIT_VALUE&returnGeometry=false&resultRecordCount=120",
+      "regional_record_ids": []
+    },
+    {
+      "parcel_objectid": "35653",
+      "county_pin": "101417501090",
+      "address": "1309 Windcrest Avenue, Eagan, MN",
+      "last_checked_utc": "2026-10-17T18:00:54.812448+00:00",
+      "parcel_validation": "OFFICIAL_PIN_CONFIRMED",
+      "municipal_permits": "NOT_QUERIED",
+      "regional_permits": "NO_MATCH_IN_REGIONAL_SOURCE",
+      "imagery": "NO_BOUNDING_BOX_YET",
+      "parcel_source_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=COUNTY_PIN%3D%27101417501090%27&outFields=OBJECTID%2CCOUNTY_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME&returnGeometry=false&resultRecordCount=6",
+      "regional_permit_count": 0,
+      "regional_source_url": "https://arcgis.metc.state.mn.us/server/rest/services/EnterpriseLibrary/DTATResidentialPermits/FeatureServer/0/query?f=json&where=UPPER%28CTU_NAME%29%3D%27EAGAN%27+AND+UPPER%28ADDRESS%29+LIKE+%27%251309%25%27+AND+UPPER%28ADDRESS%29+LIKE+%27%25Windcrest%25%27&outFields=OBJECTID%2CADDRESS%2CYEAR%2CRES_PERMIT_TYPE%2CPERMIT_VALUE&returnGeometry=false&resultRecordCount=120",
+      "regional_record_ids": []
+    },
+    {
       "parcel_objectid": "35654",
       "county_pin": "101417501100",
       "address": "1315 Windcrest Avenue, Eagan, MN",
@@ -216,6 +244,34 @@
       "regional_record_ids": []
     },
     {
+      "parcel_objectid": "35717",
+      "county_pin": "101417506170",
+      "address": "1309 Deerwood Drive, Eagan, MN",
+      "last_checked_utc": "2026-10-17T18:00:54.812448+00:00",
+      "parcel_validation": "OFFICIAL_PIN_CONFIRMED",
+      "municipal_permits": "NOT_QUERIED",
+      "regional_permits": "NO_MATCH_IN_REGIONAL_SOURCE",
+      "imagery": "NO_BOUNDING_BOX_YET",
+      "parcel_source_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=COUNTY_PIN%3D%27101417506170%27&outFields=OBJECTID%2CCOUNTY_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME&returnGeometry=false&resultRecordCount=6",
+      "regional_permit_count": 0,
+      "regional_source_url": "https://arcgis.metc.state.mn.us/server/rest/services/EnterpriseLibrary/DTATResidentialPermits/FeatureServer/0/query?f=json&where=UPPER%28CTU_NAME%29%3D%27EAGAN%27+AND+UPPER%28ADDRESS%29+LIKE+%27%251309%25%27+AND+UPPER%28ADDRESS%29+LIKE+%27%25Deerwood%25%27&outFields=OBJECTID%2CADDRESS%2CYEAR%2CRES_PERMIT_TYPE%2CPERMIT_VALUE&returnGeometry=false&resultRecordCount=120",
+      "regional_record_ids": []
+    },
+    {
+      "parcel_objectid": "35940",
+      "county_pin": "101435201120",
+      "address": "1600 Blackhawk Lake Drive, Eagan, MN",
+      "last_checked_utc": "2026-10-17T18:00:54.812448+00:00",
+      "parcel_validation": "OFFICIAL_PIN_CONFIRMED",
+      "municipal_permits": "NOT_QUERIED",
+      "regional_permits": "NO_MATCH_IN_REGIONAL_SOURCE",
+      "imagery": "NO_BOUNDING_BOX_YET",
+      "parcel_source_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=COUNTY_PIN%3D%27101435201120%27&outFields=OBJECTID%2CCOUNTY_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME&returnGeometry=false&resultRecordCount=6",
+      "regional_permit_count": 0,
+      "regional_source_url": "https://arcgis.metc.state.mn.us/server/rest/services/EnterpriseLibrary/DTATResidentialPermits/FeatureServer/0/query?f=json&where=UPPER%28CTU_NAME%29%3D%27EAGAN%27+AND+UPPER%28ADDRESS%29+LIKE+%27%251600%25%27+AND+UPPER%28ADDRESS%29+LIKE+%27%25Blackhawk%25%27&outFields=OBJECTID%2CADDRESS%2CYEAR%2CRES_PERMIT_TYPE%2CPERMIT_VALUE&returnGeometry=false&resultRecordCount=120",
+      "regional_record_ids": []
+    },
+    {
       "parcel_objectid": "35941",
       "county_pin": "101435201130",
       "address": "1596 Blackhawk Lake Drive, Eagan, MN",
@@ -283,6 +339,20 @@
       "parcel_source_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=COUNTY_PIN%3D%27101435201170%27&outFields=OBJECTID%2CCOUNTY_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME&returnGeometry=false&resultRecordCount=6",
       "regional_permit_count": 0,
       "regional_source_url": "https://arcgis.metc.state.mn.us/server/rest/services/EnterpriseLibrary/DTATResidentialPermits/FeatureServer/0/query?f=json&where=UPPER%28CTU_NAME%29%3D%27EAGAN%27+AND+UPPER%28ADDRESS%29+LIKE+%27%251580%25%27+AND+UPPER%28ADDRESS%29+LIKE+%27%25Blackhawk%25%27&outFields=OBJECTID%2CADDRESS%2CYEAR%2CRES_PERMIT_TYPE%2CPERMIT_VALUE&returnGeometry=false&resultRecordCount=120",
+      "regional_record_ids": []
+    },
+    {
+      "parcel_objectid": "35953",
+      "county_pin": "101435202080",
+      "address": "1599 Blackhawk Lake Drive, Eagan, MN",
+      "last_checked_utc": "2026-10-17T18:00:54.812448+00:00",
+      "parcel_validation": "OFFICIAL_PIN_CONFIRMED",
+      "municipal_permits": "NOT_QUERIED",
+      "regional_permits": "NO_MATCH_IN_REGIONAL_SOURCE",
+      "imagery": "NO_BOUNDING_BOX_YET",
+      "parcel_source_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=COUNTY_PIN%3D%27101435202080%27&outFields=OBJECTID%2CCOUNTY_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME&returnGeometry=false&resultRecordCount=6",
+      "regional_permit_count": 0,
+      "regional_source_url": "https://arcgis.metc.state.mn.us/server/rest/services/EnterpriseLibrary/DTATResidentialPermits/FeatureServer/0/query?f=json&where=UPPER%28CTU_NAME%29%3D%27EAGAN%27+AND+UPPER%28ADDRESS%29+LIKE+%27%251599%25%27+AND+UPPER%28ADDRESS%29+LIKE+%27%25Blackhawk%25%27&outFields=OBJECTID%2CADDRESS%2CYEAR%2CRES_PERMIT_TYPE%2CPERMIT_VALUE&returnGeometry=false&resultRecordCount=120",
       "regional_record_ids": []
     },
     {
@@ -776,6 +846,34 @@
       "regional_record_ids": []
     },
     {
+      "parcel_objectid": "36062",
+      "county_pin": "101439501290",
+      "address": "1614 Murphy Parkway, Eagan, MN",
+      "last_checked_utc": "2026-10-17T18:00:54.812448+00:00",
+      "parcel_validation": "OFFICIAL_PIN_CONFIRMED",
+      "municipal_permits": "NOT_QUERIED",
+      "regional_permits": "NO_MATCH_IN_REGIONAL_SOURCE",
+      "imagery": "NO_BOUNDING_BOX_YET",
+      "parcel_source_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=COUNTY_PIN%3D%27101439501290%27&outFields=OBJECTID%2CCOUNTY_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME&returnGeometry=false&resultRecordCount=6",
+      "regional_permit_count": 0,
+      "regional_source_url": "https://arcgis.metc.state.mn.us/server/rest/services/EnterpriseLibrary/DTATResidentialPermits/FeatureServer/0/query?f=json&where=UPPER%28CTU_NAME%29%3D%27EAGAN%27+AND+UPPER%28ADDRESS%29+LIKE+%27%251614%25%27+AND+UPPER%28ADDRESS%29+LIKE+%27%25Murphy%25%27&outFields=OBJECTID%2CADDRESS%2CYEAR%2CRES_PERMIT_TYPE%2CPERMIT_VALUE&returnGeometry=false&resultRecordCount=120",
+      "regional_record_ids": []
+    },
+    {
+      "parcel_objectid": "36069",
+      "county_pin": "101439502010",
+      "address": "1601 Murphy Parkway, Eagan, MN",
+      "last_checked_utc": "2026-10-17T18:00:54.812448+00:00",
+      "parcel_validation": "OFFICIAL_PIN_CONFIRMED",
+      "municipal_permits": "NOT_QUERIED",
+      "regional_permits": "NO_MATCH_IN_REGIONAL_SOURCE",
+      "imagery": "NO_BOUNDING_BOX_YET",
+      "parcel_source_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=COUNTY_PIN%3D%27101439502010%27&outFields=OBJECTID%2CCOUNTY_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME&returnGeometry=false&resultRecordCount=6",
+      "regional_permit_count": 0,
+      "regional_source_url": "https://arcgis.metc.state.mn.us/server/rest/services/EnterpriseLibrary/DTATResidentialPermits/FeatureServer/0/query?f=json&where=UPPER%28CTU_NAME%29%3D%27EAGAN%27+AND+UPPER%28ADDRESS%29+LIKE+%27%251601%25%27+AND+UPPER%28ADDRESS%29+LIKE+%27%25Murphy%25%27&outFields=OBJECTID%2CADDRESS%2CYEAR%2CRES_PERMIT_TYPE%2CPERMIT_VALUE&returnGeometry=false&resultRecordCount=120",
+      "regional_record_ids": []
+    },
+    {
       "parcel_objectid": "36081",
       "county_pin": "101440001010",
       "address": "1450 Blackhawk Lake Drive, Eagan, MN",
@@ -1109,6 +1207,20 @@
       "parcel_source_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=COUNTY_PIN%3D%27101440002150%27&outFields=OBJECTID%2CCOUNTY_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME&returnGeometry=false&resultRecordCount=6",
       "regional_permit_count": 0,
       "regional_source_url": "https://arcgis.metc.state.mn.us/server/rest/services/EnterpriseLibrary/DTATResidentialPermits/FeatureServer/0/query?f=json&where=UPPER%28CTU_NAME%29%3D%27EAGAN%27+AND+UPPER%28ADDRESS%29+LIKE+%27%251451%25%27+AND+UPPER%28ADDRESS%29+LIKE+%27%25Blackhawk%25%27&outFields=OBJECTID%2CADDRESS%2CYEAR%2CRES_PERMIT_TYPE%2CPERMIT_VALUE&returnGeometry=false&resultRecordCount=120",
+      "regional_record_ids": []
+    },
+    {
+      "parcel_objectid": "36105",
+      "county_pin": "101440002160",
+      "address": "3700 Blackhawk Lake Court, Eagan, MN",
+      "last_checked_utc": "2026-10-17T18:00:54.812448+00:00",
+      "parcel_validation": "OFFICIAL_PIN_CONFIRMED",
+      "municipal_permits": "NOT_QUERIED",
+      "regional_permits": "NO_MATCH_IN_REGIONAL_SOURCE",
+      "imagery": "NO_BOUNDING_BOX_YET",
+      "parcel_source_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=COUNTY_PIN%3D%27101440002160%27&outFields=OBJECTID%2CCOUNTY_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME&returnGeometry=false&resultRecordCount=6",
+      "regional_permit_count": 0,
+      "regional_source_url": "https://arcgis.metc.state.mn.us/server/rest/services/EnterpriseLibrary/DTATResidentialPermits/FeatureServer/0/query?f=json&where=UPPER%28CTU_NAME%29%3D%27EAGAN%27+AND+UPPER%28ADDRESS%29+LIKE+%27%253700%25%27+AND+UPPER%28ADDRESS%29+LIKE+%27%25Blackhawk%25%27&outFields=OBJECTID%2CADDRESS%2CYEAR%2CRES_PERMIT_TYPE%2CPERMIT_VALUE&returnGeometry=false&resultRecordCount=120",
       "regional_record_ids": []
     },
     {
@@ -2761,7 +2873,7 @@
   "municipal_permit_source": {
     "status": "PUBLIC_SOURCE_UNAVAILABLE",
     "source_url": "https://eagan.onlama.com/Dashboard.aspx",
-    "checked_utc": "2026-10-17T17:40:00.502857+00:00",
+    "checked_utc": "2026-10-17T18:00:54.812448+00:00",
     "error": "HTTP Error 403: Forbidden",
     "note": "Do not bypass access restrictions"
   },
