@@ -1,0 +1,965 @@
+{
+  "generated_at_utc": "2026-10-17T03:18:26.525888+00:00",
+  "audit": [
+    {
+      "parcel_objectid": "44001",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "a5f8501ab519bef3ba44cda16937088635c8b70cfcb88592fb087b7514c593cb"
+    },
+    {
+      "parcel_objectid": "44002",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "66d845f1ca26358e50031df1875a15c382579b6f31065cbee03a5ad316c7b8a8"
+    },
+    {
+      "parcel_objectid": "44003",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "a58cf6af3faf1724a49eea0c62811a1f1e0e4b8c10d2f6f424962080581c8777"
+    },
+    {
+      "parcel_objectid": "44004",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "f91ad221142f1e0faf21d42bc77e0393b17e1443fee1d6c6b84ab7de98710d6e"
+    },
+    {
+      "parcel_objectid": "44005",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "17b817a13e0b960e1b894b384044271ee59c80cec5e98318c13010bd856a64dd"
+    },
+    {
+      "parcel_objectid": "44006",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "1294fe1a129d8b1af49c1e33ef016d89e6915bd514478f3b8b19364291743fb5"
+    },
+    {
+      "parcel_objectid": "44007",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "0101e959e3a25cd8bd33fdf25d162f54101396169861b3898f1f82d6505044f3"
+    },
+    {
+      "parcel_objectid": "44008",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "7132752703c74d42fdb56f02098c9afa2a297dbcb98615d18d3267309af42446"
+    },
+    {
+      "parcel_objectid": "44009",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "1064dcd2ae36b73c0ef77ad3f11340f8dfc2bef1f58cb0eda72be9abb1d7ab8f"
+    },
+    {
+      "parcel_objectid": "44010",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "15b4648f016a810d8e8b58e752ba7141f99022b248bf106ae8167e4d322ded3a"
+    },
+    {
+      "parcel_objectid": "44011",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "b8d4e4fe66319fbb2a4c752dccca0daad0932f8dda7a307fd0ff112696ac756d"
+    },
+    {
+      "parcel_objectid": "44012",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "09f3383337e20624f6ad8dd143cdd3eb304a97d287432ba035526ee8b6e9d8b0"
+    },
+    {
+      "parcel_objectid": "44013",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "da0e893ee7d3413fbc32c3bab3501046d0d49576d0a612acc86ce194c3aca662"
+    },
+    {
+      "parcel_objectid": "44014",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "398c8ee0b1974ed56d64f8a051cab3088e23ba0855e8e28d376b47e01d2457b0"
+    },
+    {
+      "parcel_objectid": "44015",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "9498261277f0f1c313ceacc48e65c13eaa3a091aaab879434a2ce3f6a40b5241"
+    },
+    {
+      "parcel_objectid": "44016",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "e95222bc12782e8b3fed036df153c57511b10dbc9be645c05ae298e3bbfb90dc"
+    },
+    {
+      "parcel_objectid": "44017",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "39373de733c9462bea18e98bea306a3d91f1e09ce92c02083ff10c3342afcee8"
+    },
+    {
+      "parcel_objectid": "44018",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "26660f6b0667f6d9698adcf5beaf85456565674198db4f8e765e8d3cf0af298f"
+    },
+    {
+      "parcel_objectid": "44019",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "fa7a0c7500a58e8f39cb20e51084f2d68da5bbd1d149030dcc66d3898f7930ef"
+    },
+    {
+      "parcel_objectid": "44020",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "bf294cf918f51ea738aa44a146241dbc433433d78b6256152a63b4e2d872c9b9"
+    },
+    {
+      "parcel_objectid": "44021",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "c66d9015e29075aae087cb1d5d203911887631d44d66f45519ffded6efd3288b"
+    },
+    {
+      "parcel_objectid": "44022",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "0dc6147f54d9a437b3fdb4c9a7d5c33445855487dd9d1901e41da6d1c38563b9"
+    },
+    {
+      "parcel_objectid": "44023",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "89b2fbca74821bd178dcaf2fd45e70ec7e8961a71b945eb0a9fa1ffd64507979"
+    },
+    {
+      "parcel_objectid": "44024",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "c3aeffb90fb791ba23926b4ad2fcd53b2753dba41bb85e849f4dfd57f59a12a3"
+    },
+    {
+      "parcel_objectid": "44025",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "85796e99c6307af52d90d86bdfc350482a2bfe90dd7c31ad80828616915d89df"
+    },
+    {
+      "parcel_objectid": "44026",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "ef18fc12b15599230577de7b91acac8bf59b2cf1038770ed88a2390bd771b257"
+    },
+    {
+      "parcel_objectid": "44027",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "65c481febd78eebac6df3d3c6b7bacc1c2494d49b3a9def509a75fecdb5ba73a"
+    },
+    {
+      "parcel_objectid": "44028",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "e00f3622e59ac0c74cf7f35e880b464ab10d35fb8dd60aa2fd4808ff41c8a570"
+    },
+    {
+      "parcel_objectid": "44029",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "991d6dbea35b678b733dfd2bf19a30a69384631c55b3bf147ea73b7e6d35ba09"
+    },
+    {
+      "parcel_objectid": "44030",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "0ced4a83f18fdb6e861b178d59a0d2d21255a4bfd0589fcd8d2f111e851fa87b"
+    },
+    {
+      "parcel_objectid": "44031",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "0b441d7916a57ec1ba7d28c348ff9f95424d2ee9d203572ce8635272eae53fb7"
+    },
+    {
+      "parcel_objectid": "44032",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "d7f491bc1adde1370db21f015582b50f1375d2cb97c6d0d0b0772e7b08039e01"
+    },
+    {
+      "parcel_objectid": "44033",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "5ebae516c780e44a843c0ea7846ba7e7b80fbd7a36feecc51c104138e45cdf98"
+    },
+    {
+      "parcel_objectid": "44034",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "c1a25c1f260d41ae9eb0c9cabe7e33e3432020b2b9a899efca4bcbbe00c6641e"
+    },
+    {
+      "parcel_objectid": "44035",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "78e92b637de3d9d24f1caf9f2cf0100aca6ebafd3b09952ef277a79d3dc8d8ed"
+    },
+    {
+      "parcel_objectid": "44036",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "cc6c68bbb9b2b31b48a2021df13749394260d7abc814e2c0850118fff9a501ee"
+    },
+    {
+      "parcel_objectid": "44037",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "2006820be831bd5d3959947cf6ea1dbc36db404b5a39e086d4d5ac0a10c32c73"
+    },
+    {
+      "parcel_objectid": "44038",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "dc6852924fe32bf5cd046886c7b153fc26851276e72725f5e52565aa2b02f1f8"
+    },
+    {
+      "parcel_objectid": "44039",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "947ab1037b4913fa540f74acef077f8b76a7f20fe87676accb78c37d6a1f4bba"
+    },
+    {
+      "parcel_objectid": "44040",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "c1f3cdcf98d59341dcabae3144c52757b9a2b98d6a8b990faac22390568e3aa3"
+    },
+    {
+      "parcel_objectid": "44041",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "0e56359bbf03f45eae6a0fb5f7065f15f60bb9d6372c67bc6bad4a4ffac2c027"
+    },
+    {
+      "parcel_objectid": "44042",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "75f38fc23d18117de5b3c1ecd60faf90309c33db5442005a6e0dcc83fa3d07c1"
+    },
+    {
+      "parcel_objectid": "44043",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "2147e849a51691043a9e48b579e25784150609939f4784714d4629aad6a6ffc5"
+    },
+    {
+      "parcel_objectid": "44044",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "11fb570a1ab9a2bc4e190f97050de26db333c35b55603dac462d131f5bb48407"
+    },
+    {
+      "parcel_objectid": "44045",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "84d7c21e666e57ef844f73a3e8cffb74754286cb652af2682ba2458ca0b3ed59"
+    },
+    {
+      "parcel_objectid": "44046",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "17079942d38cb9ec650784f507af61bfdc9c05139f6ef54fffc2b583edca5409"
+    },
+    {
+      "parcel_objectid": "44047",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "70ac6463e13c44de5c02fa7423ce998eaf1afba9662bcc26188bb48b6ae7672e"
+    },
+    {
+      "parcel_objectid": "44048",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "86b75d0a1d645c98fa301223b3115ba857cdda234984827da33b897f432ea30f"
+    },
+    {
+      "parcel_objectid": "44049",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "42905a2f112a17e50cf22d268a2caf0701b93c82e4f021c031c0921c12aae918"
+    },
+    {
+      "parcel_objectid": "44050",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "4b442d1a6712fd8745c17fcfb37352b3b7fa1a0efdd6b24096de01f2c9e41af7"
+    },
+    {
+      "parcel_objectid": "44051",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "bb099fd9bb3eae98e8fc0f11f62a88045f2a4e7cf273d7b46cfe4af7fb806fff"
+    },
+    {
+      "parcel_objectid": "44052",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "fcc7eb137175e1fa758fce623ed102ca8467a9a6c9fbcb747143fc23e4d3a555"
+    },
+    {
+      "parcel_objectid": "44053",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "04b32b5853a2415d7f9e06ac77ff53f81214e2b39314a5fa2c92a644ad40ea17"
+    },
+    {
+      "parcel_objectid": "44054",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "e583771a99900d80ec361e4dffc0f130be33eecdfdfe8c779aaf287e1ba3aa52"
+    },
+    {
+      "parcel_objectid": "44055",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "e10832d2b9b0d8d7e0fa623e0e3e070587d4667caa3e7e970bcfd98e5174b1f0"
+    },
+    {
+      "parcel_objectid": "44056",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PENDING",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "SOURCE_RECORDED_PENDING_REVIEW",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "b6bf029bc1955836187e4bb68823e081ebffe0a69a18c52a571c291abdbcd9af"
+    },
+    {
+      "parcel_objectid": "44057",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "OFFICIAL_PLAT_NAME_CORROBORATED",
+      "valuation": "NOT_MATCHED",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "NOT_RETRIEVED",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "af26a2e5b5b707d8bc2669818f986ffd3fc52b509c0ee2c054a352bfbf4dafbf"
+    },
+    {
+      "parcel_objectid": "44058",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "OFFICIAL_PLAT_NAME_CORROBORATED",
+      "valuation": "NOT_MATCHED",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "NOT_RETRIEVED",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "af76269bc4cccd6c0b68ba5087d8b55014ed3809af436080f068810bc59fc1d4"
+    },
+    {
+      "parcel_objectid": "44059",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "OFFICIAL_PLAT_NAME_CORROBORATED",
+      "valuation": "NOT_MATCHED",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "NOT_RETRIEVED",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "aa6a6db0fd8f0a27cfe340a593136205cd9ab05c9e59873cf01b69ef2c34bc46"
+    },
+    {
+      "parcel_objectid": "44060",
+      "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision": "OFFICIAL_PLAT_NAME_CORROBORATED",
+      "valuation": "NOT_MATCHED",
+      "evidence": "NOT_COMPLETE",
+      "checks": {
+        "parcel": "SOURCE_RECORDED",
+        "subdivision": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+        "permit": "SOURCE_ACCESS_BLOCKED",
+        "imagery": "FETCH_FAILED",
+        "value": "NOT_RETRIEVED",
+        "gatekeeper": "AWAITING_EVIDENCE"
+      },
+      "sha256": "d7fcf76fabc74d6d56fa7882265b8fffb218b55e44a608a748537ac27f85581b"
+    }
+  ]
+}\n

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-17T03:15:06.727411+00:00",
+  "generated_at_utc": "2026-10-17T03:18:26.525888+00:00",
   "policy": "real evidence only; no inferred damage",
   "territory": "Kings Wood, Eagan",
   "properties": [
@@ -11,6 +11,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44001&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -22,7 +26,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -72,6 +76,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44002&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -83,7 +91,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -133,6 +141,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44003&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -144,7 +156,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -194,6 +206,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44004&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -205,7 +221,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -255,6 +271,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44005&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -266,7 +286,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -316,6 +336,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44006&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -327,7 +351,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -377,6 +401,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44007&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -388,7 +416,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -438,6 +466,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44008&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -449,7 +481,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -499,6 +531,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44009&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -510,7 +546,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -560,6 +596,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44010&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -571,7 +611,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -621,6 +661,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44011&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -632,7 +676,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -682,6 +726,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44012&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -693,7 +741,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -743,6 +791,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44013&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -754,7 +806,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -804,6 +856,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44014&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -815,7 +871,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -865,6 +921,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44015&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -876,7 +936,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -926,6 +986,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44016&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -937,7 +1001,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -987,6 +1051,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44017&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -998,7 +1066,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1048,6 +1116,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44018&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1059,7 +1131,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1109,6 +1181,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44019&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1120,7 +1196,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1170,6 +1246,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44020&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1181,7 +1261,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1231,6 +1311,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44021&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1242,7 +1326,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1292,6 +1376,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44022&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1303,7 +1391,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1353,6 +1441,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44023&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1364,7 +1456,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1414,6 +1506,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44024&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1425,7 +1521,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1475,6 +1571,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44025&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1486,7 +1586,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1536,6 +1636,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44026&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1547,7 +1651,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1597,6 +1701,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44027&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1608,7 +1716,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1658,6 +1766,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44028&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1669,7 +1781,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1719,6 +1831,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44029&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1730,7 +1846,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1780,6 +1896,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44030&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1791,7 +1911,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1841,6 +1961,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44031&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1852,7 +1976,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1902,6 +2026,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44032&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1913,7 +2041,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -1963,6 +2091,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44033&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -1974,7 +2106,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2024,6 +2156,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44034&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2035,7 +2171,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2085,6 +2221,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44035&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2096,7 +2236,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2146,6 +2286,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44036&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2157,7 +2301,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2207,6 +2351,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44037&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2218,7 +2366,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2268,6 +2416,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44038&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2279,7 +2431,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2329,6 +2481,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44039&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2340,7 +2496,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2390,6 +2546,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44040&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2401,7 +2561,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2451,6 +2611,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44041&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2462,7 +2626,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2512,6 +2676,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44042&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2523,7 +2691,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2573,6 +2741,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44043&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2584,7 +2756,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2634,6 +2806,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44044&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2645,7 +2821,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2695,6 +2871,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44045&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2706,7 +2886,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2756,6 +2936,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44046&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2767,7 +2951,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2817,6 +3001,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44047&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2828,7 +3016,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2878,6 +3066,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44048&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2889,7 +3081,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -2939,6 +3131,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44049&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -2950,7 +3146,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -3000,6 +3196,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44050&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -3011,7 +3211,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -3061,6 +3261,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44051&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -3072,7 +3276,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -3122,6 +3326,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44052&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -3133,7 +3341,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -3183,6 +3391,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44053&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -3194,7 +3406,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -3244,6 +3456,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44054&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -3255,7 +3471,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -3305,6 +3521,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44055&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -3316,7 +3536,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -3366,6 +3586,10 @@
       "plat_name": "Kings Wood 2nd Add",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44056&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
+      "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -3377,7 +3601,7 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "status": "PENDING",
           "detail": "City plat catalog checked; polygon membership not certified",
           "next_action": "Intersect parcel geometry with official plat geometry"
         },
@@ -3427,6 +3651,10 @@
       "plat_name": "Kings Wood 4th Addition",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44057&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "OFFICIAL_PLAT_NAME_CORROBORATED",
+      "valuation_status": "NOT_MATCHED",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -3488,6 +3716,10 @@
       "plat_name": "Kings Wood 4th Addition",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44058&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "OFFICIAL_PLAT_NAME_CORROBORATED",
+      "valuation_status": "NOT_MATCHED",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -3549,6 +3781,10 @@
       "plat_name": "Kings Wood 4th Addition",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44059&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "OFFICIAL_PLAT_NAME_CORROBORATED",
+      "valuation_status": "NOT_MATCHED",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -3610,6 +3846,10 @@
       "plat_name": "Kings Wood 4th Addition",
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44060&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
+      "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
+      "subdivision_status": "OFFICIAL_PLAT_NAME_CORROBORATED",
+      "valuation_status": "NOT_MATCHED",
+      "evidence_status": "NOT_COMPLETE",
       "checks": [
         {
           "search_id": "parcel",
@@ -3666,6 +3906,10 @@
   ],
   "totals": {
     "property_records": 60,
+    "gis_identities_confirmed": 60,
+    "plat_names_corroborated": 4,
+    "city_values_source_matched": 56,
+    "retry_tasks": 244,
     "completed": 0,
     "mindex_scored": 0,
     "checks": {
@@ -3673,7 +3917,8 @@
       "SOURCE_ACCESS_BLOCKED": 60,
       "FETCH_FAILED": 60,
       "MATCH_PENDING_REVIEW": 0,
-      "NOT_RETRIEVED": 4
+      "NOT_RETRIEVED": 4,
+      "SOURCE_RECORDED_PENDING_REVIEW": 56
     }
   },
   "progression": {
