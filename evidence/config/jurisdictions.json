@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-16",
+  "policy": "Only public, authorized records. No authentication bypass, no fabricated permits; jurisdiction determines permit authority.",
+  "jurisdictions": [
+    {
+      "id": "eagan",
+      "name": "City of Eagan",
+      "county": "Dakota",
+      "permit_authority": "City of Eagan",
+      "priority": 1,
+      "permit_search": "https://eagan.onlama.com/Search.aspx",
+      "public_reports": "https://eagan.onlama.com/Dashboard.aspx",
+      "municipal_info": "https://www.eaganmn.gov/licenses-permits",
+      "access": "Public search and reports; some record documents restricted",
+      "sources": [
+        "permit_report",
+        "public_address_search",
+        "official_record_request"
+      ]
+    },
+    {
+      "id": "burnsville",
+      "name": "City of Burnsville",
+      "county": "Dakota",
+      "permit_authority": "City of Burnsville",
+      "priority": 1,
+      "permit_info": "https://burnsvillemn.gov/2042/Permits-Licenses",
+      "commercial_reports": "https://burnsvillemn.gov/1549/Permit-Reports",
+      "inspection_contact": "permits@burnsvillemn.gov",
+      "access": "Public Portal Search feature; historical records via data request; commercial PDF report index",
+      "sources": [
+        "commercial_monthly_reports",
+        "public_portal_history",
+        "official_record_request"
+      ]
+    },
+    {
+      "id": "dakota_county",
+      "name": "Dakota County",
+      "county": "Dakota",
+      "permit_authority": "Cities/townships for building permits; Dakota County has additional shoreland/floodplain permits in designated township areas",
+      "priority": 2,
+      "parcel_gis": "https://gis.co.dakota.mn.us/PropertyInformation",
+      "land_use": "https://dakotacountymn.gov/businesses/licenses-permits/building-zoning-permits",
+      "access": "Parcel/plat reference and county-specific jurisdictional permit discovery only",
+      "sources": [
+        "parcels",
+        "plats",
+        "county_jurisdictional_records"
+      ]
+    }
+  ]
+}
