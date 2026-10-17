@@ -1,0 +1,41 @@
+name: Residential scorecard permit integration
+on:
+  pull_request:
+    paths:
+      - 'api/roofing-scorecards.js'
+      - 'api/auth.js'
+      - 'tests/scorecard_integration.test.mjs'
+      - 'evidence/data/kingswood_parcel_candidates.csv'
+      - 'evidence/data/municipal_permit_export_audit.json'
+      - 'evidence/data/roof_evidence_scores.json'
+      - 'evidence/data/live_property_enrichment.json'
+      - 'evidence/data/fast_validation_report.json'
+      - '.github/workflows/roofing-scorecard-integration.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'api/roofing-scorecards.js'
+      - 'api/auth.js'
+      - 'tests/scorecard_integration.test.mjs'
+      - 'evidence/data/kingswood_parcel_candidates.csv'
+      - 'evidence/data/municipal_permit_export_audit.json'
+      - 'evidence/data/roof_evidence_scores.json'
+      - 'evidence/data/live_property_enrichment.json'
+      - 'evidence/data/fast_validation_report.json'
+      - '.github/workflows/roofing-scorecard-integration.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  real-source-joins:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node --check api/roofing-scorecards.js
+      - run: node --test tests/scorecard_integration.test.mjs
