@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-17T08:50:42.223736+00:00",
+  "generated_at_utc": "2026-10-17T11:16:17.175698+00:00",
   "tasks": [
     {
       "parcel_objectid": "44001",
@@ -712,7 +712,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -734,7 +734,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -756,7 +756,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -778,7 +778,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -800,7 +800,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -822,7 +822,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -844,7 +844,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -866,7 +866,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -888,7 +888,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -910,7 +910,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -932,7 +932,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -954,7 +954,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -976,7 +976,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -998,7 +998,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1020,7 +1020,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1042,7 +1042,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1064,7 +1064,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1086,7 +1086,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1108,7 +1108,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1130,7 +1130,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1152,7 +1152,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1174,7 +1174,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1196,7 +1196,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1218,7 +1218,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1240,7 +1240,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1262,7 +1262,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1284,7 +1284,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1306,7 +1306,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1328,7 +1328,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1350,7 +1350,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1372,7 +1372,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1394,7 +1394,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1416,7 +1416,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1438,7 +1438,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1460,7 +1460,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1482,7 +1482,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1504,7 +1504,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1526,7 +1526,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1548,7 +1548,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1570,7 +1570,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1592,7 +1592,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1614,7 +1614,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1636,7 +1636,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1658,7 +1658,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1680,7 +1680,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1702,7 +1702,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1724,7 +1724,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1746,7 +1746,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1768,7 +1768,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1790,7 +1790,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1812,7 +1812,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1834,7 +1834,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1856,7 +1856,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1878,7 +1878,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1900,7 +1900,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1922,7 +1922,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1944,7 +1944,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1966,7 +1966,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -1988,7 +1988,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
@@ -2010,7 +2010,7 @@
       "search_type": "permit",
       "priority": 3,
       "previous_status": "SOURCE_ACCESS_BLOCKED",
-      "next_action": "Use authorized city export; reconcile permit number, address and source date",
+      "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown",
       "attempted": true,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },

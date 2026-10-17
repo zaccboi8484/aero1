@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-17T08:50:42.323530+00:00",
+  "checked_at_utc": "2026-10-17T11:16:17.260499+00:00",
   "pass": true,
   "records": 60,
   "cross_file_checks": [
@@ -8,7 +8,8 @@
     "valuation",
     "audit",
     "GIS_geometry",
-    "imagery"
+    "imagery",
+    "municipal_permit_export_if_present"
   ],
   "issues": [],
   "source_verified_property_condition_count": 0,

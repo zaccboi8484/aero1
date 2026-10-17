@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-17T08:50:42.223736+00:00",
+  "generated_at_utc": "2026-10-17T11:16:17.175698+00:00",
   "policy": "real evidence only; no inferred damage",
   "territory": "Kings Wood, Eagan",
   "properties": [
@@ -16,6 +16,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -43,10 +45,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -99,6 +101,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 1,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -126,10 +130,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -182,6 +186,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -209,10 +215,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -265,6 +271,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -292,10 +300,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -348,6 +356,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -375,10 +385,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -431,6 +441,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -458,10 +470,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -514,6 +526,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 3,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -541,10 +555,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -597,6 +611,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -624,10 +640,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -680,6 +696,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 2,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -707,10 +725,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -763,6 +781,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -790,10 +810,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -846,6 +866,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -873,10 +895,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -929,6 +951,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -956,10 +980,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -1012,6 +1036,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 1,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -1039,10 +1065,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -1095,6 +1121,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -1122,10 +1150,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -1178,6 +1206,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 1,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -1205,10 +1235,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -1261,6 +1291,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -1288,10 +1320,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -1344,6 +1376,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -1371,10 +1405,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -1427,6 +1461,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 1,
+      "explicit_2025_roof_permit_candidates": 1,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -1454,10 +1490,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -1510,6 +1546,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -1537,10 +1575,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -1593,6 +1631,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -1620,10 +1660,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -1676,6 +1716,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -1703,10 +1745,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -1759,6 +1801,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -1786,10 +1830,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -1842,6 +1886,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -1869,10 +1915,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -1925,6 +1971,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -1952,10 +2000,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -2008,6 +2056,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 2,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -2035,10 +2085,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -2091,6 +2141,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -2118,10 +2170,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -2174,6 +2226,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -2201,10 +2255,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -2257,6 +2311,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -2284,10 +2340,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -2340,6 +2396,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -2367,10 +2425,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -2423,6 +2481,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 1,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -2450,10 +2510,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -2506,6 +2566,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 1,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -2533,10 +2595,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -2589,6 +2651,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -2616,10 +2680,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -2672,6 +2736,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 1,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -2699,10 +2765,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -2755,6 +2821,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 1,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -2782,10 +2850,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -2838,6 +2906,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -2865,10 +2935,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -2921,6 +2991,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -2948,10 +3020,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -3004,6 +3076,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -3031,10 +3105,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -3087,6 +3161,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 1,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -3114,10 +3190,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -3170,6 +3246,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 1,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -3197,10 +3275,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -3253,6 +3331,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 3,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -3280,10 +3360,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -3336,6 +3416,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -3363,10 +3445,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -3419,6 +3501,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -3446,10 +3530,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -3502,6 +3586,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -3529,10 +3615,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -3585,6 +3671,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 1,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -3612,10 +3700,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -3668,6 +3756,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 2,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -3695,10 +3785,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -3751,6 +3841,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 1,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -3778,10 +3870,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -3834,6 +3926,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -3861,10 +3955,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -3917,6 +4011,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 1,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -3944,10 +4040,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -4000,6 +4096,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -4027,10 +4125,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -4083,6 +4181,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -4110,10 +4210,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -4166,6 +4266,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -4193,10 +4295,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -4249,6 +4351,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -4276,10 +4380,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -4332,6 +4436,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -4359,10 +4465,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -4415,6 +4521,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -4442,10 +4550,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -4498,6 +4606,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -4525,10 +4635,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -4581,6 +4691,8 @@
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -4608,10 +4720,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -4664,6 +4776,8 @@
       "valuation_status": "NOT_MATCHED",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -4691,10 +4805,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -4747,6 +4861,8 @@
       "valuation_status": "NOT_MATCHED",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -4774,10 +4890,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -4830,6 +4946,8 @@
       "valuation_status": "NOT_MATCHED",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -4857,10 +4975,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -4913,6 +5031,8 @@
       "valuation_status": "NOT_MATCHED",
       "evidence_status": "NOT_COMPLETE",
       "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "municipal_export_permit_count": 0,
+      "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
         "city_subdivision_point_intersection": true,
@@ -4940,10 +5060,10 @@
         },
         {
           "search_id": "permit",
-          "source": "Eagan public permit export",
+          "source": "Eagan municipal reports provided by project owner",
           "status": "SOURCE_ACCESS_BLOCKED",
-          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
-          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+          "detail": "Permit portal returned HTTP 403; no property-specific export",
+          "next_action": "Review matching permit ID in Eagan public portal or authorized permit document; no-match is unknown"
         },
         {
           "search_id": "regional_permit",
@@ -4991,6 +5111,9 @@
     "gis_center_point_in_kings_wood": 60,
     "city_values_source_matched": 56,
     "source_evidence_streams_total": 176,
+    "municipal_export_permit_matches": 25,
+    "municipal_export_properties_with_matches": 18,
+    "explicit_2025_roof_candidates": 1,
     "regional_residential_permit_matches_pending_review": 0,
     "retry_tasks": 304,
     "completed": 0,
@@ -5004,7 +5127,9 @@
       "SOURCE_RECORDED_PENDING_REVIEW": 56,
       "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT": 60,
       "REGIONAL_MATCH_PENDING_REVIEW": 0,
-      "REGIONAL_SOURCE_NO_MATCH": 60
+      "REGIONAL_SOURCE_NO_MATCH": 60,
+      "SOURCE_EXPORT_MATCH_PENDING_REVIEW": 0,
+      "SOURCE_EXPORT_NO_MATCH_IN_PROVIDED_REPORTS": 0
     }
   },
   "progression": {

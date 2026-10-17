@@ -1,10 +1,19 @@
 {
-  "generated_at_utc": "2026-10-17T08:50:42.679753+00:00",
+  "generated_at_utc": "2026-10-17T11:16:17.462974+00:00",
   "product": "AeroLeadAI",
   "assistant": "Embedded GateKeeper",
   "release_certified": false,
   "meaning": "Each gate requires source evidence. PASS of an internal test never certifies physical condition.",
   "pipeline_integrity_pass": true,
+  "municipal_export_review": {
+    "input_report_rows": 11700,
+    "matched_permit_events": 25,
+    "properties_with_matching_reports": 18,
+    "explicit_2025_roof_candidates": 1,
+    "documents_reviewed": 0,
+    "issuer_live_recheck": false,
+    "statement": "Owner-provided Eagan CSV reports: matches collected but physical roof/permit issue details require document review"
+  },
   "property_records": 60,
   "fully_reviewed_properties": 0,
   "pending_search_tasks": 304,
