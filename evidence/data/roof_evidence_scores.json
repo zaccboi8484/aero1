@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-17T09:26:39.127881+00:00",
+  "generated_at_utc": "2026-10-17T09:55:12.356789+00:00",
   "count": 60,
   "priority_scored": 60,
-  "verified_source_jpegs": 40,
+  "verified_source_jpegs": 48,
   "reviewed_roof_condition_scores": 0,
   "reference": {
     "issuer": "Insurance Institute for Business & Home Safety",
@@ -857,9 +857,8 @@
       "county_pin": "104200102100",
       "address": "1457 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -867,7 +866,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -879,16 +878,15 @@
       "county_pin": "104200102110",
       "address": "1461 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 75,
+        "data_review_priority": 45,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown"
         ],
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -900,9 +898,8 @@
       "county_pin": "104200102120",
       "address": "1465 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -910,7 +907,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -922,9 +919,8 @@
       "county_pin": "104200102130",
       "address": "1469 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -932,7 +928,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -944,9 +940,8 @@
       "county_pin": "104200102140",
       "address": "1473 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -954,7 +949,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -966,9 +961,8 @@
       "county_pin": "104200102150",
       "address": "3849 Kings Wood Court, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -976,7 +970,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -988,9 +982,8 @@
       "county_pin": "104200102160",
       "address": "3853 Kings Wood Court, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -998,7 +991,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1010,9 +1003,8 @@
       "county_pin": "104200102170",
       "address": "3857 Kings Wood Court, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -1020,7 +1012,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
