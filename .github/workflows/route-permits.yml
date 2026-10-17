@@ -1,0 +1,30 @@
+name: Build jurisdictional permit research queue
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'collector/route_permit_research.py'
+      - 'evidence/config/jurisdictions.json'
+      - '.github/workflows/route-permits.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Build research queue from real parcels
+        run: python collector/route_permit_research.py
+      - name: Commit evidence-research tasks
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence/data/eagan_permit_research_tasks.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Create jurisdiction-routed Eagan permit research queue"
+            git pull --rebase
+            git push
+          fi
