@@ -1,7 +1,8 @@
 {
-  "generated_at_utc": "2026-10-17T09:00:39.305413+00:00",
+  "generated_at_utc": "2026-10-17T09:01:33.021497+00:00",
   "count": 60,
   "priority_scored": 60,
+  "verified_source_jpegs": 24,
   "reviewed_roof_condition_scores": 0,
   "reference": {
     "issuer": "Insurance Institute for Business & Home Safety",
@@ -17,9 +18,8 @@
       "county_pin": "104200101010",
       "address": "1402 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -27,6 +27,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -38,9 +39,8 @@
       "county_pin": "104200101020",
       "address": "1410 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -48,6 +48,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -59,9 +60,8 @@
       "county_pin": "104200101030",
       "address": "1414 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -69,6 +69,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -80,9 +81,8 @@
       "county_pin": "104200101040",
       "address": "1418 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -90,6 +90,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -101,9 +102,8 @@
       "county_pin": "104200101050",
       "address": "1401 Rocky Lane, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -111,6 +111,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -122,9 +123,8 @@
       "county_pin": "104200101060",
       "address": "1405 Rocky Lane, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -132,6 +132,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -143,9 +144,8 @@
       "county_pin": "104200101070",
       "address": "1422 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -153,6 +153,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -164,9 +165,8 @@
       "county_pin": "104200101080",
       "address": "1426 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -174,6 +174,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -185,9 +186,8 @@
       "county_pin": "104200101090",
       "address": "1430 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -195,6 +195,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -206,9 +207,8 @@
       "county_pin": "104200101100",
       "address": "1434 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -216,6 +216,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -227,9 +228,8 @@
       "county_pin": "104200101110",
       "address": "1438 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -237,6 +237,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -248,9 +249,8 @@
       "county_pin": "104200101120",
       "address": "1444 Kings Wood Lane, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -258,6 +258,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -269,9 +270,8 @@
       "county_pin": "104200101130",
       "address": "1448 Kings Wood Lane, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -279,6 +279,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -290,9 +291,8 @@
       "county_pin": "104200101140",
       "address": "1452 Kings Wood Lane, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -300,6 +300,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -311,9 +312,8 @@
       "county_pin": "104200101150",
       "address": "1456 Kings Wood Lane, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -321,6 +321,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -332,9 +333,8 @@
       "county_pin": "104200101160",
       "address": "1460 Kings Wood Lane, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -342,6 +342,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -353,9 +354,8 @@
       "county_pin": "104200101170",
       "address": "1463 Kings Wood Lane, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -363,6 +363,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -374,9 +375,8 @@
       "county_pin": "104200101180",
       "address": "1459 Kings Wood Lane, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -384,6 +384,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -395,9 +396,8 @@
       "county_pin": "104200101190",
       "address": "1455 Kings Wood Lane, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -405,6 +405,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -416,9 +417,8 @@
       "county_pin": "104200101200",
       "address": "1451 Kings Wood Lane, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -426,6 +426,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -437,9 +438,8 @@
       "county_pin": "104200101210",
       "address": "1447 Kings Wood Lane, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -447,6 +447,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -458,9 +459,8 @@
       "county_pin": "104200101220",
       "address": "1454 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -468,6 +468,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -479,9 +480,8 @@
       "county_pin": "104200101230",
       "address": "1462 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -489,6 +489,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -500,9 +501,8 @@
       "county_pin": "104200101240",
       "address": "1470 Kings Wood Road, Eagan, MN",
       "review": {
-        "data_review_priority": 90,
+        "data_review_priority": 60,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "building_constructed_before_2000"
@@ -510,6 +510,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -531,6 +532,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -552,6 +554,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -573,6 +576,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -594,6 +598,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -615,6 +620,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -636,6 +642,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -657,6 +664,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -678,6 +686,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -698,6 +707,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -719,6 +729,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -740,6 +751,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -761,6 +773,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -782,6 +795,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -803,6 +817,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -824,6 +839,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -845,6 +861,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -866,6 +883,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -886,6 +904,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -907,6 +926,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -928,6 +948,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -949,6 +970,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -970,6 +992,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -991,6 +1014,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1012,6 +1036,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1033,6 +1058,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1054,6 +1080,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1075,6 +1102,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1096,6 +1124,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1117,6 +1146,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1138,6 +1168,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1159,6 +1190,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1180,6 +1212,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1202,6 +1235,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1224,6 +1258,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1246,6 +1281,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1267,6 +1303,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
+      "verified_government_aerial_jpeg": false,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
