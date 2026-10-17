@@ -1,0 +1,328 @@
+{
+  "generated_at_utc": "2026-10-17T11:08:00Z",
+  "scope": "Original 60 AeroLeadAI parcels",
+  "input_files": [
+    {
+      "file": "export.csv",
+      "rows": 6227,
+      "sha256": "9638f65bd725936b294b259df84c329086ba84bd7a55b13150b5249dfd1c3d3a"
+    },
+    {
+      "file": "export (1).csv",
+      "rows": 4228,
+      "sha256": "9f11745e1a889a9233f0713599e805f82648cc82bed2b2d8704d2e5b5ae7c6f4"
+    },
+    {
+      "file": "export (2).csv",
+      "rows": 623,
+      "sha256": "12b3bb709ddb9fb77b394a8a441f72852020058292a7aaf7945154b316bd5300"
+    },
+    {
+      "file": "export (3).csv",
+      "rows": 622,
+      "sha256": "2ccd208e7a1d372f217188e7b357905077e185ef56196d30feb3b95a756eb87b"
+    }
+  ],
+  "total_source_rows": 11700,
+  "matched_permit_events": 25,
+  "properties_with_matches": 18,
+  "properties_with_2025_roof_candidates": 1,
+  "permit_history_complete": false,
+  "issuer_independently_rechecked": false,
+  "source_portal": "https://eagan.onlama.com/Dashboard.aspx",
+  "records": [
+    {
+      "parcel_objectid": "44002",
+      "permit_number": "2502-00078-PL",
+      "issued_date": "2025-02-06",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44007",
+      "permit_number": "2608-00585-ME",
+      "issued_date": null,
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export (1).csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44007",
+      "permit_number": "2502-00218-PL",
+      "issued_date": "2025-02-13",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44007",
+      "permit_number": "2608-00586-ME",
+      "issued_date": "2026-08-27",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export (1).csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44009",
+      "permit_number": "2503-00197-BL",
+      "issued_date": "2025-03-17",
+      "permit_kind": "EXTERIOR_MAINTENANCE_UNSPECIFIED",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44009",
+      "permit_number": "2503-00334-BL",
+      "issued_date": "2025-03-26",
+      "permit_kind": "EXTERIOR_MAINTENANCE_UNSPECIFIED",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44013",
+      "permit_number": "2505-00514-PL",
+      "issued_date": "2025-05-22",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44015",
+      "permit_number": "2503-00131-BL",
+      "issued_date": "2025-03-19",
+      "permit_kind": "EXTERIOR_MAINTENANCE_UNSPECIFIED",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44018",
+      "permit_number": "2506-00458-BL",
+      "issued_date": "2025-06-20",
+      "permit_kind": "ROOF_CANDIDATE_PENDING_DOCUMENT_REVIEW",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44025",
+      "permit_number": "2502-00280-PL",
+      "issued_date": "2025-02-19",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44025",
+      "permit_number": "2504-00555-BL",
+      "issued_date": "2025-04-22",
+      "permit_kind": "EXTERIOR_MAINTENANCE_UNSPECIFIED",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44030",
+      "permit_number": "2507-00599-BL",
+      "issued_date": "2025-07-30",
+      "permit_kind": "EXTERIOR_MAINTENANCE_UNSPECIFIED",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44031",
+      "permit_number": "2507-00265-BL",
+      "issued_date": "2025-07-24",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44033",
+      "permit_number": "2610-00247-ME",
+      "issued_date": "2026-10-15",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export (1).csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44034",
+      "permit_number": "2504-00146-BL",
+      "issued_date": "2025-04-14",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44038",
+      "permit_number": "2507-00597-BL",
+      "issued_date": "2025-07-29",
+      "permit_kind": "EXTERIOR_MAINTENANCE_UNSPECIFIED",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44039",
+      "permit_number": "2609-00509-ME",
+      "issued_date": "2026-09-23",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export (1).csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44040",
+      "permit_number": "2505-00245-BL",
+      "issued_date": "2025-05-16",
+      "permit_kind": "EXTERIOR_MAINTENANCE_UNSPECIFIED",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44040",
+      "permit_number": "2609-00201-PL",
+      "issued_date": "2026-09-10",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export (1).csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44040",
+      "permit_number": "2609-00605-ME",
+      "issued_date": "2026-09-28",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export (1).csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44044",
+      "permit_number": "2502-00335-ME",
+      "issued_date": "2025-02-19",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44045",
+      "permit_number": "2505-00401-PL",
+      "issued_date": "2025-05-15",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44045",
+      "permit_number": "2510-00392-BL",
+      "issued_date": "2025-10-15",
+      "permit_kind": "EXTERIOR_MAINTENANCE_UNSPECIFIED",
+      "source_report": "export.csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44046",
+      "permit_number": "2411-00133-PL",
+      "issued_date": "2024-11-08",
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export (1).csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    },
+    {
+      "parcel_objectid": "44048",
+      "permit_number": "2406-00730-BL",
+      "issued_date": null,
+      "permit_kind": "OTHER_PERMIT_TYPE",
+      "source_report": "export (1).csv",
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+    }
+  ],
+  "properties": [
+    {
+      "parcel_objectid": "44002",
+      "matches": 1,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44007",
+      "matches": 3,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44009",
+      "matches": 2,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44013",
+      "matches": 1,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44015",
+      "matches": 1,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44018",
+      "matches": 1,
+      "roof_2025_candidates": 1
+    },
+    {
+      "parcel_objectid": "44025",
+      "matches": 2,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44030",
+      "matches": 1,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44031",
+      "matches": 1,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44033",
+      "matches": 1,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44034",
+      "matches": 1,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44038",
+      "matches": 1,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44039",
+      "matches": 1,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44040",
+      "matches": 3,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44044",
+      "matches": 1,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44045",
+      "matches": 2,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44046",
+      "matches": 1,
+      "roof_2025_candidates": 0
+    },
+    {
+      "parcel_objectid": "44048",
+      "matches": 1,
+      "roof_2025_candidates": 0
+    }
+  ],
+  "warning": "Matches from user-provided Eagan CSV exports. No-match is not no permit. Exterior maintenance is not proof of reroof. Explicit 2025 roofing candidate requires review before lowering outreach priority."
+}
