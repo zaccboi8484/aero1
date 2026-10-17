@@ -37,6 +37,21 @@ ge=matched_records(geo.get("records",[]),"city geometry")
 image={str(x.get("parcel_objectid") or ""):x for x in images.get("records",[])}
 check(len(image)==len(images.get("records",[])),"Duplicate imagery attempts")
 check(len(image)==len(ids),"Image attempt count differs from property count")
+# Independently cross-check project-owner Eagan report imports. No-name/no-contact public ledger.
+permit_path=DIR/"municipal_permit_export_audit.json"
+if permit_path.exists():
+ export=load("municipal_permit_export_audit.json")
+ export_rows=export.get("records",[])
+ keys=[(str(r.get("parcel_objectid")),str(r.get("permit_number"))) for r in export_rows]
+ check(len(keys)==len(set(keys)),"Duplicate permit number on the same parcel")
+ check(all(x[0] in set(ids) for x in keys),"Unknown parcel ID in Eagan report import")
+ check(export.get("matched_permit_events")==len(export_rows),"Municipal import event count mismatch")
+ check(export.get("properties_with_matches")==len({x[0] for x in keys}),"Municipal import property match count mismatch")
+ check(export.get("total_source_rows")==sum(s.get("rows",0) for s in export.get("input_files",[])),"Municipal source row total mismatch")
+ check(all(r.get("review_status")=="SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW" for r in export_rows),"Unreviewed imported permit promoted without human approval")
+ check(all("applicant" not in str(k).lower() and "contractor" not in str(k).lower() for r in export_rows for k in r),"Sensitive applicant or contractor column published")
+ check(export.get("properties_with_2025_roof_candidates")==sum(any(r.get("permit_kind")=="ROOF_CANDIDATE_PENDING_DOCUMENT_REVIEW" for r in export_rows if str(r.get("parcel_objectid"))==oid) for oid in set(x[0] for x in keys)),"Roof candidate source count mismatch")
+
 for row in rows:
  oid=str(row.get("parcel_objectid"));pin=str(row.get("county_pin"))
  p=pr.get(oid,{});c=cat.get(oid,{});v=vals.get(oid,{});a=au.get(oid,{});g=ge.get(oid,{})
@@ -64,7 +79,7 @@ for row in rows:
   check(bool(g.get("matched_plats")),f"{oid}: GIS spatial confirmation missing polygon record")
  check(str(row.get("source_record_url") or "").startswith("https://"),f"{oid}: missing original GIS source URL")
 result={"checked_at_utc":datetime.now(timezone.utc).isoformat(),"pass":not issues,
- "records":len(ids),"cross_file_checks":["parcel","category","valuation","audit","GIS_geometry","imagery"],
+ "records":len(ids),"cross_file_checks":["parcel","category","valuation","audit","GIS_geometry","imagery","municipal_permit_export_if_present"],
  "issues":issues[:100],"source_verified_property_condition_count":sum(p.get("gatekeeper")=="COMPLETE" for p in pr.values()),
  "warning":"Passing checks source joins and evidence gates, not 60 complete property investigations."}
 (DIR/"pipeline_integrity.json").write_text(json.dumps(result,indent=2)+"\n",encoding="utf-8")
