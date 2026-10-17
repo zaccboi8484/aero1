@@ -17,3 +17,4 @@ jobs:
         with:
           python-version: "3.12"
       - run: python tests/test_permit_matching.py
+      - run: python tests/test_gatekeeper_fetch.py
