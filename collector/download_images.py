@@ -4,6 +4,7 @@ Requires an existing source geometry manifest; verifies JPEG headers and sizes.
 GitHub Actions runs this collector, then commits images and validated inventory.
 """
 import concurrent.futures,datetime,hashlib,json,pathlib,time,urllib.request,urllib.parse
+from evidence_audit import load as audit_load, save as audit_save, record as audit_record
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 SOURCE=ROOT/"evidence/data/imagery_manifest.json"
 OUTPUT=ROOT/"evidence/images"
@@ -43,6 +44,16 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
     for result in pool.map(fetch,records):
         results.append(result)
         print(result["parcel_objectid"],result["status"],flush=True)
+ledger=audit_load()
+for result in results:
+    if not result.get("source_url"):continue
+    audit_record(ledger,source="dakota-aerial-2025-leaf-off",
+      source_id=str(result["parcel_objectid"]),url=result["source_url"],
+      territory="kings-wood-001",
+      status="ACQUIRED" if result["status"]=="DOWNLOADED" else "FAILED",
+      sha256=result.get("sha256"),size=result.get("bytes"),
+      error=result.get("reason"))
+audit_save(ledger)
 success=sum(r["status"]=="DOWNLOADED" for r in results)
 INDEX.write_text(json.dumps({"downloaded_at_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"requested":len(records),"downloaded":success,"failed":len(records)-success,"source_collection":"Dakota County 2025 Spring Leaf-Off ImageServer","note":"Only success-marked images are locally retained original remote JPEG bytes. Missing properties show no image. County attribution required; no property condition inferred.","records":results},indent=2)+"\n",encoding="utf-8")
 print("Downloaded",success,"of",len(records))
