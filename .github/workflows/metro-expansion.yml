@@ -1,5 +1,8 @@
 name: Metro territory discovery
 on:
+  push:
+    branches: [main]
+    paths: ['collector/metro_expansion.py','.github/workflows/metro-expansion.yml']
   workflow_dispatch:
   schedule:
     - cron: '18 11 * * 2'
