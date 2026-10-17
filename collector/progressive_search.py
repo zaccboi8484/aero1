@@ -68,8 +68,8 @@ for rec in results:
 tasks.sort(key=lambda x:(x["priority"],x["parcel_objectid"]))
 audit_rows=[{"parcel_objectid":r["parcel_objectid"],"identity":r["identity_status"],"subdivision":r["subdivision_status"],"valuation":r["valuation_status"],"evidence":r["evidence_status"],"checks":{v["search_id"]:v["status"] for v in r["checks"]}} for r in results]
 for row in audit_rows:row["sha256"]=hashlib.sha256(json.dumps(row,sort_keys=True).encode()).hexdigest()
-(DATA/"gatekeeper_property_audit.json").write_text(json.dumps({"generated_at_utc":NOW,"audit":audit_rows},indent=2)+"\\n")
-(DATA/"search_retry_queue.json").write_text(json.dumps({"generated_at_utc":NOW,"tasks":tasks,"count":len(tasks),"warning":"These are pending/blocked search tasks, not successfully executed crawls."},indent=2)+"\\n")
+(DATA/"gatekeeper_property_audit.json").write_text(json.dumps({"generated_at_utc":NOW,"audit":audit_rows},indent=2))
+(DATA/"search_retry_queue.json").write_text(json.dumps({"generated_at_utc":NOW,"tasks":tasks,"count":len(tasks),"warning":"These are pending/blocked search tasks, not successfully executed crawls."},indent=2))
 
 output={"generated_at_utc":NOW,"policy":"real evidence only; no inferred damage","territory":"Kings Wood, Eagan","properties":results,"totals":{"property_records":len(results),"gis_identities_confirmed":sum(r["identity_status"]=="OFFICIAL_GIS_SOURCE_CONFIRMED" for r in results),"plat_names_corroborated":sum(r["subdivision_status"]=="OFFICIAL_PLAT_NAME_CORROBORATED" for r in results),"city_values_source_matched":sum(r["valuation_status"]=="CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW" for r in results),"retry_tasks":len(tasks),"completed":sum(r["completion"]=="COMPLETE" for r in results),"mindex_scored":0,"checks":counts},"progression":{"phase":"SEED_EVIDENCE_COLLECTION","next_ring":"LOCKED_PENDING_TERRITORY_001_VALIDATION","order":["roofing","cracked_driveways","potentially_dangerous_trees","siding","gutters"],"ring_rule":"Buffer official territory boundary outward; never expand solely by street-name similarity; collect as leads but do not mark completed without evidence"}}
 DATA.mkdir(parents=True,exist_ok=True)
