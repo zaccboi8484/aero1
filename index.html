@@ -85,6 +85,29 @@ table{width:100%;border-collapse:collapse;text-align:left}th{background:#f8fafc;
 .voice-setup h2{margin:0 0 11px;color:#e8faff;font-size:20px}.voice-setup p{color:#b1cddb;font-size:13px;line-height:1.6}
 .voice-setup-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:19px}.voice-setup-actions button{border:1px solid #497084;border-radius:9px;background:#1e4357;color:white;padding:12px 16px;font-size:12px;font-weight:700}.voice-setup-actions .enable{background:#098b91;border-color:#098b91}
 .voice-setup-status{font-size:12px;color:#9bc4cf;margin-top:13px;min-height:17px}
+
+/* Cinematic Glass Console — visual-only theme; never claims 3D scan evidence. */
+body.glass-console{background:radial-gradient(ellipse at 75% 10%,#0b4254,#061321 64%);color:#dbeff8}
+body.glass-console .app{background:linear-gradient(130deg,#081727,#061726)}
+body.glass-console main{background:transparent}
+body.glass-console .topbar{background:rgba(12,32,48,.83);backdrop-filter:blur(20px);border-color:#285063;color:#dcebf2}
+body.glass-console .content{background:transparent}
+body.glass-console .panel,body.glass-console .stat,body.glass-console .property-card{background:rgba(18,45,65,.79);border-color:rgba(87,180,202,.28);box-shadow:0 12px 35px rgba(0,0,0,.22);backdrop-filter:blur(19px)}
+body.glass-console h1,body.glass-console h2,body.glass-console .panel h2,body.glass-console .property-card h3,body.glass-console .statval{color:#f0fbff}
+body.glass-console .statcap,body.glass-console .statnote,body.glass-console .subtitle,body.glass-console .mini,body.glass-console .meta{color:#a4c4d2}
+body.glass-console .score,body.glass-console .notice{background:rgba(11,37,52,.9);color:#c3dce8;border-color:#315c6b}
+body.glass-console .source strong,body.glass-console .score b{color:#dceff7}
+body.glass-console .btn,body.glass-console .field{background:#102c40;color:#e2f4fd;border-color:#306171}
+body.glass-console .source{border-color:#365468}
+body.glass-console .property-card a{color:#7fe2e4}
+body.glass-console .property-card .links a{background:#102c40;border-color:#306171}
+body.glass-console .property-card .permits{background:#3d321d;color:#ffdda8;border-color:#785f39}
+body.glass-console .property-card .permits a{color:#a8e5ff}
+body.glass-console .empty{background:#102b3e;border-color:#36586b;color:#e3f2f9}
+body.glass-console .empty h3{color:#f1fafc}
+body.glass-console .topbar .crumb strong{color:#e1f5fb}
+body.glass-console nav{background:#050e1a}
+.glass-mode-toggle{position:fixed;z-index:700;bottom:20px;right:20px;background:linear-gradient(135deg,#0c6378,#0a8b87);border:1px solid #84bdc8;color:#f5feff;border-radius:30px;padding:12px 18px;box-shadow:0 8px 28px #0005;font-size:12px;font-weight:750}
 </style></head>
 <body><div class="app"><nav aria-label="Primary">
 <div class="brand"><div class="brandmark">⌁</div><div>AeroLeadAI<small>PROPERTY INTELLIGENCE</small></div></div>
@@ -339,4 +362,6 @@ btn.textContent='Continue to AeroLeadAI';btn.disabled=false;btn.onclick=close;
 });
 try{if(localStorage.getItem(key)!=='prompted')show()}catch(e){show()}
 })();
+</script><button id="glassModeToggle" type="button" class="glass-mode-toggle" aria-pressed="false" title="Toggle cinematic glass-console styling; not a 3D reconstruction">✦ Glass Console</button><script>
+(()=>{'use strict';const key='aeroleadai_glass_console_v1',b=document.getElementById('glassModeToggle');function setMode(on){document.body.classList.toggle('glass-console',on);b.setAttribute('aria-pressed',String(on));b.textContent=on?'◈ Standard Console':'✦ Glass Console';try{localStorage.setItem(key,on?'on':'off')}catch(e){}}let saved=false;try{saved=localStorage.getItem(key)==='on'}catch(e){}setMode(saved);b.addEventListener('click',()=>setMode(!document.body.classList.contains('glass-console')))})();
 </script></body></html>
