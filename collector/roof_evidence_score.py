@@ -61,7 +61,7 @@ def inspect_observation(obs, trusted_hashes):
  sha=obs.get("image_sha256")
  if not re.fullmatch(r"[a-fA-F0-9]{64}",str(sha or "")):failures.append("IMAGE_SHA256_REQUIRED")
  if not permitted_source(obs):failures.append("SOURCE_RIGHTS_OR_DOMAIN_NOT_APPROVED")
- if obs.get("source_type")!="USER_UPLOADED" and sha not in trusted_hashes:
+ if sha not in trusted_hashes:
   failures.append("IMAGE_HASH_NOT_IN_COLLECTOR_LEDGER")
  if obs.get("source_type") not in ("USER_UPLOADED","MN_GOV","DAKOTA_COUNTY"):
   failures.append("SOURCE_TYPE_UNSUPPORTED")
@@ -71,6 +71,8 @@ def inspect_observation(obs, trusted_hashes):
   failures.append("DATED_REVIEWER_ATTESTATION_REQUIRED")
  if obs.get("view") not in ("CLOSE_RANGE","INSPECTION","AERIAL"):
   failures.append("IMAGE_VIEW_UNSPECIFIED")
+ if obs.get("source_type") in ("MN_GOV","DAKOTA_COUNTY") and obs.get("view")!="AERIAL":
+  failures.append("ORTHOPHOTO_CANNOT_BE_CLOSE_RANGE")
  indicators=obs.get("indicators",[])
  if not isinstance(indicators,list) or any(x not in INDICATORS for x in indicators):
   failures.append("UNRECOGNIZED_ROOF_INDICATOR")
@@ -125,6 +127,12 @@ def run():
   str(x.get("parcel_objectid")) for x in permits.get("records",[])
   if x.get("review_status")=="REVIEWED" and x.get("source_record_id")}
  vals=read("live_property_enrichment.json")
+ upload_manifest=read("trusted_uploaded_photo_ledger.json")
+ for_photo=upload_manifest.get("records",[])
+ for u in for_photo:
+  oid=str(u.get("parcel_objectid",""))
+  if u.get("file_sha256_verified") is True and re.fullmatch(r"[0-9a-fA-F]{64}",str(u.get("image_sha256") or "")):
+   trusted.setdefault(oid,set()).add(u["image_sha256"])
  assessed={str(x.get("parcel_objectid")) for x in vals.get("records",[])
            if x.get("valuation",{}).get("gatekeeper")=="SOURCE_RECORDED"}
  audit=read("progressive_search_status.json")
