@@ -14,6 +14,8 @@ def read(name):
 views={str(x.get("parcel_objectid")):x for x in read("imagery_manifest.json").get("records",[])}
 with (DATA/"kingswood_parcel_candidates.csv").open(encoding="utf-8-sig",newline="") as f:parcels=list(csv.DictReader(f))
 results=[]
+consecutive_errors=0
+started=time.monotonic()
 for i,p in enumerate(parcels):
  oid=str(p.get("parcel_objectid") or "")
  entry={"parcel_objectid":oid,"county_pin":p.get("county_pin"),"address":p.get("address"),
@@ -22,6 +24,10 @@ for i,p in enumerate(parcels):
  center=views.get(oid,{})
  lat=center.get("center_lat");lon=center.get("center_lon")
  try:
+  if consecutive_errors>=3 or time.monotonic()-started>140:
+   entry["status"]="DEFERRED_SOURCE_CIRCUIT_OPEN"
+   entry["error"]="Official GIS endpoint unavailable or query budget elapsed; location was not checked"
+   raise StopIteration
   if not isinstance(lat,(float,int)) or not isinstance(lon,(float,int)):raise ValueError("No official GIS-derived parcel center")
   params={"f":"json","geometry":json.dumps({"x":lon,"y":lat,"spatialReference":{"wkid":4326}}),
           "geometryType":"esriGeometryPoint","inSR":4326,"spatialRel":"esriSpatialRelIntersects",
@@ -29,7 +35,7 @@ for i,p in enumerate(parcels):
   url=URL+"?"+urllib.parse.urlencode(params)
   entry["source_url"]=url
   req=urllib.request.Request(url,headers={"User-Agent":"AeroLeadAI-EvidenceCollector/1.0","Accept":"application/json"})
-  with urllib.request.urlopen(req,timeout=18) as resp:body=json.load(resp)
+  with urllib.request.urlopen(req,timeout=9) as resp:body=json.load(resp)
   if "error" in body:raise RuntimeError(str(body["error"])[:160])
   features=body.get("features",[])
   names=[f.get("attributes",{}).get("PLATNAME") for f in features if f.get("attributes",{}).get("PLATNAME")]
@@ -37,7 +43,11 @@ for i,p in enumerate(parcels):
   entry["matched_plats"]=matches
   entry["all_polygon_matches"]=names[:15]
   entry["status"]="OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT" if matches else ("CENTER_IN_OTHER_PLAT" if names else "CENTER_NOT_IN_RETURNED_PLAT")
+  consecutive_errors=0
+ except StopIteration:
+  pass
  except Exception as e:
+  consecutive_errors+=1
   entry["status"]="SOURCE_ERROR"
   entry["error"]=str(e)[:220]
  entry["sha256"]=hashlib.sha256(json.dumps(entry,sort_keys=True).encode()).hexdigest()
