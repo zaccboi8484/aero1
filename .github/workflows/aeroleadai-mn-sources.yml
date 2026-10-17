@@ -1,0 +1,50 @@
+name: AeroLeadAI Minnesota public sources — address + aerial imagery
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 7 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: aero-mn-sources
+  cancel-in-progress: false
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate MnGeo and GateKeeper source rules
+        run: |
+          python -m compileall -q collector/collect_mngeo_aerial.py collector/validate_mn_addresses.py collector/gatekeeper_pulse.py
+          python -m unittest discover -s tests -p test_mn_sources.py -v
+      - name: Cross-check Minnesota Metro GIS address points and optional USPS OAuth
+        env:
+          USPS_CLIENT_ID: ${{ secrets.USPS_CLIENT_ID }}
+          USPS_CLIENT_SECRET: ${{ secrets.USPS_CLIENT_SECRET }}
+        run: |
+          if [ -n "$USPS_CLIENT_ID" ] && [ -n "$USPS_CLIENT_SECRET" ]; then
+            python collector/validate_mn_addresses.py --usps
+          else
+            python collector/validate_mn_addresses.py
+          fi
+      - name: Verify official Minnesota aerial photos WMS
+        run: python collector/collect_mngeo_aerial.py --limit 60
+      - name: GateKeeper data-health pulse and human upgrade decisions
+        if: always()
+        run: python collector/gatekeeper_pulse.py
+      - name: Commit successful records plus explicit source errors
+        if: always()
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for file in evidence/data/mn_address_validation.json evidence/data/mngeo_aerial_evidence.json evidence/data/gatekeeper_pulse.json evidence/data/human_upgrade_decisions.json; do
+            if [ -f "$file" ]; then git add -- "$file"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m 'Ingest official Minnesota aerial/address evidence and GateKeeper pulse'
+            git push
+          fi
