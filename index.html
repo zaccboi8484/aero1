@@ -128,7 +128,13 @@ table{width:100%;border-collapse:collapse;text-align:left}th{background:#f8fafc;
 <div class="gk-head"><div class="gk-brand"><span class="gk-emblem">⬡</span><div><b>LUCKYG <span style="color:#37c6be">GATEKEEPER</span></b><small>PROPERTY INTELLIGENCE ASSISTANT</small></div></div><span class="gk-status" id="gkStatus">EVIDENCE-ONLY MODE</span></div>
 <div id="gkMessages" class="gk-messages" role="log" aria-live="polite"><div class="gk-bubble">GateKeeper online. I can explain the parcel candidates, evidence policy, Street View links, permits, and Mindex scoring. Live AI answers require a secured provider connection.</div></div>
 <div class="gk-quick"><button type="button" data-gk="How many properties have we collected?">Property count</button><button type="button" data-gk="Which properties have verified permits?">Permit status</button><button type="button" data-gk="How is Mindex calculated?">Mindex scoring</button><button type="button" data-gk="What should I do next?">Next actions</button></div>
-<form id="gkForm" class="gk-input"><input id="gkQuestion" placeholder="Ask LuckyG about properties and evidence…" maxlength="2000" aria-label="Message LuckyG"><button id="gkSend" type="submit">Send ↑</button></form>
+<div class="gk-quick" style="border-top:1px solid #244255;padding-top:13px">
+<button type="button" id="gkAddKnowledge">＋ Add knowledge</button>
+<button type="button" id="gkImportMemory">↑ Import memory</button>
+<button type="button" id="gkExportMemory">↓ Export memory</button>
+<span id="gkMemoryCount" style="font-size:11px;color:#a2bdcb;align-self:center">Local memory</span></div>
+<input type="file" id="gkMemoryFile" accept=".json,application/json" hidden>
+<div id="gkKnowledgePanel" hidden style="padding:0 16px 16px"><input id="gkKnowledgeTitle" maxlength="160" placeholder="Knowledge title" style="width:100%;padding:10px;margin-bottom:7px;border-radius:7px;border:1px solid #48677b;background:#102639;color:white"><textarea id="gkKnowledgeText" maxlength="4000" rows="3" placeholder="Paste confirmed information or your project notes. Include dates and source references." style="width:100%;padding:10px;border-radius:7px;border:1px solid #48677b;background:#102639;color:white"></textarea><input id="gkKnowledgeSource" maxlength="240" placeholder="Source URL or 'Personal project note'" style="width:100%;padding:10px;margin:7px 0;border-radius:7px;border:1px solid #48677b;background:#102639;color:white"><button id="gkSaveKnowledge" type="button" style="background:#11878d;color:white;border:0;padding:10px 15px;border-radius:8px">Save to local memory</button></div><form id="gkForm" class="gk-input"><input id="gkQuestion" placeholder="Ask LuckyG about properties and evidence…" maxlength="2000" aria-label="Message LuckyG"><button id="gkSend" type="submit">Send ↑</button></form>
 <div class="gk-note" id="gkNotice">No client-side AI keys. Local evidence questions use the real imported register; provider responses require secure /api/gatekeeper configuration. No fabricated findings.</div>
 </section><div class="foot">AeroLeadAI · Kings Wood Territory 001. Data provenance and defensible classifications take precedence over visual impressions. Interface online does not imply crawler or database availability.</div></div></main></div>
 <script>
@@ -251,14 +257,14 @@ stage.addEventListener('pointermove',e=>{if(!pointer)return;ox=pointer.ox+e.clie
 for(const ev of ['pointerup','pointercancel','lostpointercapture'])stage.addEventListener(ev,()=>pointer=null);
 stage.addEventListener('keydown',e=>{if(e.key==='+'||e.key==='=')z=Math.min(300,z+10);else if(e.key==='-')z=Math.max(50,z-10);else if(e.key==='0')reset();render()});
 render();
-})();</script><script>
+})();</script><script src="/luckyg-core.js"></script><script>
 (()=>{'use strict';const $=id=>document.getElementById(id),messagePane=$('gkMessages'),form=$('gkForm'),input=$('gkQuestion');
 const EVOLUTION_INTERVAL=36*60*60*1000,STORE='luckyg_preferences_v1';let messages=[],busy=false;
 function stats(){let n=0;try{n=allRecords.length}catch(e){}return {count:n,ready:n>0,territory:$('territorySelect')?.selectedOptions?.[0]?.textContent||'Kings Wood'}}
 function tier(){let value={};try{value=JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){}const now=Date.now();if(now-Number(value.updated||0)>EVOLUTION_INTERVAL){value.updated=now;value.reviewCycles=(value.reviewCycles||0)+1;try{localStorage.setItem(STORE,JSON.stringify(value))}catch(e){}}return value}
 const pref=tier();$('gkNotice').textContent='Local preference review: '+(pref.reviewCycles||0)+' cycles, checked at most every 36 hours. This is not model retraining. AI provider credentials stay server-side.';
 function bubble(role,text){const b=document.createElement('div');b.className='gk-bubble'+(role==='user'?' user':'');b.textContent=text;messagePane.append(b);messagePane.scrollTop=messagePane.scrollHeight}
-function localAnswer(q){const s=stats(),text=q.toLowerCase();
+function localAnswer(q){if(window.LuckyGCore)return window.LuckyGCore.answer(q,{records:allRecords,permitReview,territory:document.getElementById('territorySelect')?.value});const s=stats(),text=q.toLowerCase();
 if(/(how many|property count|properties|parcels|collected)/.test(text))return s.ready?s.territory+': '+s.count+' county GIS parcel candidates in the current app register. They are UNVERIFIED, not inspected or scored.':'Parcel register is not loaded or unavailable. Official source export may still be accessible on GitHub.';
 if(/(permit|roof replacement|issued)/.test(text))return 'Permit search links are available on individual property cards. The current app has no verified completed permit review; an absent match is not proof that no permit exists. Check the City of Eagan official portal.';
 if(/(mindex|score|valuation|value)/.test(text))return 'Mindex opportunity score and property value belong together on the scorecard, but are different measures. Mindex must remain Not scored until source-backed evidence is reviewed; no placeholder property values or confidence scores.';
@@ -277,6 +283,16 @@ else{
  $('gkNotice').textContent='Last response '+Math.round(performance.now()-start)+'ms · Evidence confidence depends on original sources · 36-hour preference check does not train the model.';
 }catch(e){bubble('assistant','AI connection unavailable: '+String(e.message||e)+'. I can still answer evidence-status and Mindex questions locally.');$('gkStatus').textContent='LOCAL MODE · AI NOT CONNECTED'}
 finally{busy=false;$('gkSend').disabled=false;input.focus()}}
+const core=window.LuckyGCore;
+function updateMem(){if(core)$('gkMemoryCount').textContent=core.stats().saved+' saved notes · this browser only'}
+$('gkAddKnowledge').onclick=()=>{$('gkKnowledgePanel').hidden=!$('gkKnowledgePanel').hidden};
+$('gkSaveKnowledge').onclick=()=>{try{const n=core.remember($('gkKnowledgeTitle').value,$('gkKnowledgeText').value,$('gkKnowledgeSource').value);$('gkKnowledgePanel').hidden=true;$('gkKnowledgeTitle').value='';$('gkKnowledgeText').value='';$('gkKnowledgeSource').value='';bubble('assistant','Saved '+n+' project note(s) in this browser. This note is unverified until checked against an original source.');updateMem()}catch(e){bubble('assistant','Memory was not saved: '+e.message)}};
+$('gkExportMemory').onclick=()=>{if(!core)return;const blob=new Blob([core.exportMemory()],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='luckyg-memory-'+new Date().toISOString().slice(0,10)+'.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500)};
+$('gkImportMemory').onclick=()=>$('gkMemoryFile').click();
+$('gkMemoryFile').onchange=async e=>{const file=e.target.files?.[0];if(!file)return;try{if(file.size>2000000)throw Error('File exceeds 2 MB');const n=core.importMemory(await file.text());bubble('assistant','Imported '+n+' local memory entries. Imported facts are personal notes, not verified source evidence.');updateMem()}catch(err){bubble('assistant','Memory import failed: '+err.message)}finally{e.target.value=''}};
+updateMem();
+$('gkStatus').textContent='FREE · LOCAL KNOWLEDGE ENGINE';
+$('gkNotice').textContent='Free LuckyG core: source-aware retrieval + editable local memory. No paid AI connection required. Back up with Export memory; browser storage does not sync across devices.';
 form.addEventListener('submit',e=>{e.preventDefault();send()});document.querySelectorAll('[data-gk]').forEach(b=>b.addEventListener('click',()=>send(b.dataset.gk)));
 })();
 </script></body></html>
