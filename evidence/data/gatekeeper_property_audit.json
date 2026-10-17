@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-17T05:52:42.570610+00:00",
+  "generated_at_utc": "2026-10-17T05:56:39.504231+00:00",
   "audit": [
     {
       "parcel_objectid": "44001",
@@ -9,13 +9,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "a5f8501ab519bef3ba44cda16937088635c8b70cfcb88592fb087b7514c593cb"
+      "sha256": "5054ab1ea9d627a126be6b3229d30d2b8b78b3964e3a335d17364c545d53f528"
     },
     {
       "parcel_objectid": "44002",
@@ -25,13 +25,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "66d845f1ca26358e50031df1875a15c382579b6f31065cbee03a5ad316c7b8a8"
+      "sha256": "4b3dd3c838403e1e1c064d628639fd43645201aceb8301d035dbbb9692de4306"
     },
     {
       "parcel_objectid": "44003",
@@ -41,13 +41,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "a58cf6af3faf1724a49eea0c62811a1f1e0e4b8c10d2f6f424962080581c8777"
+      "sha256": "d28fbb2dbaa181cd85fdce536d7fa07bcec5921e83c7827b7b5704fad1687e2e"
     },
     {
       "parcel_objectid": "44004",
@@ -57,13 +57,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "f91ad221142f1e0faf21d42bc77e0393b17e1443fee1d6c6b84ab7de98710d6e"
+      "sha256": "f3d3fd20e840467fa120737c7969722994ce63254884da8fa6154e3931eb25c2"
     },
     {
       "parcel_objectid": "44005",
@@ -73,13 +73,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "17b817a13e0b960e1b894b384044271ee59c80cec5e98318c13010bd856a64dd"
+      "sha256": "9db7ebd7cd6a96f2ba5f9d8de009f318be662b993d7c5f397e7f10895cb3d6d5"
     },
     {
       "parcel_objectid": "44006",
@@ -89,13 +89,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "1294fe1a129d8b1af49c1e33ef016d89e6915bd514478f3b8b19364291743fb5"
+      "sha256": "85033b24f7875c4aa5111f485cccc9be707b1a8540b0e63a38c5f31f10e99888"
     },
     {
       "parcel_objectid": "44007",
@@ -105,13 +105,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "0101e959e3a25cd8bd33fdf25d162f54101396169861b3898f1f82d6505044f3"
+      "sha256": "5f046923e7f3ec18da402ae796a0b31b98ccfea68d0afadb94c6a15d48e5d609"
     },
     {
       "parcel_objectid": "44008",
@@ -121,13 +121,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "7132752703c74d42fdb56f02098c9afa2a297dbcb98615d18d3267309af42446"
+      "sha256": "ca5c44db08b6eeb52f7c5fc1574d0fdbf312465924c6e8fa221273144c84e7e7"
     },
     {
       "parcel_objectid": "44009",
@@ -137,13 +137,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "1064dcd2ae36b73c0ef77ad3f11340f8dfc2bef1f58cb0eda72be9abb1d7ab8f"
+      "sha256": "83c73d93136a8baaffa7417e82a971869f9fe80cc30d0717c9f83bb0d16bafc0"
     },
     {
       "parcel_objectid": "44010",
@@ -153,13 +153,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "15b4648f016a810d8e8b58e752ba7141f99022b248bf106ae8167e4d322ded3a"
+      "sha256": "e2915533f17dd97f656186b28496657281a0b819a92396f38cd449e8f8c33ebd"
     },
     {
       "parcel_objectid": "44011",
@@ -169,13 +169,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "b8d4e4fe66319fbb2a4c752dccca0daad0932f8dda7a307fd0ff112696ac756d"
+      "sha256": "52b6594253fb651b719d745d00924015b15cbdcf23366076ca1c1923d90d2c16"
     },
     {
       "parcel_objectid": "44012",
@@ -185,13 +185,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "09f3383337e20624f6ad8dd143cdd3eb304a97d287432ba035526ee8b6e9d8b0"
+      "sha256": "15ed2fd50f9093078902168055e8e30cf1243b13618c0df242e0df50eb0dc242"
     },
     {
       "parcel_objectid": "44013",
@@ -201,13 +201,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "da0e893ee7d3413fbc32c3bab3501046d0d49576d0a612acc86ce194c3aca662"
+      "sha256": "938988ac31136a3c1ab267c2b4a97261e8de0ee1d2a7b239a693c1ade9fcbc55"
     },
     {
       "parcel_objectid": "44014",
@@ -217,13 +217,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "398c8ee0b1974ed56d64f8a051cab3088e23ba0855e8e28d376b47e01d2457b0"
+      "sha256": "1fd7b85f32fba46be4f9aa9a878202ccd3c1d1742e9ddabfa9dc817a6d9d1cd5"
     },
     {
       "parcel_objectid": "44015",
@@ -233,13 +233,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "9498261277f0f1c313ceacc48e65c13eaa3a091aaab879434a2ce3f6a40b5241"
+      "sha256": "c1c7c6a9c26360c46c51dfc9ce6d4a92ef83628f82c98d5167bc63c99b15ae21"
     },
     {
       "parcel_objectid": "44016",
@@ -249,13 +249,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "e95222bc12782e8b3fed036df153c57511b10dbc9be645c05ae298e3bbfb90dc"
+      "sha256": "313c10acf60742f942d14103eeb3288487a3b5bba40ae45d3d20bafe2544448d"
     },
     {
       "parcel_objectid": "44017",
@@ -265,13 +265,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "39373de733c9462bea18e98bea306a3d91f1e09ce92c02083ff10c3342afcee8"
+      "sha256": "75c9378b0e4b16843f7d3110ee644691a43095a81e9b6013069d265ff876809c"
     },
     {
       "parcel_objectid": "44018",
@@ -281,13 +281,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "26660f6b0667f6d9698adcf5beaf85456565674198db4f8e765e8d3cf0af298f"
+      "sha256": "0f92f8b67c9306d53f8ce75cb00b6c5c002d1ebd32822c8c6f3d8e166ba3b89e"
     },
     {
       "parcel_objectid": "44019",
@@ -297,13 +297,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "fa7a0c7500a58e8f39cb20e51084f2d68da5bbd1d149030dcc66d3898f7930ef"
+      "sha256": "5dbc3da15720dcfcf92d69bcf151fcab9d6201b88249e7acc75e07fdeba23002"
     },
     {
       "parcel_objectid": "44020",
@@ -313,13 +313,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "bf294cf918f51ea738aa44a146241dbc433433d78b6256152a63b4e2d872c9b9"
+      "sha256": "46335f213a4985d6bd2cbd32900f4602e7885c5f684b5336330208e26093316e"
     },
     {
       "parcel_objectid": "44021",
@@ -329,13 +329,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "c66d9015e29075aae087cb1d5d203911887631d44d66f45519ffded6efd3288b"
+      "sha256": "7864dee929fd65e9ed4eda1d198d4a20ac8b124b35f291270c8dc01219165f16"
     },
     {
       "parcel_objectid": "44022",
@@ -345,13 +345,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "0dc6147f54d9a437b3fdb4c9a7d5c33445855487dd9d1901e41da6d1c38563b9"
+      "sha256": "531fac0f572147ad3baf3f8df7719adf590def137b0ab67857d690396b52afb6"
     },
     {
       "parcel_objectid": "44023",
@@ -361,13 +361,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "89b2fbca74821bd178dcaf2fd45e70ec7e8961a71b945eb0a9fa1ffd64507979"
+      "sha256": "72cfc481ec5cf67a9dff7e9f9161d47e183c8e58ba5a7e6f833115357e64e844"
     },
     {
       "parcel_objectid": "44024",
@@ -377,13 +377,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "c3aeffb90fb791ba23926b4ad2fcd53b2753dba41bb85e849f4dfd57f59a12a3"
+      "sha256": "44db911b9de355e1decd9f807921c060495ad73a2a78f3639024146d25d01ce6"
     },
     {
       "parcel_objectid": "44025",
@@ -393,13 +393,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "85796e99c6307af52d90d86bdfc350482a2bfe90dd7c31ad80828616915d89df"
+      "sha256": "761add37bf2e1b800b0e5da14cabdc883d46f0dfccc6a4ae81f698653eeab08b"
     },
     {
       "parcel_objectid": "44026",
@@ -409,13 +409,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "ef18fc12b15599230577de7b91acac8bf59b2cf1038770ed88a2390bd771b257"
+      "sha256": "91ab4a6c1bb9a7441e97b88f42810648a69f4d5e4c6016a2df67e0508e294dc5"
     },
     {
       "parcel_objectid": "44027",
@@ -425,13 +425,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "65c481febd78eebac6df3d3c6b7bacc1c2494d49b3a9def509a75fecdb5ba73a"
+      "sha256": "7c46383c28e586020c6ea8610669049139bcf3a9b4094afdd5f35898268d2bc6"
     },
     {
       "parcel_objectid": "44028",
@@ -441,13 +441,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "e00f3622e59ac0c74cf7f35e880b464ab10d35fb8dd60aa2fd4808ff41c8a570"
+      "sha256": "044881015cac7d834e8668b43bfe5eb9d40ea369ade20fd4f32e8d9e69b30c08"
     },
     {
       "parcel_objectid": "44029",
@@ -457,13 +457,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "991d6dbea35b678b733dfd2bf19a30a69384631c55b3bf147ea73b7e6d35ba09"
+      "sha256": "b7089ad5204c085580f8dc00bf77aa39da700daec11494f22d0bb696a763b11c"
     },
     {
       "parcel_objectid": "44030",
@@ -473,13 +473,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "0ced4a83f18fdb6e861b178d59a0d2d21255a4bfd0589fcd8d2f111e851fa87b"
+      "sha256": "0d7b9f176b068a09d648fb8163d4f747b34e9576bf958fc9365321a7ad67b364"
     },
     {
       "parcel_objectid": "44031",
@@ -489,13 +489,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "0b441d7916a57ec1ba7d28c348ff9f95424d2ee9d203572ce8635272eae53fb7"
+      "sha256": "ea80a9f10bc89cbd167c527af7f857ee9e6f26407904597e72733fe3cf12e7e5"
     },
     {
       "parcel_objectid": "44032",
@@ -505,13 +505,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "d7f491bc1adde1370db21f015582b50f1375d2cb97c6d0d0b0772e7b08039e01"
+      "sha256": "ffdbd20cee3c7a739aaff07db75f887873327c188bdce02b075b690711361eb5"
     },
     {
       "parcel_objectid": "44033",
@@ -521,13 +521,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "5ebae516c780e44a843c0ea7846ba7e7b80fbd7a36feecc51c104138e45cdf98"
+      "sha256": "4347fbe2f71b4aa1c40a3656680535a5af69c3a976722ab8fbeeda634430f1e6"
     },
     {
       "parcel_objectid": "44034",
@@ -537,13 +537,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "c1a25c1f260d41ae9eb0c9cabe7e33e3432020b2b9a899efca4bcbbe00c6641e"
+      "sha256": "9a295bfd591affe567ec9fe9073af8b5ba51d069a3d0c60382168000ac0baafe"
     },
     {
       "parcel_objectid": "44035",
@@ -553,13 +553,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "78e92b637de3d9d24f1caf9f2cf0100aca6ebafd3b09952ef277a79d3dc8d8ed"
+      "sha256": "e6ee8ee22be1b7dec2d095048bda5bc6c953d4d4b649919ba192dc8320340404"
     },
     {
       "parcel_objectid": "44036",
@@ -569,13 +569,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "cc6c68bbb9b2b31b48a2021df13749394260d7abc814e2c0850118fff9a501ee"
+      "sha256": "3a5f145192c64a68232e5cf1e2149776bc68587617ffb5f617e0b9587ff51ef8"
     },
     {
       "parcel_objectid": "44037",
@@ -585,13 +585,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "2006820be831bd5d3959947cf6ea1dbc36db404b5a39e086d4d5ac0a10c32c73"
+      "sha256": "3381c73aa70b667b093909690af25be4aca0bea836f6351ea5c321fef35106a8"
     },
     {
       "parcel_objectid": "44038",
@@ -601,13 +601,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "dc6852924fe32bf5cd046886c7b153fc26851276e72725f5e52565aa2b02f1f8"
+      "sha256": "b8d180a87abf0fec195f0612457423c0ba4dd367ff86437a1cd48758ca194f55"
     },
     {
       "parcel_objectid": "44039",
@@ -617,13 +617,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "947ab1037b4913fa540f74acef077f8b76a7f20fe87676accb78c37d6a1f4bba"
+      "sha256": "d8f6d32ea2a8961186947d17fc8a5b97dbc9963d57967abd6e26ee5bf3fbb115"
     },
     {
       "parcel_objectid": "44040",
@@ -633,13 +633,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "c1f3cdcf98d59341dcabae3144c52757b9a2b98d6a8b990faac22390568e3aa3"
+      "sha256": "77cb8e20a08d518426a493f06fe441d5f5aba798826a30f31b920812daaea42c"
     },
     {
       "parcel_objectid": "44041",
@@ -649,13 +649,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "0e56359bbf03f45eae6a0fb5f7065f15f60bb9d6372c67bc6bad4a4ffac2c027"
+      "sha256": "b44ff33bb2c93d743f5244da6e30a530b71731c4f31bdcfeb76281c0c629979e"
     },
     {
       "parcel_objectid": "44042",
@@ -665,13 +665,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "75f38fc23d18117de5b3c1ecd60faf90309c33db5442005a6e0dcc83fa3d07c1"
+      "sha256": "a8f6aa999181cfa283d1ce9108e8cd15a514c11a323fa16dc73edccb476c21b4"
     },
     {
       "parcel_objectid": "44043",
@@ -681,13 +681,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "2147e849a51691043a9e48b579e25784150609939f4784714d4629aad6a6ffc5"
+      "sha256": "d05893658efb96c9f91a0abfb7d53610e304bd5c77d179178ffb1687fb979751"
     },
     {
       "parcel_objectid": "44044",
@@ -697,13 +697,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "11fb570a1ab9a2bc4e190f97050de26db333c35b55603dac462d131f5bb48407"
+      "sha256": "7d727e1864c910b79ecad0460bb4a0b309398c703b93810fbee25948b2c958f2"
     },
     {
       "parcel_objectid": "44045",
@@ -713,13 +713,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "84d7c21e666e57ef844f73a3e8cffb74754286cb652af2682ba2458ca0b3ed59"
+      "sha256": "1620aa70063f314a6ac4d90a2570f0505904346672438008e58c0975cab9bc48"
     },
     {
       "parcel_objectid": "44046",
@@ -729,13 +729,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "17079942d38cb9ec650784f507af61bfdc9c05139f6ef54fffc2b583edca5409"
+      "sha256": "cb999d4340e109de2e98b21627af0bb6f65f7162220bafc13b9b68af552427bb"
     },
     {
       "parcel_objectid": "44047",
@@ -745,13 +745,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "70ac6463e13c44de5c02fa7423ce998eaf1afba9662bcc26188bb48b6ae7672e"
+      "sha256": "fbe3eba107bf83e221a27307cd1c8b0f7a98f54ea3e65ebe29ad373b7facffb2"
     },
     {
       "parcel_objectid": "44048",
@@ -761,13 +761,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "86b75d0a1d645c98fa301223b3115ba857cdda234984827da33b897f432ea30f"
+      "sha256": "20060d2cd8a4e2dcffc0b2b5aeda857d525cb56665ae134be41ae7512f77b2de"
     },
     {
       "parcel_objectid": "44049",
@@ -777,13 +777,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "42905a2f112a17e50cf22d268a2caf0701b93c82e4f021c031c0921c12aae918"
+      "sha256": "6ce14770f085909060fd287edda35f85d3d19c2caf754689411f0327ce754f65"
     },
     {
       "parcel_objectid": "44050",
@@ -793,13 +793,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "4b442d1a6712fd8745c17fcfb37352b3b7fa1a0efdd6b24096de01f2c9e41af7"
+      "sha256": "5029574c8cca8a3f2df0b9eda13eed7eaf5a043ce00fac7619461508e8091142"
     },
     {
       "parcel_objectid": "44051",
@@ -809,13 +809,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "bb099fd9bb3eae98e8fc0f11f62a88045f2a4e7cf273d7b46cfe4af7fb806fff"
+      "sha256": "bd73f04e3b60f285543560ce246699ac67f8fd42429587dc2a486ca6a2e36600"
     },
     {
       "parcel_objectid": "44052",
@@ -825,13 +825,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "fcc7eb137175e1fa758fce623ed102ca8467a9a6c9fbcb747143fc23e4d3a555"
+      "sha256": "a883a3b3613b281765301253e9ace253b4ccbc08470221d6d6fedbcde5612554"
     },
     {
       "parcel_objectid": "44053",
@@ -841,13 +841,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "04b32b5853a2415d7f9e06ac77ff53f81214e2b39314a5fa2c92a644ad40ea17"
+      "sha256": "c82fde41f3c2bbd33a4b2d986a3d8d4b66385d4e79a0bdfbf340917a55fa29cf"
     },
     {
       "parcel_objectid": "44054",
@@ -857,13 +857,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "e583771a99900d80ec361e4dffc0f130be33eecdfdfe8c779aaf287e1ba3aa52"
+      "sha256": "ea759a20e82dffc1535f3785b7ca5047bfcd777395753a6a468a87e3bf04dd7e"
     },
     {
       "parcel_objectid": "44055",
@@ -873,13 +873,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "e10832d2b9b0d8d7e0fa623e0e3e070587d4667caa3e7e970bcfd98e5174b1f0"
+      "sha256": "1da0534fccbd28fee608c2a68306fe7a7a48769b3f66bf89caf39b3db7a5bcf3"
     },
     {
       "parcel_objectid": "44056",
@@ -889,13 +889,13 @@
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PENDING",
+        "subdivision": "NOT_CHECKED",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "b6bf029bc1955836187e4bb68823e081ebffe0a69a18c52a571c291abdbcd9af"
+      "sha256": "adbf002eda98899df3a41a026b1641faec518a13cf2e33c807802c76ca742c05"
     },
     {
       "parcel_objectid": "44057",
