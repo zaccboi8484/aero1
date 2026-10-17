@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-17T10:21:41.764324+00:00",
+  "generated_at_utc": "2026-10-17T10:54:10.922766+00:00",
   "count": 60,
   "priority_scored": 60,
-  "verified_source_jpegs": 56,
+  "verified_source_jpegs": 60,
   "reviewed_roof_condition_scores": 0,
   "reference": {
     "issuer": "Insurance Institute for Business & Home Safety",
@@ -1192,9 +1192,8 @@
       "county_pin": "104200201010",
       "address": "1459 Kings Crest, Eagan, MN",
       "review": {
-        "data_review_priority": 100,
+        "data_review_priority": 70,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "valuation_unavailable",
@@ -1203,7 +1202,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1215,9 +1214,8 @@
       "county_pin": "104200201020",
       "address": "1463 Kings Crest, Eagan, MN",
       "review": {
-        "data_review_priority": 100,
+        "data_review_priority": 70,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "valuation_unavailable",
@@ -1226,7 +1224,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1238,9 +1236,8 @@
       "county_pin": "104200201030",
       "address": "1467 Kings Crest, Eagan, MN",
       "review": {
-        "data_review_priority": 100,
+        "data_review_priority": 70,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "valuation_unavailable",
@@ -1249,7 +1246,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
@@ -1261,9 +1258,8 @@
       "county_pin": "104200201040",
       "address": "1471 Kings Crest, Eagan, MN",
       "review": {
-        "data_review_priority": 85,
+        "data_review_priority": 55,
         "priority_factors": [
-          "missing_usable_imagery",
           "municipal_permit_evidence_missing",
           "roof_age_unknown",
           "valuation_unavailable"
@@ -1271,7 +1267,7 @@
         "status": "EVIDENCE_COMPLETION_PRIORITY_ONLY",
         "not_a_damage_score": true
       },
-      "verified_government_aerial_jpeg": false,
+      "verified_government_aerial_jpeg": true,
       "roof": {
         "roof_condition_score": null,
         "status": "NOT_SCORED_NO_ROOF_EVIDENCE",
