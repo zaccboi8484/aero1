@@ -1,0 +1,3691 @@
+{
+  "generated_at_utc": "2026-10-17T03:08:18.965440+00:00",
+  "policy": "real evidence only; no inferred damage",
+  "territory": "Kings Wood, Eagan",
+  "properties": [
+    {
+      "territory": "001",
+      "parcel_objectid": "44001",
+      "county_pin": "104200101010",
+      "address": "1402 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44001&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44002",
+      "county_pin": "104200101020",
+      "address": "1410 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44002&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44003",
+      "county_pin": "104200101030",
+      "address": "1414 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44003&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44004",
+      "county_pin": "104200101040",
+      "address": "1418 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44004&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44005",
+      "county_pin": "104200101050",
+      "address": "1401 Rocky Lane, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44005&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44006",
+      "county_pin": "104200101060",
+      "address": "1405 Rocky Lane, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44006&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44007",
+      "county_pin": "104200101070",
+      "address": "1422 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44007&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44008",
+      "county_pin": "104200101080",
+      "address": "1426 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44008&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44009",
+      "county_pin": "104200101090",
+      "address": "1430 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44009&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44010",
+      "county_pin": "104200101100",
+      "address": "1434 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44010&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44011",
+      "county_pin": "104200101110",
+      "address": "1438 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44011&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44012",
+      "county_pin": "104200101120",
+      "address": "1444 Kings Wood Lane, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44012&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44013",
+      "county_pin": "104200101130",
+      "address": "1448 Kings Wood Lane, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44013&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44014",
+      "county_pin": "104200101140",
+      "address": "1452 Kings Wood Lane, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44014&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44015",
+      "county_pin": "104200101150",
+      "address": "1456 Kings Wood Lane, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44015&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44016",
+      "county_pin": "104200101160",
+      "address": "1460 Kings Wood Lane, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44016&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44017",
+      "county_pin": "104200101170",
+      "address": "1463 Kings Wood Lane, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44017&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44018",
+      "county_pin": "104200101180",
+      "address": "1459 Kings Wood Lane, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44018&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44019",
+      "county_pin": "104200101190",
+      "address": "1455 Kings Wood Lane, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44019&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44020",
+      "county_pin": "104200101200",
+      "address": "1451 Kings Wood Lane, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44020&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44021",
+      "county_pin": "104200101210",
+      "address": "1447 Kings Wood Lane, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44021&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44022",
+      "county_pin": "104200101220",
+      "address": "1454 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44022&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44023",
+      "county_pin": "104200101230",
+      "address": "1462 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44023&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44024",
+      "county_pin": "104200101240",
+      "address": "1470 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44024&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44025",
+      "county_pin": "104200101250",
+      "address": "1474 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44025&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44026",
+      "county_pin": "104200101260",
+      "address": "1478 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44026&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44027",
+      "county_pin": "104200101270",
+      "address": "1482 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44027&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44028",
+      "county_pin": "104200101280",
+      "address": "1486 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44028&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44029",
+      "county_pin": "104200101290",
+      "address": "1490 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44029&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44030",
+      "county_pin": "104200101300",
+      "address": "1494 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44030&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44031",
+      "county_pin": "104200101310",
+      "address": "1498 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44031&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44032",
+      "county_pin": "104200102010",
+      "address": "1401 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44032&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44033",
+      "county_pin": "104200102020",
+      "address": "1405 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44033&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44034",
+      "county_pin": "104200102030",
+      "address": "1409 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44034&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44035",
+      "county_pin": "104200102040",
+      "address": "1413 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44035&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44036",
+      "county_pin": "104200102050",
+      "address": "1421 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44036&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44037",
+      "county_pin": "104200102060",
+      "address": "1433 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44037&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44038",
+      "county_pin": "104200102070",
+      "address": "1445 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44038&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44039",
+      "county_pin": "104200102080",
+      "address": "1449 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44039&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44040",
+      "county_pin": "104200102090",
+      "address": "1453 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44040&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44041",
+      "county_pin": "104200102100",
+      "address": "1457 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44041&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44042",
+      "county_pin": "104200102110",
+      "address": "1461 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44042&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44043",
+      "county_pin": "104200102120",
+      "address": "1465 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44043&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44044",
+      "county_pin": "104200102130",
+      "address": "1469 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44044&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44045",
+      "county_pin": "104200102140",
+      "address": "1473 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44045&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44046",
+      "county_pin": "104200102150",
+      "address": "3849 Kings Wood Court, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44046&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44047",
+      "county_pin": "104200102160",
+      "address": "3853 Kings Wood Court, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44047&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44048",
+      "county_pin": "104200102170",
+      "address": "3857 Kings Wood Court, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44048&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44049",
+      "county_pin": "104200102180",
+      "address": "3854 Kings Wood Court, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44049&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44050",
+      "county_pin": "104200102190",
+      "address": "1481 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44050&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44051",
+      "county_pin": "104200102200",
+      "address": "1485 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44051&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44052",
+      "county_pin": "104200102210",
+      "address": "1489 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44052&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44053",
+      "county_pin": "104200102220",
+      "address": "1493 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44053&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44054",
+      "county_pin": "104200102230",
+      "address": "1497 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44054&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44055",
+      "county_pin": "104200102240",
+      "address": "1501 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44055&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44056",
+      "county_pin": "104200102250",
+      "address": "1505 Kings Wood Road, Eagan, MN",
+      "plat_name": "Kings Wood 2nd Add",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44056&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44057",
+      "county_pin": "104200201010",
+      "address": "1459 Kings Crest, Eagan, MN",
+      "plat_name": "Kings Wood 4th Addition",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44057&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44058",
+      "county_pin": "104200201020",
+      "address": "1463 Kings Crest, Eagan, MN",
+      "plat_name": "Kings Wood 4th Addition",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44058&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44059",
+      "county_pin": "104200201030",
+      "address": "1467 Kings Crest, Eagan, MN",
+      "plat_name": "Kings Wood 4th Addition",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44059&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    },
+    {
+      "territory": "001",
+      "parcel_objectid": "44060",
+      "county_pin": "104200201040",
+      "address": "1471 Kings Crest, Eagan, MN",
+      "plat_name": "Kings Wood 4th Addition",
+      "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44060&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "street_view": "OUTBOUND_LINK_ONLY",
+      "checks": [
+        {
+          "search_id": "parcel",
+          "source": "MetroGIS ArcGIS",
+          "status": "SOURCE_RECORDED",
+          "detail": "Official parcel ID and address present",
+          "next_action": "Validate parcel against Eagan plat geometry"
+        },
+        {
+          "search_id": "subdivision",
+          "source": "Eagan subdivision GIS",
+          "status": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+          "detail": "City plat catalog checked; polygon membership not certified",
+          "next_action": "Intersect parcel geometry with official plat geometry"
+        },
+        {
+          "search_id": "permit",
+          "source": "Eagan public permit export",
+          "status": "SOURCE_ACCESS_BLOCKED",
+          "detail": "Permit portal returned HTTP 403; no property-specific search export in evidence store",
+          "next_action": "Use authorized city export; reconcile permit number, address and source date"
+        },
+        {
+          "search_id": "imagery",
+          "source": "Dakota County GIS ImageServer",
+          "status": "FETCH_FAILED",
+          "detail": "Source returned invalid JPEG bytes",
+          "next_action": "Resolve correct ImageServer response and rights; retry only official service"
+        },
+        {
+          "search_id": "value",
+          "source": "County assessment / Eagan property GIS",
+          "status": "NOT_RETRIEVED",
+          "detail": "No verified assessed-value field in current parcel export",
+          "next_action": "Read official TAXPIN/valuation layer by parcel ID and assessment year"
+        },
+        {
+          "search_id": "gatekeeper",
+          "source": "GateKeeper coordinator",
+          "status": "AWAITING_EVIDENCE",
+          "detail": "No evidence-reviewed roof, driveway or tree conclusion",
+          "next_action": "Require source corroboration and human review before findings"
+        }
+      ],
+      "score": {
+        "mindex": null,
+        "property_value": null,
+        "status": "NOT_SCORED",
+        "reason": "Insufficient reviewed evidence"
+      },
+      "gatekeeper": "INCOMPLETE",
+      "completion": "OPEN"
+    }
+  ],
+  "totals": {
+    "property_records": 60,
+    "completed": 0,
+    "mindex_scored": 0,
+    "checks": {
+      "SOURCE_RECORDED": 60,
+      "SOURCE_ACCESS_BLOCKED": 60,
+      "FETCH_FAILED": 60,
+      "MATCH_PENDING_REVIEW": 0,
+      "NOT_RETRIEVED": 60
+    }
+  },
+  "progression": {
+    "phase": "SEED_EVIDENCE_COLLECTION",
+    "next_ring": "LOCKED_PENDING_TERRITORY_001_VALIDATION",
+    "order": [
+      "roofing",
+      "cracked_driveways",
+      "potentially_dangerous_trees",
+      "siding",
+      "gutters"
+    ],
+    "ring_rule": "Buffer official territory boundary outward; never expand solely by street-name similarity; collect as leads but do not mark completed without evidence"
+  }
+}
