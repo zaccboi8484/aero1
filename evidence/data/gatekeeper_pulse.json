@@ -1,0 +1,151 @@
+{
+  "generated_at_utc": "2026-10-17T08:20:07.982238+00:00",
+  "engine": "GateKeeper Source Pulse v1",
+  "source_count": 9,
+  "healthy_sources": 6,
+  "sources": [
+    {
+      "source": "parcels",
+      "file": "collection_manifest.json",
+      "status": "CURRENT",
+      "age_hours": 0.07,
+      "max_age_hours": 36,
+      "evidence_count": 60,
+      "errors": []
+    },
+    {
+      "source": "gis_geometry",
+      "file": "subdivision_geometry_checks.json",
+      "status": "CURRENT",
+      "age_hours": 0.07,
+      "max_age_hours": 72,
+      "evidence_count": 60,
+      "errors": []
+    },
+    {
+      "source": "mn_addresses",
+      "file": "mn_address_validation.json",
+      "status": "MISSING",
+      "age_hours": null,
+      "max_age_hours": 72,
+      "evidence_count": 0,
+      "errors": []
+    },
+    {
+      "source": "mngeo_aerial",
+      "file": "mngeo_aerial_evidence.json",
+      "status": "MISSING",
+      "age_hours": null,
+      "max_age_hours": 72,
+      "evidence_count": 0,
+      "errors": []
+    },
+    {
+      "source": "property_values",
+      "file": "live_property_enrichment.json",
+      "status": "CURRENT",
+      "age_hours": 0.06,
+      "max_age_hours": 36,
+      "evidence_count": 56,
+      "errors": []
+    },
+    {
+      "source": "regional_permits",
+      "file": "regional_residential_permit_matches.json",
+      "status": "CURRENT",
+      "age_hours": 0.06,
+      "max_age_hours": 72,
+      "evidence_count": 0,
+      "errors": []
+    },
+    {
+      "source": "municipal_permits",
+      "file": "permit_match_review.json",
+      "status": "MISSING",
+      "age_hours": null,
+      "max_age_hours": 168,
+      "evidence_count": 0,
+      "errors": []
+    },
+    {
+      "source": "categories",
+      "file": "property_category_intelligence.json",
+      "status": "CURRENT",
+      "age_hours": 0.06,
+      "max_age_hours": 72,
+      "evidence_count": 60,
+      "errors": []
+    },
+    {
+      "source": "integrity",
+      "file": "pipeline_integrity.json",
+      "status": "CURRENT",
+      "age_hours": 0.06,
+      "max_age_hours": 36,
+      "evidence_count": 60,
+      "errors": []
+    }
+  ],
+  "upgrade_count": 4,
+  "upgrades_for_human_review": [
+    {
+      "decision_id": "UPG-9b4accae8ec9",
+      "source": "mn_addresses",
+      "priority": "MEDIUM",
+      "proposed_action": "Investigate GIS address service; USPS requires separate OAuth credentials",
+      "reason": "MISSING; current source-backed count=0",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "requires": [
+        "source rights",
+        "automated tests",
+        "human sign-off"
+      ]
+    },
+    {
+      "decision_id": "UPG-0bd49316c282",
+      "source": "mngeo_aerial",
+      "priority": "HIGH",
+      "proposed_action": "Fix official WMS GetMap source and validate returned JPEG bytes",
+      "reason": "MISSING; current source-backed count=0",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "requires": [
+        "source rights",
+        "automated tests",
+        "human sign-off"
+      ]
+    },
+    {
+      "decision_id": "UPG-92b7280e724c",
+      "source": "regional_permits",
+      "priority": "MEDIUM",
+      "proposed_action": "Review regional residential permit source and address matches",
+      "reason": "CURRENT; current source-backed count=0",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "requires": [
+        "source rights",
+        "automated tests",
+        "human sign-off"
+      ]
+    },
+    {
+      "decision_id": "UPG-bbc4bac77a03",
+      "source": "municipal_permits",
+      "priority": "HIGH",
+      "proposed_action": "Obtain authorized City of Eagan permit export, do not evade 403",
+      "reason": "MISSING; current source-backed count=0",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "requires": [
+        "source rights",
+        "automated tests",
+        "human sign-off"
+      ]
+    }
+  ],
+  "no_autonomous_approval": true,
+  "no_unverified_condition_scores": true,
+  "note": "Freshness and data acquisition do not establish roof damage or USPS deliverability"
+}
