@@ -87,16 +87,27 @@ def execute(no_network=False,batch=8):
    except Exception as e:response["regional_permits"]="REGIONAL_QUERY_ERROR";response["regional_error"]=str(e)[:160]
    box=boxes.get(oid)
    if box and len(box)==4:
-    try:
-     url=WMS+"?"+urllib.parse.urlencode({"SERVICE":"WMS","VERSION":"1.1.1","REQUEST":"GetMap","LAYERS":"dak23","STYLES":"","SRS":"EPSG:4326","BBOX":",".join(map(str,box)),"WIDTH":800,"HEIGHT":620,"FORMAT":"image/jpeg"})
-     body,mime,_=fetch(url)
-     if jpeg(body):
+    image_errors=[]
+    # Prefer the newest published high-resolution metro flight (2025). The
+    # 2023 Dakota 6-inch service is a documented fallback, never a fake 2025.
+    for layer,year in (("met25",2025),("dak23",2023)):
+     try:
+      url=WMS+"?"+urllib.parse.urlencode({"SERVICE":"WMS","VERSION":"1.1.1","REQUEST":"GetMap","LAYERS":layer,"STYLES":"","SRS":"EPSG:4326","BBOX":",".join(map(str,box)),"WIDTH":800,"HEIGHT":620,"FORMAT":"image/jpeg"})
+      body,mime,_=fetch(url)
+      if not jpeg(body):
+       image_errors.append(layer+": response was not a valid JPEG");continue
       response["imagery"]="GOVERNMENT_REMOTE_JPEG_VERIFIED"
       response["imagery_sha256"]=hashlib.sha256(body).hexdigest()
       response["imagery_source_url"]=url
       response["imagery_content_type"]=mime
-     else:response["imagery"]="NOT_A_VALID_JPEG";response["imagery_response_mime"]=mime
-    except Exception as e:response["imagery"]="IMAGE_SOURCE_ERROR";response["image_error"]=str(e)[:150]
+      response["imagery_layer"]=layer
+      response["imagery_year"]=year
+      response["imagery_verified_bytes"]=len(body)
+      break
+     except Exception as e:image_errors.append(layer+": "+str(e)[:120])
+    if response["imagery"]!="GOVERNMENT_REMOTE_JPEG_VERIFIED":
+     response["imagery"]="IMAGE_SOURCE_ERROR"
+    if image_errors:response["imagery_attempts_failed"]=image_errors
    else:response["imagery"]="NO_BOUNDING_BOX_YET"
    saved[pin]=response
   try:
