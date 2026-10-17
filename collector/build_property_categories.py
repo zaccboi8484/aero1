@@ -15,6 +15,8 @@ manifest=read("imagery_manifest.json",{})
 views={str(x.get("parcel_objectid")):x for x in manifest.get("records",[])}
 down=read("imagery_downloads.json",{})
 downloads={str(x.get("parcel_objectid")):x for x in down.get("records",[])}
+probe=read("imagery_source_probe.json",{})
+remotes={str(x.get("parcel_objectid")):x for x in probe.get("records",[])}
 progress=read("progressive_search_status.json",{})
 audits={str(x.get("parcel_objectid")):x for x in progress.get("properties",[])}
 POLICY={
@@ -27,17 +29,21 @@ for row in parcels:
  oid=str(row.get("parcel_objectid") or "")
  if not oid or not row.get("county_pin"):continue
  image=downloads.get(oid,{})
- image_ok=image.get("status")=="DOWNLOADED" and bool(image.get("sha256"))
+ remote=remotes.get(oid,{})
+ image_ok=(image.get("status")=="DOWNLOADED" and bool(image.get("sha256")))
+ remote_ok=remote.get("status")=="REMOTE_IMAGE_AVAILABLE" and bool(remote.get("sha256"))
  view=views.get(oid,{})
  checks={x.get("search_id"):x.get("status") for x in audits.get(oid,{}).get("checks",[])}
  cats={}
  for key,policy in POLICY.items():
-  card={"category":key,"label":policy["label"],"evidence_status":"AWAITING_IMAGE_AND_REVIEW" if not image_ok else "IMAGE_ACQUIRED_PENDING_REVIEW",
+  card={"category":key,"label":policy["label"],"evidence_status":"IMAGE_ACQUIRED_PENDING_REVIEW" if image_ok else ("REMOTE_IMAGE_AVAILABLE_PENDING_REVIEW" if remote_ok else "AWAITING_IMAGE_AND_REVIEW"),
     "finding":"UNKNOWN","opportunity_score":None,"damage_confirmed":False,
     "required_sources":policy["requires"],"aerial_observables":policy["aerial_can_support"],
     "not_provable_by_aerial":policy["cannot_confirm"],
     "image_request_url":(view.get("image_layers") or {}).get("2025-spring-leaf-off"),
-    "imagery_acquisition":image.get("status","NOT_ATTEMPTED"),
+    "imagery_acquisition":image.get("status","NOT_ATTEMPTED"),"remote_image_available":remote_ok,
+    "remote_image_sha256":remote.get("sha256") if remote_ok else None,
+    "remote_image_url":remote.get("image_link") if remote_ok else None,
     "municipal_permit_status":checks.get("permit","UNKNOWN"),
     "next_action":("Acquire authorized source image and qualified review" if key!="cracked_driveway" else "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks")}
   cats[key]=card
