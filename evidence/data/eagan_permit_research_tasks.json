@@ -1,0 +1,1692 @@
+{
+  "created_utc": "2026-10-17T01:45:33.611418+00:00",
+  "jurisdiction": "eagan",
+  "input_parcels": 60,
+  "tasks": 60,
+  "completed_permit_searches": 0,
+  "confirmed_permit_matches": 0,
+  "type": "RESEARCH_QUEUE_NOT_FINDINGS",
+  "source_registry": "evidence/config/jurisdictions.json",
+  "records": [
+    {
+      "id": "34917aca11b61933719c3d7b",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1402 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44001",
+      "county_pin": "104200101010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44001&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "48aa676065b17171dca4ea25",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1410 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44002",
+      "county_pin": "104200101020",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44002&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "cbbe99a42056dd0e23f795f1",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1414 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44003",
+      "county_pin": "104200101030",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44003&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "43f5b810fa2b0528e8ae7810",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1418 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44004",
+      "county_pin": "104200101040",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44004&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "496d1398497def4268dc3918",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1401 Rocky Lane, Eagan, MN",
+      "parcel_objectid": "44005",
+      "county_pin": "104200101050",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44005&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "ebb1ed972ced607140a44a17",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1405 Rocky Lane, Eagan, MN",
+      "parcel_objectid": "44006",
+      "county_pin": "104200101060",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44006&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "136535403b8c9229e29768bb",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1422 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44007",
+      "county_pin": "104200101070",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44007&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "ea31c1c6a0d50a0f6adb0ab2",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1426 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44008",
+      "county_pin": "104200101080",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44008&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "e0a1c4a2ca8ee1e4c22b3aa3",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1430 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44009",
+      "county_pin": "104200101090",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44009&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "ceba89dab75cceac219a22dc",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1434 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44010",
+      "county_pin": "104200101100",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44010&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "495e32c5ca8affe289e4cfbd",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1438 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44011",
+      "county_pin": "104200101110",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44011&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "50816eeb1e64438dca6c56d0",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1444 Kings Wood Lane, Eagan, MN",
+      "parcel_objectid": "44012",
+      "county_pin": "104200101120",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44012&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "2a6d0f79616ed0fb16fd3855",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1448 Kings Wood Lane, Eagan, MN",
+      "parcel_objectid": "44013",
+      "county_pin": "104200101130",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44013&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "75f03852694b40a937829702",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1452 Kings Wood Lane, Eagan, MN",
+      "parcel_objectid": "44014",
+      "county_pin": "104200101140",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44014&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "98f34ac18e11475063759be8",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1456 Kings Wood Lane, Eagan, MN",
+      "parcel_objectid": "44015",
+      "county_pin": "104200101150",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44015&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "94519ab3a4e3b95ca9cb0e5b",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1460 Kings Wood Lane, Eagan, MN",
+      "parcel_objectid": "44016",
+      "county_pin": "104200101160",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44016&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "edbe18492aea75bc9443650d",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1463 Kings Wood Lane, Eagan, MN",
+      "parcel_objectid": "44017",
+      "county_pin": "104200101170",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44017&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "94b71e7cc8378af7c59b2cdf",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1459 Kings Wood Lane, Eagan, MN",
+      "parcel_objectid": "44018",
+      "county_pin": "104200101180",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44018&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "b32710b401942e2ec0cf71fc",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1455 Kings Wood Lane, Eagan, MN",
+      "parcel_objectid": "44019",
+      "county_pin": "104200101190",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44019&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "89aaad0d8efe9430d36b9791",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1451 Kings Wood Lane, Eagan, MN",
+      "parcel_objectid": "44020",
+      "county_pin": "104200101200",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44020&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "9420ee09dfbd4ab12fd42657",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1447 Kings Wood Lane, Eagan, MN",
+      "parcel_objectid": "44021",
+      "county_pin": "104200101210",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44021&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "fc28d10a54e7adec8c5fd161",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1454 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44022",
+      "county_pin": "104200101220",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44022&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "8c9bdfbb7edb89b8844553e8",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1462 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44023",
+      "county_pin": "104200101230",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44023&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "54c2c3936450041101236e05",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1470 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44024",
+      "county_pin": "104200101240",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44024&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "2ba10b1acbc4b2db4da4a667",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1474 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44025",
+      "county_pin": "104200101250",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44025&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "ce91a264538a76f7af1beac1",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1478 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44026",
+      "county_pin": "104200101260",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44026&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "409a9205490d3cdffae679e0",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1482 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44027",
+      "county_pin": "104200101270",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44027&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "90ba982593896a38670deffd",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1486 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44028",
+      "county_pin": "104200101280",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44028&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "eebb67d58d71892344315d62",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1490 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44029",
+      "county_pin": "104200101290",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44029&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "63b0ac96fd3a855384e6abb4",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1494 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44030",
+      "county_pin": "104200101300",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44030&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "89d3dc71cd90fdc5b5c505f0",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1498 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44031",
+      "county_pin": "104200101310",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44031&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "e359141d17544746e9cda117",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1401 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44032",
+      "county_pin": "104200102010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44032&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "c40f12dda3828a1a0df37805",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1405 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44033",
+      "county_pin": "104200102020",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44033&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "59af464c5e4fefd1cfd5e6d1",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1409 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44034",
+      "county_pin": "104200102030",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44034&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "3c6def3a3fe010de476d36be",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1413 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44035",
+      "county_pin": "104200102040",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44035&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "dcfbdc082cbef5aad03ecc70",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1421 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44036",
+      "county_pin": "104200102050",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44036&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "e7062e7b3fcca43938a78516",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1433 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44037",
+      "county_pin": "104200102060",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44037&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "86fbf70a6104b21782dfda2b",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1445 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44038",
+      "county_pin": "104200102070",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44038&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "5401dc791669563b62b61ce2",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1449 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44039",
+      "county_pin": "104200102080",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44039&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "d79d3368a3a2923087fa3868",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1453 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44040",
+      "county_pin": "104200102090",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44040&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "c013b9e06945a5e73c2c6321",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1457 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44041",
+      "county_pin": "104200102100",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44041&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "cd518d4104cd8e7b8c061f73",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1461 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44042",
+      "county_pin": "104200102110",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44042&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "ff766f47e25bbcc0b4246ed0",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1465 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44043",
+      "county_pin": "104200102120",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44043&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "ed4ca04a1c263fcd37b11168",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1469 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44044",
+      "county_pin": "104200102130",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44044&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "d963d16970d75b5b780c1d36",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1473 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44045",
+      "county_pin": "104200102140",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44045&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "9a6c44e78359452b8347c0f6",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "3849 Kings Wood Court, Eagan, MN",
+      "parcel_objectid": "44046",
+      "county_pin": "104200102150",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44046&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "1515ab50ef0b539dfca4d663",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "3853 Kings Wood Court, Eagan, MN",
+      "parcel_objectid": "44047",
+      "county_pin": "104200102160",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44047&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "03e30cd1ccb3fccb2fffd2d4",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "3857 Kings Wood Court, Eagan, MN",
+      "parcel_objectid": "44048",
+      "county_pin": "104200102170",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44048&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "027f72b27c9800f4519d0841",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "3854 Kings Wood Court, Eagan, MN",
+      "parcel_objectid": "44049",
+      "county_pin": "104200102180",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44049&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "143119909a60697e825d579d",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1481 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44050",
+      "county_pin": "104200102190",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44050&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "3fa4f990c461e37007cc43c7",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1485 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44051",
+      "county_pin": "104200102200",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44051&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "d6ceb7388cff2dcfebf911fb",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1489 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44052",
+      "county_pin": "104200102210",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44052&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "a12cbe3be0b099560ff07135",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1493 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44053",
+      "county_pin": "104200102220",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44053&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "ce0a025fe96de2b20a7125e8",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1497 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44054",
+      "county_pin": "104200102230",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44054&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "c83d14cc3f22baf1b3308c2d",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1501 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44055",
+      "county_pin": "104200102240",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44055&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "9a837145b90d9d4e0768c4e3",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1505 Kings Wood Road, Eagan, MN",
+      "parcel_objectid": "44056",
+      "county_pin": "104200102250",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44056&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "fee05c4cfc4eebb9bb9607da",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1459 Kings Crest, Eagan, MN",
+      "parcel_objectid": "44057",
+      "county_pin": "104200201010",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44057&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "55e6dbbab004404998b4fd5b",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1463 Kings Crest, Eagan, MN",
+      "parcel_objectid": "44058",
+      "county_pin": "104200201020",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44058&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "2d0bf4c989e6d4d7b6502b9d",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1467 Kings Crest, Eagan, MN",
+      "parcel_objectid": "44059",
+      "county_pin": "104200201030",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44059&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    },
+    {
+      "id": "ae4c2f0b99b1c315643a7a9f",
+      "jurisdiction": "eagan",
+      "county": "Dakota",
+      "address": "1471 Kings Crest, Eagan, MN",
+      "parcel_objectid": "44060",
+      "county_pin": "104200201040",
+      "source_parcel_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44060&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
+      "research_status": "NOT_SEARCHED",
+      "permit_matches": [],
+      "verified_permits": 0,
+      "source_documents": [],
+      "source_portal_url": "https://eagan.onlama.com/Search.aspx",
+      "public_reports_url": "https://eagan.onlama.com/Dashboard.aspx",
+      "planned_steps": [
+        "Public city address/permit search",
+        "Official bulk permit report address match",
+        "Request historical record packets if not publicly downloadable",
+        "Review permit number, type, issue date and source before acceptance"
+      ],
+      "evidence_status": "UNKNOWN",
+      "priority_classes": [
+        "roofing",
+        "driveway",
+        "trees"
+      ],
+      "notes": "Research task; no claim that permit exists or does not exist"
+    }
+  ]
+}
