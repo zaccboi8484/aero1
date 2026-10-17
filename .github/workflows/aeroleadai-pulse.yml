@@ -1,0 +1,33 @@
+name: AeroLeadAI GateKeeper six-hour source pulse
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 */6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: aero-evidence-pulse
+  cancel-in-progress: false
+jobs:
+  review-pulse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Source freshness, crawler health and proposed upgrades
+        run: python collector/gatekeeper_pulse.py
+      - name: Publish review packet even when later tasks fail
+        if: always()
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for file in evidence/data/gatekeeper_pulse.json evidence/data/human_upgrade_decisions.json; do
+            if [ -f "$file" ]; then git add -- "$file"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish GateKeeper autonomous source health pulse'
+            git push
+          fi
