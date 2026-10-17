@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-17T05:58:27.030570+00:00",
+  "generated_at_utc": "2026-10-17T06:13:44.211694+00:00",
   "audit": [
     {
       "parcel_objectid": "44001",
@@ -11,11 +11,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "31041d11261dbd7b889daae4fde3ba1871201aab96009231c1f6f0df32011ad0"
+      "sha256": "d54b63b4b7d609cbfa33ba064ed11731ed84a59cc87b01d868b8e2f09b77ec33"
     },
     {
       "parcel_objectid": "44002",
@@ -27,11 +28,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "2fbf4fe3b8c17e911061586826bf46801b82c6bf5248007f91888ceef4f46daa"
+      "sha256": "11b3c6b1caa5c6e76057080250ecf2b9c160a71c574935dcaab1b39524538b6f"
     },
     {
       "parcel_objectid": "44003",
@@ -43,11 +45,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "2fd7cec918dce846fcc4b871e0ae54603fd21f96042e865a019b5b7cd3e75b92"
+      "sha256": "7f65b4adff610c0cd7f05f6f0d9227a5f88ba79886dd6155337101814b3eb30c"
     },
     {
       "parcel_objectid": "44004",
@@ -59,11 +62,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "f9f715c786cacd40a7ac56c4c3daaa2599fe46bd87e529b6b5e4f351742a1a17"
+      "sha256": "e1131aba96d4498c780dba7fd07afb7e8de1cbff7105f2e7c1bc900bcd04e97b"
     },
     {
       "parcel_objectid": "44005",
@@ -75,11 +79,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "f7899fa2777256653204ddf8debc76c61c1713bc74d8f4a8f2c3d357fdb3c2c0"
+      "sha256": "daea9b78a571f2255deff261ddfa54b97cc3d41b36939d50672f5c7aeca49e79"
     },
     {
       "parcel_objectid": "44006",
@@ -91,11 +96,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "f79e1a9ee35f5c32f3296829bdf4e9b01c7d01a84f7827570b31e23a56f4216f"
+      "sha256": "ba3b6a118c1521a86d171113d80ef8894efb17b7cad64d838869f8e40b66f1a1"
     },
     {
       "parcel_objectid": "44007",
@@ -107,11 +113,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "b38013f8cb461b6dad578f5521ebaa0de1df512b187877a9d60a6eae8a00b183"
+      "sha256": "94c5e7abae994a4f4b3172341aa0ac24b1f0232598f6840694940379fbeae4e2"
     },
     {
       "parcel_objectid": "44008",
@@ -123,11 +130,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "c9e97f5508fcff8f45d0f8c6360d532eea6a866328fb94da90a3cfed751f91b3"
+      "sha256": "e595fbe894755d0850e33ff173eea834ce84dbcce34498da9d2a0a59da405cb7"
     },
     {
       "parcel_objectid": "44009",
@@ -139,11 +147,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "c2fa96d4efd9b6afdc589ee4ad430f40fa73cc736e80581df79c1ce3c534858d"
+      "sha256": "3bac2ea54ddcb6c3c7164bae2c320175d850373cf8c06edfd236bff17c2f32ee"
     },
     {
       "parcel_objectid": "44010",
@@ -155,11 +164,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "a11c32631984784eb9d76bcfa9d4a33b2b9dbe3cd563b04dd4bca5a2928abc39"
+      "sha256": "311ab724f13a98587ab56b4bd7ad1600795b938f20c47ef1a00adaad7272347c"
     },
     {
       "parcel_objectid": "44011",
@@ -171,11 +181,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "a349df4165b04c98bde2b649aeacc1044b00ded0d31d5fa2a1bc8395b5a9701f"
+      "sha256": "e36c105907e2df55fe130f3944fb8e97d088155377b363bf6c6194c1fbc71ba6"
     },
     {
       "parcel_objectid": "44012",
@@ -187,11 +198,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "29f22c195eb16181580c58d840798cc95c6afd938cb21c7314fa29404f8171c6"
+      "sha256": "fbecb21f9a43dac69ca293a2406136142313e126db302aa4d9afd8f116ea6e20"
     },
     {
       "parcel_objectid": "44013",
@@ -203,11 +215,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "09221eccdbc0e712fcb00f16efe8453082179fb63153fb255a813ea0d94ba0bd"
+      "sha256": "fa2d37aa170732e3ac4ac0006fd7e32eacdc85b63cb22273a33dd10464371171"
     },
     {
       "parcel_objectid": "44014",
@@ -219,11 +232,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "7a7dcacb2c3afbab80014a36b13cf88ab3d9d26d97d898d4f0a01d8f2cd7fb01"
+      "sha256": "ed4b8ec3d49228e53bc970265894a05f6075307d32ef5eb987af844813aec356"
     },
     {
       "parcel_objectid": "44015",
@@ -235,11 +249,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "6a88658b19cecbf23c9ea92179de353063e2b7b0680f77b13c8490139d7a9a39"
+      "sha256": "93c12c4e5102c30160d71cbe91721711e5926541175ed63c1ec66e0cd361f43f"
     },
     {
       "parcel_objectid": "44016",
@@ -251,11 +266,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "8b0df6659f60923fc1752716e0681da6d78156c3838f74f053a6d7b0b4e5690d"
+      "sha256": "050a68209ba1b6a02ce25a01d0f89c4c84321c77aafebef1cf2985ec02e7ac5e"
     },
     {
       "parcel_objectid": "44017",
@@ -267,11 +283,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "9b4e0bd075d078c7d9dba923ed997a0c8fc36ce4577f10cfa482886227a837bd"
+      "sha256": "beb5928f81634d2eb651518514fd2acf97ded46d9c497ee1db710ab72b9f1ff4"
     },
     {
       "parcel_objectid": "44018",
@@ -283,11 +300,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "335acd8b0e24beb08b99be55403e375dfad80911e1605106207fe47198bbbb8d"
+      "sha256": "b4fff306c8f6df2175242a364273b693ca2e5aa9e1d69f324bf6046426a6f7a7"
     },
     {
       "parcel_objectid": "44019",
@@ -299,11 +317,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "f3fc6ff89737bc0fafcd879e987566f2cacd08dbc38a0085992c78cbb2d05635"
+      "sha256": "b5d6ff67bc634a661e752c19b5afd16a287d119480eecaed6b61fe82ba0cd3a6"
     },
     {
       "parcel_objectid": "44020",
@@ -315,11 +334,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "3ff80d01f50e4eaee957d067920137ec3511ec98e5494eda9bbe9ebac3e9100e"
+      "sha256": "87419e3a857a0ed05db26790c9ac138a54072beef25801df43c6afd91854f5ae"
     },
     {
       "parcel_objectid": "44021",
@@ -331,11 +351,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "ba9afb6e01b324186e548e2623f602957f83ffc98e3ef8f6a216da5afd265e34"
+      "sha256": "434d4ae85995f381cf468e9ff458bc770f133070271a3e1a327b3124f729adbd"
     },
     {
       "parcel_objectid": "44022",
@@ -347,11 +368,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "bce71a092a49cfa63d22cbfc1cfd62a05b3e3b1511a9737495f1d0535a7a79f9"
+      "sha256": "90b18b6279b08d27622a1c1bd6b43aae7d9ea22f21e59c03db1c3c6be6aa4c70"
     },
     {
       "parcel_objectid": "44023",
@@ -363,11 +385,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "7616173dfdfb601cfd97dea2636db2a71306ff9c12d4df491674feda3a6db2d2"
+      "sha256": "140b79b310946a96e836014ee4c42e23eda670ba26cb83bb08e0abd4fcb3d189"
     },
     {
       "parcel_objectid": "44024",
@@ -379,11 +402,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "1a6b1c43dc9ea733273c411f211a01bb401b642bd65103d06d9b03634b967a3b"
+      "sha256": "3d302c6e0541f7fb4e3031c477ef10aba5ba2b1dc8e8a4a24647a182dd3c3cf4"
     },
     {
       "parcel_objectid": "44025",
@@ -395,11 +419,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "cc8643bf8c295b28c1e8241eadb4ed49d5c4090ecb4f740a237d2e4b9acfec56"
+      "sha256": "f42d4c4cdd0e4680f071f5b2ad561e3f7b8ebcb2de0f05f5d9b9d8235ae55e13"
     },
     {
       "parcel_objectid": "44026",
@@ -411,11 +436,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "c1ea76774203934275f8d8240e6bd1bfab1523bee27cbe1752ac28cef0ebb903"
+      "sha256": "68e82a29932a2fd52840d1a205e732c50e4de11d0f245432770172a0331fdc34"
     },
     {
       "parcel_objectid": "44027",
@@ -427,11 +453,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "8f46c03304695bdc91e523ff0c71c75623077835daaf2497b56a792a47e732bc"
+      "sha256": "d62ceb4395725e1d0cf5729797fe90359129f2d988eb8626bd672253b4823347"
     },
     {
       "parcel_objectid": "44028",
@@ -443,11 +470,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "da88274de143a37dd0d0225e78454b4c0dd7fb5746be986cf4d1f95732e80d4b"
+      "sha256": "49af230d55bd3f4e02b493ea92844e2eb36530a492e75ba0fcdc3d9c84c0f190"
     },
     {
       "parcel_objectid": "44029",
@@ -459,11 +487,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "7781d8916d321d6a811310b22b9aed2a2b9653a55ee9c496b95960675d1059e3"
+      "sha256": "6e135492ae8dae2b58dc08e08709e7fa4b029f018889d02e24d859f61da33036"
     },
     {
       "parcel_objectid": "44030",
@@ -475,11 +504,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "f8194a026195ec8ca221b92d4203bedd204e24f981763b3e0fc24cf5568c7cea"
+      "sha256": "d1da69733f5cd4458f0db405ae1b232d1c22a1bc2c6af4da71cd20259b3a1978"
     },
     {
       "parcel_objectid": "44031",
@@ -491,11 +521,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "826038073c90d185786d656acb3ac1a4e113548607c8e474c5a4952b1b3af317"
+      "sha256": "43bffbc08241655d98282d7cf23a96d93d25845b7639767599423070c19e5e5a"
     },
     {
       "parcel_objectid": "44032",
@@ -507,11 +538,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "b330936eacd9595381e5a7ef66f544bf8ff5d09619a9594c56c43f9abe836724"
+      "sha256": "df03c12945b2dc19a35c7bbd3f4ca9f81eb098c3650fedc28f33fe0d32ae51d2"
     },
     {
       "parcel_objectid": "44033",
@@ -523,11 +555,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "e927a87c783d50f98b47fc87eb672e4fb1461f1d621d417970f57f57b211c165"
+      "sha256": "8b638c106c837caa54d4fda7f4425386f127d9010e4f338c0bce26af038e2af9"
     },
     {
       "parcel_objectid": "44034",
@@ -539,11 +572,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "446f51544a42f4e6d382f3f33138504871778211732e5b18d15432507a1b17e1"
+      "sha256": "dec2ff207ac8f872e2fe6b76eb6f0748b0847f9719c98d17dae118682eca6ec3"
     },
     {
       "parcel_objectid": "44035",
@@ -555,11 +589,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "5d57d52f56350c70d8c298fd769276b20c027efeb217a77f4f0394cfebc5dedd"
+      "sha256": "4e3d577af3164a04c1bc06197e667c9c87441f68a02b08b216b07e1222677484"
     },
     {
       "parcel_objectid": "44036",
@@ -571,11 +606,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "93163da28b55428415be68649c001858da9502b7b1d93ae8c603e341e64ee37f"
+      "sha256": "8765223f6a84bab6ff97cc47023e8d71282d1ba819c4f9c8f78733f4ee83cb13"
     },
     {
       "parcel_objectid": "44037",
@@ -587,11 +623,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "58995e4a3e6f583ab34d0c3a855b32411dcc695214f053cfc9605cf9bd2266fa"
+      "sha256": "83f49b30f255c5f0dab85e155ee6f4656094f47b25733b92e9fab50188bae45b"
     },
     {
       "parcel_objectid": "44038",
@@ -603,11 +640,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "f7fecf3650b1bbbc22a6c4da1de34e93a08172a5dec9f6879440192b94ab7ae3"
+      "sha256": "cee2d88c4a06e9729bac4a95e1b98c41c1d2da4c36fa6cbfb578c2452a9762cf"
     },
     {
       "parcel_objectid": "44039",
@@ -619,11 +657,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "51ee9c788bca0b40d4bb5a7ab940e14201d010de07f0dc58566cc70a436f949e"
+      "sha256": "340f4b5ba226f33dd07601aa7850ccff60064b7b0794f8bf9b9993eefcb59905"
     },
     {
       "parcel_objectid": "44040",
@@ -635,11 +674,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "65fb6061be3c74eae7174ce4d179b2c00db9bfacecc4bf1da7ce96e94017c5b2"
+      "sha256": "cb0ea4f137a66b216bcd408c5234cfead16e285de7cc5188fb71a594e7149986"
     },
     {
       "parcel_objectid": "44041",
@@ -651,11 +691,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "e3b525dc6aa76c027756841b58a72a6975bfbccc35976950476d441384e5417b"
+      "sha256": "d71bee99a0805edb2a77b7a3d9f4e40aba07957a5f35d693e9fc92f5e571be1a"
     },
     {
       "parcel_objectid": "44042",
@@ -667,11 +708,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "b9b9e0e8f31ca5f71023d43930c34f54152c11b6bd8c949ae6b86d534840ee9a"
+      "sha256": "4e287faaf5552d7e20b8785de351e725aa90c90c733af4879b3d49c43a21db6a"
     },
     {
       "parcel_objectid": "44043",
@@ -683,11 +725,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "ea337bafbb78cfa0a1baef3f21e4374dde203eb11589557a3af56736dbf143bd"
+      "sha256": "e2640492670339d1e51b0627207c8a287719913e641ce66498aadaf4de89305e"
     },
     {
       "parcel_objectid": "44044",
@@ -699,11 +742,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "7a543208b4c4855f877077c83b076f45ab71420bee7e4b9ed2000e0ab4840bce"
+      "sha256": "cb0fb4ad0447138a7bbfb129234c8e8b99072558bbae06156059e5e2fe6b0abf"
     },
     {
       "parcel_objectid": "44045",
@@ -715,11 +759,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "4dc047b7042a258e7896f716cf35a8640786dc433c4ac96b8217e39c2e231796"
+      "sha256": "9e6404d4817813827c4beefc54f4d66ef2473062540761871ec6b844883f2d8c"
     },
     {
       "parcel_objectid": "44046",
@@ -731,11 +776,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "108d3a5ec7651dae6b1f916b76781dd8cdbc851cd8915620e3ab5390269720e2"
+      "sha256": "a6f4581f166d3ee2042a093d42d647aa622af381f6f2a96139f3efab819bd8b4"
     },
     {
       "parcel_objectid": "44047",
@@ -747,11 +793,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "5186d9da84a976e03651883ae5cf0dd1f566efcaa44f6534713422b48c6af000"
+      "sha256": "6c5649f094f9bc679e0f13f77a48fc7bc786179f6474171545c823a997fc3b45"
     },
     {
       "parcel_objectid": "44048",
@@ -763,11 +810,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "ad8747e762b35976678ee6d17b474f5b1031054f0a461b4ae1740266543ad21b"
+      "sha256": "1940ffe2642173e70303bef5ca9fc7206a127e40bccabd6d83600e4267d8b3a3"
     },
     {
       "parcel_objectid": "44049",
@@ -779,11 +827,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "1f327c87703331be7ae6a7c1799e3d2d703470db232a3fbc51e3ebab86328ec3"
+      "sha256": "f981af9c1e7d862aaf226c23219a450365e2f937c727196eb3d6ff4c809d6ded"
     },
     {
       "parcel_objectid": "44050",
@@ -795,11 +844,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "29b2f3ca491b15e2b504b22c11748be2e15b93b15fe3aea2e6e8d2f310dc8d9d"
+      "sha256": "0ca077a2c2c57bb7896c9d950811036c92082e499fd8077157758ea07bece122"
     },
     {
       "parcel_objectid": "44051",
@@ -811,11 +861,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "bf8180e4ee9546a90e183d8389d6cebe1a956b0d0969ecf135794e0500b3fe33"
+      "sha256": "819a518b0276a2bee5ee4f618cb4d1f6f6dd7b4d37d099b092166beaec503dce"
     },
     {
       "parcel_objectid": "44052",
@@ -827,11 +878,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "325186b9956a5dbe2ed5625c02c19777b952c2c4dc749741ff7f78aadf783cd9"
+      "sha256": "78bf61fa3f533a9564eb215545e8b0cd8c78c499d31a65c7942e0d6a168ad4e0"
     },
     {
       "parcel_objectid": "44053",
@@ -843,11 +895,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "90de1b57e7b324ebab93f3b4b20bad4b57b069284065d7a77717ce6cead53e3a"
+      "sha256": "7f09b4f10c2add30152f44d70054ed23c74f282bb26f627a5323835f32c38dff"
     },
     {
       "parcel_objectid": "44054",
@@ -859,11 +912,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "48f39aea84cbfecbfe891e20315a2015d9f355a6c0c21da21ce11efeb1c5e472"
+      "sha256": "926e63c82e484f6fb75a890e01d1b13e329384de78afb6d07d146ae6730d9dd6"
     },
     {
       "parcel_objectid": "44055",
@@ -875,11 +929,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "aacc1ceb20c04252ba457a08385c5fef8ec6c21c4bf67656cf14b82640983fbb"
+      "sha256": "c59a9f78fd5a3664b163eaf3869e34bfdcf3f18345e305212f16feee95031758"
     },
     {
       "parcel_objectid": "44056",
@@ -891,11 +946,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "8e58098d256ec14e0772b1ae4a65c5ae070b0ea5f87d73eb2ef011242e4b9276"
+      "sha256": "6501a383359c83d776f878dfeaa30e7cf6e9b32da230cdc19bc2b7055ebc9b15"
     },
     {
       "parcel_objectid": "44057",
@@ -907,11 +963,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "NOT_RETRIEVED",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "b7e02354f60b19f2a85cee4ad5ce770cb0d759cb99cbc4b39a182f6931326876"
+      "sha256": "fc02957dbf2235cf8d2d9f6725adcab627692c41540824080828f310a4c2cd9f"
     },
     {
       "parcel_objectid": "44058",
@@ -923,11 +980,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "NOT_RETRIEVED",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "795f70b2dd4f29c0e35d41ac242ff68ae96ebae6c5a24db0e8f1122e6d3da623"
+      "sha256": "6d704800067142949167235f536d3ec5c04edb5079e3086e8eab8fab45ee3b96"
     },
     {
       "parcel_objectid": "44059",
@@ -939,11 +997,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "NOT_RETRIEVED",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "c613196761e1e26814454ce21f1abda018e18e53c4be9cf2e29eaad6900c5458"
+      "sha256": "24e6651ab507b38aabc7a9caf0e07cc8dc8f15031b8b727ccc85e23aa1b71b45"
     },
     {
       "parcel_objectid": "44060",
@@ -955,11 +1014,12 @@
         "parcel": "SOURCE_RECORDED",
         "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
+        "regional_permit": "REGIONAL_SOURCE_NO_MATCH",
         "imagery": "FETCH_FAILED",
         "value": "NOT_RETRIEVED",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "faba3596d8a5802c4c4b851145abb08f523b52bd4e12769ed8bf7e9b88c87700"
+      "sha256": "cf63e6be6e55bf8daf75bd4c0b62a205190bb98dc91a9fb25d8c55fc673d53fc"
     }
   ]
 }

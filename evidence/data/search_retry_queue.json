@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-17T05:58:27.030570+00:00",
+  "generated_at_utc": "2026-10-17T06:13:44.211694+00:00",
   "tasks": [
     {
       "parcel_objectid": "44001",
@@ -717,6 +717,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44001",
+      "county_pin": "104200101010",
+      "address": "1402 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44002",
       "county_pin": "104200101020",
       "address": "1410 Kings Wood Road, Eagan, MN",
@@ -725,6 +736,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44002",
+      "county_pin": "104200101020",
+      "address": "1410 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -739,6 +761,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44003",
+      "county_pin": "104200101030",
+      "address": "1414 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44004",
       "county_pin": "104200101040",
       "address": "1418 Kings Wood Road, Eagan, MN",
@@ -747,6 +780,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44004",
+      "county_pin": "104200101040",
+      "address": "1418 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -761,6 +805,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44005",
+      "county_pin": "104200101050",
+      "address": "1401 Rocky Lane, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44006",
       "county_pin": "104200101060",
       "address": "1405 Rocky Lane, Eagan, MN",
@@ -769,6 +824,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44006",
+      "county_pin": "104200101060",
+      "address": "1405 Rocky Lane, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -783,6 +849,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44007",
+      "county_pin": "104200101070",
+      "address": "1422 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44008",
       "county_pin": "104200101080",
       "address": "1426 Kings Wood Road, Eagan, MN",
@@ -791,6 +868,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44008",
+      "county_pin": "104200101080",
+      "address": "1426 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -805,6 +893,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44009",
+      "county_pin": "104200101090",
+      "address": "1430 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44010",
       "county_pin": "104200101100",
       "address": "1434 Kings Wood Road, Eagan, MN",
@@ -813,6 +912,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44010",
+      "county_pin": "104200101100",
+      "address": "1434 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -827,6 +937,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44011",
+      "county_pin": "104200101110",
+      "address": "1438 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44012",
       "county_pin": "104200101120",
       "address": "1444 Kings Wood Lane, Eagan, MN",
@@ -835,6 +956,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44012",
+      "county_pin": "104200101120",
+      "address": "1444 Kings Wood Lane, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -849,6 +981,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44013",
+      "county_pin": "104200101130",
+      "address": "1448 Kings Wood Lane, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44014",
       "county_pin": "104200101140",
       "address": "1452 Kings Wood Lane, Eagan, MN",
@@ -857,6 +1000,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44014",
+      "county_pin": "104200101140",
+      "address": "1452 Kings Wood Lane, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -871,6 +1025,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44015",
+      "county_pin": "104200101150",
+      "address": "1456 Kings Wood Lane, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44016",
       "county_pin": "104200101160",
       "address": "1460 Kings Wood Lane, Eagan, MN",
@@ -879,6 +1044,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44016",
+      "county_pin": "104200101160",
+      "address": "1460 Kings Wood Lane, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -893,6 +1069,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44017",
+      "county_pin": "104200101170",
+      "address": "1463 Kings Wood Lane, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44018",
       "county_pin": "104200101180",
       "address": "1459 Kings Wood Lane, Eagan, MN",
@@ -901,6 +1088,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44018",
+      "county_pin": "104200101180",
+      "address": "1459 Kings Wood Lane, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -915,6 +1113,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44019",
+      "county_pin": "104200101190",
+      "address": "1455 Kings Wood Lane, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44020",
       "county_pin": "104200101200",
       "address": "1451 Kings Wood Lane, Eagan, MN",
@@ -923,6 +1132,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44020",
+      "county_pin": "104200101200",
+      "address": "1451 Kings Wood Lane, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -937,6 +1157,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44021",
+      "county_pin": "104200101210",
+      "address": "1447 Kings Wood Lane, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44022",
       "county_pin": "104200101220",
       "address": "1454 Kings Wood Road, Eagan, MN",
@@ -945,6 +1176,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44022",
+      "county_pin": "104200101220",
+      "address": "1454 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -959,6 +1201,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44023",
+      "county_pin": "104200101230",
+      "address": "1462 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44024",
       "county_pin": "104200101240",
       "address": "1470 Kings Wood Road, Eagan, MN",
@@ -967,6 +1220,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44024",
+      "county_pin": "104200101240",
+      "address": "1470 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -981,6 +1245,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44025",
+      "county_pin": "104200101250",
+      "address": "1474 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44026",
       "county_pin": "104200101260",
       "address": "1478 Kings Wood Road, Eagan, MN",
@@ -989,6 +1264,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44026",
+      "county_pin": "104200101260",
+      "address": "1478 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1003,6 +1289,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44027",
+      "county_pin": "104200101270",
+      "address": "1482 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44028",
       "county_pin": "104200101280",
       "address": "1486 Kings Wood Road, Eagan, MN",
@@ -1011,6 +1308,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44028",
+      "county_pin": "104200101280",
+      "address": "1486 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1025,6 +1333,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44029",
+      "county_pin": "104200101290",
+      "address": "1490 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44030",
       "county_pin": "104200101300",
       "address": "1494 Kings Wood Road, Eagan, MN",
@@ -1033,6 +1352,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44030",
+      "county_pin": "104200101300",
+      "address": "1494 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1047,6 +1377,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44031",
+      "county_pin": "104200101310",
+      "address": "1498 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44032",
       "county_pin": "104200102010",
       "address": "1401 Kings Wood Road, Eagan, MN",
@@ -1055,6 +1396,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44032",
+      "county_pin": "104200102010",
+      "address": "1401 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1069,6 +1421,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44033",
+      "county_pin": "104200102020",
+      "address": "1405 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44034",
       "county_pin": "104200102030",
       "address": "1409 Kings Wood Road, Eagan, MN",
@@ -1077,6 +1440,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44034",
+      "county_pin": "104200102030",
+      "address": "1409 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1091,6 +1465,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44035",
+      "county_pin": "104200102040",
+      "address": "1413 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44036",
       "county_pin": "104200102050",
       "address": "1421 Kings Wood Road, Eagan, MN",
@@ -1099,6 +1484,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44036",
+      "county_pin": "104200102050",
+      "address": "1421 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1113,6 +1509,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44037",
+      "county_pin": "104200102060",
+      "address": "1433 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44038",
       "county_pin": "104200102070",
       "address": "1445 Kings Wood Road, Eagan, MN",
@@ -1121,6 +1528,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44038",
+      "county_pin": "104200102070",
+      "address": "1445 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1135,6 +1553,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44039",
+      "county_pin": "104200102080",
+      "address": "1449 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44040",
       "county_pin": "104200102090",
       "address": "1453 Kings Wood Road, Eagan, MN",
@@ -1143,6 +1572,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44040",
+      "county_pin": "104200102090",
+      "address": "1453 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1157,6 +1597,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44041",
+      "county_pin": "104200102100",
+      "address": "1457 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44042",
       "county_pin": "104200102110",
       "address": "1461 Kings Wood Road, Eagan, MN",
@@ -1165,6 +1616,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44042",
+      "county_pin": "104200102110",
+      "address": "1461 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1179,6 +1641,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44043",
+      "county_pin": "104200102120",
+      "address": "1465 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44044",
       "county_pin": "104200102130",
       "address": "1469 Kings Wood Road, Eagan, MN",
@@ -1187,6 +1660,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44044",
+      "county_pin": "104200102130",
+      "address": "1469 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1201,6 +1685,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44045",
+      "county_pin": "104200102140",
+      "address": "1473 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44046",
       "county_pin": "104200102150",
       "address": "3849 Kings Wood Court, Eagan, MN",
@@ -1209,6 +1704,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44046",
+      "county_pin": "104200102150",
+      "address": "3849 Kings Wood Court, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1223,6 +1729,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44047",
+      "county_pin": "104200102160",
+      "address": "3853 Kings Wood Court, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44048",
       "county_pin": "104200102170",
       "address": "3857 Kings Wood Court, Eagan, MN",
@@ -1231,6 +1748,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44048",
+      "county_pin": "104200102170",
+      "address": "3857 Kings Wood Court, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1245,6 +1773,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44049",
+      "county_pin": "104200102180",
+      "address": "3854 Kings Wood Court, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44050",
       "county_pin": "104200102190",
       "address": "1481 Kings Wood Road, Eagan, MN",
@@ -1253,6 +1792,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44050",
+      "county_pin": "104200102190",
+      "address": "1481 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1267,6 +1817,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44051",
+      "county_pin": "104200102200",
+      "address": "1485 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44052",
       "county_pin": "104200102210",
       "address": "1489 Kings Wood Road, Eagan, MN",
@@ -1275,6 +1836,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44052",
+      "county_pin": "104200102210",
+      "address": "1489 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1289,6 +1861,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44053",
+      "county_pin": "104200102220",
+      "address": "1493 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44054",
       "county_pin": "104200102230",
       "address": "1497 Kings Wood Road, Eagan, MN",
@@ -1297,6 +1880,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44054",
+      "county_pin": "104200102230",
+      "address": "1497 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1311,6 +1905,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44055",
+      "county_pin": "104200102240",
+      "address": "1501 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44056",
       "county_pin": "104200102250",
       "address": "1505 Kings Wood Road, Eagan, MN",
@@ -1319,6 +1924,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44056",
+      "county_pin": "104200102250",
+      "address": "1505 Kings Wood Road, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1333,6 +1949,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44057",
+      "county_pin": "104200201010",
+      "address": "1459 Kings Crest, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44058",
       "county_pin": "104200201020",
       "address": "1463 Kings Crest, Eagan, MN",
@@ -1341,6 +1968,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44058",
+      "county_pin": "104200201020",
+      "address": "1463 Kings Crest, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -1355,6 +1993,17 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
+      "parcel_objectid": "44059",
+      "county_pin": "104200201030",
+      "address": "1467 Kings Crest, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
       "parcel_objectid": "44060",
       "county_pin": "104200201040",
       "address": "1471 Kings Crest, Eagan, MN",
@@ -1363,6 +2012,17 @@
       "previous_status": "SOURCE_ACCESS_BLOCKED",
       "next_action": "Use authorized city export; reconcile permit number, address and source date",
       "attempted": true,
+      "gatekeeper": "PENDING_OR_BLOCKED"
+    },
+    {
+      "parcel_objectid": "44060",
+      "county_pin": "104200201040",
+      "address": "1471 Kings Crest, Eagan, MN",
+      "search_type": "regional_permit",
+      "priority": 3,
+      "previous_status": "REGIONAL_SOURCE_NO_MATCH",
+      "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export",
+      "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
     },
     {
@@ -2686,6 +3346,6 @@
       "gatekeeper": "PENDING_OR_BLOCKED"
     }
   ],
-  "count": 244,
+  "count": 304,
   "warning": "These are pending/blocked search tasks, not successfully executed crawls."
 }

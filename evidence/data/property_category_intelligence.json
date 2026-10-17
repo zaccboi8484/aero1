@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-17T05:58:27.080998+00:00",
+  "created_utc": "2026-10-17T06:13:44.270253+00:00",
   "engine": "AeroLeadAI Property Categories v1",
   "records": [
     {
@@ -37,6 +37,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683527%2C44.8165728%2C-93.1669527%2C44.8173728&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -64,6 +67,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683527%2C44.8165728%2C-93.1669527%2C44.8173728&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -89,11 +95,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683527%2C44.8165728%2C-93.1669527%2C44.8173728&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "5957d9bcb113c0656470d1ca8a7abe3e0d82a7b60aa20afdc7d6a69324300e8f"
+      "integrity_sha256": "73c4a9ebda1ec4bf215b66aef25ecf38fab861367ec3ed7dcf8318badc517e02"
     },
     {
       "parcel_objectid": "44002",
@@ -130,6 +139,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683416%2C44.8162813%2C-93.1669416%2C44.8170813&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -157,6 +169,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683416%2C44.8162813%2C-93.1669416%2C44.8170813&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -182,11 +197,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683416%2C44.8162813%2C-93.1669416%2C44.8170813&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "842f103181d1b173a14e23f6e73c2d7d4b10d7eec19576658779dcf53f1a183d"
+      "integrity_sha256": "54a071f419445e7f3db607eb10a4146db650fa3fadf6065557fcf803e1f25016"
     },
     {
       "parcel_objectid": "44003",
@@ -223,6 +241,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683443%2C44.8159861%2C-93.1669443%2C44.8167861&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -250,6 +271,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683443%2C44.8159861%2C-93.1669443%2C44.8167861&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -275,11 +299,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683443%2C44.8159861%2C-93.1669443%2C44.8167861&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "140e6bcb8bb4975c97e7d7061a6b0dd65e48a1dbcc5c46dae580fe7d1f54ca90"
+      "integrity_sha256": "435015f3d0631638ed2aa8493ed0d7838235db01b21cb92f90787c8695f7a356"
     },
     {
       "parcel_objectid": "44004",
@@ -316,6 +343,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1684568%2C44.8157096%2C-93.1670568%2C44.8165096&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -343,6 +373,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1684568%2C44.8157096%2C-93.1670568%2C44.8165096&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -368,11 +401,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1684568%2C44.8157096%2C-93.1670568%2C44.8165096&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "8b48436aabba3edafd268cc0b14d6ad3054b61c31dbed274d486b1836f88797d"
+      "integrity_sha256": "0fbc80ecaa0b14e96c0bf8956f927704822a29538f7fde9d7918532a1c423446"
     },
     {
       "parcel_objectid": "44005",
@@ -409,6 +445,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1684388%2C44.8152607%2C-93.1670388%2C44.8160607&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -436,6 +475,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1684388%2C44.8152607%2C-93.1670388%2C44.8160607&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -461,11 +503,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1684388%2C44.8152607%2C-93.1670388%2C44.8160607&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "823b76b46cf8537d061da4d0b3ee46a687f694d07b14b4a8241600743524ff14"
+      "integrity_sha256": "8a96a404f60643bf8fd8326ed2ff677faf7c25458c14de51aac6a0a3cb252d60"
     },
     {
       "parcel_objectid": "44006",
@@ -502,6 +547,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1687487%2C44.8150539%2C-93.1673487%2C44.8158539&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -529,6 +577,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1687487%2C44.8150539%2C-93.1673487%2C44.8158539&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -554,11 +605,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1687487%2C44.8150539%2C-93.1673487%2C44.8158539&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "ad52809f9f3b18a95a7c1ef0aca06ce60ef3f789d41e65dfe959b223ea0d6ee4"
+      "integrity_sha256": "e15704aaa4f93e1c03b3273415c6522443aa2eef48277b3700c1298990ca14b6"
     },
     {
       "parcel_objectid": "44007",
@@ -595,6 +649,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1688065%2C44.8155582%2C-93.1674065%2C44.8163582&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -622,6 +679,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1688065%2C44.8155582%2C-93.1674065%2C44.8163582&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -647,11 +707,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1688065%2C44.8155582%2C-93.1674065%2C44.8163582&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "720c8dc66ebed8bd9b3f808d8ecfdf418f619af6c2a63ab4227bdf3aab2f7e51"
+      "integrity_sha256": "66fac19b0f460d9295aff6ff06e4b4330412d9924f4b2aa3d375e0c15db18512"
     },
     {
       "parcel_objectid": "44008",
@@ -688,6 +751,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1691044%2C44.8153635%2C-93.1677044%2C44.8161635&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -715,6 +781,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1691044%2C44.8153635%2C-93.1677044%2C44.8161635&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -740,11 +809,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1691044%2C44.8153635%2C-93.1677044%2C44.8161635&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "ae74b0067fa8fa38c02ac97e41047157aae83424e5b4c89425110d3706ef1dbc"
+      "integrity_sha256": "752302ed3a9cab2402a3b7ff41b99b89929c9a23b214861f965329088389a84a"
     },
     {
       "parcel_objectid": "44009",
@@ -781,6 +853,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1693268%2C44.8152644%2C-93.1679268%2C44.8160644&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -808,6 +883,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1693268%2C44.8152644%2C-93.1679268%2C44.8160644&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -833,11 +911,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1693268%2C44.8152644%2C-93.1679268%2C44.8160644&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "4ad663519f92c770a4c9401b6439c5d8cd62718d90234ad21d18fb8959f37726"
+      "integrity_sha256": "e7d72bd8450f7f1618614dd2ecd052f23400a67223926fc906f7236a7e816d02"
     },
     {
       "parcel_objectid": "44010",
@@ -874,6 +955,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1699828%2C44.8152569%2C-93.1685828%2C44.8160569&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -901,6 +985,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1699828%2C44.8152569%2C-93.1685828%2C44.8160569&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -926,11 +1013,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1699828%2C44.8152569%2C-93.1685828%2C44.8160569&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "f04a3f2a55d27d78193f73182164b9ed25076b226cb1d4a822d7f3da9b137dd4"
+      "integrity_sha256": "cbb3eb9cb1aa725cec95e491b151f8208380e2dedac6c0b02a87395268ac6b1f"
     },
     {
       "parcel_objectid": "44011",
@@ -967,6 +1057,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704059%2C44.8153327%2C-93.1690059%2C44.8161327&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -994,6 +1087,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704059%2C44.8153327%2C-93.1690059%2C44.8161327&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1019,11 +1115,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704059%2C44.8153327%2C-93.1690059%2C44.8161327&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "3403249974dbbd2dfe4993fd897576029dc7a5c85661aef73eeca12af3e98aef"
+      "integrity_sha256": "21de79c48ceb99fef5265be8eb902478c174eaf81e52fcf57d90c6e898a925e7"
     },
     {
       "parcel_objectid": "44012",
@@ -1060,6 +1159,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704099%2C44.8156763%2C-93.1690099%2C44.8164763&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1087,6 +1189,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704099%2C44.8156763%2C-93.1690099%2C44.8164763&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1112,11 +1217,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704099%2C44.8156763%2C-93.1690099%2C44.8164763&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "b33dddcfc2d0b7b8828fe382f0c926dc723e609337490816cc21b5d9567994fa"
+      "integrity_sha256": "3bfe91dcebfeef1f63de67bfd8376a9ffefb1db81f9965de8fbc48ce834dfba3"
     },
     {
       "parcel_objectid": "44013",
@@ -1153,6 +1261,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1708829%2C44.8156262%2C-93.1694829%2C44.8164262&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1180,6 +1291,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1708829%2C44.8156262%2C-93.1694829%2C44.8164262&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1205,11 +1319,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1708829%2C44.8156262%2C-93.1694829%2C44.8164262&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "a4dcfd9c932207420b3679d0fdb7478393972eb68aeed0389ba12e8c0fcc749f"
+      "integrity_sha256": "5655d4da0f66791dc13d56c6e68a6c787fd19f165bbf6014c33dc566fe10afab"
     },
     {
       "parcel_objectid": "44014",
@@ -1246,6 +1363,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1709177%2C44.815389%2C-93.1695177%2C44.816189&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1273,6 +1393,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1709177%2C44.815389%2C-93.1695177%2C44.816189&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1298,11 +1421,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1709177%2C44.815389%2C-93.1695177%2C44.816189&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "035cff8c5436a73fef3eb66523dcc55c3406c4d499581b2ccf1b9ba824422661"
+      "integrity_sha256": "2da8530605c6e72cbb3b18f722f4325478842e5fb851ddcba326155ecdf0d60d"
     },
     {
       "parcel_objectid": "44015",
@@ -1339,6 +1465,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1713771%2C44.815227%2C-93.1699771%2C44.816027&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1366,6 +1495,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1713771%2C44.815227%2C-93.1699771%2C44.816027&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1391,11 +1523,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1713771%2C44.815227%2C-93.1699771%2C44.816027&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "297d5bd54960eac5c1a3fdda3d6b7c4843362440a07a3e441c8280970de0f568"
+      "integrity_sha256": "dbabd798195ecfa25e397a0d3c797ce36a147a28a87d8b1f563e0666edc76762"
     },
     {
       "parcel_objectid": "44016",
@@ -1432,6 +1567,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.171904%2C44.8152842%2C-93.170504%2C44.8160842&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1459,6 +1597,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.171904%2C44.8152842%2C-93.170504%2C44.8160842&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1484,11 +1625,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.171904%2C44.8152842%2C-93.170504%2C44.8160842&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "5e24d818b4103b52ea694907d9bee46c9ae141e2b4e8d96cecd527130a44bbdf"
+      "integrity_sha256": "b52b868d65dbffeca8d6e1c9a1f4c19e1d68797b9da59165f4e98a6959b1240c"
     },
     {
       "parcel_objectid": "44017",
@@ -1525,6 +1669,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1719163%2C44.8157118%2C-93.1705163%2C44.8165118&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1552,6 +1699,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1719163%2C44.8157118%2C-93.1705163%2C44.8165118&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1577,11 +1727,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1719163%2C44.8157118%2C-93.1705163%2C44.8165118&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "967a99b600a1903f874a897c29d30b05e397c76a635785afde83088ab4fa04ba"
+      "integrity_sha256": "f24252d276b41f8ea80160c8708a90f5f021431426766825cda746d74e7c05f4"
     },
     {
       "parcel_objectid": "44018",
@@ -1618,6 +1771,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1716255%2C44.8159514%2C-93.1702255%2C44.8167514&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1645,6 +1801,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1716255%2C44.8159514%2C-93.1702255%2C44.8167514&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1670,11 +1829,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1716255%2C44.8159514%2C-93.1702255%2C44.8167514&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "dd4a508f80acee5114cf42f76c7707b7c5dbef3dd7d4825078c4948d9ebd5bd3"
+      "integrity_sha256": "de75cab467e45b84b6347be16acd68dea5c46917c5e606648e245574ac0a5aa0"
     },
     {
       "parcel_objectid": "44019",
@@ -1711,6 +1873,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.171276%2C44.8161304%2C-93.169876%2C44.8169304&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1738,6 +1903,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.171276%2C44.8161304%2C-93.169876%2C44.8169304&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1763,11 +1931,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.171276%2C44.8161304%2C-93.169876%2C44.8169304&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "d2f85436c635d29aed0acda20836f28883375cb32b29a4ac07c03956cec48182"
+      "integrity_sha256": "1c92d7976be960384252fb6d09d0f10b5bbbf475e45e8e1f67523888b95ea346"
     },
     {
       "parcel_objectid": "44020",
@@ -1804,6 +1975,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1708807%2C44.8161914%2C-93.1694807%2C44.8169914&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1831,6 +2005,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1708807%2C44.8161914%2C-93.1694807%2C44.8169914&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1856,11 +2033,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1708807%2C44.8161914%2C-93.1694807%2C44.8169914&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "5ec0e38e37c5eaa65fbf660bc947e39b97f6574611cd7224d52fd21adbf67e0a"
+      "integrity_sha256": "c155a8b7165d943236497beffc22d1950f59e30643d015b75436c6744c49a378"
     },
     {
       "parcel_objectid": "44021",
@@ -1897,6 +2077,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704089%2C44.8162148%2C-93.1690089%2C44.8170148&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1924,6 +2107,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704089%2C44.8162148%2C-93.1690089%2C44.8170148&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -1949,11 +2135,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704089%2C44.8162148%2C-93.1690089%2C44.8170148&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "d14b071fbced066c64ecb1ccc1822d89787a0be674a3c21073d583b9153b31bb"
+      "integrity_sha256": "b5accbe975c8da67a9dcc16d6c10c1ae0d864983e6d13a0e9ad488dbd148ec25"
     },
     {
       "parcel_objectid": "44022",
@@ -1990,6 +2179,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1705463%2C44.8166044%2C-93.1691463%2C44.8174044&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2017,6 +2209,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1705463%2C44.8166044%2C-93.1691463%2C44.8174044&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2042,11 +2237,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1705463%2C44.8166044%2C-93.1691463%2C44.8174044&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "cb2152b6a47fab802e8db522cc2bb40301e2db7bc7729b9f44c165f376347649"
+      "integrity_sha256": "c422a3a0d72fc6da099206f410e3d7532116441e15573b11e8e55c7c167b82d4"
     },
     {
       "parcel_objectid": "44023",
@@ -2083,6 +2281,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.170731%2C44.8167461%2C-93.169331%2C44.8175461&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2110,6 +2311,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.170731%2C44.8167461%2C-93.169331%2C44.8175461&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2135,11 +2339,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.170731%2C44.8167461%2C-93.169331%2C44.8175461&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "2e3f1e33ea19589ccbbb27381fa7331f5b5745f18dd3e43dcbab57ca2bf1ec4d"
+      "integrity_sha256": "6b8318ab3ad09933f53f680cba08d684e67ea047b63f2743ce871a6356181c85"
     },
     {
       "parcel_objectid": "44024",
@@ -2176,6 +2383,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1711884%2C44.8166977%2C-93.1697884%2C44.8174977&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2203,6 +2413,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1711884%2C44.8166977%2C-93.1697884%2C44.8174977&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2228,11 +2441,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1711884%2C44.8166977%2C-93.1697884%2C44.8174977&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "fd5b06ef16ba338309f14edb86bd5443fbd6c18d77909deac5cdaa848e473537"
+      "integrity_sha256": "b2168d43b0dde8627ffcbc4a070d18f9c6d4cd3aad6a51f28d3f79da258f43c7"
     },
     {
       "parcel_objectid": "44025",
@@ -2269,6 +2485,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1715133%2C44.816578%2C-93.1701133%2C44.817378&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2296,6 +2515,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1715133%2C44.816578%2C-93.1701133%2C44.817378&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2321,11 +2543,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1715133%2C44.816578%2C-93.1701133%2C44.817378&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "d4fa61aab9c61662de06f8db55ef7a93485d9693d18edb319941111b69c35a6b"
+      "integrity_sha256": "5ae58a92dccd6a3bd7ee64d8a3e146b1e36424d999a1e1791a0d390e6396adfc"
     },
     {
       "parcel_objectid": "44026",
@@ -2362,6 +2587,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1717963%2C44.8163865%2C-93.1703963%2C44.8171865&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2389,6 +2617,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1717963%2C44.8163865%2C-93.1703963%2C44.8171865&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2414,11 +2645,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1717963%2C44.8163865%2C-93.1703963%2C44.8171865&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "b2212e69dd88c182e1029fb9111b399e5d13c174805be630fb99440a0c2202ac"
+      "integrity_sha256": "d59a0694969fe59cf7afaad1071a8345cc3ec65a32956f6355efc35a118232a7"
     },
     {
       "parcel_objectid": "44027",
@@ -2455,6 +2689,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.172078%2C44.816201%2C-93.170678%2C44.817001&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2482,6 +2719,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.172078%2C44.816201%2C-93.170678%2C44.817001&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2507,11 +2747,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.172078%2C44.816201%2C-93.170678%2C44.817001&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "ff09dc899742a0a780897db3a3058faddcf0ecc9ac96da759bce35b08062961b"
+      "integrity_sha256": "9cec048e6a22f973b971e95f804f7d5f82f275ae2dd53e9a6fe6df49faaa24d5"
     },
     {
       "parcel_objectid": "44028",
@@ -2548,6 +2791,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1723132%2C44.8159829%2C-93.1709132%2C44.8167829&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2575,6 +2821,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1723132%2C44.8159829%2C-93.1709132%2C44.8167829&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2600,11 +2849,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1723132%2C44.8159829%2C-93.1709132%2C44.8167829&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "66362d9020c45ece472a90d1076a9f9b19a68e05d818511fd97d24fe7fb7cdd0"
+      "integrity_sha256": "f32e792fbea7ba58a8b5eae9ad17e407be2e93cd029d49524fc898ab53b8d7b6"
     },
     {
       "parcel_objectid": "44029",
@@ -2641,6 +2893,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1724565%2C44.8157309%2C-93.1710565%2C44.8165309&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2668,6 +2923,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1724565%2C44.8157309%2C-93.1710565%2C44.8165309&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2693,11 +2951,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1724565%2C44.8157309%2C-93.1710565%2C44.8165309&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "f911b8e50a4f37a40b4d035da68ac845f119c1f3361b97a2b7ce98a488a5c9a2"
+      "integrity_sha256": "297eda6305b112828ddb07eb6fe0fc655418d8e0b89e587790f306707b44fd34"
     },
     {
       "parcel_objectid": "44030",
@@ -2734,6 +2995,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1725097%2C44.8154715%2C-93.1711097%2C44.8162715&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2761,6 +3025,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1725097%2C44.8154715%2C-93.1711097%2C44.8162715&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2786,11 +3053,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1725097%2C44.8154715%2C-93.1711097%2C44.8162715&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "078ec1c8e3c9e8c1cb2ec1a8c3a4d4d6875d6ef5e092359b58ca9a17cc57aa9a"
+      "integrity_sha256": "5245dab27c81180f9afaad5e4dd7ff637f45921a9302db64c0e629dea32b07e2"
     },
     {
       "parcel_objectid": "44031",
@@ -2827,6 +3097,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1725391%2C44.8151831%2C-93.1711391%2C44.8159831&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2854,6 +3127,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1725391%2C44.8151831%2C-93.1711391%2C44.8159831&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2879,11 +3155,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1725391%2C44.8151831%2C-93.1711391%2C44.8159831&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "2a3a69f1c223900277a7076cbf9c4d61cb941f5c421241e2986e6e723a2189e9"
+      "integrity_sha256": "4e61ca55d4c2ab08e5f5eb54c9f4eed9d07191660d57ba6c416a8d87127bfd7e"
     },
     {
       "parcel_objectid": "44032",
@@ -2920,6 +3199,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1688839%2C44.8169946%2C-93.1674839%2C44.8177946&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2947,6 +3229,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1688839%2C44.8169946%2C-93.1674839%2C44.8177946&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -2972,11 +3257,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1688839%2C44.8169946%2C-93.1674839%2C44.8177946&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "ad40456cdf01a782b37ca6858a5d277f404655eeb50b13a51b12c0d4aecf04f4"
+      "integrity_sha256": "77880b764566b4b640928ee5c170e537e30a843016842864eef7bf93d0fe1af2"
     },
     {
       "parcel_objectid": "44033",
@@ -3013,6 +3301,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690695%2C44.8169048%2C-93.1676695%2C44.8177048&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3040,6 +3331,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690695%2C44.8169048%2C-93.1676695%2C44.8177048&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3065,11 +3359,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690695%2C44.8169048%2C-93.1676695%2C44.8177048&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "58182d8bdc5c860900490a78971808204449fba94aaa6ed434d9ee65809a8fec"
+      "integrity_sha256": "1fc99ae5969befc11917b1880f613a825c691c73bc6829ce345c17b01c8d14fb"
     },
     {
       "parcel_objectid": "44034",
@@ -3106,6 +3403,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1691128%2C44.816548%2C-93.1677128%2C44.817348&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3133,6 +3433,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1691128%2C44.816548%2C-93.1677128%2C44.817348&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3158,11 +3461,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1691128%2C44.816548%2C-93.1677128%2C44.817348&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "930edb340726508a371890d24e761f7f6246ef845e20eda637e7a3af57cb290b"
+      "integrity_sha256": "0ea342c7964ebb87d92b63df2013dc351d3ba80863bf31bebaee89839fc27699"
     },
     {
       "parcel_objectid": "44035",
@@ -3199,6 +3505,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690896%2C44.8162942%2C-93.1676896%2C44.8170942&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3226,6 +3535,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690896%2C44.8162942%2C-93.1676896%2C44.8170942&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3251,11 +3563,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690896%2C44.8162942%2C-93.1676896%2C44.8170942&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "78159999fa3665aa9b300374d267d090bc6c5de23b34a09f3eb64d9979243507"
+      "integrity_sha256": "59b51a576a9e51b508e6555a815c03375cedc0406e0c6d7f7ca8504730edfad8"
     },
     {
       "parcel_objectid": "44036",
@@ -3292,6 +3607,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690833%2C44.8159088%2C-93.1676833%2C44.8167088&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3319,6 +3637,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690833%2C44.8159088%2C-93.1676833%2C44.8167088&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3344,11 +3665,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690833%2C44.8159088%2C-93.1676833%2C44.8167088&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "e031ab2736156d053b1273ded7b1368a9861f903f45aa80a5a7a9ce9475f1e06"
+      "integrity_sha256": "21fd3082cdd348fd79e482ed45fb1bc599a5cb41aabf1bc003fbe6fe51c903fc"
     },
     {
       "parcel_objectid": "44037",
@@ -3385,6 +3709,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.169708%2C44.815746%2C-93.168308%2C44.816546&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3412,6 +3739,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.169708%2C44.815746%2C-93.168308%2C44.816546&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3437,11 +3767,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.169708%2C44.815746%2C-93.168308%2C44.816546&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "c938c6722c1a8761fcf81de2ad45d2c5b87acd745b0cbe5a7a1e5e67ed54044e"
+      "integrity_sha256": "3f25a0c2d11873747f0812cd6795ee4905f3d58f7e2c40c7f1469c3209d8a9cb"
     },
     {
       "parcel_objectid": "44038",
@@ -3478,6 +3811,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1697065%2C44.8160672%2C-93.1683065%2C44.8168672&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3505,6 +3841,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1697065%2C44.8160672%2C-93.1683065%2C44.8168672&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3530,11 +3869,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1697065%2C44.8160672%2C-93.1683065%2C44.8168672&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "2bec8f9ea3da8e6b1d838886aa79d1e3650bbd222d6504d34ecbd13f516a9af6"
+      "integrity_sha256": "153880f006f550e7b507f05519ada352924b73f4d16d39901fe5772d65d80b4e"
     },
     {
       "parcel_objectid": "44039",
@@ -3571,6 +3913,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1697062%2C44.816365%2C-93.1683062%2C44.817165&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3598,6 +3943,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1697062%2C44.816365%2C-93.1683062%2C44.817165&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3623,11 +3971,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1697062%2C44.816365%2C-93.1683062%2C44.817165&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "9c3034ef3ec3c8e46db8282fcf868f21f1fd857ff744b5d23e61d76474a75ab8"
+      "integrity_sha256": "bd62b86cb6c0b07525676f85b4fc38901cd6eeb3ede9f577739e5737456f13e2"
     },
     {
       "parcel_objectid": "44040",
@@ -3664,6 +4015,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.169754%2C44.8167184%2C-93.168354%2C44.8175184&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3691,6 +4045,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.169754%2C44.8167184%2C-93.168354%2C44.8175184&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3716,11 +4073,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.169754%2C44.8167184%2C-93.168354%2C44.8175184&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "b67e682b414450205664f638970c7bf7617ae8d4afd2bc6d14e522f8f0e75f09"
+      "integrity_sha256": "3f769c90aef6572015c7185ee4278b7429ae1f9eac3eb7dc2f0132b672d906d7"
     },
     {
       "parcel_objectid": "44041",
@@ -3757,6 +4117,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1698517%2C44.8171132%2C-93.1684517%2C44.8179132&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3784,6 +4147,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1698517%2C44.8171132%2C-93.1684517%2C44.8179132&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3809,11 +4175,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1698517%2C44.8171132%2C-93.1684517%2C44.8179132&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "549aaf85aaeb68b40466aef14510bab0ab454b0051ecf4254eb1acc5dec0293d"
+      "integrity_sha256": "92a77ed1956df90303c94e115cc0db2b4319317e5023e121ef8a03764e8fb8d1"
     },
     {
       "parcel_objectid": "44042",
@@ -3850,6 +4219,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1700176%2C44.8173564%2C-93.1686176%2C44.8181564&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3877,6 +4249,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1700176%2C44.8173564%2C-93.1686176%2C44.8181564&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3902,11 +4277,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1700176%2C44.8173564%2C-93.1686176%2C44.8181564&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "958da947b716d6f4165f7dfbfcae3ea083d19bb4a2132c37bc90a69cd451b88f"
+      "integrity_sha256": "159ac4383a8e4640fae84bbfa7585c562763b8c8375f56d5b235ed0fb5a5cc02"
     },
     {
       "parcel_objectid": "44043",
@@ -3943,6 +4321,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704811%2C44.8176307%2C-93.1690811%2C44.8184307&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3970,6 +4351,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704811%2C44.8176307%2C-93.1690811%2C44.8184307&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -3995,11 +4379,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704811%2C44.8176307%2C-93.1690811%2C44.8184307&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "f386d15391505d12ab2dba7339589999c527b8096a53ffa71dd90df3dd8d5be2"
+      "integrity_sha256": "ffc6724d39afe1f43bf7636910118c99a03e39530c9b8fba1bfad9977773b62e"
     },
     {
       "parcel_objectid": "44044",
@@ -4036,6 +4423,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1712596%2C44.8176437%2C-93.1698596%2C44.8184437&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4063,6 +4453,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1712596%2C44.8176437%2C-93.1698596%2C44.8184437&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4088,11 +4481,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1712596%2C44.8176437%2C-93.1698596%2C44.8184437&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "8e3ef84a1c8655264d252779ea1548f106ff397a8e9a7cd7d28b5a75e632e79f"
+      "integrity_sha256": "e36d10e47c7b6f1c949f2add879163046f1054c04593d236360d1dd1ff77abda"
     },
     {
       "parcel_objectid": "44045",
@@ -4129,6 +4525,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1716497%2C44.8173937%2C-93.1702497%2C44.8181937&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4156,6 +4555,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1716497%2C44.8173937%2C-93.1702497%2C44.8181937&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4181,11 +4583,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1716497%2C44.8173937%2C-93.1702497%2C44.8181937&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "7592e0acc7fcfaa9ccea0f1dc21063c0106e09299565cecf81f1ddb0a70b3011"
+      "integrity_sha256": "da1b82dd107f4de33ef5c932b3b22bbf32c77b98e118ec216b56bcb6549c7c9e"
     },
     {
       "parcel_objectid": "44046",
@@ -4222,6 +4627,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1719013%2C44.8170969%2C-93.1705013%2C44.8178969&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4249,6 +4657,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1719013%2C44.8170969%2C-93.1705013%2C44.8178969&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4274,11 +4685,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1719013%2C44.8170969%2C-93.1705013%2C44.8178969&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "7b752c23f758e7fe4f9c74fa73de1145c13381912c2cc6563a147e107686270f"
+      "integrity_sha256": "dd16befc356793f92c71e9c1d7e6739a41cb827faa661a8f018e570835cd83bb"
     },
     {
       "parcel_objectid": "44047",
@@ -4315,6 +4729,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1722127%2C44.8174237%2C-93.1708127%2C44.8182237&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4342,6 +4759,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1722127%2C44.8174237%2C-93.1708127%2C44.8182237&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4367,11 +4787,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1722127%2C44.8174237%2C-93.1708127%2C44.8182237&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "2939f4ed2275ba6ec2dc757bcc22a17bcb5830892e3af7801386618d9b5f88ea"
+      "integrity_sha256": "7e04bb0cacc03f959b9624e4e5776ee4b4ec81023492758b5e14cd0a6941310e"
     },
     {
       "parcel_objectid": "44048",
@@ -4408,6 +4831,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1728086%2C44.817414%2C-93.1714086%2C44.818214&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4435,6 +4861,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1728086%2C44.817414%2C-93.1714086%2C44.818214&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4460,11 +4889,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1728086%2C44.817414%2C-93.1714086%2C44.818214&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "8ea688be970eefb16af2dd044c994ec23488b294f04fa5e257e88acdd85b4c2e"
+      "integrity_sha256": "7249bd0c0ceb482a46e1cfb41412c23570df9a09376c3982ccc3d8fe484249d3"
     },
     {
       "parcel_objectid": "44049",
@@ -4501,6 +4933,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1729659%2C44.8169658%2C-93.1715659%2C44.8177658&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4528,6 +4963,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1729659%2C44.8169658%2C-93.1715659%2C44.8177658&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4553,11 +4991,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1729659%2C44.8169658%2C-93.1715659%2C44.8177658&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "34bf5744e832f98db2ff8344a879dab6d5c0433710fe8017d37c11693c365ed5"
+      "integrity_sha256": "6fc412209fb2d21177c5b98dd438e99110e253b1f26637680b799873185c5b12"
     },
     {
       "parcel_objectid": "44050",
@@ -4594,6 +5035,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1723996%2C44.816688%2C-93.1709996%2C44.817488&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4621,6 +5065,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1723996%2C44.816688%2C-93.1709996%2C44.817488&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4646,11 +5093,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1723996%2C44.816688%2C-93.1709996%2C44.817488&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "40421c3c421ae1f6f231745aa4168d9418e06398cdade139f07518cea9927dfe"
+      "integrity_sha256": "664a6b4457378696624b234ca10ad80336adf77396650d02da474e4c713033e0"
     },
     {
       "parcel_objectid": "44051",
@@ -4687,6 +5137,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1727662%2C44.8165293%2C-93.1713662%2C44.8173293&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4714,6 +5167,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1727662%2C44.8165293%2C-93.1713662%2C44.8173293&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4739,11 +5195,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1727662%2C44.8165293%2C-93.1713662%2C44.8173293&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "3cd638ec96ed385e92165db2c179ff72a8c9dbbcd0f902e23fc046733e88dd4e"
+      "integrity_sha256": "b9751c67113aa26485a4f6c8458757e65ac56ec036cb223df56aa9541557537b"
     },
     {
       "parcel_objectid": "44052",
@@ -4780,6 +5239,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1729448%2C44.8163427%2C-93.1715448%2C44.8171427&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4807,6 +5269,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1729448%2C44.8163427%2C-93.1715448%2C44.8171427&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4832,11 +5297,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1729448%2C44.8163427%2C-93.1715448%2C44.8171427&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "662359f6dc4552f6e2089efba49b047d001c00c201eefd6666947b76c8e7bc06"
+      "integrity_sha256": "62e12ab314290c146444658cfa070a8149376796b2d82218073538ec42bf25fa"
     },
     {
       "parcel_objectid": "44053",
@@ -4873,6 +5341,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1731016%2C44.8160522%2C-93.1717016%2C44.8168522&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4900,6 +5371,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1731016%2C44.8160522%2C-93.1717016%2C44.8168522&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4925,11 +5399,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1731016%2C44.8160522%2C-93.1717016%2C44.8168522&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "e2e37c6bbcb256589a55c91ee55af04e01ea3b267b3c77d147618545d41bb111"
+      "integrity_sha256": "39b6e96d84b13bf3ad93126b2053425f963a568a0ce05a46afd3eebc1a202bce"
     },
     {
       "parcel_objectid": "44054",
@@ -4966,6 +5443,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1732314%2C44.8157669%2C-93.1718314%2C44.8165669&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -4993,6 +5473,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1732314%2C44.8157669%2C-93.1718314%2C44.8165669&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -5018,11 +5501,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1732314%2C44.8157669%2C-93.1718314%2C44.8165669&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "0e7a378f29f3972f96144efd29075bd3d37f69cc42fdead45da3139515da6b3b"
+      "integrity_sha256": "18c1dd1ec5e7c164f277461cf84a6ed3864065b93acd2f39c250325f447223b2"
     },
     {
       "parcel_objectid": "44055",
@@ -5059,6 +5545,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1733353%2C44.8154813%2C-93.1719353%2C44.8162813&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -5086,6 +5575,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1733353%2C44.8154813%2C-93.1719353%2C44.8162813&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -5111,11 +5603,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1733353%2C44.8154813%2C-93.1719353%2C44.8162813&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "58eb6ae28348b15b9a320dc9e112c61184db5afe6cc8f7076d184b36766252bc"
+      "integrity_sha256": "667d8a4f54c54e4e48489d36af357a2acb37dc26fd590176fda95c152be1608a"
     },
     {
       "parcel_objectid": "44056",
@@ -5152,6 +5647,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1734355%2C44.8151835%2C-93.1720355%2C44.8159835&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -5179,6 +5677,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1734355%2C44.8151835%2C-93.1720355%2C44.8159835&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -5204,11 +5705,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1734355%2C44.8151835%2C-93.1720355%2C44.8159835&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "71fe4a0818453d00e3725d95b1b22f1a0343f299cae5f8bde4b845a466502ad4"
+      "integrity_sha256": "d5e61140f8658e5cdae562e7aaff5223cb331983763521c5283696c3bdd99156"
     },
     {
       "parcel_objectid": "44057",
@@ -5245,6 +5749,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1732298%2C44.8148474%2C-93.1718298%2C44.8156474&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -5272,6 +5779,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1732298%2C44.8148474%2C-93.1718298%2C44.8156474&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -5297,11 +5807,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1732298%2C44.8148474%2C-93.1718298%2C44.8156474&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "95fe4e105ae27855e71ec1dffcdc47ea71fff844061eb72e7c210e1b582033d2"
+      "integrity_sha256": "f33f022d3b49dfc3d56973ae4389cf1b29a43413d032d00d6ce9580949876ed2"
     },
     {
       "parcel_objectid": "44058",
@@ -5338,6 +5851,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1736755%2C44.8148244%2C-93.1722755%2C44.8156244&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -5365,6 +5881,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1736755%2C44.8148244%2C-93.1722755%2C44.8156244&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -5390,11 +5909,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1736755%2C44.8148244%2C-93.1722755%2C44.8156244&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "16455971de07517b34a8284dfc3d73a2ae6a50f6477ce015c55360503d42648d"
+      "integrity_sha256": "a5ca2191a58cc056f1adfbfd162847cafd260914087a773acd2f180c1bcae6ac"
     },
     {
       "parcel_objectid": "44059",
@@ -5431,6 +5953,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1741738%2C44.8147277%2C-93.1727738%2C44.8155277&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -5458,6 +5983,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1741738%2C44.8147277%2C-93.1727738%2C44.8155277&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -5483,11 +6011,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1741738%2C44.8147277%2C-93.1727738%2C44.8155277&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "516241f3c3b0afaf191a00896ee4a9bd5743ebc2da3d04151d11bea55d059093"
+      "integrity_sha256": "9dbb3200d8ad73c74ac8d6b01736d0fd8f4c04c6d1fc9ffca1a0bda25d6d8270"
     },
     {
       "parcel_objectid": "44060",
@@ -5524,6 +6055,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.174801%2C44.8142873%2C-93.173401%2C44.8150873&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -5551,6 +6085,9 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.174801%2C44.8142873%2C-93.173401%2C44.8150873&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire authorized source image and qualified review"
         },
@@ -5576,11 +6113,14 @@
           ],
           "image_request_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.174801%2C44.8142873%2C-93.173401%2C44.8150873&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
           "imagery_acquisition": "FAILED",
+          "remote_image_available": false,
+          "remote_image_sha256": null,
+          "remote_image_url": null,
           "municipal_permit_status": "SOURCE_ACCESS_BLOCKED",
           "next_action": "Acquire a close-up photo or inspection; overhead imagery rarely proves cracks"
         }
       },
-      "integrity_sha256": "5c8e293bd42e99ee8fb1f7594704ece9cd75a30a64c50bada6f6b91c870241fe"
+      "integrity_sha256": "bceeec8c9f40233d8cccececcd3de414d56904ffa8ec2f28a351c553cd56c232"
     }
   ],
   "categories": [
