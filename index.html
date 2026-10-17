@@ -146,7 +146,7 @@ table{width:100%;border-collapse:collapse;text-align:left}th{background:#f8fafc;
 <script>
 "use strict";
 const byId=id=>document.getElementById(id);
-const allRecords=[]; let permitReview=[];let streetCenters=new Map(); // Authentic GIS candidates and source-backed permit review records only.
+const allRecords=[]; let permitReview=[];let streetCenters=new Map();let liveEnrichment=new Map();let activeAlerts=[]; // Authentic GIS candidates and source-backed permit review records only.
 async function loadCandidates(){
  try {
   const territory=byId('territorySelect').value;const endpoint='https://raw.githubusercontent.com/zaccboi8484/aero1/main/evidence/data/'+(territory==='burnsville-expansion'?'burnsville_first60_parcels.csv':'kingswood_parcel_candidates.csv');
@@ -163,17 +163,18 @@ async function loadCandidates(){
   }
   document.getElementById('registryStatus').textContent=allRecords.length+' real GIS records · Evidence pending';document.getElementById('parcelCount').textContent=String(allRecords.length);
   document.querySelector('#properties .mini').textContent=territory==='burnsville-expansion'?'Burnsville official GIS parcel candidates — permit search and evidence review pending':'Kings Wood official GIS candidate records — plat boundary and permits not yet matched';
-  await Promise.all([loadPermitReview(),loadStreetCenters()]);render();
+  await Promise.all([loadPermitReview(),loadStreetCenters(),loadLiveEnrichment()]);render();
  }catch(e){document.getElementById('registryStatus').textContent='GIS feed unavailable';document.getElementById('parcelCount').textContent='—';render()}
 }
 
+async function loadLiveEnrichment(){liveEnrichment=new Map();activeAlerts=[];try{const r=await fetch('https://raw.githubusercontent.com/zaccboi8484/aero1/main/evidence/data/live_property_enrichment.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)return;const data=await r.json();for(const row of data.records||[])liveEnrichment.set(String(row.parcel_objectid),row);activeAlerts=data.active_area_alerts||[]}catch(e){}}
 async function loadStreetCenters(){streetCenters=new Map();try{const r=await fetch('https://raw.githubusercontent.com/zaccboi8484/aero1/main/evidence/data/imagery_manifest.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)return;const body=await r.json();for(const x of body.records||[]){const lat=Number(x.center_lat),lon=Number(x.center_lon);if(Number.isFinite(lat)&&Number.isFinite(lon)&&Math.abs(lat)<=90&&Math.abs(lon)<=180&&lat!==0&&lon!==0)streetCenters.set(String(x.parcel_objectid),{lat,lon})}}catch(e){}}
 async function loadPermitReview(){permitReview=[];try{const r=await fetch('https://raw.githubusercontent.com/zaccboi8484/aero1/main/evidence/data/permit_match_review.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)return;const body=await r.json();permitReview=(body.records||[]).filter(r=>r.parcel_objectid&&r.match_status==='EXACT_ADDRESS_PENDING_REVIEW'&&r.source_record_id);}catch(e){}}
 function safeLink(url,label){const a=document.createElement('a');a.href=url;a.textContent=label;a.target='_blank';a.rel='noopener noreferrer';return a}
 function render(){const q=byId('query').value.trim().toLowerCase(),cat=byId('category').value;const rows=allRecords.filter(r=>(!q||(r.parcel_id+' '+r.address).toLowerCase().includes(q))&&(!cat||r.category===cat));byId('rows').replaceChildren();const container=byId('propertyCards');container.replaceChildren();
 for(const r of rows){const card=document.createElement('article');card.className='property-card';const title=document.createElement('h3');title.textContent=r.address;card.append(title);
 const meta=document.createElement('div');meta.className='meta';meta.textContent='County PIN: '+r.parcel_id+' · '+(r.plat||'Plat unverified');card.append(meta);
-const score=document.createElement('div');score.className='score';score.textContent='Mindex score: Not scored · Source-backed evidence insufficient';card.append(score);
+const score=document.createElement('div');score.className='score';score.textContent='Mindex score: Not scored · Source-backed evidence insufficient';card.append(score);const enriched=liveEnrichment.get(String(r.parcel_objectid));const v=enriched?.valuation;if(v?.gatekeeper==='SOURCE_RECORDED'&&Number.isFinite(Number(v.amount_usd))){const value=document.createElement('div');value.className='score';value.textContent='Official GIS reported value: '+Number(v.amount_usd).toLocaleString('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0})+' · Assessment year unavailable · Review pending';card.append(value);if(v.source_url)card.append(safeLink(v.source_url,'Assessment source ↗'))}else{const value=document.createElement('div');value.className='score';value.textContent='Assessed property value: Not retrieved';card.append(value)}const weather=document.createElement('div');weather.className='meta';weather.textContent='Current regional NOAA alerts: '+activeAlerts.length+' · Alerts do not prove parcel storm damage';card.append(weather);
 const permits=permitReview.filter(p=>String(p.parcel_objectid)===String(r.parcel_objectid));const permitBox=document.createElement('div');permitBox.className='permits';
 permitBox.textContent=permits.length?permits.length+' permit record(s) matched by address — review pending':'Permits: Not yet verified / no official matched export';
 for(const p of permits){const item=document.createElement('div');item.className='permit-item';item.textContent=(p.source_record_id||'Permit')+' · '+(p.permit_type||'Type unspecified')+' · '+(p.permit_status||'Status unknown')+' ';if(p.source_record_url&&/^https:\/\//.test(p.source_record_url))item.append(safeLink(p.source_record_url,'Source ↗'));permitBox.append(item)}card.append(permitBox);
