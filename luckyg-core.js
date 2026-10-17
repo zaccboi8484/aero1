@@ -27,7 +27,24 @@ function answer(question,context={}){const q=norm(question);const records=Array.
 if(/how many|count|number of parcels|properties collected/.test(q)){response='The current property register contains '+records.length+' loaded parcel candidate(s). These are not certified territory-membership or inspection findings. '}
 if(/permit/.test(q)){const p=Array.isArray(context.permitReview)?context.permitReview:[];response+='The app currently has '+p.length+' permit match record(s) awaiting review in its loaded feed. This is not a complete search across municipal history. '}
 if(/hottest|replace now|damage alert|most damage/.test(q)){response+='No verified damage or REPLACE NOW alerts can be established from the loaded candidate register. '}
-if(matched.length){response+=matched.map(v=>v.item.title+': '+v.item.body+(v.item.status==='USER_NOTE_UNVERIFIED'?' [Personal note — unverified]':'')+(v.item.source?.startsWith('https://')?' Source: '+v.item.source:'')).join('\n\n');}
+if(/assessed|valuation|value retrieved|values retrieved|property values/.test(q)){
+ const arr=Array.isArray(context.valuations)?context.valuations:[];
+ const verified=arr.filter(x=>x?.valuation?.gatekeeper==='SOURCE_RECORDED').length;
+ response+='AeroLeadAI currently has '+verified+' city GIS source-recorded property valuations from '+arr.length+' loaded records. These are not independent appraisals; the assessment year and reviewer approval are still missing. ';
+}
+if(/progress|verified|audit|completion|blocked|search status/.test(q)){
+ const rows=Array.isArray(context.progress)?context.progress:[];
+ const identities=rows.filter(x=>x.identity_status==='OFFICIAL_GIS_SOURCE_CONFIRMED').length;
+ const complete=rows.filter(x=>x.completion==='COMPLETE').length;
+ const waiting=rows.filter(x=>(x.checks||[]).some(c=>c.search_id==='permit'&&c.status==='SOURCE_ACCESS_BLOCKED')).length;
+ response+='AeroLeadAI search audit: '+identities+' official GIS identity records confirmed; '+complete+' fully reviewed property investigations; '+waiting+' permit searches have source-access blocks. Identity confirmation is not a roof, damage or permit verification. ';
+}
+if(/storm|weather|noaa|alert/.test(q)){
+ const alerts=Array.isArray(context.activeAlerts)?context.activeAlerts:[];
+ response+='NOAA currently lists '+alerts.length+' area alert(s) in the imported Eagan-area feed. '+alerts.map(x=>String(x.event||'Unspecified alert')).slice(0,4).join(', ')+'. Regional weather alerts are not proof of an individual property being damaged. ';
+}
+
+if(!response&&matched.length){response+=matched.map(v=>v.item.title+': '+v.item.body+(v.item.status==='USER_NOTE_UNVERIFIED'?' [Personal note — unverified]':'')+(v.item.source?.startsWith('https://')?' Source: '+v.item.source:'')).join('\n\n');}
 if(!response){response='I do not have a supported answer in the current AeroLeadAI evidence register or saved LuckyG memory. Add a dated, sourced knowledge entry using “Add knowledge,” or retrieve an official record and import it. I will not invent findings.'}
 const m=read();m.history.push({question:String(question).slice(0,300),at:new Date().toISOString(),match_ids:matched.map(x=>x.item.id)});try{save(m)}catch{}
 return response.trim()}
