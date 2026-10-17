@@ -3,7 +3,7 @@
 Builds deterministic per-parcel search tasks and GateKeeper outcomes from existing
 official manifests. Tasks marked PENDING are not searches claimed as performed.
 """
-import csv,hashlib,json,pathlib,datetime as dt
+import csv,hashlib,json,pathlib,datetime as dt,re
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 DATA=ROOT/"evidence"/"data"
 NOW=dt.datetime.now(dt.timezone.utc).isoformat()
@@ -29,6 +29,7 @@ for p in permitted:
  if p.get("match_status")=="EXACT_ADDRESS_PENDING_REVIEW":
   matches.setdefault(str(p.get("parcel_objectid")),[]).append(p)
 plats={str(x.get("attributes",{}).get("PLATNAME","")).upper() for x in discovery.get("subdivision_candidates",[])}
+DATA.mkdir(parents=True,exist_ok=True)
 results=[]
 for p in parcels:
  oid=str(p.get("parcel_objectid",""));pin=str(p.get("county_pin",""))
@@ -38,7 +39,8 @@ for p in parcels:
  source=p.get("source_record_url","")
  genuine=source.startswith("https://") and p.get("verification_status")=="UNVERIFIED"
  plat=str(p.get("plat_name","")).upper()
- recognized=bool(plat and any(plat.replace("ADD","ADDITION") in n or n.replace("ADDITION","ADD") in plat for n in plats))
+ normalized=lambda v:re.sub(r"\\bADD\\b","ADDITION",str(v).upper()).strip()
+ recognized=bool(plat and normalized(plat) in {normalized(n) for n in plats})
  permit_records=matches.get(oid,[])
  checks=[
   step("parcel","MetroGIS ArcGIS","SOURCE_RECORDED" if genuine else "UNVERIFIED","Official parcel ID and address present" if genuine else "Missing primary GIS provenance","Validate parcel against Eagan plat geometry"),
@@ -48,11 +50,28 @@ for p in parcels:
   step("value","County assessment / Eagan property GIS","SOURCE_RECORDED_PENDING_REVIEW" if values.get(oid,{}).get("gatekeeper")=="SOURCE_RECORDED" else "NOT_RETRIEVED","Actual city GIS value: "+str(values[oid]["amount_usd"])+" (assessment year unavailable)" if values.get(oid,{}).get("gatekeeper")=="SOURCE_RECORDED" else "Official value not unambiguously matched","Check assessment year and reviewer before financial conclusions"),
   step("gatekeeper","GateKeeper coordinator","AWAITING_EVIDENCE","No evidence-reviewed roof, driveway or tree conclusion","Require source corroboration and human review before findings")
  ]
- critical=all(s["status"] not in ("SOURCE_ACCESS_BLOCKED","NOT_ATTEMPTED","FETCH_FAILED","NOT_RETRIEVED","AWAITING_EVIDENCE","PENDING","UNVERIFIED") for s in checks)
+ identity="OFFICIAL_GIS_SOURCE_CONFIRMED" if genuine else "IDENTITY_UNVERIFIED"
+ subdivision="OFFICIAL_PLAT_NAME_CORROBORATED" if recognized else "SUBDIVISION_NOT_CONFIRMED"
+ valuation="CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW" if values.get(oid,{}).get("gatekeeper")=="SOURCE_RECORDED" else "NOT_MATCHED"
+ critical=False # An evidence-complete property requires actual permit/imagery review; no shortcut.
  score={"mindex":None,"property_value":None,"status":"NOT_SCORED","reason":"Insufficient reviewed evidence"}
- results.append({"territory":"001","parcel_objectid":oid,"county_pin":pin,"address":address,"plat_name":p.get("plat_name",""),"gis_url":source,"street_view":"OUTBOUND_LINK_ONLY","checks":checks,"score":score,"gatekeeper":"INCOMPLETE","completion":"COMPLETE" if critical else "OPEN"})
-counts={s:sum(any(c["status"]==s for c in r["checks"]) for r in results) for s in ["SOURCE_RECORDED","SOURCE_ACCESS_BLOCKED","FETCH_FAILED","MATCH_PENDING_REVIEW","NOT_RETRIEVED"]}
-output={"generated_at_utc":NOW,"policy":"real evidence only; no inferred damage","territory":"Kings Wood, Eagan","properties":results,"totals":{"property_records":len(results),"completed":sum(r["completion"]=="COMPLETE" for r in results),"mindex_scored":0,"checks":counts},"progression":{"phase":"SEED_EVIDENCE_COLLECTION","next_ring":"LOCKED_PENDING_TERRITORY_001_VALIDATION","order":["roofing","cracked_driveways","potentially_dangerous_trees","siding","gutters"],"ring_rule":"Buffer official territory boundary outward; never expand solely by street-name similarity; collect as leads but do not mark completed without evidence"}}
+ results.append({"territory":"001","parcel_objectid":oid,"county_pin":pin,"address":address,"plat_name":p.get("plat_name",""),"gis_url":source,"street_view":"OUTBOUND_LINK_ONLY","identity_status":identity,"subdivision_status":subdivision,"valuation_status":valuation,"evidence_status":"NOT_COMPLETE","checks":checks,"score":score,"gatekeeper":"INCOMPLETE","completion":"COMPLETE" if critical else "OPEN"})
+counts={s:sum(any(c["status"]==s for c in r["checks"]) for r in results) for s in ["SOURCE_RECORDED","SOURCE_ACCESS_BLOCKED","FETCH_FAILED","MATCH_PENDING_REVIEW","NOT_RETRIEVED","SOURCE_RECORDED_PENDING_REVIEW"]}
+# Real, re-runnable search tasks. Blocked access is not reclassified as success.
+tasks=[]
+priority={"subdivision":1,"value":2,"permit":3,"imagery":4,"gatekeeper":5}
+for rec in results:
+ for check in rec["checks"]:
+  if check["search_id"]=="parcel" and check["status"]=="SOURCE_RECORDED":continue
+  if check["search_id"]=="value" and check["status"]=="SOURCE_RECORDED_PENDING_REVIEW":continue
+  tasks.append({"parcel_objectid":rec["parcel_objectid"],"county_pin":rec["county_pin"],"address":rec["address"],"search_type":check["search_id"],"priority":priority.get(check["search_id"],9),"previous_status":check["status"],"next_action":check["next_action"],"attempted":check["status"] in ["FETCH_FAILED","SOURCE_ACCESS_BLOCKED"],"gatekeeper":"PENDING_OR_BLOCKED"})
+tasks.sort(key=lambda x:(x["priority"],x["parcel_objectid"]))
+audit_rows=[{"parcel_objectid":r["parcel_objectid"],"identity":r["identity_status"],"subdivision":r["subdivision_status"],"valuation":r["valuation_status"],"evidence":r["evidence_status"],"checks":{v["search_id"]:v["status"] for v in r["checks"]}} for r in results]
+for row in audit_rows:row["sha256"]=hashlib.sha256(json.dumps(row,sort_keys=True).encode()).hexdigest()
+(DATA/"gatekeeper_property_audit.json").write_text(json.dumps({"generated_at_utc":NOW,"audit":audit_rows},indent=2)+"\\n")
+(DATA/"search_retry_queue.json").write_text(json.dumps({"generated_at_utc":NOW,"tasks":tasks,"count":len(tasks),"warning":"These are pending/blocked search tasks, not successfully executed crawls."},indent=2)+"\\n")
+
+output={"generated_at_utc":NOW,"policy":"real evidence only; no inferred damage","territory":"Kings Wood, Eagan","properties":results,"totals":{"property_records":len(results),"gis_identities_confirmed":sum(r["identity_status"]=="OFFICIAL_GIS_SOURCE_CONFIRMED" for r in results),"plat_names_corroborated":sum(r["subdivision_status"]=="OFFICIAL_PLAT_NAME_CORROBORATED" for r in results),"city_values_source_matched":sum(r["valuation_status"]=="CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW" for r in results),"retry_tasks":len(tasks),"completed":sum(r["completion"]=="COMPLETE" for r in results),"mindex_scored":0,"checks":counts},"progression":{"phase":"SEED_EVIDENCE_COLLECTION","next_ring":"LOCKED_PENDING_TERRITORY_001_VALIDATION","order":["roofing","cracked_driveways","potentially_dangerous_trees","siding","gutters"],"ring_rule":"Buffer official territory boundary outward; never expand solely by street-name similarity; collect as leads but do not mark completed without evidence"}}
 DATA.mkdir(parents=True,exist_ok=True)
 (DATA/"progressive_search_status.json").write_text(json.dumps(output,indent=2)+"\n",encoding="utf-8")
 print(json.dumps(output["totals"],indent=2))
