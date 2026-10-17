@@ -3,7 +3,7 @@ import importlib.util,pathlib,unittest
 p=pathlib.Path(__file__).resolve().parents[1]/"collector"/"roof_evidence_score.py"
 spec=importlib.util.spec_from_file_location("roof",p);roof=importlib.util.module_from_spec(spec);spec.loader.exec_module(roof)
 SHA="a"*64
-BASE={"source_type":"MN_GOV","source_url":"https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS",
+BASE={"source_type":"USER_UPLOADED","consent_to_process":True,"source_url":"https://example.org/private-upload/roof.jpg",
  "image_sha256":SHA,"capture_date":"2025-04-18T12:00:00+00:00","roof_region_reviewed":True,
  "reviewer_id":"qualified-reviewer-123","reviewed_at":"2026-10-17T12:00:00+00:00",
  "view":"CLOSE_RANGE","indicators":["missing_shingles"],"lookalikes":[]}
@@ -19,6 +19,9 @@ class TestRoof(unittest.TestCase):
  def test_aerial_cannot_certify_hail_damage(self):
   x={**BASE,"view":"AERIAL","indicators":["random_pattern_hail_bruises"]}
   self.assertIsNone(roof.score_roof(x,{SHA})["roof_condition_score"])
+ def test_government_orthophoto_cannot_pretend_closeup(self):
+  x={**BASE,"source_type":"MN_GOV","source_url":"https://imageserver.gisdata.mn.gov/cgi-bin/wmsll"}
+  self.assertIn("ORTHOPHOTO_CANNOT_BE_CLOSE_RANGE",roof.score_roof(x,{SHA})["issues"])
  def test_verified_photo_allows_condition_score(self):
   x=roof.score_roof(BASE,{SHA})
   self.assertEqual(x["status"],"REVIEWED_ROOF_EVIDENCE_SCORE")
