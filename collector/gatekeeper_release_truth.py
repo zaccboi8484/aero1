@@ -13,6 +13,7 @@ def main():
  mnimg=read("mngeo_aerial_evidence.json");address=read("mn_address_validation.json")
  v=read("live_property_enrichment.json");geo=read("subdivision_geometry_checks.json")
  tasks=read("search_retry_queue.json")
+ eagan_exports=read("municipal_permit_export_audit.json")
  totals=p.get("totals",{})
  parcel_count=int(totals.get("property_records",0))
  def gate(key,title,done,target,evidence,blocking):
@@ -43,7 +44,8 @@ def main():
  out={"generated_at_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
  "product":"AeroLeadAI","assistant":"Embedded GateKeeper","release_certified":all(x["status"]=="VERIFIED" for x in gates) and not stale,
  "meaning":"Each gate requires source evidence. PASS of an internal test never certifies physical condition.",
- "pipeline_integrity_pass":integrity.get("pass") is True,"property_records":parcel_count,
+ "pipeline_integrity_pass":integrity.get("pass") is True,
+ "municipal_export_review":{"input_report_rows":eagan_exports.get("total_source_rows",0),"matched_permit_events":eagan_exports.get("matched_permit_events",0),"properties_with_matching_reports":eagan_exports.get("properties_with_matches",0),"explicit_2025_roof_candidates":eagan_exports.get("properties_with_2025_roof_candidates",0),"documents_reviewed":0,"issuer_live_recheck":False,"statement":"Owner-provided Eagan CSV reports: matches collected but physical roof/permit issue details require document review"},"property_records":parcel_count,
  "fully_reviewed_properties":totals.get("completed",0),"pending_search_tasks":tasks.get("count"),
  "gates":gates,"stale_warnings":stale,"decisions_for_human":decisions,
  "external_original_site":{"status":"NOT_VERIFIED_FROM_THIS_REPOSITORY","note":"Original Twin Cities application may be an entirely separate project; do not infer absence."}}
