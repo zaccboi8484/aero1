@@ -79,6 +79,12 @@ table{width:100%;border-collapse:collapse;text-align:left}th{background:#f8fafc;
 .gk-input input{flex:1;min-width:0;border-radius:22px;background:#071925;border:1px solid #395768;padding:11px 15px;color:#effaff;outline:none;font-size:12px}
 .gk-input button{border:0;border-radius:22px;background:#14858c;color:white;padding:0 18px;font-size:12px;font-weight:700}
 .gk-note{font-size:10px;color:#8db0c1;padding:0 16px 14px;background:#102639}
+
+.voice-setup-backdrop{position:fixed;inset:0;z-index:9000;background:rgba(4,15,27,.76);display:grid;place-items:center;padding:20px}.voice-setup-backdrop[hidden]{display:none}
+.voice-setup{width:min(100%,440px);padding:26px;background:#102638;color:#e7f8fd;border:1px solid #46687b;border-radius:18px;box-shadow:0 24px 90px #0007}
+.voice-setup h2{margin:0 0 11px;color:#e8faff;font-size:20px}.voice-setup p{color:#b1cddb;font-size:13px;line-height:1.6}
+.voice-setup-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:19px}.voice-setup-actions button{border:1px solid #497084;border-radius:9px;background:#1e4357;color:white;padding:12px 16px;font-size:12px;font-weight:700}.voice-setup-actions .enable{background:#098b91;border-color:#098b91}
+.voice-setup-status{font-size:12px;color:#9bc4cf;margin-top:13px;min-height:17px}
 </style></head>
 <body><div class="app"><nav aria-label="Primary">
 <div class="brand"><div class="brandmark">⌁</div><div>AeroLeadAI<small>PROPERTY INTELLIGENCE</small></div></div>
@@ -307,4 +313,27 @@ const d=await r.json();const t=d.totals||{};status.textContent=(t.property_recor
 const checks=t.checks||{};detail.textContent='Official GIS records: '+(checks.SOURCE_RECORDED||0)+' | Permit source blocked: '+(checks.SOURCE_ACCESS_BLOCKED||0)+' | Imagery fetch failures: '+(checks.FETCH_FAILED||0)+' | Verified value not retrieved: '+(checks.NOT_RETRIEVED||0);
 badge.textContent='Evidence acquisition · '+(d.progression?.phase||'OPEN');
 }catch(e){status.textContent='Progress record not yet available';detail.textContent='The scheduled collector must finish a successful GitHub Actions run before verified per-property search progress appears.';badge.textContent='Awaiting crawler run'}})();
+</script><div class="voice-setup-backdrop" id="voiceSetup" hidden role="dialog" aria-modal="true" aria-labelledby="voiceSetupTitle"><div class="voice-setup"><h2 id="voiceSetupTitle">Enable LuckyG Voice</h2><p>AeroLeadAI can listen to your questions and speak replies. Microphone permission is requested only after you choose Enable. Browser speech recognition may use your browser provider's online service.</p><p>Microphone permission is managed by your browser. Speaker output normally needs no permission, but a click may be required to start playback.</p><div class="voice-setup-actions"><button type="button" class="enable" id="voiceSetupEnable">Enable mic + spoken replies</button><button type="button" id="voiceSetupSkip">Not now</button></div><div class="voice-setup-status" id="voiceSetupStatus">Voice permission not requested.</div></div></div><script>
+(()=>{'use strict';
+const key='aeroleadai_voice_setup_v1',overlay=document.getElementById('voiceSetup'),status=document.getElementById('voiceSetupStatus');
+const show=()=>{overlay.hidden=false;document.getElementById('voiceSetupEnable').focus()};
+const close=()=>{overlay.hidden=true;try{localStorage.setItem(key,'prompted')}catch(e){}};
+document.getElementById('voiceSetupSkip').addEventListener('click',close);
+document.getElementById('voiceSetupEnable').addEventListener('click',async()=>{
+const btn=document.getElementById('voiceSetupEnable');btn.disabled=true;status.textContent='Checking microphone and audio support…';
+let mic='unavailable',audio='unavailable';
+try{if(!window.isSecureContext)throw Error('Microphone access requires HTTPS');
+if(!navigator.mediaDevices?.getUserMedia)throw Error('Microphone API not available');
+const stream=await navigator.mediaDevices.getUserMedia({audio:true,video:false});
+stream.getTracks().forEach(t=>t.stop());mic='permission granted';
+}catch(e){mic='not enabled ('+String(e.message||e)+')'}
+try{if('speechSynthesis' in window && typeof SpeechSynthesisUtterance!=='undefined'){
+const voiceButton=document.getElementById('gkSpeak');if(voiceButton&&/off/i.test(voiceButton.textContent))voiceButton.click();
+speechSynthesis.cancel();const msg=new SpeechSynthesisUtterance('LuckyG voice setup is ready.');msg.lang='en-US';speechSynthesis.speak(msg);audio='playback requested';
+}}catch(e){audio='not enabled ('+String(e.message||e)+')'}
+status.textContent='Mic: '+mic+' · Speaker: '+audio+'. You can change permissions in browser settings.';
+btn.textContent='Continue to AeroLeadAI';btn.disabled=false;btn.onclick=close;
+});
+try{if(localStorage.getItem(key)!=='prompted')show()}catch(e){show()}
+})();
 </script></body></html>
