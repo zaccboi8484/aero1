@@ -31,7 +31,7 @@ jobs:
             git commit -m "Store authentic county aerial images for first 60 parcels"
             git pull --rebase
             git push
+          fi
       - name: Report acquisition failure after saving manifest
         if: steps.images.outcome == 'failure'
         run: exit 1
-          fi
