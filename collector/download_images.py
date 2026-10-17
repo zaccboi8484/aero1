@@ -1,60 +1,37 @@
 #!/usr/bin/env python3
-"""Download up to 60 actual Dakota County orthophotos. No substitute images.
-Requires an existing source geometry manifest; verifies JPEG headers and sizes.
-GitHub Actions runs this collector, then commits images and validated inventory.
-"""
-import concurrent.futures,datetime,hashlib,json,pathlib,time,urllib.request,urllib.parse
-from evidence_audit import load as audit_load, save as audit_save, record as audit_record
+"""Download authentic county JPEGs through shared GateKeeper policy and audit."""
+import datetime,hashlib,json,pathlib
+from evidence_audit import load as load_audit,save as save_audit
+from gatekeeper_fetch import fetch_source
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-SOURCE=ROOT/"evidence/data/imagery_manifest.json"
-OUTPUT=ROOT/"evidence/images"
-INDEX=ROOT/"evidence/data/imagery_downloads.json"
-YEAR="2025-spring-leaf-off"
-MAX_BYTES=3*1024*1024
-OUTPUT.mkdir(parents=True,exist_ok=True)
-meta=json.loads(SOURCE.read_text(encoding="utf-8"))
-records=meta.get("records",[])[:60]
-def fetch(record):
-    parcel=str(record["parcel_objectid"])
-    url=record.get("image_layers",{}).get(YEAR)
-    if not url or not url.startswith("https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/"):
-        return {"parcel_objectid":parcel,"status":"UNAVAILABLE","reason":"missing approved county URL"}
-    file=OUTPUT/(parcel+"-2025-spring.jpg")
-    if file.exists():
-        content=file.read_bytes()
-        if content[:3]==b"\xff\xd8\xff" and content[-2:]==b"\xff\xd9":
-            return {"parcel_objectid":parcel,"address":record["address"],"status":"DOWNLOADED","file":"/evidence/images/"+file.name,"sha256":hashlib.sha256(content).hexdigest(),"bytes":len(content),"source_url":url,"source_year":"2025","source_provider":"Dakota County GIS","acquisition_status":"remote image response validated"}
-    for attempt in range(3):
-        try:
-            req=urllib.request.Request(url,headers={"User-Agent":"AeroLeadAI-KingsWood-Imagery-Indexer/1.0","Accept":"image/jpeg"})
-            with urllib.request.urlopen(req,timeout=40) as response:
-                mime=response.headers.get("content-type","").lower()
-                if "image/jpeg" not in mime and "image/jpg" not in mime:raise RuntimeError("County returned "+mime)
-                data=response.read(MAX_BYTES+1)
-            if len(data)>MAX_BYTES or len(data)<1000:raise RuntimeError("Image size out of range")
-            if not(data[:3]==b"\xff\xd8\xff" and data[-2:]==b"\xff\xd9"):raise RuntimeError("Invalid JPEG signature")
-            tmp=file.with_suffix(".tmp");tmp.write_bytes(data);tmp.replace(file)
-            return {"parcel_objectid":parcel,"address":record["address"],"status":"DOWNLOADED","file":"/evidence/images/"+file.name,"sha256":hashlib.sha256(data).hexdigest(),"bytes":len(data),"source_url":url,"source_year":"2025","source_provider":"Dakota County GIS","acquisition_status":"remote image response validated"}
-        except Exception as e:
-            reason=str(e)[:180]
-            if attempt<2:time.sleep(1+attempt*2)
-    return {"parcel_objectid":parcel,"address":record["address"],"status":"FAILED","reason":reason,"source_url":url}
-results=[]
-with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
-    for result in pool.map(fetch,records):
-        results.append(result)
-        print(result["parcel_objectid"],result["status"],flush=True)
-ledger=audit_load()
-for result in results:
-    if not result.get("source_url"):continue
-    audit_record(ledger,source="dakota-aerial-2025-leaf-off",
-      source_id=str(result["parcel_objectid"]),url=result["source_url"],
-      territory="kings-wood-001",
-      status="ACQUIRED" if result["status"]=="DOWNLOADED" else "FAILED",
-      sha256=result.get("sha256"),size=result.get("bytes"),
-      error=result.get("reason"))
-audit_save(ledger)
-success=sum(r["status"]=="DOWNLOADED" for r in results)
-INDEX.write_text(json.dumps({"downloaded_at_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"requested":len(records),"downloaded":success,"failed":len(records)-success,"source_collection":"Dakota County 2025 Spring Leaf-Off ImageServer","note":"Only success-marked images are locally retained original remote JPEG bytes. Missing properties show no image. County attribution required; no property condition inferred.","records":results},indent=2)+"\n",encoding="utf-8")
-print("Downloaded",success,"of",len(records))
-if success==0:raise SystemExit("No actual imagery downloaded; failing workflow rather than reporting false success")
+OUT=ROOT/"evidence/images";OUT.mkdir(parents=True,exist_ok=True)
+DATA=ROOT/"evidence/data"
+records=json.loads((DATA/"imagery_manifest.json").read_text())["records"][:60]
+audit=load_audit();results=[]
+for parcel in records:
+    oid=str(parcel["parcel_objectid"]);url=parcel.get("image_layers",{}).get("2025-spring-leaf-off")
+    file=OUT/(oid+"-2025-spring.jpg")
+    item={"parcel_objectid":oid,"address":parcel["address"],"source_url":url,"status":"FAILED"}
+    try:
+        if not url:raise ValueError("No official image URL")
+        original=file.read_bytes() if file.exists() else None
+        if original and original[:3]==bytes.fromhex("ffd8ff") and original[-2:]==bytes.fromhex("ffd9"):
+            body=original
+        else:
+            response=fetch_source(audit,source="dakota-aerial-2025-leaf-off",source_id=oid,
+                                  url=url,territory="kings-wood-001",ttl_hours=168)
+            body=response.get("body")
+            if not body:raise ValueError(response.get("error") or response["status"])
+            if body[:3]!=bytes.fromhex("ffd8ff") or body[-2:]!=bytes.fromhex("ffd9"):
+                raise ValueError("Source returned invalid JPEG bytes")
+            file.write_bytes(body)
+        item.update({"status":"DOWNLOADED","file":"/evidence/images/"+file.name,
+          "sha256":hashlib.sha256(body).hexdigest(),"bytes":len(body),"source_year":"2025"})
+    except Exception as error:item["reason"]=str(error)[:220]
+    results.append(item);print(oid,item["status"],flush=True)
+    save_audit(audit)
+n=sum(r["status"]=="DOWNLOADED" for r in results)
+(DATA/"imagery_downloads.json").write_text(json.dumps({"retrieved_at_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+ "requested":len(results),"downloaded":n,"failed":len(results)-n,"records":results},indent=2)+"\n")
+print("Verified saved images:",n,"/",len(results))
+if not n:raise SystemExit("No validated image bytes; inspect audit error records")
