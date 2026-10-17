@@ -101,7 +101,18 @@
       "issued_date": "2025-06-20",
       "permit_kind": "ROOF_CANDIDATE_PENDING_DOCUMENT_REVIEW",
       "source_report": "export.csv",
-      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW"
+      "review_status": "SOURCE_EXPORT_MATCH_PENDING_HUMAN_REVIEW",
+      "third_party_corroboration": {
+        "source": "BuildZoom public permit listing",
+        "url": "https://www.buildzoom.com/contractor/r-and-r-remodeling-inc-blommington-mn",
+        "permit_number": "2506-00458-BL",
+        "claimed_scope": "Remove and replace 40 squares of house shingles",
+        "listed_date": "2025-06-18",
+        "status": "approved",
+        "compared_to_eagan_export": "Eagan owner-supplied export issued date 2025-06-20",
+        "source_status": "INDEPENDENT_PUBLIC_INDEX_MATCH_PENDING_CITY_DOCUMENT_REVIEW",
+        "caution": "Approved permit is not a final inspection or proof of completed roof replacement"
+      }
     },
     {
       "parcel_objectid": "44025",
