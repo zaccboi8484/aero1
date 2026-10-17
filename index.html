@@ -108,6 +108,8 @@ body.glass-console .empty h3{color:#f1fafc}
 body.glass-console .topbar .crumb strong{color:#e1f5fb}
 body.glass-console nav{background:#050e1a}
 .glass-mode-toggle{position:fixed;z-index:700;bottom:20px;right:20px;background:linear-gradient(135deg,#0c6378,#0a8b87);border:1px solid #84bdc8;color:#f5feff;border-radius:30px;padding:12px 18px;box-shadow:0 8px 28px #0005;font-size:12px;font-weight:750}
+
+#aeroAccess{position:fixed;inset:0;z-index:99999;background:#061322;display:grid;place-items:center;padding:20px;color:#f1fafc}#aeroAccess[hidden]{display:none}#aeroAccess .access-card{width:min(100%,440px);border:1px solid #347180;background:#102b3b;border-radius:18px;padding:27px;box-shadow:0 25px 90px #0009}#aeroAccess h2{color:#e4fcff;margin:0 0 10px}#aeroAccess p{font-size:13px;color:#aacbd7;line-height:1.6}#aeroAccess input{width:100%;padding:13px;border-radius:9px;border:1px solid #448392;background:#051c2a;color:#fff}#aeroAccess button{background:#148d90;color:#fff;border:0;border-radius:9px;padding:12px 17px;margin-top:13px;font-weight:750}#aeroAccess small{display:block;color:#ffc8a3;margin-top:13px}
 </style></head>
 <body><div class="app"><nav aria-label="Primary">
 <div class="brand"><div class="brandmark">⌁</div><div>AeroLeadAI<small>PROPERTY INTELLIGENCE</small></div></div>
@@ -364,4 +366,10 @@ try{if(localStorage.getItem(key)!=='prompted')show()}catch(e){show()}
 })();
 </script><button id="glassModeToggle" type="button" class="glass-mode-toggle" aria-pressed="false" title="Toggle cinematic glass-console styling; not a 3D reconstruction">✦ Glass Console</button><script>
 (()=>{'use strict';const key='aeroleadai_glass_console_v1',b=document.getElementById('glassModeToggle');function setMode(on){document.body.classList.toggle('glass-console',on);b.setAttribute('aria-pressed',String(on));b.textContent=on?'◈ Standard Console':'✦ Glass Console';try{localStorage.setItem(key,on?'on':'off')}catch(e){}}let saved=false;try{saved=localStorage.getItem(key)==='on'}catch(e){}setMode(saved);b.addEventListener('click',()=>setMode(!document.body.classList.contains('glass-console')))})();
+</script><div id="aeroAccess" role="dialog" aria-modal="true" aria-labelledby="accessHeading"><form class="access-card" id="aeroAccessForm"><h2 id="accessHeading">AeroLeadAI · GateKeeper Access</h2><p>Enter your access passcode. Verification happens on the AeroLeadAI server; the passcode is not in this page.</p><input id="aeroPasscode" name="passcode" type="password" autocomplete="current-password" required placeholder="Access passcode" aria-label="AeroLeadAI passcode"><button type="submit">Unlock AeroLeadAI</button><small id="aeroAccessStatus">Checking access…</small></form></div><script>
+(()=>{'use strict';const dialog=document.getElementById('aeroAccess'),label=document.getElementById('aeroAccessStatus'),form=document.getElementById('aeroAccessForm'),pass=document.getElementById('aeroPasscode');
+async function check(){try{const r=await fetch('/api/auth',{credentials:'same-origin',cache:'no-store'});if(!r.ok)throw Error('Authorization service unavailable');const d=await r.json();dialog.hidden=d.authorized===true;label.textContent=d.authorized?'Access granted':'Passcode required';if(!d.authorized)pass.focus()}catch(e){dialog.hidden=false;label.textContent='GateKeeper access server unavailable; access remains locked.'}}
+form.addEventListener('submit',async e=>{e.preventDefault();label.textContent='Verifying…';try{const r=await fetch('/api/auth',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({passcode:pass.value})});const d=await r.json();if(!r.ok)throw Error(d.error||'Access denied');pass.value='';dialog.hidden=true;document.getElementById('voiceSetup')?.removeAttribute('hidden');label.textContent='Access granted'}catch(e){label.textContent=String(e.message||e);pass.value=''}});
+check();
+})();
 </script></body></html>
