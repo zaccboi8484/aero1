@@ -1,0 +1,28 @@
+name: Burnsville first 60 parcel discovery
+on:
+  push:
+    branches: [main]
+    paths: ['collector/burnsville_first60.py','.github/workflows/burnsville-first60.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Fetch real Dakota County parcel candidates for Burnsville
+        run: python collector/burnsville_first60.py
+      - name: Commit source-backed territory seed
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence/data/burnsville_first60_parcels.csv evidence/data/burnsville_first60_manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Index 60 official Burnsville parcel candidates"
+            git pull --rebase
+            git push
+          fi
