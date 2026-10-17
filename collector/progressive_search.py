@@ -19,6 +19,8 @@ def step(key,source,status,detail,next_action):
 parcels=rows("kingswood_parcel_candidates.csv")
 discovery=read_json("official_source_discovery.json",{})
 download=read_json("imagery_downloads.json",{})
+enrichment=read_json("live_property_enrichment.json",{})
+values={str(x.get("parcel_objectid")):x.get("valuation",{}) for x in enrichment.get("records",[])}
 permit=read_json("permit_match_review.json",{})
 permitted=permit.get("records",[]) if isinstance(permit,dict) else []
 imagery={str(r.get("parcel_objectid")):r for r in download.get("records",[])}
@@ -43,7 +45,7 @@ for p in parcels:
   step("subdivision","Eagan subdivision GIS","PLAT_NAME_MATCH_PENDING_SPATIAL" if recognized else "PENDING","City plat catalog checked; polygon membership not certified","Intersect parcel geometry with official plat geometry"),
   step("permit","Eagan public permit export","MATCH_PENDING_REVIEW" if permit_records else "SOURCE_ACCESS_BLOCKED","Potential matches: "+str(len(permit_records)) if permit_records else "Permit portal returned HTTP 403; no property-specific search export in evidence store","Use authorized city export; reconcile permit number, address and source date"),
   step("imagery","Dakota County GIS ImageServer","SOURCE_IMAGE_DOWNLOADED_UNVERIFIED" if image.get("status")=="DOWNLOADED" else ("FETCH_FAILED" if image.get("status")=="FAILED" else "NOT_ATTEMPTED"),image.get("reason","No image hash/bytes recorded"),"Resolve correct ImageServer response and rights; retry only official service"),
-  step("value","County assessment / Eagan property GIS","NOT_RETRIEVED","No verified assessed-value field in current parcel export","Read official TAXPIN/valuation layer by parcel ID and assessment year"),
+  step("value","County assessment / Eagan property GIS","SOURCE_RECORDED_PENDING_REVIEW" if values.get(oid,{}).get("gatekeeper")=="SOURCE_RECORDED" else "NOT_RETRIEVED","Actual city GIS value: "+str(values[oid]["amount_usd"])+" (assessment year unavailable)" if values.get(oid,{}).get("gatekeeper")=="SOURCE_RECORDED" else "Official value not unambiguously matched","Check assessment year and reviewer before financial conclusions"),
   step("gatekeeper","GateKeeper coordinator","AWAITING_EVIDENCE","No evidence-reviewed roof, driveway or tree conclusion","Require source corroboration and human review before findings")
  ]
  critical=all(s["status"] not in ("SOURCE_ACCESS_BLOCKED","NOT_ATTEMPTED","FETCH_FAILED","NOT_RETRIEVED","AWAITING_EVIDENCE","PENDING","UNVERIFIED") for s in checks)
