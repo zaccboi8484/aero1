@@ -1,5 +1,11 @@
 name: AeroLeadAI GateKeeper six-hour source pulse
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'collector/gatekeeper_pulse.py'
+      - 'collector/gatekeeper_release_truth.py'
+      - '.github/workflows/aeroleadai-pulse.yml'
   workflow_dispatch:
   schedule:
     - cron: '43 */6 * * *'
