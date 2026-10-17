@@ -16,11 +16,13 @@ jobs:
         with: {python-version: '3.12'}
       - name: Fetch real Dakota County parcel candidates for Burnsville
         run: python collector/burnsville_first60.py
+      - name: Build 60 permit-research tasks routed to Burnsville
+        run: python collector/route_permit_research.py --jurisdiction burnsville --parcels evidence/data/burnsville_first60_parcels.csv
       - name: Commit source-backed territory seed
         run: |
           git config user.name 'AeroLeadAI Evidence Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add evidence/data/burnsville_first60_parcels.csv evidence/data/burnsville_first60_manifest.json
+          git add evidence/data/burnsville_first60_parcels.csv evidence/data/burnsville_first60_manifest.json evidence/data/burnsville_permit_research_tasks.json
           if ! git diff --cached --quiet; then
             git commit -m "Index 60 official Burnsville parcel candidates"
             git pull --rebase
