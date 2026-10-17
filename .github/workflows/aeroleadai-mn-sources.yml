@@ -1,5 +1,13 @@
 name: AeroLeadAI Minnesota public sources — address + aerial imagery
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'collector/collect_mngeo_aerial.py'
+      - 'collector/validate_mn_addresses.py'
+      - 'collector/gatekeeper_pulse.py'
+      - 'tests/test_mn_sources.py'
+      - '.github/workflows/aeroleadai-mn-sources.yml'
   workflow_dispatch:
   schedule:
     - cron: '11 7 * * *'
