@@ -123,6 +123,13 @@ def run():
    for element in ([row]+list((row.get("layers") or {}).values())):
     if element.get("status")==status and re.fullmatch(r"[0-9a-fA-F]{64}",str(element.get("sha256") or "")):
      photo.add(oid);trusted.setdefault(oid,set()).add(element["sha256"])
+ fast=read("fast_validation_report.json")
+ for x in fast.get("records",[]):
+  oid=str(x.get("parcel_objectid",""))
+  sha=x.get("imagery_sha256")
+  url=x.get("imagery_source_url","")
+  if x.get("imagery")=="GOVERNMENT_REMOTE_JPEG_VERIFIED" and url.startswith("https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?") and re.fullmatch(r"[a-f0-9]{64}",str(sha or "")):
+   photo.add(oid);trusted.setdefault(oid,set()).add(sha)
  permits=read("permit_match_review.json");permit_ids={
   str(x.get("parcel_objectid")) for x in permits.get("records",[])
   if x.get("review_status")=="REVIEWED" and x.get("source_record_id")}
@@ -142,11 +149,12 @@ def run():
   oid=str(p["parcel_objectid"])
   item={"parcel_objectid":oid,"county_pin":p["county_pin"],"address":p["address"],
     "review":priority(p,audit_ids.get(oid,{}),oid in photo,oid in permit_ids,oid in assessed),
+    "verified_government_aerial_jpeg":oid in photo,
     "roof":{"roof_condition_score":None,"status":"NOT_SCORED_NO_ROOF_EVIDENCE","confidence":0}}
   if oid in by_id:item["roof"]=score_roof(by_id[oid],trusted.get(oid,set()))
   results.append(item)
  result={"generated_at_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
-   "count":len(results),"priority_scored":len(results),
+   "count":len(results),"priority_scored":len(results),"verified_source_jpegs":sum(x["verified_government_aerial_jpeg"] for x in results),
    "reviewed_roof_condition_scores":sum(x["roof"]["status"]=="REVIEWED_ROOF_EVIDENCE_SCORE" for x in results),
    "reference":REFERENCE,"no_legacy_leads_merged":True,
    "note":"The 0-100 DATA REVIEW PRIORITY reflects missing evidence, not roof damage or Mindex.",
