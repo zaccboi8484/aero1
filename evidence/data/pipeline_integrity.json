@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-17T05:58:27.136034+00:00",
+  "pass": true,
+  "records": 60,
+  "cross_file_checks": [
+    "parcel",
+    "category",
+    "valuation",
+    "audit",
+    "GIS_geometry",
+    "imagery"
+  ],
+  "issues": [],
+  "source_verified_property_condition_count": 0,
+  "warning": "Passing checks source joins and evidence gates, not 60 complete property investigations."
+}

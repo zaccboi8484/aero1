@@ -1,965 +1,965 @@
 {
-  "generated_at_utc": "2026-10-17T05:56:39.504231+00:00",
+  "generated_at_utc": "2026-10-17T05:58:27.030570+00:00",
   "audit": [
     {
       "parcel_objectid": "44001",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "5054ab1ea9d627a126be6b3229d30d2b8b78b3964e3a335d17364c545d53f528"
+      "sha256": "31041d11261dbd7b889daae4fde3ba1871201aab96009231c1f6f0df32011ad0"
     },
     {
       "parcel_objectid": "44002",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "4b3dd3c838403e1e1c064d628639fd43645201aceb8301d035dbbb9692de4306"
+      "sha256": "2fbf4fe3b8c17e911061586826bf46801b82c6bf5248007f91888ceef4f46daa"
     },
     {
       "parcel_objectid": "44003",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "d28fbb2dbaa181cd85fdce536d7fa07bcec5921e83c7827b7b5704fad1687e2e"
+      "sha256": "2fd7cec918dce846fcc4b871e0ae54603fd21f96042e865a019b5b7cd3e75b92"
     },
     {
       "parcel_objectid": "44004",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "f3d3fd20e840467fa120737c7969722994ce63254884da8fa6154e3931eb25c2"
+      "sha256": "f9f715c786cacd40a7ac56c4c3daaa2599fe46bd87e529b6b5e4f351742a1a17"
     },
     {
       "parcel_objectid": "44005",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "9db7ebd7cd6a96f2ba5f9d8de009f318be662b993d7c5f397e7f10895cb3d6d5"
+      "sha256": "f7899fa2777256653204ddf8debc76c61c1713bc74d8f4a8f2c3d357fdb3c2c0"
     },
     {
       "parcel_objectid": "44006",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "85033b24f7875c4aa5111f485cccc9be707b1a8540b0e63a38c5f31f10e99888"
+      "sha256": "f79e1a9ee35f5c32f3296829bdf4e9b01c7d01a84f7827570b31e23a56f4216f"
     },
     {
       "parcel_objectid": "44007",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "5f046923e7f3ec18da402ae796a0b31b98ccfea68d0afadb94c6a15d48e5d609"
+      "sha256": "b38013f8cb461b6dad578f5521ebaa0de1df512b187877a9d60a6eae8a00b183"
     },
     {
       "parcel_objectid": "44008",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "ca5c44db08b6eeb52f7c5fc1574d0fdbf312465924c6e8fa221273144c84e7e7"
+      "sha256": "c9e97f5508fcff8f45d0f8c6360d532eea6a866328fb94da90a3cfed751f91b3"
     },
     {
       "parcel_objectid": "44009",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "83c73d93136a8baaffa7417e82a971869f9fe80cc30d0717c9f83bb0d16bafc0"
+      "sha256": "c2fa96d4efd9b6afdc589ee4ad430f40fa73cc736e80581df79c1ce3c534858d"
     },
     {
       "parcel_objectid": "44010",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "e2915533f17dd97f656186b28496657281a0b819a92396f38cd449e8f8c33ebd"
+      "sha256": "a11c32631984784eb9d76bcfa9d4a33b2b9dbe3cd563b04dd4bca5a2928abc39"
     },
     {
       "parcel_objectid": "44011",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "52b6594253fb651b719d745d00924015b15cbdcf23366076ca1c1923d90d2c16"
+      "sha256": "a349df4165b04c98bde2b649aeacc1044b00ded0d31d5fa2a1bc8395b5a9701f"
     },
     {
       "parcel_objectid": "44012",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "15ed2fd50f9093078902168055e8e30cf1243b13618c0df242e0df50eb0dc242"
+      "sha256": "29f22c195eb16181580c58d840798cc95c6afd938cb21c7314fa29404f8171c6"
     },
     {
       "parcel_objectid": "44013",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "938988ac31136a3c1ab267c2b4a97261e8de0ee1d2a7b239a693c1ade9fcbc55"
+      "sha256": "09221eccdbc0e712fcb00f16efe8453082179fb63153fb255a813ea0d94ba0bd"
     },
     {
       "parcel_objectid": "44014",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "1fd7b85f32fba46be4f9aa9a878202ccd3c1d1742e9ddabfa9dc817a6d9d1cd5"
+      "sha256": "7a7dcacb2c3afbab80014a36b13cf88ab3d9d26d97d898d4f0a01d8f2cd7fb01"
     },
     {
       "parcel_objectid": "44015",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "c1c7c6a9c26360c46c51dfc9ce6d4a92ef83628f82c98d5167bc63c99b15ae21"
+      "sha256": "6a88658b19cecbf23c9ea92179de353063e2b7b0680f77b13c8490139d7a9a39"
     },
     {
       "parcel_objectid": "44016",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "313c10acf60742f942d14103eeb3288487a3b5bba40ae45d3d20bafe2544448d"
+      "sha256": "8b0df6659f60923fc1752716e0681da6d78156c3838f74f053a6d7b0b4e5690d"
     },
     {
       "parcel_objectid": "44017",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "75c9378b0e4b16843f7d3110ee644691a43095a81e9b6013069d265ff876809c"
+      "sha256": "9b4e0bd075d078c7d9dba923ed997a0c8fc36ce4577f10cfa482886227a837bd"
     },
     {
       "parcel_objectid": "44018",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "0f92f8b67c9306d53f8ce75cb00b6c5c002d1ebd32822c8c6f3d8e166ba3b89e"
+      "sha256": "335acd8b0e24beb08b99be55403e375dfad80911e1605106207fe47198bbbb8d"
     },
     {
       "parcel_objectid": "44019",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "5dbc3da15720dcfcf92d69bcf151fcab9d6201b88249e7acc75e07fdeba23002"
+      "sha256": "f3fc6ff89737bc0fafcd879e987566f2cacd08dbc38a0085992c78cbb2d05635"
     },
     {
       "parcel_objectid": "44020",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "46335f213a4985d6bd2cbd32900f4602e7885c5f684b5336330208e26093316e"
+      "sha256": "3ff80d01f50e4eaee957d067920137ec3511ec98e5494eda9bbe9ebac3e9100e"
     },
     {
       "parcel_objectid": "44021",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "7864dee929fd65e9ed4eda1d198d4a20ac8b124b35f291270c8dc01219165f16"
+      "sha256": "ba9afb6e01b324186e548e2623f602957f83ffc98e3ef8f6a216da5afd265e34"
     },
     {
       "parcel_objectid": "44022",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "531fac0f572147ad3baf3f8df7719adf590def137b0ab67857d690396b52afb6"
+      "sha256": "bce71a092a49cfa63d22cbfc1cfd62a05b3e3b1511a9737495f1d0535a7a79f9"
     },
     {
       "parcel_objectid": "44023",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "72cfc481ec5cf67a9dff7e9f9161d47e183c8e58ba5a7e6f833115357e64e844"
+      "sha256": "7616173dfdfb601cfd97dea2636db2a71306ff9c12d4df491674feda3a6db2d2"
     },
     {
       "parcel_objectid": "44024",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "44db911b9de355e1decd9f807921c060495ad73a2a78f3639024146d25d01ce6"
+      "sha256": "1a6b1c43dc9ea733273c411f211a01bb401b642bd65103d06d9b03634b967a3b"
     },
     {
       "parcel_objectid": "44025",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "761add37bf2e1b800b0e5da14cabdc883d46f0dfccc6a4ae81f698653eeab08b"
+      "sha256": "cc8643bf8c295b28c1e8241eadb4ed49d5c4090ecb4f740a237d2e4b9acfec56"
     },
     {
       "parcel_objectid": "44026",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "91ab4a6c1bb9a7441e97b88f42810648a69f4d5e4c6016a2df67e0508e294dc5"
+      "sha256": "c1ea76774203934275f8d8240e6bd1bfab1523bee27cbe1752ac28cef0ebb903"
     },
     {
       "parcel_objectid": "44027",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "7c46383c28e586020c6ea8610669049139bcf3a9b4094afdd5f35898268d2bc6"
+      "sha256": "8f46c03304695bdc91e523ff0c71c75623077835daaf2497b56a792a47e732bc"
     },
     {
       "parcel_objectid": "44028",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "044881015cac7d834e8668b43bfe5eb9d40ea369ade20fd4f32e8d9e69b30c08"
+      "sha256": "da88274de143a37dd0d0225e78454b4c0dd7fb5746be986cf4d1f95732e80d4b"
     },
     {
       "parcel_objectid": "44029",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "b7089ad5204c085580f8dc00bf77aa39da700daec11494f22d0bb696a763b11c"
+      "sha256": "7781d8916d321d6a811310b22b9aed2a2b9653a55ee9c496b95960675d1059e3"
     },
     {
       "parcel_objectid": "44030",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "0d7b9f176b068a09d648fb8163d4f747b34e9576bf958fc9365321a7ad67b364"
+      "sha256": "f8194a026195ec8ca221b92d4203bedd204e24f981763b3e0fc24cf5568c7cea"
     },
     {
       "parcel_objectid": "44031",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "ea80a9f10bc89cbd167c527af7f857ee9e6f26407904597e72733fe3cf12e7e5"
+      "sha256": "826038073c90d185786d656acb3ac1a4e113548607c8e474c5a4952b1b3af317"
     },
     {
       "parcel_objectid": "44032",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "ffdbd20cee3c7a739aaff07db75f887873327c188bdce02b075b690711361eb5"
+      "sha256": "b330936eacd9595381e5a7ef66f544bf8ff5d09619a9594c56c43f9abe836724"
     },
     {
       "parcel_objectid": "44033",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "4347fbe2f71b4aa1c40a3656680535a5af69c3a976722ab8fbeeda634430f1e6"
+      "sha256": "e927a87c783d50f98b47fc87eb672e4fb1461f1d621d417970f57f57b211c165"
     },
     {
       "parcel_objectid": "44034",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "9a295bfd591affe567ec9fe9073af8b5ba51d069a3d0c60382168000ac0baafe"
+      "sha256": "446f51544a42f4e6d382f3f33138504871778211732e5b18d15432507a1b17e1"
     },
     {
       "parcel_objectid": "44035",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "e6ee8ee22be1b7dec2d095048bda5bc6c953d4d4b649919ba192dc8320340404"
+      "sha256": "5d57d52f56350c70d8c298fd769276b20c027efeb217a77f4f0394cfebc5dedd"
     },
     {
       "parcel_objectid": "44036",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "3a5f145192c64a68232e5cf1e2149776bc68587617ffb5f617e0b9587ff51ef8"
+      "sha256": "93163da28b55428415be68649c001858da9502b7b1d93ae8c603e341e64ee37f"
     },
     {
       "parcel_objectid": "44037",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "3381c73aa70b667b093909690af25be4aca0bea836f6351ea5c321fef35106a8"
+      "sha256": "58995e4a3e6f583ab34d0c3a855b32411dcc695214f053cfc9605cf9bd2266fa"
     },
     {
       "parcel_objectid": "44038",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "b8d180a87abf0fec195f0612457423c0ba4dd367ff86437a1cd48758ca194f55"
+      "sha256": "f7fecf3650b1bbbc22a6c4da1de34e93a08172a5dec9f6879440192b94ab7ae3"
     },
     {
       "parcel_objectid": "44039",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "d8f6d32ea2a8961186947d17fc8a5b97dbc9963d57967abd6e26ee5bf3fbb115"
+      "sha256": "51ee9c788bca0b40d4bb5a7ab940e14201d010de07f0dc58566cc70a436f949e"
     },
     {
       "parcel_objectid": "44040",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "77cb8e20a08d518426a493f06fe441d5f5aba798826a30f31b920812daaea42c"
+      "sha256": "65fb6061be3c74eae7174ce4d179b2c00db9bfacecc4bf1da7ce96e94017c5b2"
     },
     {
       "parcel_objectid": "44041",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "b44ff33bb2c93d743f5244da6e30a530b71731c4f31bdcfeb76281c0c629979e"
+      "sha256": "e3b525dc6aa76c027756841b58a72a6975bfbccc35976950476d441384e5417b"
     },
     {
       "parcel_objectid": "44042",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "a8f6aa999181cfa283d1ce9108e8cd15a514c11a323fa16dc73edccb476c21b4"
+      "sha256": "b9b9e0e8f31ca5f71023d43930c34f54152c11b6bd8c949ae6b86d534840ee9a"
     },
     {
       "parcel_objectid": "44043",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "d05893658efb96c9f91a0abfb7d53610e304bd5c77d179178ffb1687fb979751"
+      "sha256": "ea337bafbb78cfa0a1baef3f21e4374dde203eb11589557a3af56736dbf143bd"
     },
     {
       "parcel_objectid": "44044",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "7d727e1864c910b79ecad0460bb4a0b309398c703b93810fbee25948b2c958f2"
+      "sha256": "7a543208b4c4855f877077c83b076f45ab71420bee7e4b9ed2000e0ab4840bce"
     },
     {
       "parcel_objectid": "44045",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "1620aa70063f314a6ac4d90a2570f0505904346672438008e58c0975cab9bc48"
+      "sha256": "4dc047b7042a258e7896f716cf35a8640786dc433c4ac96b8217e39c2e231796"
     },
     {
       "parcel_objectid": "44046",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "cb999d4340e109de2e98b21627af0bb6f65f7162220bafc13b9b68af552427bb"
+      "sha256": "108d3a5ec7651dae6b1f916b76781dd8cdbc851cd8915620e3ab5390269720e2"
     },
     {
       "parcel_objectid": "44047",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "fbe3eba107bf83e221a27307cd1c8b0f7a98f54ea3e65ebe29ad373b7facffb2"
+      "sha256": "5186d9da84a976e03651883ae5cf0dd1f566efcaa44f6534713422b48c6af000"
     },
     {
       "parcel_objectid": "44048",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "20060d2cd8a4e2dcffc0b2b5aeda857d525cb56665ae134be41ae7512f77b2de"
+      "sha256": "ad8747e762b35976678ee6d17b474f5b1031054f0a461b4ae1740266543ad21b"
     },
     {
       "parcel_objectid": "44049",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "6ce14770f085909060fd287edda35f85d3d19c2caf754689411f0327ce754f65"
+      "sha256": "1f327c87703331be7ae6a7c1799e3d2d703470db232a3fbc51e3ebab86328ec3"
     },
     {
       "parcel_objectid": "44050",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "5029574c8cca8a3f2df0b9eda13eed7eaf5a043ce00fac7619461508e8091142"
+      "sha256": "29b2f3ca491b15e2b504b22c11748be2e15b93b15fe3aea2e6e8d2f310dc8d9d"
     },
     {
       "parcel_objectid": "44051",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "bd73f04e3b60f285543560ce246699ac67f8fd42429587dc2a486ca6a2e36600"
+      "sha256": "bf8180e4ee9546a90e183d8389d6cebe1a956b0d0969ecf135794e0500b3fe33"
     },
     {
       "parcel_objectid": "44052",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "a883a3b3613b281765301253e9ace253b4ccbc08470221d6d6fedbcde5612554"
+      "sha256": "325186b9956a5dbe2ed5625c02c19777b952c2c4dc749741ff7f78aadf783cd9"
     },
     {
       "parcel_objectid": "44053",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "c82fde41f3c2bbd33a4b2d986a3d8d4b66385d4e79a0bdfbf340917a55fa29cf"
+      "sha256": "90de1b57e7b324ebab93f3b4b20bad4b57b069284065d7a77717ce6cead53e3a"
     },
     {
       "parcel_objectid": "44054",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "ea759a20e82dffc1535f3785b7ca5047bfcd777395753a6a468a87e3bf04dd7e"
+      "sha256": "48f39aea84cbfecbfe891e20315a2015d9f355a6c0c21da21ce11efeb1c5e472"
     },
     {
       "parcel_objectid": "44055",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "1da0534fccbd28fee608c2a68306fe7a7a48769b3f66bf89caf39b3db7a5bcf3"
+      "sha256": "aacc1ceb20c04252ba457a08385c5fef8ec6c21c4bf67656cf14b82640983fbb"
     },
     {
       "parcel_objectid": "44056",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "NOT_CHECKED",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "adbf002eda98899df3a41a026b1641faec518a13cf2e33c807802c76ca742c05"
+      "sha256": "8e58098d256ec14e0772b1ae4a65c5ae070b0ea5f87d73eb2ef011242e4b9276"
     },
     {
       "parcel_objectid": "44057",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "OFFICIAL_PLAT_NAME_CORROBORATED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "NOT_MATCHED",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "NOT_RETRIEVED",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "af26a2e5b5b707d8bc2669818f986ffd3fc52b509c0ee2c054a352bfbf4dafbf"
+      "sha256": "b7e02354f60b19f2a85cee4ad5ce770cb0d759cb99cbc4b39a182f6931326876"
     },
     {
       "parcel_objectid": "44058",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "OFFICIAL_PLAT_NAME_CORROBORATED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "NOT_MATCHED",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "NOT_RETRIEVED",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "af76269bc4cccd6c0b68ba5087d8b55014ed3809af436080f068810bc59fc1d4"
+      "sha256": "795f70b2dd4f29c0e35d41ac242ff68ae96ebae6c5a24db0e8f1122e6d3da623"
     },
     {
       "parcel_objectid": "44059",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "OFFICIAL_PLAT_NAME_CORROBORATED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "NOT_MATCHED",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "NOT_RETRIEVED",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "aa6a6db0fd8f0a27cfe340a593136205cd9ab05c9e59873cf01b69ef2c34bc46"
+      "sha256": "c613196761e1e26814454ce21f1abda018e18e53c4be9cf2e29eaad6900c5458"
     },
     {
       "parcel_objectid": "44060",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "OFFICIAL_PLAT_NAME_CORROBORATED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "NOT_MATCHED",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "PLAT_NAME_MATCH_PENDING_SPATIAL",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "imagery": "FETCH_FAILED",
         "value": "NOT_RETRIEVED",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "d7fcf76fabc74d6d56fa7882265b8fffb218b55e44a608a748537ac27f85581b"
+      "sha256": "faba3596d8a5802c4c4b851145abb08f523b52bd4e12769ed8bf7e9b88c87700"
     }
   ]
 }
