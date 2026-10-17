@@ -122,3 +122,7 @@
 
 **Source portal:** https://eagan.onlama.com/Dashboard.aspx
 **Collector evidence:** [Sanitized municipal CSV match ledger](../evidence/data/municipal_permit_export_audit.json)
+
+## Independent public permit corroboration
+
+A public <https://www.buildzoom.com/contractor/r-and-r-remodeling-inc-blommington-mn> permit listing also identifies **2506-00458-BL** at 1459 Kings Wood Lane, describes removal and replacement of **40 squares of shingles**, and labels the permit **approved**. Its listed date, June 18, 2025, differs from the supplied City of Eagan report issue date of June 20, 2025. This independent match increases confidence in the roofing scope but is **not a final inspection, proof of completion, or independent city-document certification**. Human review remains required before the roof is marked replaced.
