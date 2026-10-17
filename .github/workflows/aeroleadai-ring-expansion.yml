@@ -1,0 +1,45 @@
+name: AeroLeadAI verified-source geographic expansion
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 10 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'collector/discover_outward_rings.py'
+      - '.github/workflows/aeroleadai-ring-expansion.yml'
+permissions:
+  contents: write
+concurrency:
+  group: aeroleadai-ring-expansion
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check crawler syntax
+        run: python -m py_compile collector/discover_outward_rings.py
+      - name: Discover additional actual Eagan parcels from official GIS
+        run: python collector/discover_outward_rings.py --radius 1200
+      - name: Publish separate ring discovery evidence
+        if: always()
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if test -f evidence/data/outward_ring_candidates.json; then
+            git add evidence/data/outward_ring_candidates.json
+            if ! git diff --cached --quiet; then
+              git commit -m 'Publish source-backed outward parcel ring candidates'
+              for attempt in 1 2 3; do
+                git pull --rebase origin main
+                if git push origin HEAD:main; then exit 0; fi
+                sleep 3
+              done
+              exit 1
+            fi
+          fi
