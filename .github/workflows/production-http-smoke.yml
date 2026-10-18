@@ -1,0 +1,25 @@
+name: GateKeeper live production HTTP audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tests/production_http_smoke.mjs'
+      - '.github/workflows/production-http-smoke.yml'
+  schedule:
+    - cron: '11 */6 * * *'
+permissions:
+  contents: read
+jobs:
+  live-production-verification:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-node@v4
+        with: {node-version: '24'}
+      - name: Verify live application and secure residential scorecard API
+        env:
+          AERO_BASE_URL: https://aeroleadaigithubreadyv03.vercel.app
+        run: node tests/production_http_smoke.mjs
