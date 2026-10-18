@@ -1,0 +1,39 @@
+name: AeroLeadAI v1.4 non-destructive integration checks
+on:
+  pull_request:
+    paths:
+      - 'collector/groq_extract.py'
+      - 'security/apiGuard.mjs'
+      - 'tests/test_groq_extract.py'
+      - 'tests/test_apiGuard.mjs'
+      - '.github/workflows/v14-additive-regression.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'collector/groq_extract.py'
+      - 'security/apiGuard.mjs'
+      - 'tests/test_groq_extract.py'
+      - 'tests/test_apiGuard.mjs'
+      - '.github/workflows/v14-additive-regression.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  evidence-regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '24'}
+      - name: Compile optional external extraction, no Groq request
+        run: python -m py_compile collector/groq_extract.py
+      - name: Test all existing local GateKeeper Python tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Test original-60 property joins, protection, and optional API guard
+        run: node --test tests/test_apiGuard.mjs tests/scorecard_integration.test.mjs
+      - name: Parse fail-closed helper
+        run: node --check security/apiGuard.mjs
