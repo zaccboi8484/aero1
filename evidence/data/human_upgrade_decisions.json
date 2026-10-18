@@ -1,34 +1,6 @@
 {
-  "updated_at_utc": "2026-10-18T07:18:23.606153+00:00",
+  "updated_at_utc": "2026-10-18T07:37:52.299740+00:00",
   "decisions": [
-    {
-      "decision_id": "UPG-9b4accae8ec9",
-      "source": "mn_addresses",
-      "priority": "MEDIUM",
-      "proposed_action": "Investigate GIS address service; USPS requires separate OAuth credentials",
-      "reason": "MISSING; current source-backed count=0",
-      "status": "NEEDS_HUMAN_REVIEW",
-      "approved": false,
-      "requires": [
-        "source rights",
-        "automated tests",
-        "human sign-off"
-      ]
-    },
-    {
-      "decision_id": "UPG-0bd49316c282",
-      "source": "mngeo_aerial",
-      "priority": "HIGH",
-      "proposed_action": "Fix official WMS GetMap source and validate returned JPEG bytes",
-      "reason": "MISSING; current source-backed count=0",
-      "status": "NEEDS_HUMAN_REVIEW",
-      "approved": false,
-      "requires": [
-        "source rights",
-        "automated tests",
-        "human sign-off"
-      ]
-    },
     {
       "decision_id": "UPG-92b7280e724c",
       "source": "regional_permits",

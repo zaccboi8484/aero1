@@ -1,0 +1,1090 @@
+{
+  "generated_at_utc": "2026-10-18T07:37:52.245170+00:00",
+  "service_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll",
+  "total": 60,
+  "remote_image_verified": 60,
+  "network_probed": true,
+  "records": [
+    {
+      "parcel_objectid": "44001",
+      "county_pin": "104200101010",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1683527%2C44.8165728%2C-93.1669527%2C44.8173728&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 50840,
+          "sha256": "ddb5802176b6081b5ee288e7dd64b8f5fea91d64f6164dc05296a35b99ace59b",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:43.484594+00:00"
+    },
+    {
+      "parcel_objectid": "44002",
+      "county_pin": "104200101020",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1683416%2C44.8162813%2C-93.1669416%2C44.8170813&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 51375,
+          "sha256": "14a95dceeb43717c248c2ad3640864737d26e43e7052485cf5730060fcdad38b",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:43.758687+00:00"
+    },
+    {
+      "parcel_objectid": "44003",
+      "county_pin": "104200101030",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1683443%2C44.8159861%2C-93.1669443%2C44.8167861&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 49554,
+          "sha256": "52b947017323974c31a8a5c81bce9db7d747929453d092af8de8c488cd911913",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:43.903622+00:00"
+    },
+    {
+      "parcel_objectid": "44004",
+      "county_pin": "104200101040",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1684568%2C44.8157096%2C-93.1670568%2C44.8165096&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47606,
+          "sha256": "04a1c7d786e50abcbeb1699b4a52b12b8f457e6dab66f890fb55bb09d30918f1",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:44.065386+00:00"
+    },
+    {
+      "parcel_objectid": "44005",
+      "county_pin": "104200101050",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1684388%2C44.8152607%2C-93.1670388%2C44.8160607&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48161,
+          "sha256": "a0846ad9ab32bc7361ec9ba47129781f03fdaccd19e00157d829542c17e9d448",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:44.208905+00:00"
+    },
+    {
+      "parcel_objectid": "44006",
+      "county_pin": "104200101060",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1687487%2C44.8150539%2C-93.1673487%2C44.8158539&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48275,
+          "sha256": "319f5beeb5ec755695993797f5488dbcf0890214ddb99f1f46eee59b138e302a",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:44.381212+00:00"
+    },
+    {
+      "parcel_objectid": "44007",
+      "county_pin": "104200101070",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1688065%2C44.8155582%2C-93.1674065%2C44.8163582&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47875,
+          "sha256": "9aaf3aec13814cdd0a6da0ef8efc74bb79e2811280526f06f7e6b215b3e4c0b2",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:44.525186+00:00"
+    },
+    {
+      "parcel_objectid": "44008",
+      "county_pin": "104200101080",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1691044%2C44.8153635%2C-93.1677044%2C44.8161635&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48484,
+          "sha256": "b14f2e2fa7e249453e4372e15f66cb2ae6659f4cb2476e2f6544fdfa00ff7932",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:44.666984+00:00"
+    },
+    {
+      "parcel_objectid": "44009",
+      "county_pin": "104200101090",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1693268%2C44.8152644%2C-93.1679268%2C44.8160644&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47160,
+          "sha256": "701631645779da94a38a992fb9a1c760233172d6ed2d54060b0031092295eb40",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:44.819197+00:00"
+    },
+    {
+      "parcel_objectid": "44010",
+      "county_pin": "104200101100",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1699828%2C44.8152569%2C-93.1685828%2C44.8160569&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 46497,
+          "sha256": "26ee83db7cdac6ed8e0cd205177fb247cc19a3fb2a7e92fdbea734daca5332fa",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:44.969003+00:00"
+    },
+    {
+      "parcel_objectid": "44011",
+      "county_pin": "104200101110",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1704059%2C44.8153327%2C-93.1690059%2C44.8161327&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48171,
+          "sha256": "0c377699f573ec6a2a973583cbe968f11d467c8c99860aebb3885142e9e97452",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:45.101745+00:00"
+    },
+    {
+      "parcel_objectid": "44012",
+      "county_pin": "104200101120",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1704099%2C44.8156763%2C-93.1690099%2C44.8164763&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 49148,
+          "sha256": "f824cf78183d3afed8d8d4e1da587e6102e1ac43274bd450c2d31a3cf9e7aaf1",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:45.243100+00:00"
+    },
+    {
+      "parcel_objectid": "44013",
+      "county_pin": "104200101130",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1708829%2C44.8156262%2C-93.1694829%2C44.8164262&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 50105,
+          "sha256": "40e822e0c0fe5e6e3ac1b66e033b54592234de8efa82f0658acc681a748c61c2",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:45.389890+00:00"
+    },
+    {
+      "parcel_objectid": "44014",
+      "county_pin": "104200101140",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1709177%2C44.815389%2C-93.1695177%2C44.816189&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47741,
+          "sha256": "1348b470039aabc825cfb5c9ae4e833f2b2ff53d1f7c74566c0f21404ce129cc",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:45.530400+00:00"
+    },
+    {
+      "parcel_objectid": "44015",
+      "county_pin": "104200101150",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1713771%2C44.815227%2C-93.1699771%2C44.816027&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 49462,
+          "sha256": "a855c84ee6614e02a190352073ef112d515c0f600a4670a4efd398ac4c89d89f",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:45.664807+00:00"
+    },
+    {
+      "parcel_objectid": "44016",
+      "county_pin": "104200101160",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.171904%2C44.8152842%2C-93.170504%2C44.8160842&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48174,
+          "sha256": "0ec61e6938aab367a4de2e5f84805e35b7c43f7dcd821ea50cd514fa2ac3c3d3",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:45.826979+00:00"
+    },
+    {
+      "parcel_objectid": "44017",
+      "county_pin": "104200101170",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1719163%2C44.8157118%2C-93.1705163%2C44.8165118&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 49380,
+          "sha256": "2783290d1c7b996c0bd183edef0885f53eee5d034946857eec2a3dec10d59841",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:45.966768+00:00"
+    },
+    {
+      "parcel_objectid": "44018",
+      "county_pin": "104200101180",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1716255%2C44.8159514%2C-93.1702255%2C44.8167514&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48514,
+          "sha256": "fc4f3aee3abe224b4168d2a5094715ee5b727f5ac6a15cb6f4e3f9c2ec60cd0b",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:46.105566+00:00"
+    },
+    {
+      "parcel_objectid": "44019",
+      "county_pin": "104200101190",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.171276%2C44.8161304%2C-93.169876%2C44.8169304&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47904,
+          "sha256": "7b7017e246b33c1e9fed5c1761ac2e86faf0b5e75e5701fd511dff630ec9706b",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:46.257472+00:00"
+    },
+    {
+      "parcel_objectid": "44020",
+      "county_pin": "104200101200",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1708807%2C44.8161914%2C-93.1694807%2C44.8169914&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47672,
+          "sha256": "fc5534b3bdb6af1b509e309ac82573be6f9c9732e4f9542b09f0833460d95fde",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:46.396675+00:00"
+    },
+    {
+      "parcel_objectid": "44021",
+      "county_pin": "104200101210",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1704089%2C44.8162148%2C-93.1690089%2C44.8170148&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47083,
+          "sha256": "4755bddb2b8ecbd5d045779db54bdffb85383f991d24fa114f092cfb2c581ec5",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:46.525504+00:00"
+    },
+    {
+      "parcel_objectid": "44022",
+      "county_pin": "104200101220",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1705463%2C44.8166044%2C-93.1691463%2C44.8174044&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48561,
+          "sha256": "613972b78358c820b5922c1cbf91d4110eca6cc16fc42df1e6cfa721d70803a5",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:46.658411+00:00"
+    },
+    {
+      "parcel_objectid": "44023",
+      "county_pin": "104200101230",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.170731%2C44.8167461%2C-93.169331%2C44.8175461&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48020,
+          "sha256": "149b7fbd635235f42752694d7bc488637ea1cf8102c7ad8bdafdf35532941b07",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:46.798811+00:00"
+    },
+    {
+      "parcel_objectid": "44024",
+      "county_pin": "104200101240",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1711884%2C44.8166977%2C-93.1697884%2C44.8174977&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47397,
+          "sha256": "b55eb9d07e2b86b886fc485620858b785757ec13aea62932e10baad2e27a2234",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:47.004890+00:00"
+    },
+    {
+      "parcel_objectid": "44025",
+      "county_pin": "104200101250",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1715133%2C44.816578%2C-93.1701133%2C44.817378&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48544,
+          "sha256": "d3a2fb69c3ecbbb8d6f1d8e20fa0a4a9e2a02e6032882a65ffd15ef94d5a2bc1",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:47.137673+00:00"
+    },
+    {
+      "parcel_objectid": "44026",
+      "county_pin": "104200101260",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1717963%2C44.8163865%2C-93.1703963%2C44.8171865&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47955,
+          "sha256": "2e0054c314d4e3f46f2ec7bb0cadfb7347f0f305a5efd8d669f8a791dabf46d0",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:47.283899+00:00"
+    },
+    {
+      "parcel_objectid": "44027",
+      "county_pin": "104200101270",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.172078%2C44.816201%2C-93.170678%2C44.817001&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 49007,
+          "sha256": "582f3963e1b2553a6a52c984c245786bcf4a05b274aea751981ad0295f7010e6",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:47.418475+00:00"
+    },
+    {
+      "parcel_objectid": "44028",
+      "county_pin": "104200101280",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1723132%2C44.8159829%2C-93.1709132%2C44.8167829&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 49425,
+          "sha256": "91f904aefb6afb3fc03ac73e6e68193aa0b650298159694b8e40507d13a86e6b",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:47.575882+00:00"
+    },
+    {
+      "parcel_objectid": "44029",
+      "county_pin": "104200101290",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1724565%2C44.8157309%2C-93.1710565%2C44.8165309&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48668,
+          "sha256": "772ac0fe6592c292d76dc44516da96acb0cb4a4e5a831a49c14ae0a495ff7aa3",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:47.711546+00:00"
+    },
+    {
+      "parcel_objectid": "44030",
+      "county_pin": "104200101300",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1725097%2C44.8154715%2C-93.1711097%2C44.8162715&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47129,
+          "sha256": "0d947df009573778668dd85bf98c5ec01ba780e14b35dae03e384f9a775ddce6",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:47.855509+00:00"
+    },
+    {
+      "parcel_objectid": "44031",
+      "county_pin": "104200101310",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1725391%2C44.8151831%2C-93.1711391%2C44.8159831&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 45788,
+          "sha256": "c403fa5e4b1cfaa06130449c250c656cf5ed7272b9c3c06b91c6cfa060192ad6",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:47.988782+00:00"
+    },
+    {
+      "parcel_objectid": "44032",
+      "county_pin": "104200102010",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1688839%2C44.8169946%2C-93.1674839%2C44.8177946&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 49034,
+          "sha256": "cbec1738b7be4798cf7f4bc8d9657b454b1d80de53a599dfce9d13a78efaae5a",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:48.137607+00:00"
+    },
+    {
+      "parcel_objectid": "44033",
+      "county_pin": "104200102020",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1690695%2C44.8169048%2C-93.1676695%2C44.8177048&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48435,
+          "sha256": "0746e179848944e78c5219971adace023d23c054efde2d4624871eb7cb661673",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:48.293989+00:00"
+    },
+    {
+      "parcel_objectid": "44034",
+      "county_pin": "104200102030",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1691128%2C44.816548%2C-93.1677128%2C44.817348&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 50152,
+          "sha256": "87eb86429a234c2923e6a63faf446446312e385fe66585101103936b8db8ec0e",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:48.444516+00:00"
+    },
+    {
+      "parcel_objectid": "44035",
+      "county_pin": "104200102040",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1690896%2C44.8162942%2C-93.1676896%2C44.8170942&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 51346,
+          "sha256": "e920079f54515cb24392559728721a385b53c6f1e3fbd84d762f60434204477e",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:48.585113+00:00"
+    },
+    {
+      "parcel_objectid": "44036",
+      "county_pin": "104200102050",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1690833%2C44.8159088%2C-93.1676833%2C44.8167088&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 50427,
+          "sha256": "babdd4cb62e4b53bfbfb2212f309fb1cd7ae0c019d06fdfb3556e8837a58be52",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:48.723348+00:00"
+    },
+    {
+      "parcel_objectid": "44037",
+      "county_pin": "104200102060",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.169708%2C44.815746%2C-93.168308%2C44.816546&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48390,
+          "sha256": "33e8af33e318b04630500cf9351d9dc2316f8f23469f4bc68f0b5d3625c61110",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:48.871811+00:00"
+    },
+    {
+      "parcel_objectid": "44038",
+      "county_pin": "104200102070",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1697065%2C44.8160672%2C-93.1683065%2C44.8168672&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48239,
+          "sha256": "c5cb5ddab7693168c31aa05649e1d033cf8a09a475d7e2e31ee9d34f4d7ffac4",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:49.022265+00:00"
+    },
+    {
+      "parcel_objectid": "44039",
+      "county_pin": "104200102080",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1697062%2C44.816365%2C-93.1683062%2C44.817165&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48521,
+          "sha256": "2fa5188b54793ad22f213716ebc3db18f070e11a2b116b7d1e4db7d7db0a7813",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:49.155870+00:00"
+    },
+    {
+      "parcel_objectid": "44040",
+      "county_pin": "104200102090",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.169754%2C44.8167184%2C-93.168354%2C44.8175184&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47894,
+          "sha256": "8a0c803d57a578219d1afadaf87211ce6d2c432b040277cfcda42b84e21b2f42",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:49.301857+00:00"
+    },
+    {
+      "parcel_objectid": "44041",
+      "county_pin": "104200102100",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1698517%2C44.8171132%2C-93.1684517%2C44.8179132&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 45118,
+          "sha256": "0ffac58f3c06adb7ca9df098796ec5d27f511ba2e2d601fa5ebe17dc5dccdacf",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:49.448901+00:00"
+    },
+    {
+      "parcel_objectid": "44042",
+      "county_pin": "104200102110",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1700176%2C44.8173564%2C-93.1686176%2C44.8181564&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 41744,
+          "sha256": "7e693548afa2ba37c177e9a638360da9857cda2996b699d6d1952bbb6d567384",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:49.593218+00:00"
+    },
+    {
+      "parcel_objectid": "44043",
+      "county_pin": "104200102120",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1704811%2C44.8176307%2C-93.1690811%2C44.8184307&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 36005,
+          "sha256": "1d5a7a965b6b03fafd6a9fa3d8b413fe5215251c61e6ed4049173c339cbaa85d",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:49.729630+00:00"
+    },
+    {
+      "parcel_objectid": "44044",
+      "county_pin": "104200102130",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1712596%2C44.8176437%2C-93.1698596%2C44.8184437&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 39295,
+          "sha256": "ee538221b95fe25128766b96824e050d8802c3bb67cfd0a1e46aef5ba18e5b70",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:49.887289+00:00"
+    },
+    {
+      "parcel_objectid": "44045",
+      "county_pin": "104200102140",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1716497%2C44.8173937%2C-93.1702497%2C44.8181937&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 43230,
+          "sha256": "5df41671cd1c5ce6738958c5bec9ece70b1ec89f6582cf633e083bee939ca005",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:50.028139+00:00"
+    },
+    {
+      "parcel_objectid": "44046",
+      "county_pin": "104200102150",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1719013%2C44.8170969%2C-93.1705013%2C44.8178969&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48199,
+          "sha256": "43d636dd8ba5a63bbff543074cc8b64a4f5b6e09ef4590d6617779a9bfb07361",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:50.171112+00:00"
+    },
+    {
+      "parcel_objectid": "44047",
+      "county_pin": "104200102160",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1722127%2C44.8174237%2C-93.1708127%2C44.8182237&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 41610,
+          "sha256": "92da6123607fcee0e660fd236f5d4d6f838cdca54275a7a0c052293cda495b2d",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:50.307211+00:00"
+    },
+    {
+      "parcel_objectid": "44048",
+      "county_pin": "104200102170",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1728086%2C44.817414%2C-93.1714086%2C44.818214&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 41601,
+          "sha256": "1552f999120f98779de0e6237f023ba7dc893c827718e6eda66ea94a9c7df893",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:50.444925+00:00"
+    },
+    {
+      "parcel_objectid": "44049",
+      "county_pin": "104200102180",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1729659%2C44.8169658%2C-93.1715659%2C44.8177658&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 46362,
+          "sha256": "aa368ef61ab9ecd665d71e072c3235ef104d068493134549a51f8f963d970f13",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:50.583274+00:00"
+    },
+    {
+      "parcel_objectid": "44050",
+      "county_pin": "104200102190",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1723996%2C44.816688%2C-93.1709996%2C44.817488&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48905,
+          "sha256": "7799cf3c246b03133c121d8ad8386c93355bf8ad2084847b5cab91f1cb9bb923",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:50.718530+00:00"
+    },
+    {
+      "parcel_objectid": "44051",
+      "county_pin": "104200102200",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1727662%2C44.8165293%2C-93.1713662%2C44.8173293&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47883,
+          "sha256": "a425af81ac767c0137e51ce3f9eb3839f865113cfed82c800f294bd765dbb86d",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:50.861843+00:00"
+    },
+    {
+      "parcel_objectid": "44052",
+      "county_pin": "104200102210",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1729448%2C44.8163427%2C-93.1715448%2C44.8171427&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47902,
+          "sha256": "eec451a91c0a6023d8eb84d594543a53ea936e6e8830ee8663f07b365663e9fc",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:51.015252+00:00"
+    },
+    {
+      "parcel_objectid": "44053",
+      "county_pin": "104200102220",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1731016%2C44.8160522%2C-93.1717016%2C44.8168522&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 46796,
+          "sha256": "067cce18fc22c809104129f6375adea7bbc4b4344821744378488940faedf998",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:51.151864+00:00"
+    },
+    {
+      "parcel_objectid": "44054",
+      "county_pin": "104200102230",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1732314%2C44.8157669%2C-93.1718314%2C44.8165669&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 45392,
+          "sha256": "767536d871000c1817a88384498606ff5f9152ec4b27d7c349e1b107741ec892",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:51.289992+00:00"
+    },
+    {
+      "parcel_objectid": "44055",
+      "county_pin": "104200102240",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1733353%2C44.8154813%2C-93.1719353%2C44.8162813&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 43489,
+          "sha256": "5c8fa83afa2e240a55ba50a4e3077e16931c94cb42ce1dbb7ad2e2567aa87f5c",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:51.423928+00:00"
+    },
+    {
+      "parcel_objectid": "44056",
+      "county_pin": "104200102250",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1734355%2C44.8151835%2C-93.1720355%2C44.8159835&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 44880,
+          "sha256": "f13de01e967b114de89e8f2c7a31a209f8e95bc326501e4e7a718315651261fc",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:51.560312+00:00"
+    },
+    {
+      "parcel_objectid": "44057",
+      "county_pin": "104200201010",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1732298%2C44.8148474%2C-93.1718298%2C44.8156474&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 47462,
+          "sha256": "a51114460542ad5da9c7926e80ce3a4d62db07658285769cdcf880dfeb2f9087",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:51.695685+00:00"
+    },
+    {
+      "parcel_objectid": "44058",
+      "county_pin": "104200201020",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1736755%2C44.8148244%2C-93.1722755%2C44.8156244&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 48224,
+          "sha256": "4e8ab3fe1d768e0fbb148990eada4fd48e8c760b2c93a4aa7c5e4673f9948d1d",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:51.835103+00:00"
+    },
+    {
+      "parcel_objectid": "44059",
+      "county_pin": "104200201030",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1741738%2C44.8147277%2C-93.1727738%2C44.8155277&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 43668,
+          "sha256": "d4f2cb773fa96305bb4a4fc3880f3b8cc8b086947f6478d75fd88d40d6797ae8",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:51.971125+00:00"
+    },
+    {
+      "parcel_objectid": "44060",
+      "county_pin": "104200201040",
+      "status": "REMOTE_IMAGE_VERIFIED",
+      "layers": {
+        "met25": {
+          "layer": "met25",
+          "description": "2025 Twin Cities metro 1-foot",
+          "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.174801%2C44.8142873%2C-93.173401%2C44.8150873&WIDTH=900&HEIGHT=700&FORMAT=image%2Fjpeg",
+          "bytes": 44157,
+          "sha256": "2035b0743756e1c3383bf5579ef012332930dd81cad97d063d17d314a0d8fa15",
+          "content_type": "image/jpeg",
+          "status": "REMOTE_IMAGE_VERIFIED"
+        }
+      },
+      "preferred_layer": "met25",
+      "checked_at_utc": "2026-10-18T07:37:52.104673+00:00"
+    }
+  ],
+  "gatekeeper_note": "Successful JPEG response verifies government-hosted imagery, NOT roof, tree or driveway conditions."
+}
