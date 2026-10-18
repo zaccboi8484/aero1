@@ -27,6 +27,15 @@ def js(url):
  d=json.loads(payload)
  if "error" in d:raise ValueError("ArcGIS query error: "+str(d["error"])[:160])
  return d
+def classify_regional_query(payload,address,page_size=120):
+ """Fail closed: a truncated ArcGIS page cannot justify a no-match finding."""
+ features=payload.get("features",[])
+ if not isinstance(features,list):raise ValueError("ArcGIS features must be a list")
+ valid=[x.get("attributes",{}) for x in features if norm(x.get("attributes",{}).get("ADDRESS"))==norm(address)]
+ incomplete=bool(payload.get("exceededTransferLimit")) or len(features)>=page_size
+ status="REGIONAL_QUERY_INCOMPLETE" if incomplete else ("PENDING_SOURCE_RECORD_REVIEW" if valid else "NO_MATCH_IN_REGIONAL_SOURCE")
+ return status,valid
+
 def load(name,default):
  try:return json.loads((D/name).read_text(encoding="utf-8"))
  except (FileNotFoundError,ValueError):return default
@@ -78,10 +87,9 @@ def execute(no_network=False,batch=8):
     uri=PERMITS+"?"+urllib.parse.urlencode({"f":"json","where":" AND ".join(clauses),
       "outFields":"OBJECTID,ADDRESS,YEAR,RES_PERMIT_TYPE,PERMIT_VALUE","returnGeometry":"false",
       "resultRecordCount":120})
-    features=js(uri).get("features",[])
-    valid=[x.get("attributes",{}) for x in features if norm(x.get("attributes",{}).get("ADDRESS"))==norm(addr)]
-    response["regional_permits"]="PENDING_SOURCE_RECORD_REVIEW" if valid else "NO_MATCH_IN_REGIONAL_SOURCE"
+    response["regional_permits"],valid=classify_regional_query(js(uri),addr)
     response["regional_permit_count"]=len(valid)
+    response["regional_query_complete"]=response["regional_permits"]!="REGIONAL_QUERY_INCOMPLETE"
     response["regional_source_url"]=uri
     response["regional_record_ids"]=[str(x.get("OBJECTID")) for x in valid][:30]
    except Exception as e:response["regional_permits"]="REGIONAL_QUERY_ERROR";response["regional_error"]=str(e)[:160]
