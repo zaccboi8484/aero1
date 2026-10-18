@@ -6,6 +6,7 @@ on:
     paths:
       - 'tests/production_http_smoke.mjs'
       - '.github/workflows/production-http-smoke.yml'
+      - 'vercel.json'
   schedule:
     - cron: '11 */6 * * *'
 permissions:
