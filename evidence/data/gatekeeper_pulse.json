@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-18T01:16:17.107038+00:00",
+  "generated_at_utc": "2026-10-18T07:18:23.606153+00:00",
   "engine": "GateKeeper Source Pulse v1",
   "source_count": 9,
   "healthy_sources": 6,
@@ -8,7 +8,7 @@
       "source": "parcels",
       "file": "collection_manifest.json",
       "status": "CURRENT",
-      "age_hours": 14.0,
+      "age_hours": 20.04,
       "max_age_hours": 36,
       "evidence_count": 60,
       "errors": []
@@ -17,7 +17,7 @@
       "source": "gis_geometry",
       "file": "subdivision_geometry_checks.json",
       "status": "CURRENT",
-      "age_hours": 14.0,
+      "age_hours": 20.04,
       "max_age_hours": 72,
       "evidence_count": 60,
       "errors": []
@@ -44,7 +44,7 @@
       "source": "property_values",
       "file": "live_property_enrichment.json",
       "status": "CURRENT",
-      "age_hours": 14.0,
+      "age_hours": 20.04,
       "max_age_hours": 36,
       "evidence_count": 56,
       "errors": []
@@ -53,7 +53,7 @@
       "source": "regional_permits",
       "file": "regional_residential_permit_matches.json",
       "status": "CURRENT",
-      "age_hours": 14.0,
+      "age_hours": 20.04,
       "max_age_hours": 72,
       "evidence_count": 0,
       "errors": []
@@ -71,7 +71,7 @@
       "source": "categories",
       "file": "property_category_intelligence.json",
       "status": "CURRENT",
-      "age_hours": 14.0,
+      "age_hours": 20.04,
       "max_age_hours": 72,
       "evidence_count": 60,
       "errors": []
@@ -80,7 +80,7 @@
       "source": "integrity",
       "file": "pipeline_integrity.json",
       "status": "CURRENT",
-      "age_hours": 14.0,
+      "age_hours": 20.04,
       "max_age_hours": 36,
       "evidence_count": 60,
       "errors": []
