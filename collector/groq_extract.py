@@ -10,6 +10,7 @@ import argparse
 import datetime as dt
 import hashlib
 import json
+import math
 import os
 import pathlib
 import sys
@@ -34,8 +35,8 @@ def clean(raw):
         return None
     confidence = obj.get("confidence")
     try:
-        confidence = max(0.0, min(1.0, float(confidence)))
-        if confidence != confidence: confidence = 0.0  # Reject NaN.
+        confidence = float(confidence)
+        confidence = max(0.0, min(1.0, confidence)) if math.isfinite(confidence) else 0.0
     except (ValueError, TypeError, OverflowError):
         confidence = 0.0
     date = obj.get("permit_date")
