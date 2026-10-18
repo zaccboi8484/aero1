@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-17T11:16:17.462974+00:00",
+  "generated_at_utc": "2026-10-18T08:51:07.831253+00:00",
   "product": "AeroLeadAI",
   "assistant": "Embedded GateKeeper",
   "release_certified": false,
@@ -39,8 +39,8 @@
     {
       "id": "03_ADDRESS",
       "name": "Minnesota GIS address match",
-      "status": "BLOCKED",
-      "done": 0,
+      "status": "PARTIAL",
+      "done": 56,
       "target": 60,
       "evidence_file": "mn_address_validation.json",
       "blocking": "No source-matched address-point report; USPS OAuth is separate"
@@ -75,8 +75,8 @@
     {
       "id": "07_IMAGERY",
       "name": "Valid image response per parcel",
-      "status": "BLOCKED",
-      "done": 0,
+      "status": "VERIFIED",
+      "done": 60,
       "target": 60,
       "evidence_file": "imagery_source_probe.json / mngeo_aerial_evidence.json",
       "blocking": "Source imagery missing or failed; illustrative imagery is not evidence"
@@ -142,14 +142,6 @@
       "priority": "MEDIUM",
       "reason": "Regional source does not substitute for municipal reroof history",
       "evidence": "regional_residential_permit_matches.json"
-    },
-    {
-      "gate": "07_IMAGERY",
-      "status": "NEEDS_HUMAN_REVIEW",
-      "approved": false,
-      "priority": "HIGH",
-      "reason": "Source imagery missing or failed; illustrative imagery is not evidence",
-      "evidence": "imagery_source_probe.json / mngeo_aerial_evidence.json"
     },
     {
       "gate": "08_CONDITIONS",
