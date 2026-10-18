@@ -9,5 +9,7 @@
       "path": "/api/cron/permits",
       "schedule": "15 9 * * *"
     }
-  ]
+  ],
+  "buildCommand": "mkdir -p public && cp index.html roofing-scorecards.html luckyg-core.js public/",
+  "outputDirectory": "public"
 }
