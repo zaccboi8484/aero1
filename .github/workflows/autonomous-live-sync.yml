@@ -1,0 +1,44 @@
+name: GateKeeper autonomous live sync regression
+on:
+  pull_request:
+    paths:
+      - 'scripts/build-web.mjs'
+      - 'public/live-sync.js'
+      - 'vercel.json'
+      - 'collector/source_health_public.py'
+      - 'tests/live_sync_build.test.mjs'
+      - 'tests/test_source_health_public.py'
+      - '.github/workflows/autonomous-live-sync.yml'
+      - '.github/workflows/aeroleadai-15min-validation.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-web.mjs'
+      - 'public/live-sync.js'
+      - 'vercel.json'
+      - 'collector/source_health_public.py'
+      - 'tests/live_sync_build.test.mjs'
+      - 'tests/test_source_health_public.py'
+      - '.github/workflows/autonomous-live-sync.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-update-path:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-node@v4
+        with: {node-version: '24'}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Verify live browser update script parses
+        run: node --check public/live-sync.js
+      - name: Rebuild real dashboard and assert permits, roof list and cinematic controls survive
+        run: node --test tests/live_sync_build.test.mjs
+      - name: Verify original 60 and GateKeeper source joins
+        run: node --test tests/scorecard_integration.test.mjs
+      - name: Verify heartbeat cannot invent municipal verification
+        run: python -m unittest discover -s tests -p 'test_source_health_public.py' -v
