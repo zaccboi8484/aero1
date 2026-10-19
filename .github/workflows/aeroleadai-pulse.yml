@@ -35,5 +35,5 @@ jobs:
           done
           if ! git diff --cached --quiet; then
             git commit -m 'Publish GateKeeper autonomous source health pulse'
-            git push
+            bash scripts/retry_evidence_push.sh
           fi
