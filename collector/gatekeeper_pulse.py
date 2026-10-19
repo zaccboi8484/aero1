@@ -9,6 +9,7 @@ SOURCES={"parcels":("collection_manifest.json","collected_at_utc",36,"count"),
          "mngeo_aerial":("mngeo_aerial_evidence.json","generated_at_utc",72,"remote_image_verified"),
          "property_values":("live_property_enrichment.json","generated_utc",36,None),
          "regional_permits":("regional_residential_permit_matches.json","checked_at_utc",72,"matches_pending_review"),
+         "municipal_exports":("municipal_permit_export_audit.json","generated_at_utc",168,"matched_permit_events"),
          "municipal_permits":("permit_match_review.json","generated_at_utc",168,None),
          "categories":("property_category_intelligence.json","created_utc",72,"count"),
          "integrity":("pipeline_integrity.json","checked_at_utc",36,"records")}
@@ -18,7 +19,8 @@ RECOMMEND={"parcels":"Repair official GIS parcel import and dedupe by county PIN
 "mngeo_aerial":"Fix official WMS GetMap source and validate returned JPEG bytes",
 "property_values":"Reconcile parcel ID and official city valuation layer",
 "regional_permits":"Review regional residential permit source and address matches",
-"municipal_permits":"Obtain authorized City of Eagan permit export, do not evade 403",
+"municipal_exports":"Refresh owner-provided City of Eagan export; source matches still need original-document review",
+"municipal_permits":"Review original Eagan permit documents and inspections through authorized access; do not evade 403",
 "categories":"Rebuild roofing/tree/driveway evidence cards without inferred damage",
 "integrity":"BLOCK score promotion and investigate cross-file integrity errors"}
 def read(f):
@@ -44,6 +46,12 @@ def run(d):
   if name=="mngeo_aerial" and payload.get("network_probed") is False:status="NOT_PROBED"
   if status=="CURRENT" and errs:status="SOURCE_ISSUE"
   row={"source":name,"file":file,"status":status,"age_hours":age,"max_age_hours":maxage,"evidence_count":count,"errors":errs}
+  if name=="municipal_exports":
+   row["evidence_stage"]="IMPORTED_REPORT_MATCHES_NOT_DOCUMENT_REVIEWED"
+   row["verified_permit_documents"]=0
+   row["permit_history_complete"]=False
+  if name=="municipal_permits":row["evidence_stage"]="ORIGINAL_PERMIT_REVIEW_REQUIRED"
+  row["operationally_healthy"]=status=="CURRENT" and isinstance(count,(int,float)) and count>0
   states.append(row)
   if status!="CURRENT" or not count:
    rec={"decision_id":"UPG-"+hashlib.sha256(name.encode()).hexdigest()[:12],
@@ -52,7 +60,8 @@ def run(d):
     "status":"NEEDS_HUMAN_REVIEW","approved":False,
     "requires":["source rights","automated tests","human sign-off"]}
    proposals.append(rec)
- report={"generated_at_utc":now.isoformat(),"engine":"GateKeeper Source Pulse v1","source_count":len(states),"healthy_sources":sum(x["status"]=="CURRENT" for x in states),"sources":states,"upgrade_count":len(proposals),"upgrades_for_human_review":proposals,"no_autonomous_approval":True,"no_unverified_condition_scores":True,"note":"Freshness and data acquisition do not establish roof damage or USPS deliverability"}
+ report={"generated_at_utc":now.isoformat(),"engine":"GateKeeper Source Pulse v1","source_count":len(states),"current_sources":sum(x["status"]=="CURRENT" for x in states),
+         "healthy_sources":sum(x["operationally_healthy"] for x in states),"sources":states,"upgrade_count":len(proposals),"upgrades_for_human_review":proposals,"no_autonomous_approval":True,"no_unverified_condition_scores":True,"note":"Freshness and acquired permit-export matches do not establish permit completion, roof damage, or USPS deliverability"}
  d.mkdir(parents=True,exist_ok=True)
  (d/"gatekeeper_pulse.json").write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
  (d/"human_upgrade_decisions.json").write_text(json.dumps({"updated_at_utc":report["generated_at_utc"],"decisions":proposals,"approval_policy":"Human review mandatory; proposals are NOT approvals"},indent=2)+"\n",encoding="utf-8")
