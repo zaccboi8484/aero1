@@ -4,6 +4,9 @@ on:
     paths:
       - 'collector/certification_gap_pipeline.py'
       - 'tests/test_certification_gap_pipeline.py'
+      - 'tests/certification_api.test.mjs'
+      - 'api/certification-gaps.js'
+      - 'certification-gaps.html'
       - '.github/workflows/gatekeeper-certification-search.yml'
       - 'evidence/data/municipal_permit_export_audit.json'
   push:
@@ -11,6 +14,9 @@ on:
     paths:
       - 'collector/certification_gap_pipeline.py'
       - 'tests/test_certification_gap_pipeline.py'
+      - 'tests/certification_api.test.mjs'
+      - 'api/certification-gaps.js'
+      - 'certification-gaps.html'
       - '.github/workflows/gatekeeper-certification-search.yml'
       - 'evidence/data/municipal_permit_export_audit.json'
   workflow_dispatch:
@@ -30,10 +36,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
       - name: Validate source gates against real 60 source records
         run: python -m unittest discover -s tests -p 'test_certification_gap_pipeline.py' -v
       - name: Build source-backed missing-evidence search index and issuer document packets
         run: python collector/certification_gap_pipeline.py
+      - name: Check authenticated certification API JavaScript syntax
+        run: node --check api/certification-gaps.js
+      - name: Validate authorized search, real 60 source data and 2025 roofing candidate
+        run: node --test tests/certification_api.test.mjs
       - name: Publish research queue, not fake permit completions
         if: github.event_name != 'pull_request'
         run: |
