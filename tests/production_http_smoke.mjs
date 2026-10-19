@@ -6,6 +6,8 @@ const base=(process.env.AERO_BASE_URL||'https://aeroleadaigithubreadyv03.vercel.
 const cases=[
   {path:'/',code:200,match:/AeroLeadAI|Kings Wood/i,description:'main residential property interface'},
   {path:'/roofing-scorecards.html',code:200,match:/Residential Roofing Scorecards/i,description:'integrated original-60 scorecard UI'},
+  {path:'/certification-gaps.html',code:200,match:/Certification Search Engine/,description:'source-directed GateKeeper certification queue UI'},
+  {path:'/api/certification-gaps',code:401,match:/GateKeeper session required/,description:'certification research queue protected from unauthenticated access'},
   {path:'/live-sync.js',code:200,match:/source_health_public[.]json/,description:'deployed source heartbeat and automatic browser evidence refresh'},
   {path:'/',code:200,match:/src="[/]live-sync[.]js" defer/,description:'main dashboard linked to active refresh engine'},
   {path:'/roofing-scorecards.html',code:200,match:/src="[/]live-sync[.]js" defer/,description:'residential scorecards linked to active refresh engine'},
