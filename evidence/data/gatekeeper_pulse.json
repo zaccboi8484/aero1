@@ -1,62 +1,82 @@
 {
-  "generated_at_utc": "2026-10-19T01:19:10.777446+00:00",
+  "generated_at_utc": "2026-10-19T06:49:11.780646+00:00",
   "engine": "GateKeeper Source Pulse v1",
-  "source_count": 9,
+  "source_count": 10,
+  "current_sources": 9,
   "healthy_sources": 8,
   "sources": [
     {
       "source": "parcels",
       "file": "collection_manifest.json",
       "status": "CURRENT",
-      "age_hours": 16.47,
+      "age_hours": 21.97,
       "max_age_hours": 36,
       "evidence_count": 60,
-      "errors": []
+      "errors": [],
+      "operationally_healthy": true
     },
     {
       "source": "gis_geometry",
       "file": "subdivision_geometry_checks.json",
       "status": "CURRENT",
-      "age_hours": 16.47,
+      "age_hours": 21.97,
       "max_age_hours": 72,
       "evidence_count": 60,
-      "errors": []
+      "errors": [],
+      "operationally_healthy": true
     },
     {
       "source": "mn_addresses",
       "file": "mn_address_validation.json",
       "status": "CURRENT",
-      "age_hours": 17.69,
+      "age_hours": 23.19,
       "max_age_hours": 72,
       "evidence_count": 56,
-      "errors": []
+      "errors": [],
+      "operationally_healthy": true
     },
     {
       "source": "mngeo_aerial",
       "file": "mngeo_aerial_evidence.json",
       "status": "CURRENT",
-      "age_hours": 17.69,
+      "age_hours": 23.19,
       "max_age_hours": 72,
       "evidence_count": 60,
-      "errors": []
+      "errors": [],
+      "operationally_healthy": true
     },
     {
       "source": "property_values",
       "file": "live_property_enrichment.json",
       "status": "CURRENT",
-      "age_hours": 16.47,
+      "age_hours": 21.97,
       "max_age_hours": 36,
       "evidence_count": 56,
-      "errors": []
+      "errors": [],
+      "operationally_healthy": true
     },
     {
       "source": "regional_permits",
       "file": "regional_residential_permit_matches.json",
       "status": "CURRENT",
-      "age_hours": 16.47,
+      "age_hours": 21.97,
       "max_age_hours": 72,
       "evidence_count": 0,
-      "errors": []
+      "errors": [],
+      "operationally_healthy": false
+    },
+    {
+      "source": "municipal_exports",
+      "file": "municipal_permit_export_audit.json",
+      "status": "CURRENT",
+      "age_hours": 43.69,
+      "max_age_hours": 168,
+      "evidence_count": 25,
+      "errors": [],
+      "evidence_stage": "IMPORTED_REPORT_MATCHES_NOT_DOCUMENT_REVIEWED",
+      "verified_permit_documents": 0,
+      "permit_history_complete": false,
+      "operationally_healthy": true
     },
     {
       "source": "municipal_permits",
@@ -65,25 +85,29 @@
       "age_hours": null,
       "max_age_hours": 168,
       "evidence_count": 0,
-      "errors": []
+      "errors": [],
+      "evidence_stage": "ORIGINAL_PERMIT_REVIEW_REQUIRED",
+      "operationally_healthy": false
     },
     {
       "source": "categories",
       "file": "property_category_intelligence.json",
       "status": "CURRENT",
-      "age_hours": 16.47,
+      "age_hours": 21.97,
       "max_age_hours": 72,
       "evidence_count": 60,
-      "errors": []
+      "errors": [],
+      "operationally_healthy": true
     },
     {
       "source": "integrity",
       "file": "pipeline_integrity.json",
       "status": "CURRENT",
-      "age_hours": 16.47,
+      "age_hours": 21.97,
       "max_age_hours": 36,
       "evidence_count": 60,
-      "errors": []
+      "errors": [],
+      "operationally_healthy": true
     }
   ],
   "upgrade_count": 2,
@@ -106,7 +130,7 @@
       "decision_id": "UPG-bbc4bac77a03",
       "source": "municipal_permits",
       "priority": "HIGH",
-      "proposed_action": "Obtain authorized City of Eagan permit export, do not evade 403",
+      "proposed_action": "Review original Eagan permit documents and inspections through authorized access; do not evade 403",
       "reason": "MISSING; current source-backed count=0",
       "status": "NEEDS_HUMAN_REVIEW",
       "approved": false,
@@ -119,5 +143,5 @@
   ],
   "no_autonomous_approval": true,
   "no_unverified_condition_scores": true,
-  "note": "Freshness and data acquisition do not establish roof damage or USPS deliverability"
+  "note": "Freshness and acquired permit-export matches do not establish permit completion, roof damage, or USPS deliverability"
 }

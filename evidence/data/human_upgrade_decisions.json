@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-19T01:19:10.777446+00:00",
+  "updated_at_utc": "2026-10-19T06:49:11.780646+00:00",
   "decisions": [
     {
       "decision_id": "UPG-92b7280e724c",
@@ -19,7 +19,7 @@
       "decision_id": "UPG-bbc4bac77a03",
       "source": "municipal_permits",
       "priority": "HIGH",
-      "proposed_action": "Obtain authorized City of Eagan permit export, do not evade 403",
+      "proposed_action": "Review original Eagan permit documents and inspections through authorized access; do not evade 403",
       "reason": "MISSING; current source-backed count=0",
       "status": "NEEDS_HUMAN_REVIEW",
       "approved": false,
