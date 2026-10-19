@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'collector/frequent_source_validation.py'
+      - 'collector/source_health_public.py'
+      - 'tests/test_source_health_public.py'
       - 'collector/roof_evidence_score.py'
       - 'collector/roof_permit_backfill.py'
       - 'tests/test_roof_permit_backfill.py'
@@ -39,12 +41,15 @@ jobs:
       - name: Backfill official 2025 roofing permits and review outreach order
         if: always()
         run: python collector/roof_permit_backfill.py
+      - name: Publish transparent live source heartbeat (no fabricated verification)
+        if: always()
+        run: python collector/source_health_public.py
       - name: Preserve rotating source audit and reviewed score gates
         if: always()
         run: |
           git config user.name "AeroLeadAI Evidence Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for f in evidence/data/fast_validation_report.json evidence/data/fast_validation_cursor.json evidence/data/roof_evidence_scores.json evidence/data/roof_permit_backfill_2025.json; do
+          for f in evidence/data/fast_validation_report.json evidence/data/fast_validation_cursor.json evidence/data/roof_evidence_scores.json evidence/data/roof_permit_backfill_2025.json evidence/data/source_health_public.json; do
             if test -f "$f"; then git add -- "$f"; fi
           done
           if ! git diff --cached --quiet; then
