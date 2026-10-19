@@ -8,6 +8,9 @@ on:
       - 'public/live-sync.js'
       - 'vercel.json'
       - 'collector/source_health_public.py'
+      - 'collector/validate_imagery_view_sources.py'
+      - 'tests/test_imagery_view_sources.py'
+      - '.github/workflows/download-images.yml'
       - 'tests/live_sync_build.test.mjs'
       - 'tests/production_http_smoke.mjs'
       - 'tests/test_source_health_public.py'
@@ -22,6 +25,9 @@ on:
       - 'public/live-sync.js'
       - 'vercel.json'
       - 'collector/source_health_public.py'
+      - 'collector/validate_imagery_view_sources.py'
+      - 'tests/test_imagery_view_sources.py'
+      - '.github/workflows/download-images.yml'
       - 'tests/live_sync_build.test.mjs'
       - 'tests/production_http_smoke.mjs'
       - 'tests/test_source_health_public.py'
@@ -50,6 +56,8 @@ jobs:
         run: node --test tests/scorecard_integration.test.mjs
       - name: Verify heartbeat cannot invent municipal verification
         run: python -m unittest discover -s tests -p 'test_source_health_public.py' -v
+      - name: Verify no unlicensed aerial image file claims
+        run: python -m unittest discover -s tests -p 'test_imagery_view_sources.py' -v
       - name: Check evidence-publisher shell syntax
         run: bash -n scripts/retry_evidence_push.sh
       - name: Prove concurrent commits rebase without loss and conflicts fail closed
