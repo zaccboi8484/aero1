@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-18T08:51:03.353355+00:00",
+  "generated_utc": "2026-10-19T07:05:05.127938+00:00",
   "source_catalog": [
     "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query",
     "https://api.weather.gov/alerts/active?point=44.819,-93.167"

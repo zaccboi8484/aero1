@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T08:51:04.598901+00:00",
+  "checked_at_utc": "2026-10-19T07:05:05.694599+00:00",
   "source_layer": "https://arcgis.metc.state.mn.us/server/rest/services/EnterpriseLibrary/DTATResidentialPermits/FeatureServer/0",
   "source_method": "exact normalized address match after scoped authorized ArcGIS query",
   "scope": "Regional residential-permit dataset, not a comprehensive Eagan permit history; NOT a reroof registry",
