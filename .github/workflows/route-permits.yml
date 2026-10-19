@@ -25,6 +25,5 @@ jobs:
           git add evidence/data/eagan_permit_research_tasks.json
           if ! git diff --cached --quiet; then
             git commit -m "Create jurisdiction-routed Eagan permit research queue"
-            git pull --rebase
-            git push
+            bash scripts/retry_evidence_push.sh
           fi
