@@ -64,5 +64,5 @@ jobs:
           done
           if ! git diff --cached --quiet; then
             git commit -m "Update official Kings Wood parcel candidate evidence"
-            git push
+            bash scripts/retry_evidence_push.sh
           fi

@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'collector/frequent_source_validation.py'
+      - 'collector/source_health_public.py'
+      - 'tests/test_source_health_public.py'
       - 'collector/roof_evidence_score.py'
       - 'collector/roof_permit_backfill.py'
       - 'tests/test_roof_permit_backfill.py'
@@ -31,6 +33,7 @@ jobs:
           python -m py_compile collector/frequent_source_validation.py collector/roof_evidence_score.py
           python -m unittest discover -s tests -p 'test_roof_evidence_score.py' -v
           python -m unittest discover -s tests -p 'test_roof_permit_backfill.py' -v
+          python -m unittest discover -s tests -p 'test_source_health_public.py' -v
       - name: Query 8 actual parcel, permit and MnGeo image records
         run: python collector/frequent_source_validation.py --batch 8
       - name: Score evidence collection priority, not unproven roof damage
@@ -39,20 +42,18 @@ jobs:
       - name: Backfill official 2025 roofing permits and review outreach order
         if: always()
         run: python collector/roof_permit_backfill.py
+      - name: Publish transparent live source heartbeat (no fabricated verification)
+        if: always()
+        run: python collector/source_health_public.py
       - name: Preserve rotating source audit and reviewed score gates
         if: always()
         run: |
           git config user.name "AeroLeadAI Evidence Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for f in evidence/data/fast_validation_report.json evidence/data/fast_validation_cursor.json evidence/data/roof_evidence_scores.json evidence/data/roof_permit_backfill_2025.json; do
+          for f in evidence/data/fast_validation_report.json evidence/data/fast_validation_cursor.json evidence/data/roof_evidence_scores.json evidence/data/roof_permit_backfill_2025.json evidence/data/source_health_public.json; do
             if test -f "$f"; then git add -- "$f"; fi
           done
           if ! git diff --cached --quiet; then
             git commit -m "Refresh actual parcel, permit and roof-evidence reviews"
-            for i in 1 2 3; do
-              git pull --rebase origin main
-              if git push origin HEAD:main; then exit 0; fi
-              sleep 5
-            done
-            exit 1
+            bash scripts/retry_evidence_push.sh
           fi

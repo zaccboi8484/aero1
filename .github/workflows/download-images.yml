@@ -29,8 +29,7 @@ jobs:
           git add -A evidence/images/ evidence/data/imagery_downloads.json evidence/data/evidence_audit_index.json
           if ! git diff --cached --quiet; then
             git commit -m "Store authentic county aerial images for first 60 parcels"
-            git pull --rebase
-            git push
+            bash scripts/retry_evidence_push.sh
           fi
       - name: Report acquisition failure after saving manifest
         if: steps.images.outcome == 'failure'

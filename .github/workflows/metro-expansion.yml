@@ -23,6 +23,5 @@ jobs:
           git add evidence/data/metro_expansion_manifest.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh MetroGIS municipality expansion index"
-            git pull --rebase
-            git push
+            bash scripts/retry_evidence_push.sh
           fi

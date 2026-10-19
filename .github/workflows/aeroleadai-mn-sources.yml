@@ -49,10 +49,10 @@ jobs:
         run: |
           git config user.name 'AeroLeadAI Evidence Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          for file in evidence/data/mn_address_validation.json evidence/data/mngeo_aerial_evidence.json evidence/data/gatekeeper_pulse.json evidence/data/human_upgrade_decisions.json; do
+          for file in evidence/data/mn_address_validation.json evidence/data/mngeo_aerial_evidence.json; do
             if [ -f "$file" ]; then git add -- "$file"; fi
           done
           if ! git diff --cached --quiet; then
-            git commit -m 'Ingest official Minnesota aerial/address evidence and GateKeeper pulse'
-            git push
+            git commit -m 'Ingest official Minnesota aerial/address evidence'
+            bash scripts/retry_evidence_push.sh
           fi

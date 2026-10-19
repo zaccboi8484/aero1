@@ -25,6 +25,5 @@ jobs:
           git add evidence/data/burnsville_first60_parcels.csv evidence/data/burnsville_first60_manifest.json evidence/data/burnsville_permit_research_tasks.json
           if ! git diff --cached --quiet; then
             git commit -m "Index 60 official Burnsville parcel candidates"
-            git pull --rebase
-            git push
+            bash scripts/retry_evidence_push.sh
           fi
