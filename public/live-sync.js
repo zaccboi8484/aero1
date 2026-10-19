@@ -17,7 +17,8 @@ refreshButton.style.cssText='border:1px solid #72aab4;border-radius:8px;backgrou
 const a=document.createElement('a');a.href=main?'/roofing-scorecards.html':'/';
 a.textContent=main?'Residential roofing cards ↗':'Main evidence dashboard ↗';
 a.style.cssText='color:#a3eef2;text-decoration:underline;font-weight:700';
-panel.append(label,refreshButton,a);
+const research=document.createElement('a');research.href='/certification-gaps.html';research.textContent='Certification search ↗';research.style.cssText='color:#a3eef2;text-decoration:underline;font-weight:700';
+panel.append(label,refreshButton,a,research);
 (document.querySelector('main')||document.body).prepend(panel);
 let lastCursor=null,refreshing=false,lastDisplay=0;
 function timeLabel(iso){

@@ -8,11 +8,15 @@ test('Vercel build preserves the original interface while fixing evidence live-s
  const dashboard=readFileSync('public/index.html','utf8');
  const source=readFileSync('index.html','utf8');
  const cards=readFileSync('public/roofing-scorecards.html','utf8');
+ const cert=readFileSync('public/certification-gaps.html','utf8');
  const sync=readFileSync('public/live-sync.js','utf8');
  assert.ok(source.length>50000,'Original UI source must exist');
  assert.ok(dashboard.includes('<script src="/live-sync.js" defer></script>'));
  assert.ok(cards.includes('<script src="/live-sync.js" defer></script>'));
  assert.ok(cards.includes('Residential Roofing Scorecards'));
+ assert.match(cert,/Certification Search Engine/,'New source-directed search console must deploy');
+ assert.ok(cert.includes('/api/certification-gaps'),'Search must use authenticated GateKeeper API');
+ assert.ok(sync.includes('/certification-gaps.html'),'Existing dashboards must link to new research console');
  assert.ok(dashboard.includes('Array.isArray(j.records)?j.records:Array.isArray(j.properties)?j.properties:[]'),
   'Roofing outreach must iterate records rather than numeric properties count');
  assert.ok(dashboard.includes("document.getElementById('permitCount').textContent=String(j.matched_permit_events??0)"),

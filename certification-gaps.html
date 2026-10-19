@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AeroLeadAI | GateKeeper Certification Search</title>
+<style>
+:root{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#e3f1f6;background:#081824;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 10% -10%,#165669a6,transparent 45%),radial-gradient(ellipse at 90% 20%,#1a3856a0,transparent 45%),#081824}
+header{border-bottom:1px solid #3c748358;background:#0a1e2fbe;backdrop-filter:blur(16px);padding:19px max(20px,calc((100% - 1400px)/2))}
+.head{display:flex;gap:16px;align-items:center;justify-content:space-between;max-width:1400px;margin:auto;flex-wrap:wrap}
+.kicker{font-size:11px;color:#7be8e3;text-transform:uppercase;letter-spacing:.14em;font-weight:800}
+h1{font-size:clamp(24px,3vw,39px);letter-spacing:-.045em;margin:6px 0 9px}
+.subtitle{font-size:12px;color:#bbceda;line-height:1.65;margin:0;max-width:840px}
+.nav{display:flex;gap:9px;flex-wrap:wrap}.nav a,.link{color:#aaeff1;text-decoration:none;border:1px solid #46768a;border-radius:9px;padding:9px 12px;font-size:12px;font-weight:700}.nav a:hover,.link:hover{background:#164757}
+main{max-width:1400px;margin:auto;padding:24px 18px 80px}
+h2{font-size:15px;letter-spacing:-.02em;margin:0 0 12px}
+.summary{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:2px 0 17px}
+.metric,.panel,.task{background:#132e41d9;border:1px solid #45758a6d;border-radius:15px;box-shadow:0 15px 35px #00121d3d;backdrop-filter:blur(10px)}
+.metric{padding:15px}.metric strong{display:block;font-size:29px;letter-spacing:-.04em;margin-top:7px}.metric small{font-size:11px;color:#abc6d3;line-height:1.5}
+.label{font-size:11px;color:#90b9cd;font-weight:650}
+.highlight{color:#74dcd8}.warn{color:#f6cc91}.alert{border:1px solid #ae955a6e;border-radius:11px;background:#4a381e79;padding:13px 16px;margin:18px 0;color:#fce2b7;font-size:12px;line-height:1.7}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,380px);gap:15px}
+.panel{padding:19px}.sources{display:flex;flex-direction:column;gap:10px}
+.source{border-bottom:1px solid #38586a;padding-bottom:9px;line-height:1.6}.source:last-child{border:0}
+.source strong{font-size:12px}.source small{font-size:11px;color:#b7cede;display:block}.source a{font-size:11px;color:#83dedf}
+.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:13px}
+input,select{color:#e7f8ff;border:1px solid #446f83;background:#0d2536;border-radius:10px;padding:11px 12px;font-size:12px;min-height:42px}
+input{flex:1;min-width:180px}select{max-width:100%;min-width:240px}
+button{background:#16747c;border:1px solid #4ca8b1;color:white;border-radius:10px;padding:11px 15px;cursor:pointer;font-size:12px;font-weight:750}
+button:disabled{opacity:.45;cursor:not-allowed}button:hover:not(:disabled){background:#238d95}
+.results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.task{padding:17px;display:flex;flex-direction:column;gap:10px}
+.taskTop{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.pill{display:inline-flex;padding:4px 8px;border:1px solid #58748a;background:#243a4c;border-radius:999px;color:#e2edfa;font-weight:750;font-size:10px}
+.pill.hot{color:#fff1ce;border-color:#a48644;background:#664d28}.pill.blocked{color:#ffcdb1;border-color:#b67764;background:#56372e}
+.task h3{font-size:15px;line-height:1.45;margin:0}
+.meta,.detail{font-size:11px;line-height:1.65;color:#bad0de}
+.meta strong{color:#e5f9fa}.detail{color:#d3e6ee}
+.taskActions{display:flex;gap:8px;margin-top:auto;align-items:center;flex-wrap:wrap}
+.taskActions a{font-size:11px;text-decoration:none;font-weight:750;color:#8ae5ec;border:1px solid #457c88;border-radius:8px;padding:8px 10px}
+#more{display:block;margin:20px auto}
+#status{color:#bed4df;font-size:12px;line-height:1.65;margin-bottom:13px}
+#login{position:fixed;inset:0;background:#061521ee;display:none;align-items:center;justify-content:center;padding:17px;z-index:30}
+#login form{background:#142e40;border-radius:17px;border:1px solid #477b90;padding:28px;width:min(100%,390px);box-shadow:0 20px 90px #0009}
+#login input{display:block;width:100%;margin:15px 0;color:white}
+#login p{font-size:12px;color:#d0e3ea;line-height:1.7}
+@media(max-width:1050px){.summary{grid-template-columns:repeat(3,minmax(0,1fr))}.grid{grid-template-columns:1fr}}
+@media(max-width:700px){.summary{grid-template-columns:repeat(2,minmax(0,1fr))}.results{grid-template-columns:1fr}.controls{flex-direction:column;align-items:stretch}.controls select{width:100%}}
+</style></head><body>
+<header><div class="head"><div>
+<div class="kicker">AeroLeadAI · Evidence Registry · GateKeeper</div>
+<h1>Certification Search Engine</h1>
+<p class="subtitle">Original Kings Wood 60 · Issuer permit documents · Property-source reconciliation · Authorized imagery · Human review gates. This research queue is <strong>not</strong> a list of certified roofs.</p>
+</div><nav class="nav"><a href="/">← Glass dashboard</a><a href="/roofing-scorecards.html">Residential scorecards</a></nav></div></header>
+<main>
+<section class="summary" aria-label="Verification progress">
+<div class="metric"><div class="label">Original properties</div><strong id="parcels">—</strong><small>Source-backed original registry</small></div>
+<div class="metric"><div class="label">Imported permit matches</div><strong id="permits">—</strong><small>Issuer documents outstanding</small></div>
+<div class="metric"><div class="label">GIS addresses verified</div><strong id="addresses">—</strong><small>Different from USPS delivery</small></div>
+<div class="metric"><div class="label">Remote aerial source hashes</div><strong id="imagery">—</strong><small>Not physical roof evidence</small></div>
+<div class="metric"><div class="label">Certified roofs / Mindex</div><strong id="certified" class="warn">—</strong><small>Must have reviewer-approved proof</small></div>
+</section>
+<div class="alert" id="truth">Checking real research evidence. No original issuer document, final inspection, licensed photo or physical condition certification is presumed.</div>
+<div class="grid"><section class="panel" aria-labelledby="tasksTitle">
+<h2 id="tasksTitle">Actionable research and issuer-document queue</h2>
+<div class="controls">
+<input type="search" id="query" placeholder="Address, PIN, permit number…" aria-label="Search addresses, PINs and permit numbers">
+<select id="kind" aria-label="Select evidence gap">
+<option value="">All open certification gaps</option>
+<option value="ORIGINAL_ISSUER_PERMIT_DOCUMENT">Original Eagan permit documents</option>
+<option value="MUNICIPAL_FULL_PERMIT_HISTORY">Full Eagan municipal histories</option>
+<option value="ADDRESS_GIS_RECONCILIATION">Unmatched official GIS addresses</option>
+<option value="OFFICIAL_ASSESSMENT_RECORD">Unmatched GIS valuations</option>
+<option value="ASSESSMENT_YEAR_PROVENANCE">Unverified assessment years</option>
+<option value="GOVERNMENT_AERIAL_SOURCE_RECHECK">Aerial WMS source checks</option>
+<option value="AERIAL_COMMERCIAL_RIGHTS_REVIEW">Aerial image licensing reviews</option>
+<option value="PHYSICAL_ROOF_CONDITION_REVIEW">Roof-condition evidence needed</option>
+<option value="EVIDENCE_SUPPORTED_MINDEX">Mindex release prerequisites</option>
+</select><button type="button" id="refresh">↻ Refresh</button>
+</div>
+<p id="status" role="status" aria-live="polite">Loading the existing source register…</p>
+<div class="results" id="results"></div>
+<button id="more" type="button" hidden>Load next 25 tasks</button>
+</section>
+<aside><section class="panel" aria-labelledby="sourcesTitle">
+<h2 id="sourcesTitle">Official research routes</h2><div id="sources" class="sources"></div>
+<hr style="border:0;border-top:1px solid #41697d;margin:17px 0">
+<h2>Issuer-document request packet</h2>
+<p class="detail">25 actual permit IDs from City of Eagan reports need original issuer records, scope details, and inspection outcomes. The first is the known 2025 roof candidate.</p>
+<a class="link" target="_blank" rel="noopener noreferrer" href="https://github.com/zaccboi8484/aero1/blob/main/evidence/data/permit_issuer_review_queue.csv">View issuer-document CSV ↗</a>
+<p class="meta" style="margin-top:12px">A city report match is not a completed roof. The absence of a match is not proof that no permit exists. The City also offers a public government-data request process.</p>
+</section></aside></div>
+</main>
+<div id="login" role="dialog" aria-modal="true" aria-labelledby="loginTitle"><form id="loginForm"><h2 id="loginTitle">GateKeeper authorization</h2><p>Use your existing AeroLeadAI passcode. The browser never receives the configured server secret.</p><input id="pass" type="password" autocomplete="current-password" placeholder="Access passcode" required><button type="submit">Unlock research queue</button><p id="loginMessage">Authorization required</p></form></div>
+<script>
+(()=>{'use strict';
+const $=id=>document.getElementById(id);
+const truth=$('truth'),results=$('results'),status=$('status'),more=$('more'),query=$('query'),kind=$('kind');
+let offset=0,busy=false,total=0,loaded=0,refreshTimer=0;
+function line(tag,value,cls){const n=document.createElement(tag);n.textContent=String(value??'');if(cls)n.className=cls;return n}
+function official(url){
+ try{const u=new URL(url);return u.protocol==='https:'&&['eagan.onlama.com','www.eaganmn.gov','eaganmn.gov','gis.cityofeagan.com','arcgis.metc.state.mn.us','imageserver.gisdata.mn.gov','mn.gov'].includes(u.hostname)}catch{return false}
+}
+function taskCard(p){
+ const card=line('article','','task'),head=line('div','','taskTop');
+ head.append(line('span','P'+p.priority+' · '+p.kind.replaceAll('_',' '),p.priority<=15?'pill hot':'pill'));
+ head.append(line('span',p.status.replaceAll('_',' '),p.status==='SOURCE_BLOCKED'?'pill blocked':'pill'));
+ card.append(head,line('h3',p.address),line('div','County PIN '+p.county_pin+' · Parcel '+p.parcel_objectid+(p.source_record_id?' · Permit '+p.source_record_id:''),'meta'));
+ card.append(line('div',p.next_action,'detail'));
+ card.append(line('div','Evidence required: '+p.requirements.join(' · '),'meta'));
+ const actions=line('div','','taskActions');
+ if(official(p.official_source_url)){
+  const a=line('a','Open official source ↗');a.href=p.official_source_url;a.target='_blank';a.rel='noopener noreferrer';actions.append(a);
+ }
+ actions.append(line('span','NOT CERTIFIED','pill'));
+ card.append(actions);return card
+}
+function catalog(source){
+ const div=line('div','','source');
+ div.append(line('strong',source.authority+' · '+source.category.replaceAll('_',' ')));
+ div.append(line('small',source.current_operational_state.replaceAll('_',' ')));
+ div.append(line('small',source.capability));
+ if(official(source.url)){const a=line('a','Official source ↗');a.href=source.url;a.target='_blank';a.rel='noopener noreferrer';div.append(a)}
+ return div;
+}
+async function load(reset=false){
+ if(busy)return;busy=true;$('refresh').disabled=true;more.disabled=true;
+ if(reset){offset=0;loaded=0;results.replaceChildren()}
+ status.textContent='Loading source-backed research tasks…';
+ try{
+  const params=new URLSearchParams({limit:'25',offset:String(offset)});
+  if(query.value.trim())params.set('q',query.value.trim());
+  if(kind.value)params.set('kind',kind.value);
+  const r=await fetch('/api/certification-gaps?'+params,{cache:'no-store',credentials:'same-origin'});
+  if(r.status===401){$('login').style.display='flex';status.textContent='GateKeeper session required';return}
+  const j=await r.json();
+  if(!r.ok)throw Error(j.detail||j.error||'Published index unavailable');
+  const c=j.summary;
+  $('parcels').textContent=c.original_residential_parcels;
+  $('permits').textContent=c.export_report_matches_pending_document_review;
+  $('addresses').textContent=c.gis_address_matched+'/60';
+  $('imagery').textContent=c.remote_wms_image_hashes+'/60';
+  $('certified').textContent=c.full_property_certifications+' / '+c.certified_mindex_scores;
+  truth.textContent=(c.public_eagan_portal_403_observed?'CITY PORTAL BLOCKED (HTTP 403). ':'' )+c.task_count+' research tasks open. '+c.export_report_matches_pending_document_review+' Eagan report matches require issuer documents; '+c.original_issuer_permit_documents_reviewed+' issuer documents reviewed. '+(j.report_stale?'Research index is stale; check latest crawler. ':'')+'No roof condition or Mindex has been independently certified.';
+  $('sources').replaceChildren(...c.source_catalog.map(catalog));
+  for(const p of j.records)results.append(taskCard(p));
+  offset=j.next_offset??offset+j.records.length;loaded+=j.records.length;total=j.total_matches;
+  status.textContent=loaded+' / '+total+' filtered tasks · Original 60 · Research report generated '+new Date(c.generated_at_utc).toLocaleString()+' · Tasks are not certified findings';
+  more.hidden=j.next_offset===null;
+  if(!j.records.length)results.append(line('p','No matching research task in the current verified inventory.','detail'));
+ }catch(e){status.textContent='GATEKEEPER SEARCH NOT READY: '+String(e.message||e);if(!loaded)results.replaceChildren(line('p','Published evidence unavailable; no simulated property tasks.','detail'))}
+ finally{busy=false;$('refresh').disabled=false;more.disabled=false}
+}
+const refresh=()=>load(true);
+query.addEventListener('input',()=>{clearTimeout(refreshTimer);refreshTimer=setTimeout(refresh,300)});
+kind.addEventListener('change',refresh);
+$('refresh').addEventListener('click',refresh);
+more.addEventListener('click',()=>load(false));
+$('loginForm').addEventListener('submit',async e=>{
+ e.preventDefault();$('loginMessage').textContent='Checking existing access…';
+ try{
+  const r=await fetch('/api/auth',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({passcode:$('pass').value})});
+  const j=await r.json();$('pass').value='';
+  if(!r.ok)throw Error(j.error||'Authentication failed');
+  $('login').style.display='none';refresh();
+ }catch(e){$('loginMessage').textContent=String(e.message||e)}
+});
+load(true);
+})();
+</script>
+</body></html>

@@ -25,5 +25,7 @@ writeFileSync(join(out,'index.html'),home,'utf8');
 let cards=readFileSync('roofing-scorecards.html','utf8');
 cards=attachSync(cards,'scorecards');
 writeFileSync(join(out,'roofing-scorecards.html'),cards,'utf8');
+// Standalone GateKeeper research console: joins published evidence without altering original pages.
+copyFileSync('certification-gaps.html',join(out,'certification-gaps.html'));
 copyFileSync('luckyg-core.js',join(out,'luckyg-core.js'));
 console.log('AeroLeadAI deploy build: existing dashboards + zoom/viewer retained; roofing list and permit counters fixed; live evidence synchronization installed.');
