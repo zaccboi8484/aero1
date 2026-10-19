@@ -1,36 +1,44 @@
-name: Download first 60 real county aerial images
+name: GateKeeper original-60 government aerial source audit
 on:
   push:
     branches: [main]
-    paths: ['collector/download_images.py','collector/evidence_audit.py','.github/workflows/download-images.yml']
+    paths:
+      - 'collector/validate_imagery_view_sources.py'
+      - 'tests/test_imagery_view_sources.py'
+      - '.github/workflows/download-images.yml'
   workflow_dispatch:
+  schedule:
+    - cron: '37 */6 * * *'
 permissions:
   contents: write
 concurrency:
-  group: county-image-download
+  group: county-image-source-audit
   cancel-in-progress: false
 jobs:
-  get-images:
+  verify-source-links:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Download verified JPEG images from county GIS
-        id: images
+      - name: Verify original 60, source hashes and no downloaded-image claims
+        run: python -m unittest discover -s tests -p 'test_imagery_view_sources.py' -v
+      - name: Audit actual government WMS sources (do not mirror restricted image bytes)
+        id: source
         continue-on-error: true
-        run: python collector/download_images.py
-      - name: Commit images and SHA256 manifest
+        run: python collector/validate_imagery_view_sources.py
+      - name: Publish source links and incomplete checks, never unlicensed binaries
+        if: always()
         run: |
           git config user.name 'AeroLeadAI Evidence Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A evidence/images/ evidence/data/imagery_downloads.json evidence/data/evidence_audit_index.json
+          if test -f evidence/data/imagery_source_availability.json; then git add evidence/data/imagery_source_availability.json; fi
           if ! git diff --cached --quiet; then
-            git commit -m "Store authentic county aerial images for first 60 parcels"
+            git commit -m "Audit official original-60 WMS image source links, not redistributed images"
             bash scripts/retry_evidence_push.sh
           fi
-      - name: Report acquisition failure after saving manifest
-        if: steps.images.outcome == 'failure'
+      - name: Report incomplete WMS source verification
+        if: steps.source.outcome == 'failure'
         run: exit 1
