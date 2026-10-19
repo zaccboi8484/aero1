@@ -5,6 +5,8 @@ on:
       - 'collector/certification_gap_pipeline.py'
       - 'tests/test_certification_gap_pipeline.py'
       - 'tests/certification_api.test.mjs'
+      - 'tests/certification_sql_contract.test.mjs'
+      - 'supabase/migrations/007_gatekeeper_certification_receipts.sql'
       - 'api/certification-gaps.js'
       - 'certification-gaps.html'
       - '.github/workflows/gatekeeper-certification-search.yml'
@@ -15,6 +17,8 @@ on:
       - 'collector/certification_gap_pipeline.py'
       - 'tests/test_certification_gap_pipeline.py'
       - 'tests/certification_api.test.mjs'
+      - 'tests/certification_sql_contract.test.mjs'
+      - 'supabase/migrations/007_gatekeeper_certification_receipts.sql'
       - 'api/certification-gaps.js'
       - 'certification-gaps.html'
       - '.github/workflows/gatekeeper-certification-search.yml'
@@ -47,6 +51,8 @@ jobs:
         run: node --check api/certification-gaps.js
       - name: Validate authorized search, real 60 source data and 2025 roofing candidate
         run: node --test tests/certification_api.test.mjs
+      - name: Verify staged DB reviewer receipt and immutability contract
+        run: node --test tests/certification_sql_contract.test.mjs
       - name: Publish research queue, not fake permit completions
         if: github.event_name != 'pull_request'
         run: |
