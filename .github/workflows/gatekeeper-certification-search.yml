@@ -1,0 +1,46 @@
+name: GateKeeper certification evidence search and issuer review queue
+on:
+  pull_request:
+    paths:
+      - 'collector/certification_gap_pipeline.py'
+      - 'tests/test_certification_gap_pipeline.py'
+      - '.github/workflows/gatekeeper-certification-search.yml'
+      - 'evidence/data/municipal_permit_export_audit.json'
+  push:
+    branches: [main]
+    paths:
+      - 'collector/certification_gap_pipeline.py'
+      - 'tests/test_certification_gap_pipeline.py'
+      - '.github/workflows/gatekeeper-certification-search.yml'
+      - 'evidence/data/municipal_permit_export_audit.json'
+  workflow_dispatch:
+  schedule:
+    - cron: '13 13 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: gatekeeper-certification-index
+  cancel-in-progress: false
+jobs:
+  search-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate source gates against real 60 source records
+        run: python -m unittest discover -s tests -p 'test_certification_gap_pipeline.py' -v
+      - name: Build source-backed missing-evidence search index and issuer document packets
+        run: python collector/certification_gap_pipeline.py
+      - name: Publish research queue, not fake permit completions
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- evidence/data/certification_gap_summary.json evidence/data/certification_gap_queue.json evidence/data/permit_issuer_review_queue.csv
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish factual GateKeeper certification search gaps and Eagan issuer request queue'
+            bash scripts/retry_evidence_push.sh
+          fi
