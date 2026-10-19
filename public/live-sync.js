@@ -26,17 +26,30 @@ function timeLabel(iso){
  return new Date(date).toLocaleString();
 }
 async function inspect(){
- const url=BASE+'fast_validation_cursor.json?audit='+Date.now();
- const r=await fetch(url,{cache:'no-store',headers:{Accept:'application/json'}});
- if(!r.ok)throw Error('Source index HTTP '+r.status);
- const j=await r.json();
- const instant=Date.parse(j.updated_at_utc||'');
+ let source=null,stamp=null,portal='NOT_REPORTED',checked=null;
+ const r=await fetch(BASE+'source_health_public.json?audit='+Date.now(),{cache:'no-store',headers:{Accept:'application/json'}});
+ if(r.ok){
+  const j=await r.json();
+  if(j.format!=='GATEKEEPER_SOURCE_HEARTBEAT_V1'||!j.source_data_present)throw Error('Source heartbeat invalid');
+  stamp=j.source_report_run_utc;
+  portal=j.municipal_portal_status||'NOT_REPORTED';
+  checked=j.counts?.parcels_checked_last_run??null;
+  source='heartbeat';
+ }else if(r.status===404){
+  // During the first collector run after upgrade the previous cursor remains valid.
+  const old=await fetch(BASE+'fast_validation_cursor.json?audit='+Date.now(),{cache:'no-store'});
+  if(!old.ok)throw Error('Source index HTTP '+old.status);
+  const j=await old.json();
+  stamp=j.updated_at_utc;
+  source='cursor';
+ }else throw Error('GateKeeper source heartbeat HTTP '+r.status);
+ const instant=Date.parse(stamp||'');
  if(!Number.isFinite(instant))throw Error('Source index has no valid publication time');
  const ageMinutes=Math.max(0,Math.floor((Date.now()-instant)/60000));
- const state=ageMinutes>120?'SOURCE STALE':'SOURCE UPDATING';
- const cursor=j.updated_at_utc;
- return {cursor,ageMinutes,state};
+ const state=ageMinutes>120?'SOURCE STALE':'SOURCE CHECK ACTIVE';
+ return {cursor:stamp,ageMinutes,state,portal,checked,source};
 }
+
 async function refresh(force=false){
  if(refreshing||document.hidden)return;
  refreshing=true;
@@ -55,7 +68,7 @@ async function refresh(force=false){
    lastDisplay=Date.now();
   }
   lastCursor=state.cursor;
-  label.textContent='GateKeeper '+state.state+' · Last source publish '+timeLabel(state.cursor)+' · '+state.ageMinutes+'m ago · '+(changed||force?'Cards refreshed':'No new publication')+'. Source fetches do not certify roof condition.';
+  label.textContent='GateKeeper '+state.state+' · Last source run '+timeLabel(state.cursor)+' · '+state.ageMinutes+'m ago'+(state.checked===null?'':' · '+state.checked+' parcels checked this run')+(state.portal==='PUBLIC_SOURCE_UNAVAILABLE'?' · City permit portal BLOCKED':state.portal==='NOT_REPORTED'?'':' · City permit portal '+state.portal)+' · '+(changed||force?'Evidence reloaded':'No new source run')+'. Reported checks do not certify permits or roof condition.';
  }catch(e){
   label.textContent='GateKeeper SOURCE CHECK FAILED · '+String(e.message||e).slice(0,100)+' · Existing evidence remains unverified.';
  }finally{
