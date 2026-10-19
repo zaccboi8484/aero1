@@ -3,6 +3,8 @@ on:
   pull_request:
     paths:
       - 'scripts/build-web.mjs'
+      - 'scripts/retry_evidence_push.sh'
+      - 'tests/test_evidence_push_retry.py'
       - 'public/live-sync.js'
       - 'vercel.json'
       - 'collector/source_health_public.py'
@@ -14,6 +16,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/build-web.mjs'
+      - 'scripts/retry_evidence_push.sh'
+      - 'tests/test_evidence_push_retry.py'
       - 'public/live-sync.js'
       - 'vercel.json'
       - 'collector/source_health_public.py'
@@ -42,3 +46,7 @@ jobs:
         run: node --test tests/scorecard_integration.test.mjs
       - name: Verify heartbeat cannot invent municipal verification
         run: python -m unittest discover -s tests -p 'test_source_health_public.py' -v
+      - name: Check evidence-publisher shell syntax
+        run: bash -n scripts/retry_evidence_push.sh
+      - name: Prove concurrent commits rebase without loss and conflicts fail closed
+        run: python -m unittest discover -s tests -p 'test_evidence_push_retry.py' -v
