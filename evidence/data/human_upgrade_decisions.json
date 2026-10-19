@@ -1,6 +1,20 @@
 {
-  "updated_at_utc": "2026-10-19T07:04:56.018725+00:00",
+  "updated_at_utc": "2026-10-19T07:30:58.611727+00:00",
   "decisions": [
+    {
+      "decision_id": "UPG-bd65b396fd65",
+      "source": "gis_geometry",
+      "priority": "HIGH",
+      "proposed_action": "Review official Eagan parcel-center subdivision intersections",
+      "reason": "CURRENT; current source-backed count=0",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "requires": [
+        "source rights",
+        "automated tests",
+        "human sign-off"
+      ]
+    },
     {
       "decision_id": "UPG-92b7280e724c",
       "source": "regional_permits",
