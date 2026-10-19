@@ -1,0 +1,116 @@
+{
+  "generated_at_utc": "2026-10-19T18:31:54.304528+00:00",
+  "version": "GATEKEEPER_CERTIFICATION_GAP_V1",
+  "territory": "kings-wood-001",
+  "original_residential_parcels": 60,
+  "export_report_matches_pending_document_review": 25,
+  "properties_with_export_matches": 18,
+  "priority_roof_2025_candidates": 1,
+  "gis_address_matched": 56,
+  "valuation_source_matched": 56,
+  "assessment_year_proven": 0,
+  "remote_wms_image_hashes": 60,
+  "original_issuer_permit_documents_reviewed": 0,
+  "human_reviewed_roof_conditions": 0,
+  "certified_mindex_scores": 0,
+  "full_property_certifications": 0,
+  "public_eagan_portal_403_observed": true,
+  "portal_source_run_at_utc": "2026-10-19T17:58:39.224945+00:00",
+  "release_certified": false,
+  "task_count": 333,
+  "open_tasks_by_kind": {
+    "ADDRESS_GIS_RECONCILIATION": 4,
+    "AERIAL_COMMERCIAL_RIGHTS_REVIEW": 60,
+    "ASSESSMENT_YEAR_PROVENANCE": 60,
+    "EVIDENCE_SUPPORTED_MINDEX": 60,
+    "MUNICIPAL_FULL_PERMIT_HISTORY": 60,
+    "OFFICIAL_ASSESSMENT_RECORD": 4,
+    "ORIGINAL_ISSUER_PERMIT_DOCUMENT": 25,
+    "PHYSICAL_ROOF_CONDITION_REVIEW": 60
+  },
+  "source_catalog": [
+    {
+      "key": "eagan_open_data",
+      "authority": "City of Eagan",
+      "category": "municipal_report",
+      "url": "https://eagan.onlama.com/Dashboard.aspx",
+      "mode": "AUTHORIZED_PUBLIC_EXPORT",
+      "capability": "Monthly, prior-year, open and 90-day building permit reports; portal search supports batches of up to 200 CSV rows",
+      "public_csv_export_limit": 200,
+      "full_history_guaranteed": false,
+      "documentation": "https://eagan.onlama.com/Help.aspx",
+      "current_operational_state": "SOURCE_BLOCKED"
+    },
+    {
+      "key": "eagan_issuer_documents",
+      "authority": "City of Eagan",
+      "category": "original_issuer_permit",
+      "url": "https://eagan.onlama.com/Search.aspx",
+      "mode": "HUMAN_OR_AUTHORIZED_SERVICE",
+      "capability": "Permit number and situs address lookup; logged-in permit holder can view attachments and inspection results",
+      "full_history_guaranteed": false,
+      "documentation": "https://www.eaganmn.gov/permithandouts",
+      "current_operational_state": "SOURCE_BLOCKED"
+    },
+    {
+      "key": "eagan_government_data",
+      "authority": "City of Eagan",
+      "category": "formal_public_data_request",
+      "url": "https://www.eaganmn.gov/buildinginspections",
+      "mode": "FORMAL_REQUEST",
+      "capability": "Existing public permit, scope, issue, inspection and closure records under Minnesota Statutes Chapter 13",
+      "full_history_guaranteed": false,
+      "documentation": "https://mn.gov/admin/data-practices/data/requests/",
+      "current_operational_state": "HUMAN_OR_RIGHTS_GATE_REQUIRED"
+    },
+    {
+      "key": "eagan_official_gis",
+      "authority": "City of Eagan",
+      "category": "assessment",
+      "url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19",
+      "mode": "AUTHORIZED_PUBLIC_ARCGIS",
+      "capability": "Tax PIN, house number, value and year-built source attributes; assessment year is not in current published result",
+      "full_history_guaranteed": false,
+      "current_operational_state": "PUBLIC_SOURCE_CONFIGURED"
+    },
+    {
+      "key": "mn_address_points",
+      "authority": "Metropolitan Council / MN GIS",
+      "category": "address",
+      "url": "https://arcgis.metc.state.mn.us/server/rest/services/GISLibrary/VWAddressPointsCommons/FeatureServer/0",
+      "mode": "AUTHORIZED_PUBLIC_ARCGIS",
+      "capability": "Published GIS addresses, distinct from USPS deliverability",
+      "full_history_guaranteed": false,
+      "current_operational_state": "PUBLIC_SOURCE_CONFIGURED"
+    },
+    {
+      "key": "mngeo_2025_wms",
+      "authority": "Minnesota Geospatial Information Office",
+      "category": "imagery",
+      "url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll",
+      "mode": "REMOTE_VIEW_RIGHTS_REVIEW",
+      "capability": "2025 7-county aerial JPEG GetMap; view-only source observation is not a condition report or redistribution grant",
+      "full_history_guaranteed": false,
+      "documentation": "https://mn.gov/mngeo/gis-data-and-maps/web-map-services/mngeo-image-service/technical.jsp",
+      "current_operational_state": "HUMAN_OR_RIGHTS_GATE_REQUIRED"
+    },
+    {
+      "key": "regional_residential_permits",
+      "authority": "Metropolitan Council",
+      "category": "regional_context",
+      "url": "https://arcgis.metc.state.mn.us/server/rest/services/EnterpriseLibrary/DTATResidentialPermits/FeatureServer/0",
+      "mode": "AUTHORIZED_PUBLIC_ARCGIS",
+      "capability": "Regional residential permit dataset, not Eagan roofing permit history",
+      "full_history_guaranteed": false,
+      "current_operational_state": "PUBLIC_SOURCE_CONFIGURED"
+    }
+  ],
+  "data_not_found_means_unknown": true,
+  "note": "City export matches are candidates, not final roof inspections; a remote JPEG is not a roof-condition finding. This queue plans authorized searches, not 1:1 human-complete investigations.",
+  "next_actions": [
+    "Obtain issuer permit documents/inspection outcomes for 25 export matches, starting with the single explicit 2025 roofing candidate",
+    "Ask City for complete permit histories of the original 60 and covered date ranges under the Minnesota Government Data Practices Act",
+    "Reconcile 4 missing GIS address matches and 4 missing valuations; request assessment-year provenance",
+    "Acquire authorized dated roof-specific review evidence and explicit image licensing before Mindex certification"
+  ]
+}
