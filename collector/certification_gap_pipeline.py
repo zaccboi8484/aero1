@@ -167,7 +167,7 @@ def compile_gap_index(directory=D):
     parcel_evidence=[]
     for p in parcels:
         oid=str(p["parcel_objectid"])
-        matches=sorted(permits[oid], key=lambda v:str(v.get("permit_number")))
+        matches=sorted(permits.get(oid,[]), key=lambda v:str(v.get("permit_number")))
         address_ok=address_by.get(oid,{}).get("status")=="STATE_GIS_ADDRESS_MATCH"
         v=value_by.get(oid,{}).get("valuation") or {}
         value_ok=(v.get("gatekeeper")=="SOURCE_RECORDED" and
