@@ -1,30 +1,688 @@
 {
-  "checked_utc": "2026-10-19T07:04:56.441535+00:00",
+  "checked_utc": "2026-10-19T09:01:59.324218+00:00",
   "source_catalogs": [
     {
       "name": "eagan_subdivisions",
       "official_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9",
-      "error": "{'code': 500, 'message': 'Service EA_PropertyInformation/MapServer not started ', 'details': []}"
+      "fields": [
+        {
+          "name": "PLATNAME",
+          "alias": "PLATNAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PLATID",
+          "alias": "Plat Name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "RECORDEDDA",
+          "alias": "Recorded Data",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "name": "PLATBOOKPA",
+          "alias": "Plat Book",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "Shape",
+          "alias": "Shape",
+          "type": "esriFieldTypeGeometry"
+        },
+        {
+          "name": "Shape.STArea())",
+          "alias": "Shape",
+          "type": "esriFieldTypeGeometry"
+        },
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "name": "GlobalID",
+          "alias": "GlobalID",
+          "type": "esriFieldTypeGlobalID"
+        },
+        {
+          "name": "created_user",
+          "alias": "created_user",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "created_date",
+          "alias": "created_date",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "name": "last_edited_user",
+          "alias": "last_edited_user",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "last_edited_date",
+          "alias": "last_edited_date",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "name": "Shape.STArea()",
+          "alias": "Shape.STArea()",
+          "type": "esriFieldTypeDouble"
+        }
+      ],
+      "display_field": "PLATNAME",
+      "supports_query": true,
+      "name_field_candidates": [
+        "PLATNAME",
+        "PLATID",
+        "PLATBOOKPA"
+      ]
     },
     {
       "name": "eagan_parcels",
       "official_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19",
-      "error": "{'code': 500, 'message': 'Service EA_PropertyInformation/MapServer not started ', 'details': []}"
+      "fields": [
+        {
+          "name": "OLDPIN",
+          "alias": "Property ID",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TAXPIN",
+          "alias": "TAX ID",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "FULLNAME",
+          "alias": "Owner Full Name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PHOUSE",
+          "alias": "House Number",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PSTREET",
+          "alias": "Property Street",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PAPARTMENT",
+          "alias": "Apartment Number",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PCITY",
+          "alias": "Property City",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PSTATE",
+          "alias": "Property State",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PZIP",
+          "alias": "Property Zip Code",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PTYPE",
+          "alias": "Property Type",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "OLNAME",
+          "alias": "Owner Last Name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "OFNAME",
+          "alias": "Owner First Name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "JOLNAME",
+          "alias": "Joint Owner Last Name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "JOFNAME",
+          "alias": "Joint Owner First Name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "BUSINESS",
+          "alias": "Business Status",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "MULTIOWN",
+          "alias": "Multi Owner",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "OADDR1",
+          "alias": "Owner Address",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "OADDR2",
+          "alias": "Owner Address 2",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "OCITYST",
+          "alias": "Owner City/State",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "OZIP",
+          "alias": "Owner Zip Code",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "CNAME",
+          "alias": "Business Name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "EXEMPT",
+          "alias": "Exempt Status",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TAXINCR",
+          "alias": "Tax Increment Prop",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SCHLDIST",
+          "alias": "School District",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "YRBUILT",
+          "alias": "Year Built",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "UNITS",
+          "alias": "Units",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "LANDVAL",
+          "alias": "Est Land Value",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "BLDGVAL",
+          "alias": "Est Building Value",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "TOTALVAL",
+          "alias": "Est Total Value",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "HMSTD",
+          "alias": "Homestead",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "USE1",
+          "alias": "Use Code",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SALE_YR",
+          "alias": "Sale Year",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "SALE_MO",
+          "alias": "Sale Month",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "SALE_VAL",
+          "alias": "Sale Value",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "NETTAX",
+          "alias": "Net Tax",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "SATAX",
+          "alias": "Special Assesment",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "TOTTAX",
+          "alias": "Total Tax",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "Zoning",
+          "alias": "Zoning",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "Acres",
+          "alias": "Acres (portion)",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "Sum_Acres",
+          "alias": "Total Acres",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "Address",
+          "alias": "Address",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "OBJECTID_1",
+          "alias": "OBJECTID_1",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "name": "Shape",
+          "alias": "Shape",
+          "type": "esriFieldTypeGeometry"
+        },
+        {
+          "name": "GlobalID",
+          "alias": "GlobalID",
+          "type": "esriFieldTypeGlobalID"
+        },
+        {
+          "name": "ExistingLU",
+          "alias": "ExistingLU",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "units_1",
+          "alias": "units_1",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "GuidePlan",
+          "alias": "GuidePlan",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "LUCode",
+          "alias": "LUCode",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "Shape.STArea()",
+          "alias": "Shape.STArea()",
+          "type": "esriFieldTypeDouble"
+        }
+      ],
+      "display_field": "OLNAME",
+      "supports_query": true
     },
     {
       "name": "eagan_addresses",
       "official_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/3",
-      "error": "{'code': 500, 'message': 'Service EA_PropertyInformation/MapServer not started ', 'details': []}"
+      "fields": [
+        {
+          "name": "ANUMBER",
+          "alias": "ANUMBER",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "LONGITUDE",
+          "alias": "LONGITUDE",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "LATITUDE",
+          "alias": "LATITUDE",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "name": "BLDG_NUM",
+          "alias": "BLDG_NUM",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PREFIX_DIR",
+          "alias": "PREFIX_DIR",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PREFIXTYPE",
+          "alias": "PREFIXTYPE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREETNAME",
+          "alias": "STREETNAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREETTYPE",
+          "alias": "STREETTYPE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SUFFIX_DIR",
+          "alias": "SUFFIX_DIR",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "UNIT_INFO",
+          "alias": "UNIT_INFO",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "CITY",
+          "alias": "CITY",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SOURCE",
+          "alias": "SOURCE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "COMMENTS_O",
+          "alias": "COMMENTS_O",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ADDRESS",
+          "alias": "ADDRESS",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "DATE_ASSIG",
+          "alias": "DATE_ASSIG",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "name": "Pcity",
+          "alias": "Pcity",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "Zip",
+          "alias": "Zip",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "UpdateBy",
+          "alias": "UpdateBy",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ADD_ID_NAT",
+          "alias": "ADD_ID_NAT",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ADD_ID_LOC",
+          "alias": "ADD_ID_LOC",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ANUMBERPRE",
+          "alias": "ANUMBERPRE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ANUMBERSUF",
+          "alias": "ANUMBERSUF",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ANUMBERSEP",
+          "alias": "ANUMBERSEP",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ST_PRE_MOD",
+          "alias": "ST_PRE_MOD",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ST_PRE_DIR",
+          "alias": "ST_PRE_DIR",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ST_PRE_TYP",
+          "alias": "ST_PRE_TYP",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ST_NAME",
+          "alias": "ST_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ST_POS_TYP",
+          "alias": "ST_POS_TYP",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ST_POS_DIR",
+          "alias": "ST_POS_DIR",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ST_POS_MOD",
+          "alias": "ST_POS_MOD",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SUB_TYPE1",
+          "alias": "SUB_TYPE1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SUB_ID1",
+          "alias": "SUB_ID1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SUB_TYPE2",
+          "alias": "SUB_TYPE2",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SUB_ID2",
+          "alias": "SUB_ID2",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "MUNI_NAME",
+          "alias": "MUNI_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "MUNI_CODE",
+          "alias": "MUNI_CODE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "USPS_PLACE",
+          "alias": "USPS_PLACE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "CO_CODE",
+          "alias": "CO_CODE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "CO_NAME",
+          "alias": "CO_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STATE_CODE",
+          "alias": "STATE_CODE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ZIP5",
+          "alias": "ZIP5",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ZIP4",
+          "alias": "ZIP4",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "LOC_DESC",
+          "alias": "LOC_DESC",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "LANDMARK",
+          "alias": "LANDMARK",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "RESIDENCE",
+          "alias": "RESIDENCE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "MAILABLE",
+          "alias": "MAILABLE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STATUS",
+          "alias": "STATUS",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PIN",
+          "alias": "PIN",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "POSI_ACCU",
+          "alias": "POSI_ACCU",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "ADIRSOURCE",
+          "alias": "ADIRSOURCE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "AAUTHORITY",
+          "alias": "AAUTHORITY",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "EDIT_ORG",
+          "alias": "EDIT_ORG",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "UPDATEDATE",
+          "alias": "UPDATEDATE",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "name": "COMMENTS",
+          "alias": "COMMENTS",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "AQUALITY",
+          "alias": "AQUALITY",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "Shape",
+          "alias": "Shape",
+          "type": "esriFieldTypeGeometry"
+        }
+      ],
+      "display_field": "STREETNAME",
+      "supports_query": true
     }
   ],
   "permit_report_links": [],
-  "subdivision_candidates": [],
+  "subdivision_candidates": [
+    {
+      "attributes": {
+        "PLATNAME": "KINGS WOOD 2ND ADDITION",
+        "PLATID": "1042001",
+        "RECORDEDDA": 621734400000,
+        "PLATBOOKPA": "18-41",
+        "OBJECTID": 86891,
+        "GlobalID": "{331883DC-0D92-42DA-95A6-3AD7D65463EF}",
+        "created_user": "GENERAL",
+        "created_date": 1756695622000,
+        "last_edited_user": "GENERAL",
+        "last_edited_date": 1756695622000,
+        "Shape.STArea()": 1113702.0751728325
+      },
+      "layer_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9",
+      "query_field": "PLATNAME"
+    },
+    {
+      "attributes": {
+        "PLATNAME": "KINGS WOOD 4TH ADDITION",
+        "PLATID": "1042002",
+        "RECORDEDDA": 624844800000,
+        "PLATBOOKPA": "18-61",
+        "OBJECTID": 86892,
+        "GlobalID": "{1F25D49B-0F80-4C9C-9A97-9AE81813FB0D}",
+        "created_user": "GENERAL",
+        "created_date": 1756695622000,
+        "last_edited_user": "GENERAL",
+        "last_edited_date": 1756695622000,
+        "Shape.STArea()": 124824.87663217279
+      },
+      "layer_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9",
+      "query_field": "PLATNAME"
+    },
+    {
+      "attributes": {
+        "PLATNAME": "KINGS WOOD 5TH ADDITION",
+        "PLATID": "1042004",
+        "RECORDEDDA": 682041600000,
+        "PLATBOOKPA": "21-17",
+        "OBJECTID": 86893,
+        "GlobalID": "{79C443DD-9AAA-4526-9F0D-950BFEB779D0}",
+        "created_user": "GENERAL",
+        "created_date": 1756695622000,
+        "last_edited_user": "GENERAL",
+        "last_edited_date": 1756695622000,
+        "Shape.STArea()": 54962.3841053366
+      },
+      "layer_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9",
+      "query_field": "PLATNAME"
+    }
+  ],
   "verified_permit_matches": 0,
   "image_attachments": 0,
   "warnings": [
-    "eagan_subdivisions: {'code': 500, 'message': 'Service EA_PropertyInformation/MapServer not started ', 'details': []}",
-    "eagan_parcels: {'code': 500, 'message': 'Service EA_PropertyInformation/MapServer not started ', 'details': []}",
-    "eagan_addresses: {'code': 500, 'message': 'Service EA_PropertyInformation/MapServer not started ', 'details': []}",
     "Eagan permit dashboard fetch unavailable: HTTP Error 403: Forbidden"
   ]
 }

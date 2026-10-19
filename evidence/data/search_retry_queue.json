@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-19T07:05:09.832191+00:00",
+  "generated_at_utc": "2026-10-19T09:02:23.316589+00:00",
   "tasks": [
     {
       "parcel_objectid": "44001",
@@ -7,7 +7,7 @@
       "address": "1402 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "SOURCE_ERROR",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -18,7 +18,7 @@
       "address": "1410 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "SOURCE_ERROR",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -29,7 +29,7 @@
       "address": "1414 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "SOURCE_ERROR",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -40,7 +40,7 @@
       "address": "1418 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -51,7 +51,7 @@
       "address": "1401 Rocky Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -62,7 +62,7 @@
       "address": "1405 Rocky Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -73,7 +73,7 @@
       "address": "1422 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -84,7 +84,7 @@
       "address": "1426 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -95,7 +95,7 @@
       "address": "1430 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -106,7 +106,7 @@
       "address": "1434 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -117,7 +117,7 @@
       "address": "1438 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -128,7 +128,7 @@
       "address": "1444 Kings Wood Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -139,7 +139,7 @@
       "address": "1448 Kings Wood Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -150,7 +150,7 @@
       "address": "1452 Kings Wood Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -161,7 +161,7 @@
       "address": "1456 Kings Wood Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -172,7 +172,7 @@
       "address": "1460 Kings Wood Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -183,7 +183,7 @@
       "address": "1463 Kings Wood Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -194,7 +194,7 @@
       "address": "1459 Kings Wood Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -205,7 +205,7 @@
       "address": "1455 Kings Wood Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -216,7 +216,7 @@
       "address": "1451 Kings Wood Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -227,7 +227,7 @@
       "address": "1447 Kings Wood Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -238,7 +238,7 @@
       "address": "1454 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -249,7 +249,7 @@
       "address": "1462 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -260,7 +260,7 @@
       "address": "1470 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -271,7 +271,7 @@
       "address": "1474 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -282,7 +282,7 @@
       "address": "1478 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -293,7 +293,7 @@
       "address": "1482 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -304,7 +304,7 @@
       "address": "1486 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -315,7 +315,7 @@
       "address": "1490 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -326,7 +326,7 @@
       "address": "1494 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -337,7 +337,7 @@
       "address": "1498 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -348,7 +348,7 @@
       "address": "1401 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -359,7 +359,7 @@
       "address": "1405 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -370,7 +370,7 @@
       "address": "1409 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -381,7 +381,7 @@
       "address": "1413 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -392,7 +392,7 @@
       "address": "1421 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -403,7 +403,7 @@
       "address": "1433 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -414,7 +414,7 @@
       "address": "1445 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -425,7 +425,7 @@
       "address": "1449 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -436,7 +436,7 @@
       "address": "1453 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -447,7 +447,7 @@
       "address": "1457 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -458,7 +458,7 @@
       "address": "1461 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -469,7 +469,7 @@
       "address": "1465 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -480,7 +480,7 @@
       "address": "1469 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -491,7 +491,7 @@
       "address": "1473 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -502,7 +502,7 @@
       "address": "3849 Kings Wood Court, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -513,7 +513,7 @@
       "address": "3853 Kings Wood Court, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -524,7 +524,7 @@
       "address": "3857 Kings Wood Court, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -535,7 +535,7 @@
       "address": "3854 Kings Wood Court, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -546,7 +546,7 @@
       "address": "1481 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -557,7 +557,7 @@
       "address": "1485 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -568,7 +568,7 @@
       "address": "1489 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -579,7 +579,7 @@
       "address": "1493 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -590,7 +590,7 @@
       "address": "1497 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -601,7 +601,7 @@
       "address": "1501 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -612,7 +612,7 @@
       "address": "1505 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -623,7 +623,7 @@
       "address": "1459 Kings Crest, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -634,7 +634,7 @@
       "address": "1463 Kings Crest, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -645,7 +645,7 @@
       "address": "1467 Kings Crest, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -656,7 +656,7 @@
       "address": "1471 Kings Crest, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-19T07:05:10.101857+00:00",
+  "generated_at_utc": "2026-10-19T09:02:23.701587+00:00",
   "product": "AeroLeadAI",
   "assistant": "Embedded GateKeeper",
   "release_certified": false,
@@ -30,8 +30,8 @@
     {
       "id": "02_PLAT",
       "name": "City subdivision point-in-polygon",
-      "status": "BLOCKED",
-      "done": 0,
+      "status": "VERIFIED",
+      "done": 60,
       "target": 60,
       "evidence_file": "subdivision_geometry_checks.json",
       "blocking": "Official city polygon intersection incomplete"
@@ -111,14 +111,6 @@
   ],
   "stale_warnings": [],
   "decisions_for_human": [
-    {
-      "gate": "02_PLAT",
-      "status": "NEEDS_HUMAN_REVIEW",
-      "approved": false,
-      "priority": "MEDIUM",
-      "reason": "Official city polygon intersection incomplete",
-      "evidence": "subdivision_geometry_checks.json"
-    },
     {
       "gate": "03_ADDRESS",
       "status": "NEEDS_HUMAN_REVIEW",
