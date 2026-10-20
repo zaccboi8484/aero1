@@ -1,83 +1,10 @@
 {
-  "checked_utc": "2026-10-19T09:01:59.324218+00:00",
+  "checked_utc": "2026-10-20T08:58:22.928070+00:00",
   "source_catalogs": [
     {
       "name": "eagan_subdivisions",
       "official_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9",
-      "fields": [
-        {
-          "name": "PLATNAME",
-          "alias": "PLATNAME",
-          "type": "esriFieldTypeString"
-        },
-        {
-          "name": "PLATID",
-          "alias": "Plat Name",
-          "type": "esriFieldTypeString"
-        },
-        {
-          "name": "RECORDEDDA",
-          "alias": "Recorded Data",
-          "type": "esriFieldTypeDate"
-        },
-        {
-          "name": "PLATBOOKPA",
-          "alias": "Plat Book",
-          "type": "esriFieldTypeString"
-        },
-        {
-          "name": "Shape",
-          "alias": "Shape",
-          "type": "esriFieldTypeGeometry"
-        },
-        {
-          "name": "Shape.STArea())",
-          "alias": "Shape",
-          "type": "esriFieldTypeGeometry"
-        },
-        {
-          "name": "OBJECTID",
-          "alias": "OBJECTID",
-          "type": "esriFieldTypeOID"
-        },
-        {
-          "name": "GlobalID",
-          "alias": "GlobalID",
-          "type": "esriFieldTypeGlobalID"
-        },
-        {
-          "name": "created_user",
-          "alias": "created_user",
-          "type": "esriFieldTypeString"
-        },
-        {
-          "name": "created_date",
-          "alias": "created_date",
-          "type": "esriFieldTypeDate"
-        },
-        {
-          "name": "last_edited_user",
-          "alias": "last_edited_user",
-          "type": "esriFieldTypeString"
-        },
-        {
-          "name": "last_edited_date",
-          "alias": "last_edited_date",
-          "type": "esriFieldTypeDate"
-        },
-        {
-          "name": "Shape.STArea()",
-          "alias": "Shape.STArea()",
-          "type": "esriFieldTypeDouble"
-        }
-      ],
-      "display_field": "PLATNAME",
-      "supports_query": true,
-      "name_field_candidates": [
-        "PLATNAME",
-        "PLATID",
-        "PLATBOOKPA"
-      ]
+      "error": "The read operation timed out"
     },
     {
       "name": "eagan_parcels",
@@ -627,62 +554,11 @@
     }
   ],
   "permit_report_links": [],
-  "subdivision_candidates": [
-    {
-      "attributes": {
-        "PLATNAME": "KINGS WOOD 2ND ADDITION",
-        "PLATID": "1042001",
-        "RECORDEDDA": 621734400000,
-        "PLATBOOKPA": "18-41",
-        "OBJECTID": 86891,
-        "GlobalID": "{331883DC-0D92-42DA-95A6-3AD7D65463EF}",
-        "created_user": "GENERAL",
-        "created_date": 1756695622000,
-        "last_edited_user": "GENERAL",
-        "last_edited_date": 1756695622000,
-        "Shape.STArea()": 1113702.0751728325
-      },
-      "layer_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9",
-      "query_field": "PLATNAME"
-    },
-    {
-      "attributes": {
-        "PLATNAME": "KINGS WOOD 4TH ADDITION",
-        "PLATID": "1042002",
-        "RECORDEDDA": 624844800000,
-        "PLATBOOKPA": "18-61",
-        "OBJECTID": 86892,
-        "GlobalID": "{1F25D49B-0F80-4C9C-9A97-9AE81813FB0D}",
-        "created_user": "GENERAL",
-        "created_date": 1756695622000,
-        "last_edited_user": "GENERAL",
-        "last_edited_date": 1756695622000,
-        "Shape.STArea()": 124824.87663217279
-      },
-      "layer_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9",
-      "query_field": "PLATNAME"
-    },
-    {
-      "attributes": {
-        "PLATNAME": "KINGS WOOD 5TH ADDITION",
-        "PLATID": "1042004",
-        "RECORDEDDA": 682041600000,
-        "PLATBOOKPA": "21-17",
-        "OBJECTID": 86893,
-        "GlobalID": "{79C443DD-9AAA-4526-9F0D-950BFEB779D0}",
-        "created_user": "GENERAL",
-        "created_date": 1756695622000,
-        "last_edited_user": "GENERAL",
-        "last_edited_date": 1756695622000,
-        "Shape.STArea()": 54962.3841053366
-      },
-      "layer_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9",
-      "query_field": "PLATNAME"
-    }
-  ],
+  "subdivision_candidates": [],
   "verified_permit_matches": 0,
   "image_attachments": 0,
   "warnings": [
+    "eagan_subdivisions: The read operation timed out",
     "Eagan permit dashboard fetch unavailable: HTTP Error 403: Forbidden"
   ]
 }
