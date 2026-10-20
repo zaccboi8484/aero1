@@ -1,6 +1,6 @@
 {
   "dataset": "ORIGINAL_KINGS_WOOD_60_REMOTE_AERIAL_SOURCE_REGISTER",
-  "generated_at_utc": "2026-10-19T19:12:46.030917+00:00",
+  "generated_at_utc": "2026-10-20T01:14:36.569404+00:00",
   "local_image_files_published": 0,
   "original_parcels": 60,
   "records": [
@@ -545,7 +545,7 @@
       "parcel_objectid": "44039",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T11:40:08.241901+00:00",
+      "source_checked_at_utc": "2026-10-19T19:19:07.810292+00:00",
       "source_sha256": "4c08bd2f8d17d46ec0bcf526604f626a0070574f81b3afb9085e69cb65a3c292",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1697062%2C44.816365%2C-93.1683062%2C44.817165&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -559,7 +559,7 @@
       "parcel_objectid": "44040",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:03:01.619657+00:00",
+      "source_checked_at_utc": "2026-10-19T19:19:07.810292+00:00",
       "source_sha256": "c9a598b56b441a5d3b4d777e40015b5b88311242f0321319b41b3037a7db12d9",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.169754%2C44.8167184%2C-93.168354%2C44.8175184&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -573,7 +573,7 @@
       "parcel_objectid": "44041",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:03:01.619657+00:00",
+      "source_checked_at_utc": "2026-10-19T19:19:07.810292+00:00",
       "source_sha256": "00fe36dae7a68bc5385b80abea25b49b64a682db2adec5a1b836b9f16abdd4a3",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1698517%2C44.8171132%2C-93.1684517%2C44.8179132&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -587,7 +587,7 @@
       "parcel_objectid": "44042",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:03:01.619657+00:00",
+      "source_checked_at_utc": "2026-10-19T19:19:07.810292+00:00",
       "source_sha256": "4570d5a8dd48b0e3f994ca30aac41d4b4e3b0433566385ac6c05c9e3ce71c5d4",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1700176%2C44.8173564%2C-93.1686176%2C44.8181564&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -601,7 +601,7 @@
       "parcel_objectid": "44043",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:03:01.619657+00:00",
+      "source_checked_at_utc": "2026-10-19T19:19:07.810292+00:00",
       "source_sha256": "c831a59f89625f953a4abadc56e333070428fe12b41e25cd8065e226fe06c595",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1704811%2C44.8176307%2C-93.1690811%2C44.8184307&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -615,7 +615,7 @@
       "parcel_objectid": "44044",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:03:01.619657+00:00",
+      "source_checked_at_utc": "2026-10-19T19:19:07.810292+00:00",
       "source_sha256": "0fbc284946de35de2dc5dd851413358afd6a138ba6840fec1770a3fda912323e",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1712596%2C44.8176437%2C-93.1698596%2C44.8184437&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -629,7 +629,7 @@
       "parcel_objectid": "44045",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:03:01.619657+00:00",
+      "source_checked_at_utc": "2026-10-19T19:19:07.810292+00:00",
       "source_sha256": "ee9eb243528ebf87c033eed4f780a56a7f134fccd93c2f597e4f52d18f54e712",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1716497%2C44.8173937%2C-93.1702497%2C44.8181937&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -643,7 +643,7 @@
       "parcel_objectid": "44046",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:03:01.619657+00:00",
+      "source_checked_at_utc": "2026-10-19T19:19:07.810292+00:00",
       "source_sha256": "5f5250114cc14cd01346ea559e351f059a34e7c046599d1c2d719a05e0855ddc",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1719013%2C44.8170969%2C-93.1705013%2C44.8178969&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -657,7 +657,7 @@
       "parcel_objectid": "44047",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:03:01.619657+00:00",
+      "source_checked_at_utc": "2026-10-19T20:03:08.897816+00:00",
       "source_sha256": "26ece4933c058136200f6d84a3bda1a3060925dd316389c320d6fa58496870e4",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1722127%2C44.8174237%2C-93.1708127%2C44.8182237&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -671,7 +671,7 @@
       "parcel_objectid": "44048",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:49:19.260450+00:00",
+      "source_checked_at_utc": "2026-10-19T20:03:08.897816+00:00",
       "source_sha256": "bf517075e73de085fd114f8885f0999a54b8ea6c7678a855d62212ebb9eba745",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1728086%2C44.817414%2C-93.1714086%2C44.818214&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -685,7 +685,7 @@
       "parcel_objectid": "44049",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:49:19.260450+00:00",
+      "source_checked_at_utc": "2026-10-19T20:03:08.897816+00:00",
       "source_sha256": "92c90b2be0b7df583c1c760c06083d78220b07aee236c72510ee0e0ca050f875",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1729659%2C44.8169658%2C-93.1715659%2C44.8177658&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -699,7 +699,7 @@
       "parcel_objectid": "44050",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:49:19.260450+00:00",
+      "source_checked_at_utc": "2026-10-19T20:03:08.897816+00:00",
       "source_sha256": "f9be09458ddca415160bab0ca79729e437485b33966d9c4ef5370d89e0e5ee3a",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1723996%2C44.816688%2C-93.1709996%2C44.817488&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -713,7 +713,7 @@
       "parcel_objectid": "44051",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:49:19.260450+00:00",
+      "source_checked_at_utc": "2026-10-19T20:03:08.897816+00:00",
       "source_sha256": "0f4cd6f374935b8e815a837fab12aa7a2db60a090dccdf252fa681d07d61b5bd",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1727662%2C44.8165293%2C-93.1713662%2C44.8173293&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -727,7 +727,7 @@
       "parcel_objectid": "44052",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:49:19.260450+00:00",
+      "source_checked_at_utc": "2026-10-19T20:03:08.897816+00:00",
       "source_sha256": "2ddd543d6b6e3f561a9f67b76b4f626aa63687f652a17ebf32653e4acb97d2cb",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1729448%2C44.8163427%2C-93.1715448%2C44.8171427&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -741,7 +741,7 @@
       "parcel_objectid": "44053",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:49:19.260450+00:00",
+      "source_checked_at_utc": "2026-10-19T20:03:08.897816+00:00",
       "source_sha256": "2bfa590e468b4cd3be39f325a20902acb4bc16458336c0f410b23277a0061be8",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1731016%2C44.8160522%2C-93.1717016%2C44.8168522&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -755,7 +755,7 @@
       "parcel_objectid": "44054",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:49:19.260450+00:00",
+      "source_checked_at_utc": "2026-10-19T20:03:08.897816+00:00",
       "source_sha256": "2acb8ea235d647b49163e42190bf96d48860be5860a4401704a32399831b9409",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1732314%2C44.8157669%2C-93.1718314%2C44.8165669&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -769,7 +769,7 @@
       "parcel_objectid": "44055",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T12:49:19.260450+00:00",
+      "source_checked_at_utc": "2026-10-19T20:46:11.196660+00:00",
       "source_sha256": "26d51e7755b62098f48bec971e4b3d58dfad16104639f2ea17ffef56004193e2",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1733353%2C44.8154813%2C-93.1719353%2C44.8162813&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -783,7 +783,7 @@
       "parcel_objectid": "44056",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T13:26:14.597530+00:00",
+      "source_checked_at_utc": "2026-10-19T20:46:11.196660+00:00",
       "source_sha256": "dfd7821efa7b6db1b9ab8fe9dca66fdb47afdfcba4aae507998466b366879a6d",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1734355%2C44.8151835%2C-93.1720355%2C44.8159835&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -797,7 +797,7 @@
       "parcel_objectid": "44057",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T13:26:14.597530+00:00",
+      "source_checked_at_utc": "2026-10-19T20:46:11.196660+00:00",
       "source_sha256": "286d9722d21a864ec5b3a157224dd33412a8b5d24faf913e2a6284a3c590f6ec",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1732298%2C44.8148474%2C-93.1718298%2C44.8156474&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -811,7 +811,7 @@
       "parcel_objectid": "44058",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T13:26:14.597530+00:00",
+      "source_checked_at_utc": "2026-10-19T20:46:11.196660+00:00",
       "source_sha256": "2b68ae8aad65e6423dee646371379c3158d7bfb16a1928dd4adb8a3a0690fd45",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1736755%2C44.8148244%2C-93.1722755%2C44.8156244&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -825,7 +825,7 @@
       "parcel_objectid": "44059",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T13:26:14.597530+00:00",
+      "source_checked_at_utc": "2026-10-19T20:46:11.196660+00:00",
       "source_sha256": "6f125c0b97b2e36900deb9a7cf71553c4d9b6ac1a3cfcaaf8c302bfeecbc30ec",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1741738%2C44.8147277%2C-93.1727738%2C44.8155277&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -839,7 +839,7 @@
       "parcel_objectid": "44060",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-10-18T13:26:14.597530+00:00",
+      "source_checked_at_utc": "2026-10-19T20:46:11.196660+00:00",
       "source_sha256": "d2b02c814ed71c01c87d5b87ef75616bdf415fa6ab73a0939bf081dc8caa648c",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.174801%2C44.8142873%2C-93.173401%2C44.8150873&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -848,6 +848,6 @@
   "remote_jpeg_last_verified": 60,
   "rights_notice": "Dakota County 2025 high-resolution imagery metadata includes Nearmap distribution/commercial-use restrictions; do not mirror third-party image bytes. The linked MnGeo WMS layer is a different source and any further redistribution still needs a source-specific rights check.",
   "source_availability_complete": true,
-  "source_report_run_utc": "2026-10-19T18:36:25.981932+00:00",
+  "source_report_run_utc": "2026-10-20T00:59:32.129887+00:00",
   "verification_notice": "Remote JPEG response hashes are NOT inspections, roof-condition assessments or verified completed permits."
 }
