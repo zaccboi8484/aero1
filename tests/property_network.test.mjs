@@ -8,7 +8,7 @@ const data={
  seed:read('imagery_manifest.json'),rings:read('outward_ring_candidates.json'),
  checks:read('fast_validation_report.json'),permits:read('municipal_permit_export_audit.json'),
  roof:read('roof_evidence_scores.json'),valuations:read('live_property_enrichment.json'),
- storm:read('noaa_storm_events_scoped.json',true)
+ storm:read('noaa_storm_events_scoped.json',true),zip:read('zcta_storm_index.json',true)
 };
 test('real official GIS source joins seed and uncapped outward parcels',()=>{
  const result=joinEvidence(data);
@@ -41,4 +41,19 @@ test('NOAA storm records do not create a parcel storm-hit or damage score',()=>{
  if(data.storm){assert.equal(result.counts.historicalStormReports,data.storm.events.length);
   assert.ok(result.records.every(p=>p.stormReports.every(e=>e.relation==='NEARBY_REPORT_NOT_PROPERTY_IMPACT')))}
  else assert.equal(result.counts.historicalStormReports,0);
+});
+
+test('Source-dated city permits and roof needs survive ZIP storm overlay',()=>{
+ const result=joinEvidence({...data,zip:null});
+ assert.ok(result.records.every(p=>p.zipAreaStormStatus==='ZIP_AREA_INDEX_PENDING'));
+ assert.ok(result.records.every(p=>p.roofNeeds?.status==='ROOF_CONDITION_UNKNOWN_NEEDS_REVIEW'));
+ assert.ok(result.records.some(p=>p.permitFacts.latestDate));
+ assert.ok(result.records.some(p=>p.stormFacts.latestDate));
+ const stale={format:'GATEKEEPER_CENSUS_ZCTA_NOAA_POINTS_V1',parcel_count:result.records.length,
+  noaa_run_at_utc:'2001-01-01',not_a_property_storm_damage_certification:true,
+  parcels:result.records.map(p=>({county_pin:p.pin,parcel_objectid:p.id,zcta:'55121'})),events_by_zip:[]};
+ assert.ok(joinEvidence({...data,zip:stale}).records.every(p=>p.zipAreaStormStatus==='ZIP_AREA_INDEX_STALE'));
+ const bad={...stale,noaa_run_at_utc:data.storm.retrieved_at_utc,
+  parcels:[{...stale.parcels[0],parcel_objectid:'FAKE'},...stale.parcels.slice(1)]};
+ assert.throws(()=>joinEvidence({...data,zip:bad}),/Contradictory Census ZIP-area parcel identity/);
 });
