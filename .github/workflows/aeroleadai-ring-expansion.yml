@@ -24,24 +24,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '24'
       - name: Check crawler syntax
         run: python -m py_compile collector/discover_outward_rings.py
       - name: Discover additional actual Eagan parcels from official GIS
         run: python collector/discover_outward_rings.py
-      - name: Validate issuer public records inventory under verified GIS identity
-        run: node --test tests/eagan_permit_request.test.mjs
-      - name: Build Eagan public records request batch for all discovered parcels
-        run: node scripts/build_eagan_permit_request.mjs
       - name: Publish separate ring discovery evidence
         if: always()
         run: |
           git config user.name 'AeroLeadAI Evidence Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           if test -f evidence/data/outward_ring_candidates.json; then
-            git add evidence/data/outward_ring_candidates.json evidence/data/eagan_municipal_record_request_all_parcels.csv evidence/data/eagan_municipal_record_request_status.json
+            git add evidence/data/outward_ring_candidates.json
             if ! git diff --cached --quiet; then
               git commit -m 'Publish source-backed outward parcel ring candidates'
               bash scripts/retry_evidence_push.sh
