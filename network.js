@@ -2,7 +2,7 @@
 const $=id=>document.getElementById(id);
 const num=n=>new Intl.NumberFormat('en-US').format(n||0);
 const node=(tag,value,cls)=>{const x=document.createElement(tag);x.textContent=String(value??'');if(cls)x.className=cls;return x};
-const okUrl=u=>{try{const x=new URL(u);return x.protocol==='https:'&&['arcgis.metc.state.mn.us','imageserver.gisdata.mn.gov','gis.cityofeagan.com','eagan.onlama.com','www.ncei.noaa.gov'].includes(x.hostname)}catch{return false}};
+const okUrl=u=>{try{const x=new URL(u);return x.protocol==='https:'&&['arcgis.metc.state.mn.us','imageserver.gisdata.mn.gov','gis.cityofeagan.com','eagan.onlama.com','cityofeaganmn.nextrequest.com','www.ncei.noaa.gov'].includes(x.hostname)}catch{return false}};
 function link(title,url){if(!okUrl(url))return node('span','Official source not yet available','warning');const a=node('a',title+' ↗','link');a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a}
 let rows=[],selected=null,map=null,mapReady=false,more=200,view='all',term='',cinematic=false;
 function displayProperty(p){
@@ -11,6 +11,7 @@ function displayProperty(p){
  place.append(node('div',p.address,'detail-header'),node('div','PIN '+p.pin+' · '+(p.ring===0?'Original 60 research batch':'Expansion ring '+p.ring),'line'));
  const facts=[
  ['GIS check',p.parcelStatus+' · '+(p.parcelCheckedAt||'not yet checked')],
+ ['Research availability',p.parcelCheckedAt?'Source search attempted':'FIRST SOURCE SEARCH NOT YET ATTEMPTED'],
  ['Research score',p.researchPriority===null?'Awaiting research (not scored)':p.researchPriority+'/100 · research only'],
  ['Roof damage','NOT VERIFIED (no certified inspection)'],
  ['Municipal permit report',p.permits.length+' imported matches · full history UNKNOWN'],
@@ -21,14 +22,16 @@ function displayProperty(p){
  ['Municipal GIS valuation',p.valuationUsd===null?'Not source verified':'$'+num(p.valuationUsd)+' · source year not established']
  ];
  facts.forEach(([name,value])=>{const d=node('div','','line');d.append(node('b',name+': '),node('span',value));place.append(d)});
- place.append(link('Parcel source',p.parcelSource),link('Regional permit evidence',p.regionalSource),link('Official WMS aerial',p.aerialSource));
+ place.append(link('Parcel source',p.parcelSource),link('Regional permit evidence',p.regionalSource),link('Official WMS aerial',p.aerialSource),
+  link('Request public City permit records','https://cityofeaganmn.nextrequest.com/'));
  const panel=$('stormPanel');panel.replaceChildren();
  panel.append(node('p','CITY PERMIT: '+p.municipalPermitStatus,'warning'),node('p','An issued permit is not final inspection approval; no export match does not mean no permit. A nearby storm observation does not prove roof impact.'));
  if(p.permits.length){panel.append(node('strong','Actual imported City report rows:'));p.permits.forEach(x=>{const d=node('div',x.number+' · '+x.issuedAt+' · '+x.kind+' · ISSUER DOCUMENT PENDING','line');panel.append(d)})}
  panel.append(node('strong','Nearby NOAA storm report points:'));
  if(!p.stormReports.length)panel.append(node('div',p.stormFeedStatus==='NOAA_NOT_YET_RETRIEVED'?'NOAA feed not yet published':'No published point report within 15 km. This does not establish no storms.','line'));
  p.stormReports.forEach(x=>panel.append(node('div',x.kind+' · '+x.date+' · '+x.distanceKm+' km'+(x.hailInches===null?'':' · hail '+x.hailInches+' in')+(x.windMph===null?'':' · wind '+x.windMph+' mph'),'line')));
- panel.append(link('NOAA NCEI original database','https://www.ncei.noaa.gov/access/storm-events-database/'));
+ panel.append(link('NOAA NCEI original database','https://www.ncei.noaa.gov/access/storm-events-database/'),
+  link('NOAA mapped hail and tornado footprints','https://www.ncei.noaa.gov/products/event-footprint-catalog'));
  if(mapReady){map.flyTo({center:[p.lon,p.lat],zoom:15.8,duration:800});updateMap()}
 }
 function updateMap(){
@@ -86,7 +89,7 @@ async function refresh(){
    $('rings').textContent=num(first.counts.expansion);$('permits').textContent=num(first.counts.municipalReportPermits);
    $('storms').textContent=first.stormRunAt?num(first.counts.historicalStormReports):'Pending';
    $('notice').textContent='LIVE OFFICIAL GIS: '+first.counts.parcels+' indexed parcels = 60 original + '+
-     first.counts.expansion+' discovered. '+first.counts.checkedPins+' PINs checked. Eagan issuer portal: '+
+     first.counts.expansion+' discovered. '+first.counts.parcelsAttemptedAtLeastOnce+'/'+first.counts.parcels+' parcels have a published research attempt ('+first.counts.parcelsNeverAttempted+' still waiting). Eagan issuer portal: '+
      first.counts.cityPermitPortalStatus+'. NOAA reports: '+
      (first.stormRunAt?first.counts.historicalStormReports+' historical event records from official sources':'ingestion has not yet completed')+
      '. Storm proximity, permit issue and aerial access do not establish roof damage.';

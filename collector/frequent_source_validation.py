@@ -6,7 +6,7 @@ Each run checks a bounded rotating batch, persists a cursor and per-parcel
 outcomes. This is a real network request pipeline, not a mocked completion flag.
 No Eagan auth bypass and no Google imagery scraping or image analysis.
 """
-import argparse,csv,datetime as dt,hashlib,json,pathlib,re,urllib.parse,urllib.request,urllib.error
+import argparse,csv,datetime as dt,hashlib,json,pathlib,re,time,urllib.parse,urllib.request,urllib.error
 D=pathlib.Path(__file__).resolve().parents[1]/"evidence"/"data"
 GIS="https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query"
 PERMITS="https://arcgis.metc.state.mn.us/server/rest/services/EnterpriseLibrary/DTATResidentialPermits/FeatureServer/0/query"
@@ -41,7 +41,27 @@ def load(name,default):
  except (FileNotFoundError,ValueError):return default
 def jpeg(data):
  return len(data)>150 and data[:3]==b"\xff\xd8\xff" and data[-2:]==b"\xff\xd9"
-def execute(no_network=False,batch=8):
+def select_research_batch(rows,saved,cursor,batch):
+ """Prefer never-researched official parcels, then resume the stable rotating sweep.
+ No PIN can appear twice in a batch, and the prior 60 are not a global cap.
+ """
+ if not rows:return [],0,0
+ limit=min(len(rows),max(1,batch))
+ unseen=[x for x in rows if str(x["county_pin"]) not in saved]
+ chosen=unseen[:limit]
+ selected={str(x["county_pin"]) for x in chosen}
+ start=cursor%len(rows)
+ walked=0
+ while len(chosen)<limit and walked<len(rows):
+  candidate=rows[(start+walked)%len(rows)]
+  walked+=1
+  key=str(candidate["county_pin"])
+  if key not in selected:
+   chosen.append(candidate);selected.add(key)
+ next_cursor=(start+walked)%len(rows)
+ return chosen,next_cursor,len(unseen)
+
+def execute(no_network=False,batch=8,deadline_seconds=480):
  with (D/"kingswood_parcel_candidates.csv").open(newline="",encoding="utf-8-sig") as f:seed=list(csv.DictReader(f))
  ring=load("outward_ring_candidates.json",{}).get("ring_candidates",[])
  allrows=seed+[{"parcel_objectid":str(p.get("parcel_objectid")),"county_pin":p.get("county_pin"),
@@ -51,12 +71,14 @@ def execute(no_network=False,batch=8):
  dedup={};[dedup.setdefault(str(r["county_pin"]),r) for r in allrows]
  rows=list(dedup.values())
  state=load("fast_validation_cursor.json",{"cursor":0})
- start=int(state.get("cursor") or 0)%max(1,len(rows))
- indices=[(start+i)%len(rows) for i in range(min(len(rows),batch))]
- batchrows=[rows[i] for i in indices]
+ old_cursor=int(state.get("cursor") or 0)%max(1,len(rows))
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  history=load("fast_validation_report.json",{}).get("records",[])
- saved={str(x.get("county_pin")):x for x in history if x.get("county_pin")}
+ active_pins={str(x["county_pin"]) for x in rows}
+ saved={str(x.get("county_pin")):x for x in history if str(x.get("county_pin")) in active_pins}
+ batchrows,next_cursor,initial_unchecked=select_research_batch(rows,saved,old_cursor,batch)
+ started=time.monotonic()
+ attempted=0
  manifest=load("imagery_manifest.json",{}).get("records",[])
  boxes={str(x.get("parcel_objectid")):x.get("bbox_4326") for x in manifest}
  # Expanded official GIS polygon-envelope windows. Not inferred roofs or parcel damage.
@@ -70,6 +92,10 @@ def execute(no_network=False,batch=8):
  if no_network:errors.append("Offline mode: no source requests executed")
  if not no_network:
   for r in batchrows:
+   if attempted>0 and time.monotonic()-started>=deadline_seconds:
+    errors.append("Research time budget reached; unattempted parcels remain queued")
+    break
+   attempted+=1
    oid=str(r.get("parcel_objectid"));pin=str(r["county_pin"])
    response={"parcel_objectid":oid,"county_pin":pin,"address":r["address"],
     "last_checked_utc":now,"parcel_validation":"NOT_QUERIED","municipal_permits":"NOT_QUERIED",
@@ -135,8 +161,13 @@ def execute(no_network=False,batch=8):
       "error":str(e)[:160],"note":"Do not bypass access restrictions"}
  else:
   municipal={"status":"NOT_QUERIED_OFFLINE","source_url":EAGAN}
- out={"run_utc":now,"interval_target_minutes":15,"total_indexed":len(rows),"batch_attempted":0 if no_network else len(batchrows),
-   "next_cursor":(start+len(batchrows))%max(1,len(rows)) if not no_network else start,
+ checked_total=len(saved)
+ out={"run_utc":now,"interval_target_minutes":15,"total_indexed":len(rows),
+   "batch_requested":len(batchrows),"batch_attempted":0 if no_network else attempted,
+   "checked_total":checked_total,"remaining_unchecked":max(0,len(rows)-checked_total),
+   "unseen_at_run_start":initial_unchecked,
+   "research_deadline_seconds":deadline_seconds,
+   "next_cursor":next_cursor if not no_network else old_cursor,
    "records":[saved[x] for x in sorted(saved)],"municipal_permit_source":municipal,
    "errors":errors,"source_checks_not_property_damage_certification":True}
  D.mkdir(parents=True,exist_ok=True)
@@ -147,5 +178,9 @@ def execute(no_network=False,batch=8):
      "municipal_portal":municipal["status"],"next_cursor":out["next_cursor"]}))
  return out
 if __name__=="__main__":
- a=argparse.ArgumentParser();a.add_argument("--no-network",action="store_true");a.add_argument("--batch",type=int,default=8);x=a.parse_args()
- execute(x.no_network,max(1,min(x.batch,12)))
+ a=argparse.ArgumentParser()
+ a.add_argument("--no-network",action="store_true")
+ a.add_argument("--batch",type=int,default=24)
+ a.add_argument("--deadline-seconds",type=int,default=480)
+ x=a.parse_args()
+ execute(x.no_network,max(1,min(x.batch,24)),max(60,min(x.deadline_seconds,570)))
