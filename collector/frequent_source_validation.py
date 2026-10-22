@@ -59,7 +59,13 @@ def execute(no_network=False,batch=8):
  saved={str(x.get("county_pin")):x for x in history if x.get("county_pin")}
  manifest=load("imagery_manifest.json",{}).get("records",[])
  boxes={str(x.get("parcel_objectid")):x.get("bbox_4326") for x in manifest}
- region={} # only first 60 have government photo bounding boxes so far
+ # Expanded official GIS polygon-envelope windows. Not inferred roofs or parcel damage.
+ for x in ring:
+  bbox=x.get("bbox_4326")
+  if (isinstance(bbox,list) and len(bbox)==4 and all(isinstance(v,(int,float)) for v in bbox)
+      and bbox[0]<bbox[2] and bbox[1]<bbox[3]):
+   boxes[str(x.get("parcel_objectid"))]=bbox
+ region={} # new official GIS ring envelopes can also request permitted government WMS sources
  errors=[]
  if no_network:errors.append("Offline mode: no source requests executed")
  if not no_network:
