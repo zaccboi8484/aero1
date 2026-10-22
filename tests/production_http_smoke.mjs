@@ -9,6 +9,7 @@ const cases=[
   {path:'/network.html',code:200,match:/Autonomous Property Network/i,description:'previous uncapped network fallback retained'},
   {path:'/network.js',code:200,match:/api[/]property-network/,description:'map and nationwide-ready paginated browser search'},
   {path:'/api/property-network?limit=1',code:200,match:/"parcels"\s*:\s*[4-9][0-9][0-9]/,description:'actual 400-plus official GIS records served by source-backed API'},
+  {path:'/api/property-network?limit=1',code:200,match:/"zipAreaStormStatus"\s*:/,description:'property data includes source-backed ZIP storm evidence or pending status'},
   {path:'/api/operations-health',code:200,match:/GATEKEEPER_OPERATIONAL_TRUTH_V1/,description:'source-by-source operational health status never hidden'},
   {path:'/classic.html',code:200,match:/AeroLeadAI|Kings Wood/i,description:'original cinematic glass desk preserved'},
   {path:'/roofing-scorecards.html',code:200,match:/Residential Roofing Scorecards/i,description:'integrated original-60 scorecard UI'},
