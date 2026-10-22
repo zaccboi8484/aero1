@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/build_eagan_permit_request.mjs'
+      - 'evidence/data/outward_ring_candidates.json'
       - 'tests/eagan_permit_request.test.mjs'
       - '.github/workflows/gatekeeper-eagan-request.yml'
   workflow_dispatch:
