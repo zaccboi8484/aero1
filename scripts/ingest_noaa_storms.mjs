@@ -44,6 +44,16 @@ export function extract(csv,filename,geo,radiusKm=30){
   if(!(nearest!==null&&nearest<=radiusKm)&&!countyReport)continue;
   seen.add(id);
   const mag=f(get('MAGNITUDE'));
+  const date=get('BEGIN_DATE_TIME');
+  // NOAA bulk CSV uses strings such as 31-JUL-24 17:30:00 in the source timezone.
+  // Sort by calendar components, without asserting that the timestamp is UTC.
+  const match=/^(\d{1,2})-([A-Z]{3})-(\d{2,4})\s+(\d{2}:\d{2}:\d{2})$/i.exec(date);
+  const months=['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+  const monthIndex=match?months.indexOf(match[2].toUpperCase())+1:0;
+  const y=match?Number(match[3]):0;
+  const year=y<100?(y<80?2000+y:1900+y):y;
+  const sortKey=match&&monthIndex?String(year).padStart(4,'0')+'-'+String(monthIndex).padStart(2,'0')+
+    '-'+match[1].padStart(2,'0')+'T'+match[4]:null;
   events.push({
     id,kind:type,begin_at:get('BEGIN_DATE_TIME'),end_at:get('END_DATE_TIME')||null,county:get('CZ_NAME'),
     point_lat:valid?lat:null,point_lon:valid?lon:null,
@@ -51,8 +61,8 @@ export function extract(csv,filename,geo,radiusKm=30){
     hail_inches:type==='HAIL'?mag:null,
     wind_mph:type.includes('WIND')&&mag!==null?Number((mag*1.150779).toFixed(1)):null,
     wind_original_knots:type.includes('WIND')?mag:null,wind_magnitude_type:get('MAGNITUDE_TYPE')||null,
-    source_file:filename,report_source:get('SOURCE')||null,
-    geographic_confidence:valid?'REPORTED_POINT_ONLY_NOT_A_STORM_FOOTPRINT':'COUNTY_REPORT_ONLY',
+    source_file:filename,report_source:get('SOURCE')||null,sort_key:sortKey,
+    geographic_confidence:nearest!==null&&nearest<=radiusKm?'REPORTED_POINT_ONLY_NOT_A_STORM_FOOTPRINT':'COUNTY_CONTEXT_ONLY_NOT_ADDRESS_SPECIFIC',
     damage_to_any_individual_property_confirmed:false
   });
  }
@@ -88,7 +98,8 @@ export async function collect({directory=D,years=[2024,2025,2026],download=bound
   }catch(e){errors.push({year,error:String(e.message||e).slice(0,200)})}
  }
  if(!files.length)throw Error('NOAA storm feed failed; no guessed events written: '+JSON.stringify(errors));
- const events=[...byId.values()].sort((a,b)=>String(b.begin_at).localeCompare(String(a.begin_at)));
+ const events=[...byId.values()].sort((a,b)=>String(b.sort_key||'').localeCompare(String(a.sort_key||'')));
+
  const doc={format:'GATEKEEPER_NOAA_STORM_EVENTS_V1',
   retrieved_at_utc:new Date().toISOString(),provider:'NOAA NCEI Storm Events Database',
   official_directory:DIR,years_requested:years,years_retrieved:files.map(x=>x.year),
