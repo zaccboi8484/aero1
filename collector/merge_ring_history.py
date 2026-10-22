@@ -59,11 +59,12 @@ def merge(current,historical):
                 continue
             by_id[oid]=pin
             record=copy.deepcopy(p)
-            record["observed_in_current_source_query"]=sha is None
-            if sha is not None:
+            observed=(sha is None and p.get("observed_in_latest_geographic_query",True) is not False)
+            record["observed_in_current_source_query"]=observed
+            if sha is not None or not observed:
                 record["retained_historical_official_observation"]=True
                 record["last_historical_source_observation_utc"]=snapshot.get("generated_at_utc")
-                record["historical_source_commit"]=sha
+                record["historical_source_commit"]=sha or "previous_published_snapshot"
             else:record["retained_historical_official_observation"]=False
             pins[pin]=record
     all_records=sorted(pins.values(),key=lambda p:(int(p.get("ring") or 999),
@@ -74,11 +75,11 @@ def merge(current,historical):
     merged["counts_by_ring"]={str(n):sum(int(x.get("ring") or -1)==n for x in all_records)
                               for n in sorted({int(x.get("ring") or 0) for x in all_records})}
     merged["historical_source_reconciliation"]={
-       "observed_in_current_query":original_count,
-       "historical_official_records_retained":len(all_records)-original_count,
+       "observed_in_current_query":fresh_observed,
+       "historical_official_records_retained":len(all_records)-fresh_observed,
        "distinct_source_linked_records":len(all_records),
        "historical_commits_checked":len(historical),
-       "any_missing_from_current_query_requires_recheck":len(all_records)>original_count,
+       "any_missing_from_current_query_requires_recheck":len(all_records)>fresh_observed,
        "note":"Earlier official GIS query records preserved despite changes in query pagination; retained entries are not claimed as freshly checked."
     }
     if len(all_records)<original_count:raise ValueError("Historical merge dropped queried parcels")
