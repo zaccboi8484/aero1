@@ -21,7 +21,14 @@ const permitMarker='municipalExportSummary=j;';
 requireOnce(home,permitMarker,'municipal permit reporting');
 home=home.replace(permitMarker,permitMarker+"document.getElementById('permitCount').textContent=String(j.matched_permit_events??0);");
 home=attachSync(home,'home');
-writeFileSync(join(out,'index.html'),home,'utf8');
+// Original glass desk remains accessible, but the uncapped real GIS property
+// network is now the default screen. The first 60 are a seed batch, NOT a cap.
+writeFileSync(join(out,'classic.html'),home,'utf8');
+const network=readFileSync('network.html','utf8');
+requireOnce(network,'</body>','network page');
+writeFileSync(join(out,'index.html'),network,'utf8');
+writeFileSync(join(out,'network.html'),network,'utf8');
+copyFileSync('network.js',join(out,'network.js'));
 let cards=readFileSync('roofing-scorecards.html','utf8');
 cards=attachSync(cards,'scorecards');
 writeFileSync(join(out,'roofing-scorecards.html'),cards,'utf8');
