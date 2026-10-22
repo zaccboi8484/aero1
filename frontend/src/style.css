@@ -57,3 +57,13 @@ footer{text-align:center;color:#668896;font-size:10px;line-height:1.8;margin-top
 .roof-action-list{display:grid;gap:7px}.roof-action-list>div{display:flex;gap:10px;align-items:start;background:#193748;padding:10px 12px;border:1px solid #3b6472;border-radius:7px;font-size:11px;color:#c8dedf}
 .roof-action-list svg{color:#e3c684;flex-shrink:0}
 @media(max-width:500px){.property-index-grid{grid-template-columns:1fr}.index-evidence-grid{grid-template-columns:1fr}.index-evidence-item{min-height:125px}}
+
+
+/* Distinguish a geographic ZIP-area storm point from a physical roof finding. */
+.zip-source-band{display:flex;justify-content:space-between;align-items:center;gap:13px;flex-wrap:wrap;
+padding:12px 16px;margin:0 0 10px;background:#173b48bb;border-top:1px solid #295964}
+.zip-source-band>div{display:grid;gap:6px;min-width:0}
+.zip-source-label{display:flex;gap:7px;align-items:center;color:#94d5df;letter-spacing:.45px;font-size:9px;font-weight:800}
+.zip-source-band strong{font-size:11px;color:#dbf6f0}
+.zip-source-band b{font-size:12px;color:#f2d2a2}
+.zip-source-band small{font-size:9px;color:#a1bfcc;line-height:1.5}

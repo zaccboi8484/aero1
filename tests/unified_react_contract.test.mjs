@@ -7,6 +7,9 @@ test('live app uses compiled React and has no Base44 SDK',()=>{
   html=readFileSync('frontend/index.html','utf8');
  assert.match(a,/React,/);assert.match(a,/GeoMap/);assert.match(a,/PermitPanel/);
  assert.match(a,/StormPanel/);assert.match(a,/SourceMeter/);
+ assert.match(a,/NOAA REPORTED POINT IN ZIP-AREA/);
+ assert.match(a,/zipAreaStormReports/);
+ assert.match(a,/PropertyIndexCards/);
  assert.match(a,/api[/]property-network/);
  assert.match(html,/\/src\/main.jsx/);
  assert.equal(/@base44|base44\/sdk|base44\.app/i.test(pkg+a+html),false);

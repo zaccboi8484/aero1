@@ -10,6 +10,9 @@ const SOURCES=[
   url:'https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2',message:'Rotating source checks; regional permits are not municipal reroof history'},
  {id:'bulk',name:'Bulk county PIN / GIS verification',file:'parcel_identity_bulk.json',timestamp:'checked_at_utc',hours:3,
   url:'https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2',message:'Fast official GIS identity check; not property-condition verification'},
+ {id:'zip',name:'Census ZIP-area reported NOAA point overlay',file:'zcta_storm_index.json',timestamp:'generated_at_utc',hours:48,
+  url:'https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Current/MapServer/2',
+  message:'Census ZCTA approximates USPS ZIP; a NOAA point reported inside ZIP-area is not a property strike'},
  {id:'storm',name:'NOAA Storm Events archives',file:'noaa_storm_events_scoped.json',timestamp:'retrieved_at_utc',hours:40,
   url:'https://www.ncei.noaa.gov/access/storm-events-database/',message:'Reported storm events; no inferred property-specific hail footprint'},
  {id:'permits',name:'City of Eagan permit issuer',file:'municipal_permit_export_audit.json',timestamp:'generated_at_utc',hours:null,
@@ -26,6 +29,7 @@ export function classifySource(s,payload,now=Date.now()){
  if(s.id==='discovery'&&(payload.source_query_completed!==true||payload.errors?.length))status='DEGRADED';
  if(s.id==='bulk'&&(payload.complete!==true||!Number.isInteger(payload.matched)))status='DEGRADED';
  if(s.id==='storm'&&(payload.partial||payload.errors?.length))status='DEGRADED';
+ if(s.id==='zip'&&(payload.format!=='GATEKEEPER_CENSUS_ZCTA_NOAA_POINTS_V1'||payload.parcels_unmapped>0||payload.source_partial))status='DEGRADED';
  return {state:status,lastChecked:payload[s.timestamp]||null,message:s.message};
 }
 let cache={value:null,until:0};

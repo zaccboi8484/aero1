@@ -27,11 +27,16 @@ jobs:
         run: node --test tests/noaa_storms.test.mjs
       - name: Ingest authoritative historical hail and wind event records
         run: node scripts/ingest_noaa_storms.mjs
+      - name: Reconcile fresh storm records to authentic Census ZIP-area polygons
+        id: zip
+        continue-on-error: true
+        run: node scripts/build_zip_storm_index.mjs
       - name: Commit actual NOAA results, never fabricated storm scores
         run: |
           git config user.name 'AeroLeadAI Evidence Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add evidence/data/noaa_storm_events_scoped.json
+          if [ "${{ steps.zip.outcome }}" = 'success' ]; then git add evidence/data/zcta_storm_index.json; fi
           if ! git diff --cached --quiet; then
             git commit -m 'Publish source-backed NOAA NCEI storm observations and provenance'
             bash scripts/retry_evidence_push.sh

@@ -5,7 +5,7 @@ import {permitCardFacts,stormCardFacts,roofReviewNeeds,calendarDate} from './pro
 const D='https://raw.githubusercontent.com/zaccboi8484/aero1/main/evidence/data/';
 const FILES={seed:'imagery_manifest.json',rings:'outward_ring_candidates.json',checks:'fast_validation_report.json',
  permits:'municipal_permit_export_audit.json',roof:'roof_evidence_scores.json',
- valuations:'live_property_enrichment.json',storm:'noaa_storm_events_scoped.json',bulk:'parcel_identity_bulk.json'};
+ valuations:'live_property_enrichment.json',storm:'noaa_storm_events_scoped.json',bulk:'parcel_identity_bulk.json',zip:'zcta_storm_index.json'};
 let memo={until:0,result:null};
 const key=v=>String(v??'').trim();
 const saneNum=v=>typeof v==='number'&&Number.isFinite(v)?v:null;
@@ -53,6 +53,33 @@ export function joinEvidence(d){
  if(permitIds.size!==d.permits.matched_permit_events)throw Error('Municipal export count does not match actual records');
  const stormSourcePublished=d.storm?.format==='GATEKEEPER_NOAA_STORM_EVENTS_V1'&&Array.isArray(d.storm.events);
  const reports=stormSourcePublished?d.storm.events:[];
+
+ // A ZIP-area match requires the complete official parcel census and the
+ // precise NOAA source snapshot. A stale ZIP overlay does not claim any hits.
+ const zipCurrent=d.zip?.format==='GATEKEEPER_CENSUS_ZCTA_NOAA_POINTS_V1'&&
+  d.zip.not_a_property_storm_damage_certification===true&&d.zip.parcel_count===all.size&&
+  d.zip.noaa_run_at_utc===d.storm?.retrieved_at_utc&&Array.isArray(d.zip.parcels)&&
+  d.zip.parcels.length===all.size&&Array.isArray(d.zip.events_by_zip);
+ const zips=new Map(),eventsByZip=new Map();
+ if(zipCurrent){
+  const ids=new Set(reports.map(e=>key(e.id)));
+  for(const entry of d.zip.parcels){
+   const pin=key(entry.county_pin);
+   if(!pin||zips.has(pin))throw Error('Duplicated source Census ZIP parcel PIN');
+   zips.set(pin,entry);
+  }
+  if(zips.size!==all.size)throw Error('Incomplete source Census ZIP parcel census');
+  for(const group of d.zip.events_by_zip){
+   if(eventsByZip.has(group.zcta)||!Array.isArray(group.reports)||group.report_count!==group.reports.length)
+    throw Error('Conflicting NOAA report ZIP groups');
+   if(group.reports.some(e=>!ids.has(key(e.event_id))||e.zcta!==group.zcta||
+       e.report_classification!=='NWS_REPORTED_POINT_WITHIN_CENSUS_ZCTA'||
+       e.not_confirmed_at_any_particular_roof!==true||
+       !/^\d{4}-\d{2}-\d{2}$/.test(String(e.date||''))))
+    throw Error('Invalid storm claim in Census ZIP index');
+   eventsByZip.set(group.zcta,group.reports);
+  }
+ }
  const records=[...all].map(([id,p])=>{
   const pin=key(p.county_pin),seedBatch=seed.has(id),check=checks.get(pin),official=bulk.get(pin);
   if(official&&official.id!==id)throw Error('Published bulk GIS object ID and original parcel conflict: '+pin);
@@ -75,6 +102,20 @@ export function joinEvidence(d){
   const permitFacts=permitCardFacts(permits.get(id)||[]);
   const stormFacts=stormCardFacts(storms,stormSourcePublished);
   const roofNeeds=roofReviewNeeds({yearBuilt:Number(p.year_built),permitFacts,stormFacts,sourceImageryVerified:Boolean(photo)});
+
+  const zipSource=zipCurrent?zips.get(pin):null;
+  if(zipSource&&key(zipSource.parcel_objectid)!==id)
+   throw Error('Contradictory Census ZIP-area parcel identity');
+  const zcta=zipSource?.zcta||null;
+  const zipEvents=zcta?(eventsByZip.get(zcta)||[]):[];
+  const zipReports=zipEvents.slice(0,12).map(e=>({
+    id:e.event_id,kind:e.event_type,date:e.date,localTime:e.local_time,
+    hailInches:e.hail_inches,windMph:e.wind_mph,
+    sourceUrl:e.source_archive&&/^[a-zA-Z0-9_.-]+\.csv\.gz$/.test(e.source_archive)?
+       'https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/'+e.source_archive:null,
+    relationship:'NOAA_REPORTED_POINT_INSIDE_CENSUS_ZCTA_NOT_CONFIRMED_ROOF_IMPACT'
+  }));
+
   storms.sort((a,b)=>String(calendarDate(b.sortKey||b.date)||'').localeCompare(String(calendarDate(a.sortKey||a.date)||''))||
     a.distanceKm-b.distanceKm);
   return {id,pin,address:p.address,city:'Eagan',plat:p.plat_name||null,
@@ -88,6 +129,11 @@ export function joinEvidence(d){
    yearBuilt:p.year_built==null?null:Number(p.year_built)||null,
    valuationUsd:val?.gatekeeper==='SOURCE_RECORDED'&&saneNum(val.amount_usd)!==null?val.amount_usd:null,
    permits:permits.get(id)||[],permitFacts,stormFacts,roofNeeds,
+   censusZcta:zcta,postalZipVerified:false,
+   zipAreaStormStatus:!d.zip?'ZIP_AREA_INDEX_PENDING':!zipCurrent?'ZIP_AREA_INDEX_STALE':
+      !zcta?'ZIP_AREA_UNRESOLVED':zipEvents.length?
+      'NOAA_REPORT_POINT_WITHIN_CENSUS_ZCTA':'NO_PUBLISHED_NOAA_POINT_IN_ZCTA',
+   zipAreaStormReports:zipReports,latestZipStorm:zipReports[0]||null,
    completeMunicipalPermitHistory:false,
    municipalPermitStatus:d.checks.municipal_permit_source?.status||'NOT_QUERIED',
    regionalPermitStatus:check?.regional_permits||'NOT_QUERIED',
@@ -115,6 +161,9 @@ export function joinEvidence(d){
    datedStormProximityProperties:records.filter(p=>p.stormFacts.latestDate!==null).length,
    roofReviewTasks:records.filter(p=>p.roofNeeds.status==='ROOF_CONDITION_UNKNOWN_NEEDS_REVIEW').length,
    historicalStormReports:reports.length,nearbyStormProperties:records.filter(x=>x.stormReports.length).length,
+   censusZipAreaMapped:records.filter(x=>x.censusZcta).length,
+   zipAreaNoaaPropertyMatches:records.filter(x=>x.zipAreaStormReports.length).length,
+   zipAreaSourceStatus:!d.zip?'NOT_PUBLISHED':zipCurrent?'CURRENT':'STALE',
    certifiedRoofConditions:0,certifiedMindex:0,
    cityPermitPortalStatus:d.checks.municipal_permit_source?.status||'NOT_QUERIED',
    partialGISScan:d.checks.total_indexed<records.length},records};
@@ -123,7 +172,7 @@ async function load(){
  if(memo.result&&Date.now()<memo.until)return memo.result;
  const values=await Promise.all(Object.entries(FILES).map(async ([k,file])=>{
   const r=await fetch(D+file,{signal:AbortSignal.timeout(17000),cache:'no-store'});
-  if(!r.ok&&(k==='storm'||k==='bulk')&&r.status===404)return[k,null];
+  if(!r.ok&&(k==='storm'||k==='bulk'||k==='zip')&&r.status===404)return[k,null];
   if(!r.ok)throw Error(file+' HTTP '+r.status);
   return[k,await r.json()];
  }));
