@@ -5,12 +5,18 @@ import {readFileSync} from 'node:fs';
 
 test('Vercel build preserves the original interface while fixing evidence live-sync',()=>{
  execFileSync(process.execPath,['scripts/build-web.mjs'],{encoding:'utf8'});
- const dashboard=readFileSync('public/index.html','utf8');
+ const dashboard=readFileSync('public/classic.html','utf8');
+ const network=readFileSync('public/index.html','utf8');
+ const networkJs=readFileSync('public/network.js','utf8');
  const source=readFileSync('index.html','utf8');
  const cards=readFileSync('public/roofing-scorecards.html','utf8');
  const cert=readFileSync('public/certification-gaps.html','utf8');
  const sync=readFileSync('public/live-sync.js','utf8');
  assert.ok(source.length>50000,'Original UI source must exist');
+ assert.ok(network.includes('Autonomous Property Network'));
+ assert.ok(networkJs.includes('/api/property-network'));
+ assert.ok(networkJs.includes('Load 200 more property records'));
+ assert.ok(readFileSync('public/network.html','utf8').includes('Autonomous Property Network'));
  assert.ok(dashboard.includes('<script src="/live-sync.js" defer></script>'));
  assert.ok(cards.includes('<script src="/live-sync.js" defer></script>'));
  assert.ok(cards.includes('Residential Roofing Scorecards'));
