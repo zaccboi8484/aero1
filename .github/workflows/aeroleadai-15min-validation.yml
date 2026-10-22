@@ -7,6 +7,7 @@ on:
       - 'collector/frequent_source_validation.py'
       - 'collector/source_health_public.py'
       - 'tests/test_source_health_public.py'
+      - 'tests/test_research_batch_priority.py'
       - 'collector/roof_evidence_score.py'
       - 'collector/roof_permit_backfill.py'
       - 'tests/test_roof_permit_backfill.py'
@@ -34,8 +35,9 @@ jobs:
           python -m unittest discover -s tests -p 'test_roof_evidence_score.py' -v
           python -m unittest discover -s tests -p 'test_roof_permit_backfill.py' -v
           python -m unittest discover -s tests -p 'test_source_health_public.py' -v
-      - name: Query 8 actual parcel, permit and MnGeo image records
-        run: python collector/frequent_source_validation.py --batch 8
+          python -m unittest discover -s tests -p 'test_research_batch_priority.py' -v
+      - name: Prioritize unseen GIS parcels, research up to 24 records and checkpoint before deadline
+        run: python collector/frequent_source_validation.py --batch 24 --deadline-seconds 480
       - name: Score evidence collection priority, not unproven roof damage
         if: always()
         run: python collector/roof_evidence_score.py
