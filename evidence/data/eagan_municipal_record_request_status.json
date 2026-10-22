@@ -1,0 +1,17 @@
+{
+  "format": "AEROLEADAI_PUBLIC_MUNICIPAL_RECORD_REQUEST_V1",
+  "generated_at_utc": "2026-10-22T22:32:33.089Z",
+  "source": "Metropolitan Council Dakota parcels / City of Eagan municipal report exports",
+  "city_records_request_url": "https://cityofeaganmn.nextrequest.com/",
+  "municipality": "Eagan, Minnesota",
+  "parcel_count": 492,
+  "initial_research_batch": 60,
+  "expansion": 432,
+  "municipal_report_matches": 25,
+  "complete_city_permit_histories_verified": 0,
+  "original_city_issuer_permit_documents_reviewed": 0,
+  "not_submitted": true,
+  "records_request_required": true,
+  "records_are_public_only": true,
+  "warning": "This packet has not been submitted. It requests existing public records; City will determine availability, access, fees and reasonable turnaround."
+}
