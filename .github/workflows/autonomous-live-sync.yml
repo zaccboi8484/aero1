@@ -3,6 +3,15 @@ on:
   pull_request:
     paths:
       - 'scripts/build-web.mjs'
+      - 'network.html'
+      - 'network.js'
+      - 'api/property-network.js'
+      - 'tests/property_network.test.mjs'
+      - 'tests/noaa_storms.test.mjs'
+      - 'scripts/ingest_noaa_storms.mjs'
+      - 'collector/discover_outward_rings.py'
+      - '.github/workflows/aeroleadai-ring-expansion.yml'
+      - '.github/workflows/gatekeeper-noaa-storms.yml'
       - 'collector/certification_gap_pipeline.py'
       - 'api/certification-gaps.js'
       - 'certification-gaps.html'
@@ -25,6 +34,15 @@ on:
     branches: [main]
     paths:
       - 'scripts/build-web.mjs'
+      - 'network.html'
+      - 'network.js'
+      - 'api/property-network.js'
+      - 'tests/property_network.test.mjs'
+      - 'tests/noaa_storms.test.mjs'
+      - 'scripts/ingest_noaa_storms.mjs'
+      - 'collector/discover_outward_rings.py'
+      - '.github/workflows/aeroleadai-ring-expansion.yml'
+      - '.github/workflows/gatekeeper-noaa-storms.yml'
       - 'collector/certification_gap_pipeline.py'
       - 'api/certification-gaps.js'
       - 'certification-gaps.html'
@@ -62,6 +80,16 @@ jobs:
         run: node --check tests/production_http_smoke.mjs
       - name: Rebuild real dashboard and assert permits, roof list and cinematic controls survive
         run: node --test tests/live_sync_build.test.mjs
+      - name: Verify NOAA source parsing and storm geographic evidence status
+        run: node --test tests/noaa_storms.test.mjs
+      - name: Test actual full GIS network and real municipal source matches
+        run: node --test tests/property_network.test.mjs
+      - name: Parse live property network and browser map scripts
+        run: |
+          node --check api/property-network.js
+          node --check network.js
+          node --check scripts/ingest_noaa_storms.mjs
+          python -m py_compile collector/discover_outward_rings.py collector/frequent_source_validation.py
       - name: Verify original-60 certification source evidence and fail-closed missing data
         run: python -m unittest discover -s tests -p 'test_certification_gap_pipeline.py' -v
       - name: Validate authenticated source-directed certification search against actual property records
