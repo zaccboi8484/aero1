@@ -1,15 +1,15 @@
 {
   "counts": {
-    "government_jpeg_response_records": 132,
+    "government_jpeg_response_records": 156,
     "human_verified_roof_conditions": 0,
     "indexed_parcels": 593,
     "municipal_report_matches": 25,
-    "official_pin_matches_in_ledger": 464,
-    "parcels_checked_at_least_once": 417,
+    "official_pin_matches_in_ledger": 488,
+    "parcels_checked_at_least_once": 441,
     "parcels_checked_last_run": 24,
-    "parcels_not_yet_checked": 176,
+    "parcels_not_yet_checked": 152,
     "permit_documents_reviewed": 0,
-    "records_in_source_ledger": 465,
+    "records_in_source_ledger": 489,
     "research_batch_requested": 24
   },
   "format": "GATEKEEPER_SOURCE_HEARTBEAT_V1",
@@ -19,8 +19,8 @@
   "no_unreviewed_condition_claims": true,
   "note": "Source-health heartbeat is not a completed municipal permit review, physical roof inspection or released Mindex.",
   "publication_is_not_new_permit_discovery": true,
-  "published_at_utc": "2026-10-22T22:50:40.560189+00:00",
+  "published_at_utc": "2026-10-22T23:25:09.810389+00:00",
   "release_certified": false,
   "source_data_present": true,
-  "source_report_run_utc": "2026-10-22T22:50:30.490350+00:00"
+  "source_report_run_utc": "2026-10-22T23:24:58.691502+00:00"
 }
