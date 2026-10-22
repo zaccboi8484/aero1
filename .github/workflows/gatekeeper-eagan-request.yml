@@ -7,6 +7,8 @@ on:
       - 'tests/eagan_permit_request.test.mjs'
       - '.github/workflows/gatekeeper-eagan-request.yml'
   workflow_dispatch:
+  schedule:
+    - cron: '12 11 * * *' # after daily Eagan GIS discovery
 permissions:
   contents: write
 concurrency:
