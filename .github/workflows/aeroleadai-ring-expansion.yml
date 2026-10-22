@@ -7,6 +7,8 @@ on:
     branches: [main]
     paths:
       - 'collector/discover_outward_rings.py'
+      - 'collector/merge_ring_history.py'
+      - 'tests/test_ring_history.py'
       - 'scripts/build_eagan_permit_request.mjs'
       - 'tests/eagan_permit_request.test.mjs'
       - '.github/workflows/aeroleadai-ring-expansion.yml'
@@ -21,11 +23,14 @@ jobs:
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Check crawler syntax
         run: python -m py_compile collector/discover_outward_rings.py
+      - name: Prove archived official GIS candidates are never lost or contradicted
+        run: python -m unittest discover -s tests -p 'test_ring_history.py' -v
       - name: Discover additional actual Eagan parcels from official GIS
         run: python collector/discover_outward_rings.py
       - name: Publish separate ring discovery evidence
