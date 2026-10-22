@@ -21,6 +21,31 @@ def get(params):
  with urllib.request.urlopen(req,timeout=35) as f:data=json.load(f)
  if "error" in data:raise RuntimeError(str(data["error"])[:300])
  return data,u
+def merge_cumulative_rings(previous,current):
+ """Preserve prior authentic GIS discoveries even if ArcGIS returns a partial
+ spatial sample on a later, larger search. No invented property identities.
+ """
+ keep={}
+ oids={}
+ for row in previous:
+  pin=str(row.get("county_pin") or "")
+  oid=str(row.get("parcel_objectid") or "")
+  if not pin or not oid or (pin in keep and str(keep[pin]["parcel_objectid"])!=oid) or (oid in oids and oids[oid]!=pin):
+   raise ValueError("Contradictory historical GIS parcel identity")
+  keep[pin]={**row,"observed_in_latest_geographic_query":False}
+  oids[oid]=pin
+ old_total=len(keep)
+ added=0
+ for row in current:
+  pin=str(row.get("county_pin") or "")
+  oid=str(row.get("parcel_objectid") or "")
+  if not pin or not oid or (pin in keep and str(keep[pin]["parcel_objectid"])!=oid) or (oid in oids and oids[oid]!=pin):
+   raise ValueError("Contradictory newly fetched GIS parcel identity")
+  if pin not in keep:added+=1
+  keep[pin]={**row,"observed_in_latest_geographic_query":True}
+  oids[oid]=pin
+ return sorted(keep.values(),key=lambda r:(int(r.get("ring") or 0),float(r.get("distance_from_seed_center_m") or 0),str(r["county_pin"]))),added,old_total
+
 def collect(max_m=2100,ring_m=500,max_pages=15,offline=False):
  with (D/"kingswood_parcel_candidates.csv").open(newline="",encoding="utf-8-sig") as f:seed=list(csv.DictReader(f))
  imagery=load("imagery_manifest.json")
@@ -38,16 +63,31 @@ def collect(max_m=2100,ring_m=500,max_pages=15,offline=False):
   "ring_width_m":ring_m,"search_radius_m":max_m,"ring_candidates":[],"candidate_count":0,"source_query_completed":False,"pages":0,"errors":[]}
  if offline:
   result["errors"].append("Not queried: explicit offline mode");return result
- # Server uses actual ArcGIS geodesic distance filtering of official parcel polygons.
+ # Cross-check source count and paginate by ACTUAL returned features. An ArcGIS
+ # max-record/transfer-limit response must not be mistaken for a complete census.
  seen={}
- for offset in range(0,max_pages*500,500):
-  params={"f":"json","where":"UPPER(CTU_NAME) = 'EAGAN'","geometry":json.dumps({"x":center_lon,"y":center_lat,"spatialReference":{"wkid":4326}}),
-  "geometryType":"esriGeometryPoint","inSR":"4326","spatialRel":"esriSpatialRelIntersects","distance":int(max_m),
-  "units":"esriSRUnit_Meter","outFields":ATTR,"outSR":"4326","returnGeometry":"true",
-  "resultOffset":offset,"resultRecordCount":500,"orderByFields":"OBJECTID ASC"}
+ spatial={"f":"json","where":"UPPER(CTU_NAME) = 'EAGAN'",
+   "geometry":json.dumps({"x":center_lon,"y":center_lat,"spatialReference":{"wkid":4326}}),
+   "geometryType":"esriGeometryPoint","inSR":"4326","spatialRel":"esriSpatialRelIntersects",
+   "distance":int(max_m),"units":"esriSRUnit_Meter"}
+ try:
+  count_data,_=get({**spatial,"returnCountOnly":"true","returnGeometry":"false"})
+  expected=count_data.get("count")
+  if type(expected)!=int or expected<0:raise RuntimeError("Official ArcGIS returned no valid feature count")
+  result["raw_source_feature_count"]=expected
+ except Exception as e:
+  result["errors"].append("Official GIS count request failed: "+str(e)[:240])
+  return result
+ offset=0
+ for _ in range(max_pages):
+  params={**spatial,"outFields":ATTR,"outSR":"4326","returnGeometry":"true",
+   "resultOffset":offset,"resultRecordCount":500,"orderByFields":"OBJECTID ASC"}
   try:
    data,source_url=get(params);result["pages"]+=1
    feats=data.get("features",[])
+   if not isinstance(feats,list):raise RuntimeError("Official source features were not a list")
+   offset+=len(feats)
+   result["raw_features_retrieved"]=offset
    for row in feats:
     a=row.get("attributes") or {};oid=str(a.get("OBJECTID") or "");pin=str(a.get("COUNTY_PIN") or "")
     if not oid or not pin or oid in seen_oids or pin in seen_pins or pin in seen:continue
@@ -70,15 +110,37 @@ def collect(max_m=2100,ring_m=500,max_pages=15,offline=False):
      "source_record_url":BASE+"?"+urllib.parse.urlencode({"f":"json","where":"OBJECTID="+oid,"outFields":ATTR,"returnGeometry":"false"})}
     match["evidence_sha256"]=hashlib.sha256(json.dumps(match,sort_keys=True).encode()).hexdigest()
     seen[pin]=match
-   if len(feats)<500:
-    result["source_query_completed"]=True;break
+   if offset>=expected:
+    result["source_query_completed"]=True
+    break
+   if not feats:
+    result["errors"].append("GIS pagination stalled below official result count")
+    break
+   if len(feats)<500 and not data.get("exceededTransferLimit"):
+    result["errors"].append("GIS returned too few records for official count; pagination incomplete")
+    break
    time.sleep(.15)
   except Exception as e:
-   result["errors"].append(str(e)[:280]);break
- for item in sorted(seen.values(),key=lambda r:(r["ring"],r["distance_from_seed_center_m"],r["county_pin"])):result["ring_candidates"].append(item)
- result["candidate_count"]=len(seen)
- result["counts_by_ring"]={str(r):sum(x["ring"]==r for x in seen.values()) for r in sorted({x["ring"] for x in seen.values()})}
- if not result["source_query_completed"] and result["pages"]>=max_pages:result["errors"].append("Page budget reached; incomplete query")
+   result["errors"].append(str(e)[:280])
+   break
+ if not result["source_query_completed"] and result["pages"]>=max_pages:
+  result["errors"].append("Page budget reached before official GIS feature count")
+ if result["errors"]:return result
+ prior=load("outward_ring_candidates.json").get("ring_candidates",[])
+ try:
+  combined,added,prior_total=merge_cumulative_rings(prior,seen.values())
+ except ValueError as e:
+  result["source_query_completed"]=False
+  result["errors"].append(str(e))
+  return result
+ result["ring_candidates"]=combined
+ result["candidate_count"]=len(combined)
+ result["new_distinct_candidates_added"]=added
+ result["historical_candidates_preserved"]=prior_total
+ result["latest_query_candidates_seen"]=len(seen)
+ result["not_returned_on_latest_spatial_request_but_previous_source_record_retained"]=sum(not r["observed_in_latest_geographic_query"] for r in combined)
+ result["discovery_is_cumulative_not_exclusive_radius"]=True
+ result["counts_by_ring"]={str(r):sum(x["ring"]==r for x in combined) for r in sorted({x["ring"] for x in combined})}
  return result
 def main():
  import argparse
