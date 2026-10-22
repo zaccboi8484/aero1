@@ -7,6 +7,8 @@ on:
       - 'vercel.json'
       - 'scripts/build-web.mjs'
       - 'api/property-network.js'
+      - 'api/property-card-intel.js'
+      - 'tests/property_cards_dates.test.mjs'
       - 'api/operations-health.js'
       - 'scripts/verify_parcels_bulk.mjs'
       - 'tests/unified_react_contract.test.mjs'
@@ -21,6 +23,8 @@ on:
       - 'vercel.json'
       - 'scripts/build-web.mjs'
       - 'api/property-network.js'
+      - 'api/property-card-intel.js'
+      - 'tests/property_cards_dates.test.mjs'
       - 'api/operations-health.js'
       - 'scripts/verify_parcels_bulk.mjs'
       - '.github/workflows/gatekeeper-react-release.yml'
@@ -40,7 +44,7 @@ jobs:
       - name: Check source contract and honest degraded source-status semantics
         run: npm run test:frontend
       - name: Verify all 492+ actual official parcel identities are admitted
-        run: node --test tests/parcel_bulk.test.mjs tests/property_network.test.mjs
+        run: node --test tests/parcel_bulk.test.mjs tests/property_network.test.mjs tests/property_cards_dates.test.mjs
       - name: Build actual production React JavaScript bundles (not a static mock)
         run: npm run build
       - name: Assert built React files plus original evidence apps
@@ -48,5 +52,6 @@ jobs:
       - name: Verify all server API and cron JavaScript modules parse
         run: |
           node --check api/property-network.js
+          node --check api/property-card-intel.js
           node --check api/operations-health.js
           node --check scripts/verify_parcels_bulk.mjs
