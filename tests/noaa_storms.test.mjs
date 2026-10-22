@@ -18,3 +18,11 @@ test('county-only reports are never assigned property coordinates',()=>{
  const r=extract(csv,'NOAA.csv.gz',geo);
  assert.equal(r[0].geographic_confidence,'COUNTY_REPORT_ONLY');assert.equal(r[0].point_lat,null);
 });
+
+test('NOAA DD-MON-YY local source dates retain chronologically sortable evidence keys',()=>{
+ const csv='EVENT_ID,STATE,EVENT_TYPE,BEGIN_DATE_TIME,CZ_NAME,CZ_TYPE,BEGIN_LAT,BEGIN_LON,MAGNITUDE\n11,MINNESOTA,Hail,31-JUL-24 17:30:00,Dakota,C,44.8,-93.1,2\n12,MINNESOTA,Hail,01-JUN-26 17:30:00,Dakota,C,44.8,-93.1,1.5\n';
+ const r=extract(csv,'official.csv.gz',geo);
+ assert.equal(r[0].sort_key,'2024-07-31T17:30:00');
+ assert.equal(r[1].sort_key,'2026-06-01T17:30:00');
+ assert.ok(r[1].sort_key>r[0].sort_key);
+});
