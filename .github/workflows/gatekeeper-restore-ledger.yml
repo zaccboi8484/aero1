@@ -10,7 +10,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: gatekeeper-source-ledger-recovery
+  group: aeroleadai-15min-validator
   cancel-in-progress: false
 jobs:
   recover:
