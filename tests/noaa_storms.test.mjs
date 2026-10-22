@@ -16,7 +16,7 @@ test('NOAA hail inches and wind knots conversion have correct source semantics',
 test('county-only reports are never assigned property coordinates',()=>{
  const csv='EVENT_ID,STATE,EVENT_TYPE,BEGIN_DATE_TIME,CZ_NAME,CZ_TYPE,BEGIN_LAT,BEGIN_LON,MAGNITUDE\n900,MINNESOTA,Hail,01/01/2025,Dakota,C,,,1.5\n';
  const r=extract(csv,'NOAA.csv.gz',geo);
- assert.equal(r[0].geographic_confidence,'COUNTY_REPORT_ONLY');assert.equal(r[0].point_lat,null);
+ assert.equal(r[0].geographic_confidence,'COUNTY_CONTEXT_ONLY_NOT_ADDRESS_SPECIFIC');assert.equal(r[0].point_lat,null);
 });
 
 test('NOAA DD-MON-YY local source dates retain chronologically sortable evidence keys',()=>{
