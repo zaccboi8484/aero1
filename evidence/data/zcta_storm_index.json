@@ -1,0 +1,4219 @@
+{
+  "format": "GATEKEEPER_CENSUS_ZCTA_NOAA_POINTS_V1",
+  "generated_at_utc": "2026-10-22T23:32:52.598Z",
+  "source_zcta_layer": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Current/MapServer/2/query?f=json&geometry=%7B%22xmin%22%3A-93.2113474%2C%22xmax%22%3A-93.1319553%2C%22ymin%22%3A44.788338599999996%2C%22ymax%22%3A44.848973300000004%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ZCTA5&returnGeometry=true&resultRecordCount=250",
+  "zcta_boundary_vintage": "2020 Census",
+  "geographic_interpretation": "Census ZIP Code Tabulation Area (ZCTA) approximate USPS delivery ZIP, not proof of a postal ZIP for every address",
+  "noaa_run_at_utc": "2026-10-22T20:54:12.031Z",
+  "noaa_source_archive_count": 152,
+  "source_partial": false,
+  "census_polygon_count": 4,
+  "parcel_count": 593,
+  "parcels_mapped": 593,
+  "parcels_unmapped": 0,
+  "event_points_in_scope": 1,
+  "events_without_zip_point": 151,
+  "zip_areas": [
+    {
+      "zcta": "55122",
+      "geometry_sha256": "ea433c38d61a78dfc14d633a7f53debe58d4df3f87195d6e7b172e9567fbe489",
+      "report_points": 0
+    },
+    {
+      "zcta": "55425",
+      "geometry_sha256": "5a3f48b7803cf3746fd286e9fe4550870cc38b7f2d28df96a2af4849f3b82df4",
+      "report_points": 0
+    },
+    {
+      "zcta": "55121",
+      "geometry_sha256": "e3f1649ed091b9ff5cd601af4c2fc73add633dbeee3d3edaa0f013131c5e37a7",
+      "report_points": 0
+    },
+    {
+      "zcta": "55123",
+      "geometry_sha256": "12c009dd1655e06f21a918860da5dd16258fdf7f04e8f8a7c699d54be011e78d",
+      "report_points": 1
+    }
+  ],
+  "parcels": [
+    {
+      "parcel_objectid": "44001",
+      "county_pin": "104200101010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44002",
+      "county_pin": "104200101020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44003",
+      "county_pin": "104200101030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44004",
+      "county_pin": "104200101040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44005",
+      "county_pin": "104200101050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44006",
+      "county_pin": "104200101060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44007",
+      "county_pin": "104200101070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44008",
+      "county_pin": "104200101080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44009",
+      "county_pin": "104200101090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44010",
+      "county_pin": "104200101100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44011",
+      "county_pin": "104200101110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44012",
+      "county_pin": "104200101120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44013",
+      "county_pin": "104200101130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44014",
+      "county_pin": "104200101140",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44015",
+      "county_pin": "104200101150",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44016",
+      "county_pin": "104200101160",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44017",
+      "county_pin": "104200101170",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44018",
+      "county_pin": "104200101180",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44019",
+      "county_pin": "104200101190",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44020",
+      "county_pin": "104200101200",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44021",
+      "county_pin": "104200101210",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44022",
+      "county_pin": "104200101220",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44023",
+      "county_pin": "104200101230",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44024",
+      "county_pin": "104200101240",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44025",
+      "county_pin": "104200101250",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44026",
+      "county_pin": "104200101260",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44027",
+      "county_pin": "104200101270",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44028",
+      "county_pin": "104200101280",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44029",
+      "county_pin": "104200101290",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44030",
+      "county_pin": "104200101300",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44031",
+      "county_pin": "104200101310",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44032",
+      "county_pin": "104200102010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44033",
+      "county_pin": "104200102020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44034",
+      "county_pin": "104200102030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44035",
+      "county_pin": "104200102040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44036",
+      "county_pin": "104200102050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44037",
+      "county_pin": "104200102060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44038",
+      "county_pin": "104200102070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44039",
+      "county_pin": "104200102080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44040",
+      "county_pin": "104200102090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44041",
+      "county_pin": "104200102100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44042",
+      "county_pin": "104200102110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44043",
+      "county_pin": "104200102120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44044",
+      "county_pin": "104200102130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44045",
+      "county_pin": "104200102140",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44046",
+      "county_pin": "104200102150",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44047",
+      "county_pin": "104200102160",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44048",
+      "county_pin": "104200102170",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44049",
+      "county_pin": "104200102180",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44050",
+      "county_pin": "104200102190",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44051",
+      "county_pin": "104200102200",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44052",
+      "county_pin": "104200102210",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44053",
+      "county_pin": "104200102220",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44054",
+      "county_pin": "104200102230",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44055",
+      "county_pin": "104200102240",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44056",
+      "county_pin": "104200102250",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44057",
+      "county_pin": "104200201010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44058",
+      "county_pin": "104200201020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44059",
+      "county_pin": "104200201030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "44060",
+      "county_pin": "104200201040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36133",
+      "county_pin": "101440102150",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34742",
+      "county_pin": "100160080021",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34729",
+      "county_pin": "100150052050",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36136",
+      "county_pin": "101440102180",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36132",
+      "county_pin": "101440102140",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36125",
+      "county_pin": "101440102070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36126",
+      "county_pin": "101440102080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34728",
+      "county_pin": "100150052040",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36131",
+      "county_pin": "101440102130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36045",
+      "county_pin": "101439501120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36137",
+      "county_pin": "101440102190",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36046",
+      "county_pin": "101439501130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36124",
+      "county_pin": "101440102060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36127",
+      "county_pin": "101440102090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34727",
+      "county_pin": "100150052030",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36130",
+      "county_pin": "101440102120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36138",
+      "county_pin": "101440102200",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36123",
+      "county_pin": "101440102050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36044",
+      "county_pin": "101439501110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36047",
+      "county_pin": "101439501140",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36122",
+      "county_pin": "101440102040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36128",
+      "county_pin": "101440102100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36139",
+      "county_pin": "101440102210",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36043",
+      "county_pin": "101439501100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36129",
+      "county_pin": "101440102110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36048",
+      "county_pin": "101439501150",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36121",
+      "county_pin": "101440102030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36113",
+      "county_pin": "101440101020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36140",
+      "county_pin": "101440102220",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36042",
+      "county_pin": "101439501090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36120",
+      "county_pin": "101440102020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36049",
+      "county_pin": "101439501160",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36041",
+      "county_pin": "101439501080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36114",
+      "county_pin": "101440101030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36040",
+      "county_pin": "101439501070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36141",
+      "county_pin": "101440102230",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36112",
+      "county_pin": "101440101010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36142",
+      "county_pin": "101440102240",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36119",
+      "county_pin": "101440102010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34740",
+      "county_pin": "100160079013",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36115",
+      "county_pin": "101440101040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36090",
+      "county_pin": "101440002010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36039",
+      "county_pin": "101439501060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34741",
+      "county_pin": "100160079040",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36091",
+      "county_pin": "101440002020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36143",
+      "county_pin": "101440102250",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36089",
+      "county_pin": "101440001090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36092",
+      "county_pin": "101440002030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36051",
+      "county_pin": "101439501180",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36116",
+      "county_pin": "101440101050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36038",
+      "county_pin": "101439501050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36117",
+      "county_pin": "101440101060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36093",
+      "county_pin": "101440002040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36053",
+      "county_pin": "101439501200",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36052",
+      "county_pin": "101439501190",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36144",
+      "county_pin": "101440102260",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36088",
+      "county_pin": "101440001080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36050",
+      "county_pin": "101439501170",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36100",
+      "county_pin": "101440002110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36118",
+      "county_pin": "101440101070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36086",
+      "county_pin": "101440001060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36094",
+      "county_pin": "101440002050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36054",
+      "county_pin": "101439501210",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36037",
+      "county_pin": "101439501040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36087",
+      "county_pin": "101440001070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36099",
+      "county_pin": "101440002100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36111",
+      "county_pin": "101440002220",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36095",
+      "county_pin": "101440002060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35945",
+      "county_pin": "101435201170",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36101",
+      "county_pin": "101440002120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36055",
+      "county_pin": "101439501220",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36098",
+      "county_pin": "101440002090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36110",
+      "county_pin": "101440002210",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36036",
+      "county_pin": "101439501030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35944",
+      "county_pin": "101435201160",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34840",
+      "county_pin": "100210008020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36085",
+      "county_pin": "101440001050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36102",
+      "county_pin": "101440002130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36056",
+      "county_pin": "101439501230",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35943",
+      "county_pin": "101435201150",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34739",
+      "county_pin": "100160077010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36109",
+      "county_pin": "101440002200",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36084",
+      "county_pin": "101440001040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36082",
+      "county_pin": "101440001020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36096",
+      "county_pin": "101440002070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35956",
+      "county_pin": "101435202110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36035",
+      "county_pin": "101439501020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36097",
+      "county_pin": "101440002080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36083",
+      "county_pin": "101440001030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36057",
+      "county_pin": "101439501240",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35657",
+      "county_pin": "101417502010",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35942",
+      "county_pin": "101435201140",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35656",
+      "county_pin": "101417501120",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36108",
+      "county_pin": "101440002190",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36081",
+      "county_pin": "101440001010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36103",
+      "county_pin": "101440002140",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35957",
+      "county_pin": "101435202120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35658",
+      "county_pin": "101417502020",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35955",
+      "county_pin": "101435202100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36058",
+      "county_pin": "101439501250",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36034",
+      "county_pin": "101439501010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36107",
+      "county_pin": "101440002180",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35941",
+      "county_pin": "101435201130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35655",
+      "county_pin": "101417501110",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36059",
+      "county_pin": "101439501260",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36060",
+      "county_pin": "101439501270",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35958",
+      "county_pin": "101435202130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35659",
+      "county_pin": "101417502030",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35954",
+      "county_pin": "101435202090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36104",
+      "county_pin": "101440002150",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36032",
+      "county_pin": "101439500010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36061",
+      "county_pin": "101439501280",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35654",
+      "county_pin": "101417501100",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36106",
+      "county_pin": "101440002170",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35959",
+      "county_pin": "101435202140",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35660",
+      "county_pin": "101417502040",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35953",
+      "county_pin": "101435202080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35940",
+      "county_pin": "101435201120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36062",
+      "county_pin": "101439501290",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35653",
+      "county_pin": "101417501090",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34851",
+      "county_pin": "100220050014",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36069",
+      "county_pin": "101439502010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36105",
+      "county_pin": "101440002160",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35717",
+      "county_pin": "101417506170",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35960",
+      "county_pin": "101435202150",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35661",
+      "county_pin": "101417502050",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35652",
+      "county_pin": "101417501080",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36063",
+      "county_pin": "101439501300",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35961",
+      "county_pin": "101435202160",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36070",
+      "county_pin": "101439502020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35939",
+      "county_pin": "101435201110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35952",
+      "county_pin": "101435202070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35950",
+      "county_pin": "101435202050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35951",
+      "county_pin": "101435202060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35662",
+      "county_pin": "101417502060",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35651",
+      "county_pin": "101417501070",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35949",
+      "county_pin": "101435202040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36071",
+      "county_pin": "101439502030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35702",
+      "county_pin": "101417506020",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35703",
+      "county_pin": "101417506030",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35701",
+      "county_pin": "101417506010",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35663",
+      "county_pin": "101417502070",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35948",
+      "county_pin": "101435202030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35716",
+      "county_pin": "101417506160",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35650",
+      "county_pin": "101417501060",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35962",
+      "county_pin": "101435202170",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35963",
+      "county_pin": "101435202180",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35704",
+      "county_pin": "101417506040",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36064",
+      "county_pin": "101439501310",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36076",
+      "county_pin": "101439502080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35938",
+      "county_pin": "101435201100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35664",
+      "county_pin": "101417502080",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35947",
+      "county_pin": "101435202020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35705",
+      "county_pin": "101417506050",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35649",
+      "county_pin": "101417501050",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35673",
+      "county_pin": "101417502170",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36072",
+      "county_pin": "101439502040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36065",
+      "county_pin": "101439501320",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35706",
+      "county_pin": "101417506060",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35665",
+      "county_pin": "101417502090",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35672",
+      "county_pin": "101417502160",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35648",
+      "county_pin": "101417501040",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35946",
+      "county_pin": "101435202010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36075",
+      "county_pin": "101439502070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35707",
+      "county_pin": "101417506070",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35935",
+      "county_pin": "101435201070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35671",
+      "county_pin": "101417502150",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35666",
+      "county_pin": "101417502100",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35715",
+      "county_pin": "101417506150",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35849",
+      "county_pin": "101435001330",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35934",
+      "county_pin": "101435201060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34852",
+      "county_pin": "100220051020",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36077",
+      "county_pin": "101439502090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35845",
+      "county_pin": "101435001290",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35647",
+      "county_pin": "101417501030",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35670",
+      "county_pin": "101417502140",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35846",
+      "county_pin": "101435001300",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36073",
+      "county_pin": "101439502050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35848",
+      "county_pin": "101435001320",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35937",
+      "county_pin": "101435201090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35933",
+      "county_pin": "101435201050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35708",
+      "county_pin": "101417506080",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36066",
+      "county_pin": "101439501330",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35847",
+      "county_pin": "101435001310",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35932",
+      "county_pin": "101435201040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35931",
+      "county_pin": "101435201030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36078",
+      "county_pin": "101439502100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35844",
+      "county_pin": "101435001280",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35669",
+      "county_pin": "101417502130",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36074",
+      "county_pin": "101439502060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35685",
+      "county_pin": "101417505010",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35646",
+      "county_pin": "101417501020",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35936",
+      "county_pin": "101435201080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35686",
+      "county_pin": "101417505020",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35668",
+      "county_pin": "101417502120",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35930",
+      "county_pin": "101435201020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36079",
+      "county_pin": "101439502110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35843",
+      "county_pin": "101435001270",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35709",
+      "county_pin": "101417506090",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35687",
+      "county_pin": "101417505030",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34724",
+      "county_pin": "100150051040",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35837",
+      "county_pin": "101435001210",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35667",
+      "county_pin": "101417502110",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36067",
+      "county_pin": "101439501340",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35645",
+      "county_pin": "101417501010",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35842",
+      "county_pin": "101435001260",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35838",
+      "county_pin": "101435001220",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35684",
+      "county_pin": "101417504060",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35839",
+      "county_pin": "101435001230",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35688",
+      "county_pin": "101417505040",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35836",
+      "county_pin": "101435001200",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35840",
+      "county_pin": "101435001240",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35929",
+      "county_pin": "101435201010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35710",
+      "county_pin": "101417506100",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36068",
+      "county_pin": "101439501350",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35714",
+      "county_pin": "101417506140",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35683",
+      "county_pin": "101417504050",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34725",
+      "county_pin": "100150051060",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35689",
+      "county_pin": "101417505050",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35835",
+      "county_pin": "101435001190",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35841",
+      "county_pin": "101435001250",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35859",
+      "county_pin": "101435003030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35681",
+      "county_pin": "101417504030",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35124",
+      "county_pin": "101130001020",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35682",
+      "county_pin": "101417504040",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35711",
+      "county_pin": "101417506110",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35690",
+      "county_pin": "101417505060",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34843",
+      "county_pin": "100210026010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35834",
+      "county_pin": "101435001180",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35858",
+      "county_pin": "101435003020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35678",
+      "county_pin": "101417503050",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35973",
+      "county_pin": "101438001100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35712",
+      "county_pin": "101417506120",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35691",
+      "county_pin": "101417505070",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35825",
+      "county_pin": "101435001090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35833",
+      "county_pin": "101435001170",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35826",
+      "county_pin": "101435001100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35680",
+      "county_pin": "101417504020",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34726",
+      "county_pin": "100150051081",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35857",
+      "county_pin": "101435003010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35674",
+      "county_pin": "101417503010",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35675",
+      "county_pin": "101417503020",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35676",
+      "county_pin": "101417503030",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35713",
+      "county_pin": "101417506130",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35827",
+      "county_pin": "101435001110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35824",
+      "county_pin": "101435001080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35692",
+      "county_pin": "101417505080",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35860",
+      "county_pin": "101435003040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35677",
+      "county_pin": "101417503040",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35828",
+      "county_pin": "101435001120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35971",
+      "county_pin": "101438001080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35679",
+      "county_pin": "101417504010",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35887",
+      "county_pin": "101435103010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35972",
+      "county_pin": "101438001090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35823",
+      "county_pin": "101435001070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34853",
+      "county_pin": "100220054014",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35832",
+      "county_pin": "101435001160",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35829",
+      "county_pin": "101435001130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35697",
+      "county_pin": "101417505130",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35856",
+      "county_pin": "101435002070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35693",
+      "county_pin": "101417505090",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35888",
+      "county_pin": "101435103020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35822",
+      "county_pin": "101435001060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35831",
+      "county_pin": "101435001150",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35698",
+      "county_pin": "101417505140",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35861",
+      "county_pin": "101435003050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35821",
+      "county_pin": "101435001050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35830",
+      "county_pin": "101435001140",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35927",
+      "county_pin": "101435104110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35889",
+      "county_pin": "101435103030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35696",
+      "county_pin": "101417505120",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35855",
+      "county_pin": "101435002060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35694",
+      "county_pin": "101417505100",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35820",
+      "county_pin": "101435001040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35926",
+      "county_pin": "101435104100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35882",
+      "county_pin": "101435102120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35819",
+      "county_pin": "101435001030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35699",
+      "county_pin": "101417505150",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35890",
+      "county_pin": "101435103040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35695",
+      "county_pin": "101417505110",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35854",
+      "county_pin": "101435002050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35970",
+      "county_pin": "101438001070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35883",
+      "county_pin": "101435102130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35862",
+      "county_pin": "101435003060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35818",
+      "county_pin": "101435001020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35925",
+      "county_pin": "101435104090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35853",
+      "county_pin": "101435002040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35700",
+      "county_pin": "101417505160",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35891",
+      "county_pin": "101435103050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35852",
+      "county_pin": "101435002030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35545",
+      "county_pin": "101352501010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34844",
+      "county_pin": "100210027022",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35924",
+      "county_pin": "101435104080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35817",
+      "county_pin": "101435001010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35881",
+      "county_pin": "101435102110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35884",
+      "county_pin": "101435102140",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35630",
+      "county_pin": "101380001040",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35851",
+      "county_pin": "101435002020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35892",
+      "county_pin": "101435103060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35923",
+      "county_pin": "101435104070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35863",
+      "county_pin": "101435003070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35850",
+      "county_pin": "101435002010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35885",
+      "county_pin": "101435102150",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35969",
+      "county_pin": "101438001060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35922",
+      "county_pin": "101435104060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35880",
+      "county_pin": "101435102100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35921",
+      "county_pin": "101435104050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35893",
+      "county_pin": "101435103070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35886",
+      "county_pin": "101435102160",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35920",
+      "county_pin": "101435104040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35917",
+      "county_pin": "101435104010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35631",
+      "county_pin": "101380001050",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35879",
+      "county_pin": "101435102090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35918",
+      "county_pin": "101435104020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35629",
+      "county_pin": "101380001030",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35919",
+      "county_pin": "101435104030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35878",
+      "county_pin": "101435102080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35894",
+      "county_pin": "101435103080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35864",
+      "county_pin": "101435003080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35628",
+      "county_pin": "101380001020",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35994",
+      "county_pin": "101438501040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35877",
+      "county_pin": "101435102070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35627",
+      "county_pin": "101380001010",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35895",
+      "county_pin": "101435103090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35968",
+      "county_pin": "101438001050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35876",
+      "county_pin": "101435102062",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35896",
+      "county_pin": "101435103100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35902",
+      "county_pin": "101435103160",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35875",
+      "county_pin": "101435102061",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34850",
+      "county_pin": "100220004013",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35901",
+      "county_pin": "101435103150",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35993",
+      "county_pin": "101438501030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35897",
+      "county_pin": "101435103110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35900",
+      "county_pin": "101435103140",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35874",
+      "county_pin": "101435102040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35898",
+      "county_pin": "101435103120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35899",
+      "county_pin": "101435103130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35903",
+      "county_pin": "101435103170",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35865",
+      "county_pin": "101435003090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35967",
+      "county_pin": "101438001040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35873",
+      "county_pin": "101435102030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35904",
+      "county_pin": "101435103180",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35552",
+      "county_pin": "101372501020",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35986",
+      "county_pin": "101438102050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35905",
+      "county_pin": "101435103190",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35992",
+      "county_pin": "101438501020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35872",
+      "county_pin": "101435102020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35906",
+      "county_pin": "101435103200",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34731",
+      "county_pin": "100150076014",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35871",
+      "county_pin": "101435102010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35866",
+      "county_pin": "101435003100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35907",
+      "county_pin": "101435103210",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35966",
+      "county_pin": "101438001033",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35551",
+      "county_pin": "101372501010",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35987",
+      "county_pin": "101438102060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35908",
+      "county_pin": "101435103220",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35985",
+      "county_pin": "101438102040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35965",
+      "county_pin": "101438001023",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35991",
+      "county_pin": "101438501010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36022",
+      "county_pin": "101438703030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35909",
+      "county_pin": "101435103230",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36021",
+      "county_pin": "101438703020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35870",
+      "county_pin": "101435101040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36020",
+      "county_pin": "101438703010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35869",
+      "county_pin": "101435101030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35984",
+      "county_pin": "101438102030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34848",
+      "county_pin": "100210051012",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35910",
+      "county_pin": "101435103240",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34847",
+      "county_pin": "100210050012",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35988",
+      "county_pin": "101438102070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35981",
+      "county_pin": "101438101080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35868",
+      "county_pin": "101435101020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35964",
+      "county_pin": "101438001012",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36007",
+      "county_pin": "101438701120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36018",
+      "county_pin": "101438702110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36019",
+      "county_pin": "101438702120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35867",
+      "county_pin": "101435101010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35983",
+      "county_pin": "101438102020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35911",
+      "county_pin": "101435103250",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35980",
+      "county_pin": "101438101070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36017",
+      "county_pin": "101438702100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34857",
+      "county_pin": "100220081010",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36006",
+      "county_pin": "101438701110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36188",
+      "county_pin": "101480001170",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36187",
+      "county_pin": "101480001160",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35982",
+      "county_pin": "101438102010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36016",
+      "county_pin": "101438702090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36186",
+      "county_pin": "101480001150",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36005",
+      "county_pin": "101438701100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35916",
+      "county_pin": "101435103300",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35979",
+      "county_pin": "101438101060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35912",
+      "county_pin": "101435103260",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36185",
+      "county_pin": "101480001140",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36184",
+      "county_pin": "101480001130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36183",
+      "county_pin": "101480001120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36004",
+      "county_pin": "101438701090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36015",
+      "county_pin": "101438702080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36182",
+      "county_pin": "101480001110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36014",
+      "county_pin": "101438702070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35913",
+      "county_pin": "101435103270",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36181",
+      "county_pin": "101480001100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36180",
+      "county_pin": "101480001090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36179",
+      "county_pin": "101480001080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35978",
+      "county_pin": "101438101050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35976",
+      "county_pin": "101438101030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36003",
+      "county_pin": "101438701080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36178",
+      "county_pin": "101480001070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36177",
+      "county_pin": "101480001060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36013",
+      "county_pin": "101438702060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36176",
+      "county_pin": "101480001050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35914",
+      "county_pin": "101435103280",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36002",
+      "county_pin": "101438701070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35977",
+      "county_pin": "101438101040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36175",
+      "county_pin": "101480001040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36174",
+      "county_pin": "101480001030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36012",
+      "county_pin": "101438702050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36173",
+      "county_pin": "101480001020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36001",
+      "county_pin": "101438701060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36172",
+      "county_pin": "101480001010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35915",
+      "county_pin": "101435103290",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35975",
+      "county_pin": "101438101020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34821",
+      "county_pin": "100200075066",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36011",
+      "county_pin": "101438702040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36000",
+      "county_pin": "101438701050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36010",
+      "county_pin": "101438702030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34823",
+      "county_pin": "100200075070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35999",
+      "county_pin": "101438701040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35974",
+      "county_pin": "101438101010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34822",
+      "county_pin": "100200075067",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34818",
+      "county_pin": "100200075020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "36009",
+      "county_pin": "101438702020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35642",
+      "county_pin": "101400601010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35639",
+      "county_pin": "101400401010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34814",
+      "county_pin": "100200003010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35638",
+      "county_pin": "101400301020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35637",
+      "county_pin": "101400301010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34820",
+      "county_pin": "100200075062",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34817",
+      "county_pin": "100200075012",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35091",
+      "county_pin": "101050001010",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34755",
+      "county_pin": "100170075050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34819",
+      "county_pin": "100200075040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34752",
+      "county_pin": "100170075012",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34754",
+      "county_pin": "100170075040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35634",
+      "county_pin": "101400101010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34753",
+      "county_pin": "100170075030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35633",
+      "county_pin": "101400001011",
+      "zcta": "55121",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35635",
+      "county_pin": "101400201010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35636",
+      "county_pin": "101400201020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35725",
+      "county_pin": "101430000061",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34751",
+      "county_pin": "100170075011",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35724",
+      "county_pin": "101430000050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35723",
+      "county_pin": "101430000041",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35722",
+      "county_pin": "101430000040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35726",
+      "county_pin": "101430000062",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35721",
+      "county_pin": "101430000030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35720",
+      "county_pin": "101430000020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35727",
+      "county_pin": "101430101010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35728",
+      "county_pin": "101430101020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35729",
+      "county_pin": "101430101030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34854",
+      "county_pin": "100220075020",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35730",
+      "county_pin": "101430101040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35731",
+      "county_pin": "101430101050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35732",
+      "county_pin": "101430101060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35733",
+      "county_pin": "101430101070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35123",
+      "county_pin": "101125001010",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35734",
+      "county_pin": "101430101080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35738",
+      "county_pin": "101430101130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35737",
+      "county_pin": "101430101120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35736",
+      "county_pin": "101430101110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35735",
+      "county_pin": "101430101100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35751",
+      "county_pin": "101430201140",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35750",
+      "county_pin": "101430201130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35749",
+      "county_pin": "101430201120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35748",
+      "county_pin": "101430201110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35743",
+      "county_pin": "101430201050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35757",
+      "county_pin": "101430401041",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35742",
+      "county_pin": "101430201040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35747",
+      "county_pin": "101430201100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35769",
+      "county_pin": "101432502060",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34863",
+      "county_pin": "100230050010",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35741",
+      "county_pin": "101430201030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35746",
+      "county_pin": "101430201090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35740",
+      "county_pin": "101430201020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35756",
+      "county_pin": "101430401031",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35739",
+      "county_pin": "101430201010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35745",
+      "county_pin": "101430201080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35768",
+      "county_pin": "101432502050",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34864",
+      "county_pin": "100230050020",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35744",
+      "county_pin": "101430201070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35755",
+      "county_pin": "101430401021",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35767",
+      "county_pin": "101432502040",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35753",
+      "county_pin": "101430301020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35754",
+      "county_pin": "101430401011",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35752",
+      "county_pin": "101430301010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35766",
+      "county_pin": "101432502030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35351",
+      "county_pin": "101334501010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35765",
+      "county_pin": "101432502020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34825",
+      "county_pin": "100200077010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35338",
+      "county_pin": "101315001010",
+      "zcta": "55121",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35816",
+      "county_pin": "101432503240",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35764",
+      "county_pin": "101432502010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35810",
+      "county_pin": "101432503180",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34829",
+      "county_pin": "100200078030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34746",
+      "county_pin": "100170001012",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35809",
+      "county_pin": "101432503170",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35770",
+      "county_pin": "101432502070",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35808",
+      "county_pin": "101432503160",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34760",
+      "county_pin": "100170078030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35339",
+      "county_pin": "101315101010",
+      "zcta": "55121",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35807",
+      "county_pin": "101432503150",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35815",
+      "county_pin": "101432503230",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35771",
+      "county_pin": "101432502080",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35806",
+      "county_pin": "101432503140",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34759",
+      "county_pin": "100170078020",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35811",
+      "county_pin": "101432503190",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35772",
+      "county_pin": "101432502090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35812",
+      "county_pin": "101432503200",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35813",
+      "county_pin": "101432503210",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35803",
+      "county_pin": "101432503110",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35805",
+      "county_pin": "101432503130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35773",
+      "county_pin": "101432502100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34827",
+      "county_pin": "100200078010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35340",
+      "county_pin": "101315101020",
+      "zcta": "55121",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35802",
+      "county_pin": "101432503100",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35804",
+      "county_pin": "101432503120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34721",
+      "county_pin": "100150002010",
+      "zcta": "55123",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35776",
+      "county_pin": "101432502130",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34758",
+      "county_pin": "100170078010",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35814",
+      "county_pin": "101432503220",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35775",
+      "county_pin": "101432502120",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34693",
+      "county_pin": "100100056020",
+      "zcta": "55121",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "34826",
+      "county_pin": "100200077030",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    },
+    {
+      "parcel_objectid": "35801",
+      "county_pin": "101432503090",
+      "zcta": "55122",
+      "geographic_method": "2020_CENSUS_ZCTA_CENTROID_OVERLAY",
+      "no_usps_delivery_verification": true
+    }
+  ],
+  "events_by_zip": [
+    {
+      "zcta": "55123",
+      "report_count": 1,
+      "reports": [
+        {
+          "event_id": "1212558",
+          "date": "2024-08-29",
+          "local_time": "15:56:00",
+          "source_date_text": "29-AUG-24 15:56:00",
+          "event_type": "THUNDERSTORM WIND",
+          "zcta": "55123",
+          "hail_inches": null,
+          "wind_mph": 59.8,
+          "point_lat": 44.79,
+          "point_lon": -93.12,
+          "source_archive": "StormEvents_details-ftp_v1.0_d2024_c20260728.csv.gz",
+          "county": "DAKOTA",
+          "report_classification": "NWS_REPORTED_POINT_WITHIN_CENSUS_ZCTA",
+          "not_a_storm_footprint": true,
+          "not_confirmed_at_any_particular_roof": true
+        }
+      ]
+    }
+  ],
+  "evidence_meaning": "An actual NOAA event point was recorded inside a Census ZCTA on its reported date. It does not establish that the entire ZIP or any specific roof was struck.",
+  "not_a_property_storm_damage_certification": true,
+  "no_storm_footprint_claim": true
+}
