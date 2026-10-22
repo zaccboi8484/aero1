@@ -1,8 +1,13 @@
 name: GateKeeper official Census ZIP-area / NOAA storm point index
 on:
+  workflow_run:
+    workflows:
+      - GateKeeper authoritative NOAA storm events
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: '19 11 * * *'
+    - cron: '19 */2 * * *'
   push:
     branches: [main]
     paths:
@@ -12,10 +17,11 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: gatekeeper-census-zcta-noaa-overlay
+  group: gatekeeper-noaa-zip-evidence
   cancel-in-progress: false
 jobs:
   overlay:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
