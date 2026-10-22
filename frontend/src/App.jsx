@@ -20,7 +20,7 @@ const shortDate=s=>{if(!/^\d{4}-\d{2}-\d{2}$/.test(String(s||'')))return null;
  return Number.isFinite(d.getTime())?new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'}).format(d):null;
 };
 
-const trusted=url=>{try{const u=new URL(url);return u.protocol==='https:'&&['arcgis.metc.state.mn.us','imageserver.gisdata.mn.gov','gis.cityofeagan.com','eagan.onlama.com','www.eaganmn.gov','www.ncei.noaa.gov','github.com','mn.gov'].includes(u.hostname)}catch{return false}};
+const trusted=url=>{try{const u=new URL(url);return u.protocol==='https:'&&['tigerweb.geo.census.gov','arcgis.metc.state.mn.us','imageserver.gisdata.mn.gov','gis.cityofeagan.com','eagan.onlama.com','www.eaganmn.gov','www.ncei.noaa.gov','github.com','mn.gov'].includes(u.hostname)}catch{return false}};
 function SourceLink({url,children}){return trusted(url)?<a className="source-link" href={url} target="_blank" rel="noreferrer">{children}<ExternalLink size={13}/></a>:null}
 function Status({children,type='neutral'}){return <span className={'status '+type}>{children}</span>}
 function Sidebar({active,onNavigate,open,onClose}){return <><div className={'scrim '+(open?'show':'')} onClick={onClose}/><aside className={'sidebar '+(open?'open':'')}>
@@ -102,6 +102,16 @@ function PropertyIndexCards({records,onPick,pageSize=30}){
        'Not a confirmed property hit':'No report is not proof of no storm'}</small>
     </div>
    </div>
+   <div className="zip-source-band"><div>
+    <span className="zip-source-label"><CloudLightning size={14}/>NOAA REPORTED POINT IN ZIP-AREA</span>
+    <strong>{p.censusZcta?'Census ZCTA '+p.censusZcta:'ZIP area pending official mapping'}</strong>
+   </div><div><b>{p.latestZipStorm?shortDate(p.latestZipStorm.date)||p.latestZipStorm.date:
+     p.zipAreaStormStatus==='ZIP_AREA_INDEX_STALE'?'ZIP overlay source stale':
+     p.zipAreaStormStatus==='ZIP_AREA_INDEX_PENDING'?'Census ZIP overlay pending':
+     'No sourced NOAA point in ZIP-area'}</b>
+    <small>{p.latestZipStorm?p.latestZipStorm.kind+' · point reported inside ZIP-area':
+      '2020 Census ZIP approximation · not verified roof impact'}</small>
+   </div></div>
    <div className="roof-needs-card"><div className="roof-needs-top"><span><ShieldAlert size={15}/>ROOF REVIEW NEEDS</span><span className="roof-status">UNVERIFIED</span></div>
     <strong>{roof.headline||'Roof inspection and records required'}</strong>
     <div className="roof-need-tags">{(roof.needs||[]).slice(0,3).map(item=><span key={item.code}>{item.label}</span>)}</div>
@@ -135,6 +145,8 @@ function EvidenceDrawer({p,onClose}){useEffect(()=>{const fn=e=>{if(e.key==='Esc
  ['Latest permit report',p.permitFacts?.latestDate?(shortDate(p.permitFacts.latestDate)+' · '+p.permitFacts.latestNumber):'None dated in imported exports'],
  ['Latest nearby NOAA report',p.stormFacts?.latestDate?(shortDate(p.stormFacts.latestDate)+' · '+p.stormFacts.latestType+' · '+p.stormFacts.latestDistanceKm+' km'):'No dated point report in loaded years'],
  ['Roof review needs',p.roofNeeds?.headline||'Condition inspection / roofing history needed'],
+ ['2020 Census ZIP area (not postal-certified)',p.censusZcta||'Not mapped'],
+ ['Reported NOAA storm point inside ZIP-area',label(p.zipAreaStormStatus)],
  ['City permit portal',label(p.municipalPermitStatus)],['Municipal historic completeness','Unknown'],['Regional permit query',label(p.regionalPermitStatus)],['Imagery',p.aerialSourceVerified?'Official JPEG checksum verified; usage rights need review':'No verified JPEG source'] ];
  return <div className="drawer-screen" onClick={onClose}><aside role="dialog" aria-modal="true" aria-label={'Evidence for '+p.address} className="drawer" onClick={e=>e.stopPropagation()}>
  <div className="drawer-top"><span className="eyebrow">PROPERTY EVIDENCE · GATEKEEPER</span><button onClick={onClose} aria-label="Close details"><X size={19}/></button></div>
@@ -145,6 +157,15 @@ function EvidenceDrawer({p,onClose}){useEffect(()=>{const fn=e=>{if(e.key==='Esc
  <h3>Roof assessment tasks · not a damage verdict</h3>
  <div className="roof-action-list">{(p.roofNeeds?.needs||[]).map(item=><div key={item.code}><CheckCircle2 size={14}/>{item.label}</div>)}</div>
  <h3>Nearby reported storm points</h3>{p.stormReports.length?<div className="stack">{p.stormReports.slice(0,8).map(x=><div className="evidence-entry" key={x.id}><b>{x.kind} · {x.distanceKm} km</b><small>{shortDate(x.sortKey?.slice(0,10))||x.date} {x.hailInches==null?'':'· '+x.hailInches+' in hail'} {x.windMph==null?'':'· '+x.windMph+' mph wind'}</small><small>Source observation only. No verified parcel impact.</small></div>)}</div>:<p className="subtle">No nearby point records in the currently imported NOAA dataset. This does not establish an absence of storms.</p>}
+ <h3>Dated NOAA storm reports inside Census ZIP-area</h3>
+ <p className="subtle">Census ZCTA areas approximate USPS ZIP Codes. A genuine NOAA point in the ZCTA confirms a reported event location there, not that the entire ZIP or this specific roof was struck.</p>
+ {(p.zipAreaStormReports||[]).length?
+  <div className="stack">{p.zipAreaStormReports.map(e=><div key={e.id} className="evidence-entry">
+   <b>{e.kind} · {shortDate(e.date)||e.date}</b>
+   <small>{e.hailInches===null?'':e.hailInches+' in reported hail · '}{e.windMph===null?'':e.windMph+' mph reported wind · '} NOAA point in Census ZIP-area</small>
+   <SourceLink url={e.sourceUrl}>NOAA original archive</SourceLink>
+  </div>)}</div>:
+  <p className="subtle">No dated NOAA point currently assigned to this Census ZIP-area, or the official overlay is pending.</p>}
  <div className="drawer-links"><SourceLink url={p.parcelSource}>Official parcel record</SourceLink><SourceLink url={p.regionalSource}>Regional permit source</SourceLink><SourceLink url={p.aerialSource}>Government WMS image</SourceLink><SourceLink url="https://eagan.onlama.com/Search.aspx">Search City permit portal</SourceLink></div>
  </aside></div>
 }
@@ -202,7 +223,7 @@ export default function App(){
  const filtered=useMemo(()=>records.filter(p=>{
   if(text&&!((p.address+' '+p.pin).toLowerCase().includes(text.toLowerCase())))return false;
   return scope==='all'||scope==='original'&&p.ring===0||scope==='rings'&&p.ring>0||scope==='permits'&&p.permits.length>0||
-   scope==='storms'&&p.stormReports.length>0;
+   scope==='storms'&&p.stormReports.length>0||scope==='zipstorm'&&p.zipAreaStormReports?.length>0;
  }),[records,text,scope]);
  const select=useCallback(id=>setChosen(id),[]);
  const selected=records.find(p=>p.id===chosen)||null;
@@ -212,7 +233,7 @@ export default function App(){
  <Stat icon={FileCheck2} title="PERMIT EXPORT MATCHES" value={fmt(counts.municipalReportPermits||0)} detail={fmt(counts.municipalReportProperties||0)+' properties · issuer review pending'} onClick={()=>setTab('permits')}/>
  <Stat icon={CloudLightning} title="NOAA HISTORICAL EVENTS" value={network?.stormRunAt?fmt(counts.historicalStormReports||0):'Pending'} detail="Storm reports, not parcel damage" onClick={()=>setTab('storms')}/></div>;
  const searchBar=<div className="tools"><label className="search"><Search size={17}/><input value={text} onChange={e=>setText(e.target.value)} placeholder="Search all addresses and county PINs" aria-label="Search property addresses and county PINs"/></label>
- <label className="filter"><Filter size={16}/><select value={scope} onChange={e=>setScope(e.target.value)} aria-label="Filter property records"><option value="all">All discovered</option><option value="original">First research batch</option><option value="rings">Expansion rings</option><option value="permits">Permit candidates</option><option value="storms">Nearby NOAA reports</option></select></label></div>;
+ <label className="filter"><Filter size={16}/><select value={scope} onChange={e=>setScope(e.target.value)} aria-label="Filter property records"><option value="all">All discovered</option><option value="original">First research batch</option><option value="rings">Expansion rings</option><option value="permits">Permit candidates</option><option value="storms">Nearby NOAA reports</option><option value="zipstorm">NOAA report within ZIP-area</option></select></label></div>;
  return <div className="app"><Sidebar active={tab} onNavigate={setTab} open={menu} onClose={()=>setMenu(false)}/><main className="main">
  <header className="topbar"><div className="breadcrumb"><button className="menubutton" onClick={()=>setMenu(true)} aria-label="Open menu"><Menu size={19}/></button><span>OPERATIONS</span><span className="breadslash">/</span><b>{TABS.find(x=>x.id===tab)?.label}</b></div><div className="top-actions"><span className={'top-connection '+(state==='LIVE'?'connected':'')}><span/>{state==='LIVE'?'SOURCE DATA LIVE':state==='STALE_ERROR'?'SOURCE ERROR':'CHECKING SOURCES'}</span><button onClick={reload} className="refresh" aria-label="Refresh evidence sources"><RefreshCw size={16}/> Refresh</button></div></header>
  <div className="content"><div className="hero"><div><span className="eyebrow"><span className="smallpulse"/> AEROLEADAI · INDEPENDENT GATEKEEPER</span><h1>{tab==='overview'?'Property intelligence command center':TABS.find(x=>x.id===tab)?.label}</h1><p>Autonomous discovery. Real source provenance. No Base44 dependence. Unknown findings stay unknown.</p></div><div className="hero-tag"><Activity size={17}/>{date(network?.sourceRunAt)}</div></div>
