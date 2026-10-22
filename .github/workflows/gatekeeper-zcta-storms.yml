@@ -1,0 +1,38 @@
+name: GateKeeper official Census ZIP-area / NOAA storm point index
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 11 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_zip_storm_index.mjs'
+      - 'tests/zcta_storm_index.test.mjs'
+      - '.github/workflows/gatekeeper-zcta-storms.yml'
+permissions:
+  contents: write
+concurrency:
+  group: gatekeeper-census-zcta-noaa-overlay
+  cancel-in-progress: false
+jobs:
+  overlay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Prove ZCTA polygon holes, actual dated NOAA reports and no roof-hit assumptions
+        run: node --test tests/zcta_storm_index.test.mjs
+      - name: Retrieve genuine Census 2020 ZCTA polygon geometry and overlay source report points
+        run: node scripts/build_zip_storm_index.mjs
+      - name: Publish only a complete, dated official-source ZIP-area index
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence/data/zcta_storm_index.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish genuine Census ZCTA joins for actual dated NOAA report points'
+            bash scripts/retry_evidence_push.sh
+          fi
