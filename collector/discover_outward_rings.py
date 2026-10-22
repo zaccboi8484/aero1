@@ -66,7 +66,7 @@ def collect(max_m=2100,ring_m=500,max_pages=15,offline=False):
     match={"parcel_objectid":oid,"county_pin":pin,"address":address+", Eagan, MN",
      "plat_name":a.get("PLAT_NAME"),"year_built":a.get("YEAR_BUILT"),"zip":a.get("ZIP"),
      "center_lat":round(lat,7),"center_lon":round(lon,7),"distance_from_seed_center_m":round(dist,1),
-     "ring":ring,"verification_status":"OFFICIAL_GIS_SOURCE_CANDIDATE","condition_status":"NOT_INSPECTED",
+     "ring":ring,"bbox_4326":[round(min(q[0] for q in coordinates),7),round(min(q[1] for q in coordinates),7),round(max(q[0] for q in coordinates),7),round(max(q[1] for q in coordinates),7)],"verification_status":"OFFICIAL_GIS_SOURCE_CANDIDATE","condition_status":"NOT_INSPECTED",
      "source_record_url":BASE+"?"+urllib.parse.urlencode({"f":"json","where":"OBJECTID="+oid,"outFields":ATTR,"returnGeometry":"false"})}
     match["evidence_sha256"]=hashlib.sha256(json.dumps(match,sort_keys=True).encode()).hexdigest()
     seen[pin]=match
