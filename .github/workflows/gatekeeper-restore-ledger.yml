@@ -1,0 +1,40 @@
+name: GateKeeper one-time GIS source ledger preservation recovery
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'collector/repair_source_ledger.py'
+      - 'tests/test_source_ledger_recovery.py'
+      - '.github/workflows/gatekeeper-restore-ledger.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: gatekeeper-source-ledger-recovery
+  cancel-in-progress: false
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prove newer real GIS observations win and PIN conflict halts
+        run: python -m unittest discover -s tests -p 'test_source_ledger_recovery.py' -v
+      - name: Restore prior authenticated GIS observations from audit commit
+        run: python collector/repair_source_ledger.py
+      - name: Recompute current source-health view without claiming new source searches
+        run: python collector/source_health_public.py
+      - name: Publish restored evidence ledger, never force overwrite
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence/data/fast_validation_report.json evidence/data/source_health_public.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Restore archived official GIS source checks, preserving newer evidence'
+            bash scripts/retry_evidence_push.sh
+          fi

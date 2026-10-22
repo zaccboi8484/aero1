@@ -75,8 +75,11 @@ def execute(no_network=False,batch=8,deadline_seconds=480):
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  history=load("fast_validation_report.json",{}).get("records",[])
  active_pins={str(x["county_pin"]) for x in rows}
- saved={str(x.get("county_pin")):x for x in history if str(x.get("county_pin")) in active_pins}
- batchrows,next_cursor,initial_unchecked=select_research_batch(rows,saved,old_cursor,batch)
+ # Preserve prior verified records even if yesterday's search ring moved or shrank.
+ # Only the currently indexed PINs contribute to active coverage statistics.
+ saved={str(x.get("county_pin")):x for x in history if x.get("county_pin")}
+ active_saved={pin:x for pin,x in saved.items() if pin in active_pins}
+ batchrows,next_cursor,initial_unchecked=select_research_batch(rows,active_saved,old_cursor,batch)
  started=time.monotonic()
  attempted=0
  manifest=load("imagery_manifest.json",{}).get("records",[])
@@ -161,10 +164,11 @@ def execute(no_network=False,batch=8,deadline_seconds=480):
       "error":str(e)[:160],"note":"Do not bypass access restrictions"}
  else:
   municipal={"status":"NOT_QUERIED_OFFLINE","source_url":EAGAN}
- checked_total=len(saved)
+ checked_total=sum(pin in saved for pin in active_pins)
  out={"run_utc":now,"interval_target_minutes":15,"total_indexed":len(rows),
    "batch_requested":len(batchrows),"batch_attempted":0 if no_network else attempted,
    "checked_total":checked_total,"remaining_unchecked":max(0,len(rows)-checked_total),
+   "archived_pins_outside_active_geographic_discovery":max(0,len(saved)-checked_total),
    "unseen_at_run_start":initial_unchecked,
    "research_deadline_seconds":deadline_seconds,
    "next_cursor":next_cursor if not no_network else old_cursor,
