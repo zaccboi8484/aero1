@@ -27,7 +27,7 @@ function timeLabel(iso){
  return new Date(date).toLocaleString();
 }
 async function inspect(){
- let source=null,stamp=null,portal='NOT_REPORTED',checked=null,images=null;
+ let source=null,stamp=null,portal='NOT_REPORTED',checked=null,images=null,covered=null,indexed=null;
  const r=await fetch(BASE+'source_health_public.json?audit='+Date.now(),{cache:'no-store',headers:{Accept:'application/json'}});
  if(r.ok){
   const j=await r.json();
@@ -36,6 +36,8 @@ async function inspect(){
   portal=j.municipal_portal_status||'NOT_REPORTED';
   checked=j.counts?.parcels_checked_last_run??null;
   images=j.counts?.government_jpeg_response_records??null;
+  covered=j.counts?.parcels_checked_at_least_once??null;
+  indexed=j.counts?.indexed_parcels??null;
   source='heartbeat';
  }else if(r.status===404){
   // During the first collector run after upgrade the previous cursor remains valid.
@@ -49,7 +51,7 @@ async function inspect(){
  if(!Number.isFinite(instant))throw Error('Source index has no valid publication time');
  const ageMinutes=Math.max(0,Math.floor((Date.now()-instant)/60000));
  const state=ageMinutes>120?'SOURCE STALE':'SOURCE CHECK ACTIVE';
- return {cursor:stamp,ageMinutes,state,portal,checked,images,source};
+ return {cursor:stamp,ageMinutes,state,portal,checked,images,covered,indexed,source};
 }
 
 async function refresh(force=false){
@@ -70,7 +72,7 @@ async function refresh(force=false){
    lastDisplay=Date.now();
   }
   lastCursor=state.cursor;
-  label.textContent='GateKeeper '+state.state+' · Last source run '+timeLabel(state.cursor)+' · '+state.ageMinutes+'m ago'+(state.checked===null?'':' · '+state.checked+' parcels checked this run')+(state.images===null?'':' · '+state.images+' government WMS JPEG hashes')+(state.portal==='PUBLIC_SOURCE_UNAVAILABLE'?' · City permit portal BLOCKED':state.portal==='NOT_REPORTED'?'':' · City permit portal '+state.portal)+' · '+(changed||force?'Evidence reloaded':'No new source run')+'. Reported checks do not certify permits or roof condition.';
+  label.textContent='GateKeeper '+state.state+' · Last source run '+timeLabel(state.cursor)+' · '+state.ageMinutes+'m ago'+(state.checked===null?'':' · '+state.checked+' parcels checked this run')+(state.covered===null||state.indexed===null?'':' · '+state.covered+'/'+state.indexed+' GIS records researched at least once')+(state.images===null?'':' · '+state.images+' government WMS JPEG hashes')+(state.portal==='PUBLIC_SOURCE_UNAVAILABLE'?' · City permit portal BLOCKED':state.portal==='NOT_REPORTED'?'':' · City permit portal '+state.portal)+' · '+(changed||force?'Evidence reloaded':'No new source run')+'. Reported checks do not certify permits or roof condition.';
  }catch(e){
   label.textContent='GateKeeper SOURCE CHECK FAILED · '+String(e.message||e).slice(0,100)+' · Existing evidence remains unverified.';
  }finally{
