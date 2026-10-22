@@ -16,6 +16,8 @@ on:
       - 'tests/noaa_storms.test.mjs'
       - 'scripts/ingest_noaa_storms.mjs'
       - 'collector/discover_outward_rings.py'
+      - 'tests/test_monotonic_gis_discovery.py'
+      - 'evidence/data/outward_ring_candidates.json'
       - '.github/workflows/aeroleadai-ring-expansion.yml'
       - '.github/workflows/gatekeeper-noaa-storms.yml'
       - 'collector/certification_gap_pipeline.py'
@@ -53,6 +55,8 @@ on:
       - 'tests/noaa_storms.test.mjs'
       - 'scripts/ingest_noaa_storms.mjs'
       - 'collector/discover_outward_rings.py'
+      - 'tests/test_monotonic_gis_discovery.py'
+      - 'evidence/data/outward_ring_candidates.json'
       - '.github/workflows/aeroleadai-ring-expansion.yml'
       - '.github/workflows/gatekeeper-noaa-storms.yml'
       - 'collector/certification_gap_pipeline.py'
@@ -96,6 +100,8 @@ jobs:
         run: node --test tests/noaa_storms.test.mjs
       - name: Test actual full GIS network and real municipal source matches
         run: node --test tests/property_network.test.mjs
+      - name: Prove official GIS expansion never loses previously sourced parcel identities
+        run: python -m unittest discover -s tests -p 'test_monotonic_gis_discovery.py' -v
       - name: Parse live property network and browser map scripts
         run: |
           node --check api/property-network.js
