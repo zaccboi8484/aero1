@@ -1,0 +1,52 @@
+name: GateKeeper real React production build and GIS proof contract
+on:
+  pull_request:
+    paths:
+      - 'package.json'
+      - 'frontend/**'
+      - 'vercel.json'
+      - 'scripts/build-web.mjs'
+      - 'api/property-network.js'
+      - 'api/operations-health.js'
+      - 'scripts/verify_parcels_bulk.mjs'
+      - 'tests/unified_react_contract.test.mjs'
+      - 'tests/parcel_bulk.test.mjs'
+      - 'tests/react_release_artifacts.test.mjs'
+      - '.github/workflows/gatekeeper-react-release.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'package.json'
+      - 'frontend/**'
+      - 'vercel.json'
+      - 'scripts/build-web.mjs'
+      - 'api/property-network.js'
+      - 'api/operations-health.js'
+      - 'scripts/verify_parcels_bulk.mjs'
+      - '.github/workflows/gatekeeper-react-release.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  release-gates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '24'}
+      - name: Install exact-pinned React, Vite and map packages from npm
+        run: npm install --no-audit --no-fund
+      - name: Check source contract and honest degraded source-status semantics
+        run: npm run test:frontend
+      - name: Verify all 492+ actual official parcel identities are admitted
+        run: node --test tests/parcel_bulk.test.mjs tests/property_network.test.mjs
+      - name: Build actual production React JavaScript bundles (not a static mock)
+        run: npm run build
+      - name: Assert built React files plus original evidence apps
+        run: node --test tests/react_release_artifacts.test.mjs
+      - name: Verify all server API and cron JavaScript modules parse
+        run: |
+          node --check api/property-network.js
+          node --check api/operations-health.js
+          node --check scripts/verify_parcels_bulk.mjs
