@@ -7,6 +7,8 @@ on:
       - 'vercel.json'
       - 'scripts/build-web.mjs'
       - 'api/property-network.js'
+      - 'scripts/build_zip_storm_index.mjs'
+      - 'tests/zcta_storm_index.test.mjs'
       - 'api/property-card-intel.js'
       - 'tests/property_cards_dates.test.mjs'
       - 'api/operations-health.js'
@@ -23,6 +25,8 @@ on:
       - 'vercel.json'
       - 'scripts/build-web.mjs'
       - 'api/property-network.js'
+      - 'scripts/build_zip_storm_index.mjs'
+      - 'tests/zcta_storm_index.test.mjs'
       - 'api/property-card-intel.js'
       - 'tests/property_cards_dates.test.mjs'
       - 'api/operations-health.js'
@@ -45,6 +49,8 @@ jobs:
         run: npm run test:frontend
       - name: Verify all 492+ actual official parcel identities are admitted
         run: node --test tests/parcel_bulk.test.mjs tests/property_network.test.mjs tests/property_cards_dates.test.mjs
+      - name: Validate Census ZIP polygons and actual NOAA point/date source semantics
+        run: node --test tests/zcta_storm_index.test.mjs
       - name: Build actual production React JavaScript bundles (not a static mock)
         run: npm run build
       - name: Assert built React files plus original evidence apps
@@ -55,3 +61,4 @@ jobs:
           node --check api/property-card-intel.js
           node --check api/operations-health.js
           node --check scripts/verify_parcels_bulk.mjs
+          node --check scripts/build_zip_storm_index.mjs
