@@ -4,6 +4,7 @@ The first 60 remain Territory 001. New candidate rings are separate until
 source, identity, and territory validation succeeds.
 """
 import csv,datetime as dt,hashlib,json,math,pathlib,time,urllib.parse,urllib.request
+from merge_ring_history import merge as merge_archived,prior_snapshots
 BASE="https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query"
 D=pathlib.Path(__file__).resolve().parents[1]/"evidence"/"data"
 ATTR="OBJECTID,COUNTY_PIN,STATE_PIN,ANUMBER,ST_NAME,ST_POS_TYP,CTU_NAME,PLAT_NAME,ZIP,YEAR_BUILT"
@@ -141,6 +142,13 @@ def collect(max_m=2100,ring_m=500,max_pages=15,offline=False):
  result["not_returned_on_latest_spatial_request_but_previous_source_record_retained"]=sum(not r["observed_in_latest_geographic_query"] for r in combined)
  result["discovery_is_cumulative_not_exclusive_radius"]=True
  result["counts_by_ring"]={str(r):sum(x["ring"]==r for x in combined) for r in sorted({x["ring"] for x in combined})}
+ try:
+  # Genuine earlier source snapshots were lost before monotonic protection was introduced.
+  # Recover those authentic GIS records from immutable commits and keep a clear recheck label.
+  result=merge_archived(result,prior_snapshots())
+ except ValueError as e:
+  result["source_query_completed"]=False
+  result["errors"].append("Historic GIS evidence conflict: "+str(e))
  return result
 def main():
  import argparse
