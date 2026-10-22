@@ -25,3 +25,35 @@ footer{text-align:center;color:#668896;font-size:10px;line-height:1.8;margin-top
 @media(max-width:1150px){.sidebar{width:219px}.main{max-width:calc(100% - 219px)}.statgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.overviewgrid{grid-template-columns:1fr}.mapbox{height:415px}.permitgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:820px){.sidebar{position:fixed;left:0;top:0;transform:translateX(-110%);transition:transform .24s;box-shadow:20px 0 40px #0007}.sidebar.open{transform:translateX(0)}.scrim.show{display:block;position:fixed;inset:0;background:#0009;z-index:25}.close-mobile,.menubutton{display:block}.main{max-width:100%;width:100%}.topbar{padding:0 17px}.content{padding:23px 15px}.hero-tag{display:none}.hero h1{font-size:27px}.sourcegrid{grid-template-columns:1fr}.mapbox{height:350px}.top-connection{font-size:8px}.permitgrid{grid-template-columns:1fr}}
 @media(max-width:540px){.statgrid{gap:8px}.statcard{padding:14px;min-height:120px}.statcard strong{font-size:26px}.stathead span{font-size:9px}.statnote{font-size:9px}.topbar{height:62px}.top-actions{gap:8px}.refresh{font-size:0;gap:0}.refresh svg{width:17px}.panel-head{padding:16px;flex-wrap:wrap}.tools{flex-direction:column}.filter{justify-content:space-between}.filter select{flex:1}.table-wrap{overflow:auto}.address{min-width:175px}.factlist,.healthgrid{grid-template-columns:1fr}.drawer{padding:23px 16px}.mapbox{height:305px}}
+
+
+/* Source-backed property index cards: permit dates, NOAA dates and roof research needs. */
+.property-index-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,355px),1fr));gap:15px;align-items:stretch}
+.property-index-card{display:flex;flex-direction:column;gap:0;width:100%;min-width:0;padding:0;text-align:left;overflow:hidden;color:#ddecf3;background:linear-gradient(150deg,#123244,#0b2231);border:1px solid #2f5667;border-radius:14px;box-shadow:0 10px 28px #020f1840;transition:transform .16s,border-color .16s,box-shadow .16s}
+.property-index-card:hover{transform:translateY(-3px);border-color:#5ac2ba;box-shadow:0 15px 35px #051421a8}
+.property-index-card:focus-visible{outline:2px solid #78ecd7;outline-offset:2px}
+.index-head{display:flex;align-items:center;gap:12px;padding:17px 17px 10px}
+.index-property-icon{width:38px;height:38px;border-radius:10px;background:#1d4b55;color:#7ae6d2;border:1px solid #326d72;display:grid;place-items:center}
+.index-title{flex:1;min-width:0}.index-title b{font-size:14px;font-weight:800;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.index-title small{font-size:10px;color:#81aab8;display:block;margin-top:5px}
+.index-arrow{color:#6acfc4}
+.index-meta{padding:0 17px 14px;display:flex;flex-wrap:wrap;gap:8px}.index-meta span{border:1px solid #315b68;background:#173847;color:#a9d1d6;border-radius:5px;padding:5px 7px;font-size:9px;font-weight:750}
+.index-evidence-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;padding:12px 14px 14px;border-top:1px solid #244a59;background:#0c2533}
+.index-evidence-item{min-width:0;display:flex;flex-direction:column;gap:6px;border:1px solid #2f5364;background:#153648;border-radius:9px;padding:12px;min-height:156px}
+.index-evidence-label{display:flex;align-items:center;gap:6px;color:#89c4ca;font-weight:800;font-size:9px;letter-spacing:.45px}
+.index-evidence-label svg{color:#64d5c9}
+.index-evidence-item strong{font-family:'Space Grotesk',sans-serif;font-size:15px;line-height:1.2;color:#f0faf9;overflow-wrap:anywhere}
+.index-evidence-item>span{font-size:10px;color:#b1d9dd;line-height:1.45;overflow-wrap:anywhere}
+.index-evidence-item>small{font-size:9px;color:#8caebc;line-height:1.45;margin-top:auto}
+.roof-needs-card{margin:1px 14px 13px;border:1px solid #777047;background:#3d392a80;border-radius:10px;padding:13px;display:grid;gap:8px}
+.roof-needs-top{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.roof-needs-top>span:first-child{display:flex;align-items:center;gap:7px;color:#e3cf9d;font-size:9px;font-weight:800;letter-spacing:.5px}
+.roof-status{font-size:9px;color:#ffd1ab;border:1px solid #8f7955;border-radius:5px;padding:4px 6px;letter-spacing:.25px}
+.roof-needs-card>strong{font-size:12px;line-height:1.45;color:#f1e6cd;font-weight:800}
+.roof-needs-card>small{color:#c1b496;line-height:1.4;font-size:9px}
+.roof-need-tags{display:flex;flex-wrap:wrap;gap:5px}.roof-need-tags>span{font-size:9px;line-height:1.3;border:1px solid #776b4b;padding:5px 6px;border-radius:5px;color:#ecd7a8;background:#433c2a}
+.index-card-foot{padding:0 17px 14px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;color:#8ab8c0;font-size:9px;font-weight:750}
+.index-card-foot>span{display:flex;align-items:center;gap:6px}.index-card-foot>span:last-child{color:#81ddce}
+.card-source-dot{height:6px;width:6px;border-radius:50%;background:#46d3a6;display:inline-block}
+.roof-action-list{display:grid;gap:7px}.roof-action-list>div{display:flex;gap:10px;align-items:start;background:#193748;padding:10px 12px;border:1px solid #3b6472;border-radius:7px;font-size:11px;color:#c8dedf}
+.roof-action-list svg{color:#e3c684;flex-shrink:0}
+@media(max-width:500px){.property-index-grid{grid-template-columns:1fr}.index-evidence-grid{grid-template-columns:1fr}.index-evidence-item{min-height:125px}}
