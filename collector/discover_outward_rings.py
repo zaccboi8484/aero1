@@ -35,7 +35,7 @@ def collect(max_m=2100,ring_m=500,max_pages=15,offline=False):
  result={"generated_at_utc":now,"source":BASE,"seed_count":len(seed),"seed_center_lat":center_lat,"seed_center_lon":center_lon,
   "seed_radius_m":round(max_seed,1),"distance_from_seed_boundary_approximation":True,
   "discovery_rule":"Source-supported center-distance bands; does not claim a survey-quality legal ring boundary",
-  "ring_width_m":ring_m,"ring_candidates":[],"candidate_count":0,"source_query_completed":False,"pages":0,"errors":[]}
+  "ring_width_m":ring_m,"search_radius_m":max_m,"ring_candidates":[],"candidate_count":0,"source_query_completed":False,"pages":0,"errors":[]}
  if offline:
   result["errors"].append("Not queried: explicit offline mode");return result
  # Server uses actual ArcGIS geodesic distance filtering of official parcel polygons.
@@ -66,7 +66,7 @@ def collect(max_m=2100,ring_m=500,max_pages=15,offline=False):
     match={"parcel_objectid":oid,"county_pin":pin,"address":address+", Eagan, MN",
      "plat_name":a.get("PLAT_NAME"),"year_built":a.get("YEAR_BUILT"),"zip":a.get("ZIP"),
      "center_lat":round(lat,7),"center_lon":round(lon,7),"distance_from_seed_center_m":round(dist,1),
-     "ring":ring,"verification_status":"OFFICIAL_GIS_SOURCE_CANDIDATE","condition_status":"NOT_INSPECTED",
+     "ring":ring,"bbox_4326":[round(min(q[0] for q in coordinates),7),round(min(q[1] for q in coordinates),7),round(max(q[0] for q in coordinates),7),round(max(q[1] for q in coordinates),7)],"verification_status":"OFFICIAL_GIS_SOURCE_CANDIDATE","condition_status":"NOT_INSPECTED",
      "source_record_url":BASE+"?"+urllib.parse.urlencode({"f":"json","where":"OBJECTID="+oid,"outFields":ATTR,"returnGeometry":"false"})}
     match["evidence_sha256"]=hashlib.sha256(json.dumps(match,sort_keys=True).encode()).hexdigest()
     seen[pin]=match
@@ -82,9 +82,15 @@ def collect(max_m=2100,ring_m=500,max_pages=15,offline=False):
  return result
 def main():
  import argparse
- p=argparse.ArgumentParser();p.add_argument("--no-network",action="store_true");p.add_argument("--radius",type=int,default=2100);args=p.parse_args()
- out=collect(max_m=min(max(args.radius,700),5000),offline=args.no_network)
+ p=argparse.ArgumentParser();p.add_argument("--no-network",action="store_true");p.add_argument("--radius",type=int,default=0);args=p.parse_args()
+ prev=load("outward_ring_candidates.json")
+ previous_radius=int(prev.get("search_radius_m") or max((x.get("distance_from_seed_center_m") or 0 for x in prev.get("ring_candidates",[])),default=1200))
+ selected_radius=min(max(args.radius or (previous_radius+500),700),5000)
+ out=collect(max_m=selected_radius,offline=args.no_network)
  D.mkdir(parents=True,exist_ok=True)
+ if not out["source_query_completed"] or out["errors"]:
+  (D/"outward_ring_discovery_failure.json").write_text(json.dumps(out,indent=2)+"\n",encoding="utf-8")
+  raise SystemExit("Official parcel discovery incomplete; preserved previous verified ring registry")
  (D/"outward_ring_candidates.json").write_text(json.dumps(out,indent=2)+"\n",encoding="utf-8")
  print(json.dumps({k:out.get(k) for k in ("seed_count","candidate_count","source_query_completed","counts_by_ring","pages","errors")},indent=2))
 if __name__=="__main__":main()

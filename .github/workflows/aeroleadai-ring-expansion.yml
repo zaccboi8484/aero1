@@ -25,7 +25,7 @@ jobs:
       - name: Check crawler syntax
         run: python -m py_compile collector/discover_outward_rings.py
       - name: Discover additional actual Eagan parcels from official GIS
-        run: python collector/discover_outward_rings.py --radius 1200
+        run: python collector/discover_outward_rings.py
       - name: Publish separate ring discovery evidence
         if: always()
         run: |
@@ -35,11 +35,6 @@ jobs:
             git add evidence/data/outward_ring_candidates.json
             if ! git diff --cached --quiet; then
               git commit -m 'Publish source-backed outward parcel ring candidates'
-              for attempt in 1 2 3; do
-                git pull --rebase origin main
-                if git push origin HEAD:main; then exit 0; fi
-                sleep 3
-              done
-              exit 1
+              bash scripts/retry_evidence_push.sh
             fi
           fi

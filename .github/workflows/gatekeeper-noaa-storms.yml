@@ -1,0 +1,38 @@
+name: GateKeeper authoritative NOAA storm events
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/ingest_noaa_storms.mjs'
+      - 'tests/noaa_storms.test.mjs'
+      - '.github/workflows/gatekeeper-noaa-storms.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '44 8 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: gatekeeper-noaa-archive
+  cancel-in-progress: false
+jobs:
+  ingest-official-storm-events:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validate NCEI CSV parser, storm units and no-property-impact safeguards
+        run: node --test tests/noaa_storms.test.mjs
+      - name: Ingest authoritative historical hail and wind event records
+        run: node scripts/ingest_noaa_storms.mjs
+      - name: Commit actual NOAA results, never fabricated storm scores
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence/data/noaa_storm_events_scoped.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish source-backed NOAA NCEI storm observations and provenance'
+            bash scripts/retry_evidence_push.sh
+          fi
