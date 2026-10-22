@@ -18,6 +18,9 @@ test('real official GIS source joins seed and uncapped outward parcels',()=>{
  assert.ok(result.counts.parcels>=417,'Original source network already contained 417 distinct parcels');
  assert.equal(new Set(result.records.map(x=>x.pin)).size,result.counts.parcels);
  assert.ok(result.records.some(x=>x.ring>0));
+ assert.equal(result.counts.parcelsAttemptedAtLeastOnce+result.counts.parcelsNeverAttempted,
+  result.counts.parcels);
+ assert.ok(result.counts.parcelsNeverAttempted>=0);
 });
 test('real city export matches survive, city history and roof condition still not certified',()=>{
  const result=joinEvidence(data);
