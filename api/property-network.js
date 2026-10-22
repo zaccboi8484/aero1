@@ -1,6 +1,7 @@
 /* AeroLeadAI official-source property network: true GIS discovery, no 60-card cap.
  * Read-only public records; incomplete permit/storm searches remain explicitly UNKNOWN.
  */
+import {permitCardFacts,stormCardFacts,roofReviewNeeds,calendarDate} from './property-card-intel.js';
 const D='https://raw.githubusercontent.com/zaccboi8484/aero1/main/evidence/data/';
 const FILES={seed:'imagery_manifest.json',rings:'outward_ring_candidates.json',checks:'fast_validation_report.json',
  permits:'municipal_permit_export_audit.json',roof:'roof_evidence_scores.json',
@@ -50,7 +51,8 @@ export function joinEvidence(d){
   permitIds.add(no);if(!permits.has(id))permits.set(id,[]);
   permits.get(id).push({number:no,issuedAt:r.issued_date||null,kind:r.permit_kind,stage:'OWNER_PROVIDED_REPORT_NOT_ISSUER_DOCUMENT',finalInspectionApproved:null})}
  if(permitIds.size!==d.permits.matched_permit_events)throw Error('Municipal export count does not match actual records');
- const reports=d.storm?.format==='GATEKEEPER_NOAA_STORM_EVENTS_V1'&&Array.isArray(d.storm.events)?d.storm.events:[];
+ const stormSourcePublished=d.storm?.format==='GATEKEEPER_NOAA_STORM_EVENTS_V1'&&Array.isArray(d.storm.events);
+ const reports=stormSourcePublished?d.storm.events:[];
  const records=[...all].map(([id,p])=>{
   const pin=key(p.county_pin),seedBatch=seed.has(id),check=checks.get(pin),official=bulk.get(pin);
   if(official&&official.id!==id)throw Error('Published bulk GIS object ID and original parcel conflict: '+pin);
@@ -66,9 +68,15 @@ export function joinEvidence(d){
   const storms=reports.map(e=>{
     if(saneNum(e.point_lat)===null||saneNum(e.point_lon)===null)return null;
     const km=distance(p.center_lat,p.center_lon,e.point_lat,e.point_lon);
-    return km<=15?{id:e.id,kind:e.kind,date:e.begin_at,distanceKm:Number(km.toFixed(2)),
-      hailInches:e.hail_inches,windMph:e.wind_mph,relation:'NEARBY_REPORT_NOT_PROPERTY_IMPACT'}:null;
-  }).filter(Boolean).sort((a,b)=>a.distanceKm-b.distanceKm).slice(0,10);
+    return km<=15?{id:e.id,kind:e.kind,date:e.begin_at,sortKey:e.sort_key||null,
+      distanceKm:Number(km.toFixed(2)),hailInches:e.hail_inches,windMph:e.wind_mph,
+      relation:'NEARBY_REPORT_NOT_PROPERTY_IMPACT'}:null;
+  }).filter(Boolean);
+  const permitFacts=permitCardFacts(permits.get(id)||[]);
+  const stormFacts=stormCardFacts(storms,stormSourcePublished);
+  const roofNeeds=roofReviewNeeds({yearBuilt:Number(p.year_built),permitFacts,stormFacts,sourceImageryVerified:Boolean(photo)});
+  storms.sort((a,b)=>String(calendarDate(b.sortKey||b.date)||'').localeCompare(String(calendarDate(a.sortKey||a.date)||''))||
+    a.distanceKm-b.distanceKm);
   return {id,pin,address:p.address,city:'Eagan',plat:p.plat_name||null,
    lat:p.center_lat,lon:p.center_lon,ring:seedBatch?0:p.ring,
    discovery:seedBatch?'ORIGINAL_RESEARCH_BATCH':'OFFICIAL_GIS_DISCOVERY_RING',
@@ -79,14 +87,15 @@ export function joinEvidence(d){
    researchPriority:evidencePriority,roofConditionScore:null,mindexScore:null,gatekeeperCertified:false,
    yearBuilt:p.year_built==null?null:Number(p.year_built)||null,
    valuationUsd:val?.gatekeeper==='SOURCE_RECORDED'&&saneNum(val.amount_usd)!==null?val.amount_usd:null,
-   permits:permits.get(id)||[],completeMunicipalPermitHistory:false,
+   permits:permits.get(id)||[],permitFacts,stormFacts,roofNeeds,
+   completeMunicipalPermitHistory:false,
    municipalPermitStatus:d.checks.municipal_permit_source?.status||'NOT_QUERIED',
    regionalPermitStatus:check?.regional_permits||'NOT_QUERIED',
    regionalPermitCount:check?.regional_permit_count??null,
    regionalSource:sourceUrl(check?.regional_source_url)?check.regional_source_url:null,
    aerialSourceVerified:Boolean(photo),aerialSource:photo?check.imagery_source_url:null,
-   aerialRedistributionRightsVerified:false,stormReports:storms,
-   stormFeedStatus:d.storm?'NOAA_SOURCE_PUBLISHED':'NOAA_NOT_YET_RETRIEVED',
+   aerialRedistributionRightsVerified:false,stormReports:storms.slice(0,16),
+   stormFeedStatus:stormSourcePublished?'NOAA_SOURCE_PUBLISHED':'NOAA_NOT_YET_RETRIEVED',
    evidenceStatus:seedBatch?'INITIAL_BATCH_UNDER_HUMAN_REVIEW':'DISCOVERY_SOURCE_ONLY'};
  });
  records.sort((a,b)=>(b.researchPriority??-1)-(a.researchPriority??-1)||a.pin.localeCompare(b.pin));
@@ -102,6 +111,9 @@ export function joinEvidence(d){
    bulkPinVerified:records.filter(x=>x.bulkPinValidated).length,
    sourceValidatedImagery:records.filter(x=>x.aerialSourceVerified).length,
    municipalReportPermits:permitIds.size,municipalReportProperties:permits.size,
+   datedPermitReportProperties:records.filter(p=>p.permitFacts.latestDate!==null).length,
+   datedStormProximityProperties:records.filter(p=>p.stormFacts.latestDate!==null).length,
+   roofReviewTasks:records.filter(p=>p.roofNeeds.status==='ROOF_CONDITION_UNKNOWN_NEEDS_REVIEW').length,
    historicalStormReports:reports.length,nearbyStormProperties:records.filter(x=>x.stormReports.length).length,
    certifiedRoofConditions:0,certifiedMindex:0,
    cityPermitPortalStatus:d.checks.municipal_permit_source?.status||'NOT_QUERIED',
