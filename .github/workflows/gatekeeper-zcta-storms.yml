@@ -29,6 +29,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - name: Refresh actual main branch evidence after cross-workflow queue wait
+        run: |
+          git fetch --no-tags origin +refs/heads/main:refs/remotes/origin/main
+          git checkout -B main refs/remotes/origin/main
+          git status --short
       - name: Prove ZCTA polygon holes, actual dated NOAA reports and no roof-hit assumptions
         run: node --test tests/zcta_storm_index.test.mjs
       - name: Retrieve genuine Census 2020 ZCTA polygon geometry and overlay source report points
