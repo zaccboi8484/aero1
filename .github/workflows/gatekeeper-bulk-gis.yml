@@ -1,0 +1,37 @@
+name: GateKeeper bulk public GIS parcel identity validation
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/verify_parcels_bulk.mjs'
+      - 'tests/parcel_bulk.test.mjs'
+      - '.github/workflows/gatekeeper-bulk-gis.yml'
+  schedule:
+    - cron: '9 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: gatekeeper-bulk-gis-pin-2026
+  cancel-in-progress: false
+jobs:
+  bulk-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '24'}
+      - name: Reject incomplete or contradictory GIS parcels before network calls
+        run: node --test tests/parcel_bulk.test.mjs
+      - name: Verify all discovered parcel PINs through official GIS in bounded batches
+        run: node scripts/verify_parcels_bulk.mjs
+      - name: Publish exact GIS audit without asserting permits or physical condition
+        run: |
+          git config user.name 'AeroLeadAI Evidence Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence/data/parcel_identity_bulk.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish official complete parcel PIN GIS bulk identity audit'
+            bash scripts/retry_evidence_push.sh
+          fi

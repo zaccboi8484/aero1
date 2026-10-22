@@ -4,9 +4,12 @@ import assert from 'node:assert/strict';
 
 const base=(process.env.AERO_BASE_URL||'https://aeroleadaigithubreadyv03.vercel.app').replace(/\/$/,'');
 const cases=[
-  {path:'/',code:200,match:/Autonomous Property Network/i,description:'main searchable GIS network with no first-60 cap'},
+  {path:'/',code:200,match:/AeroLeadAI · Property Intelligence/i,description:'actual Vite-built React property interface, no 60 limit'},
+  {path:'/',code:200,match:/src="[/]assets[/][^" ]+[.]js"/,description:'React JavaScript bundle actually deployed'},
+  {path:'/network.html',code:200,match:/Autonomous Property Network/i,description:'previous uncapped network fallback retained'},
   {path:'/network.js',code:200,match:/api[/]property-network/,description:'map and nationwide-ready paginated browser search'},
   {path:'/api/property-network?limit=1',code:200,match:/"parcels"\s*:\s*[4-9][0-9][0-9]/,description:'actual 400-plus official GIS records served by source-backed API'},
+  {path:'/api/operations-health',code:200,match:/GATEKEEPER_OPERATIONAL_TRUTH_V1/,description:'source-by-source operational health status never hidden'},
   {path:'/classic.html',code:200,match:/AeroLeadAI|Kings Wood/i,description:'original cinematic glass desk preserved'},
   {path:'/roofing-scorecards.html',code:200,match:/Residential Roofing Scorecards/i,description:'integrated original-60 scorecard UI'},
   {path:'/certification-gaps.html',code:200,match:/Certification Search Engine/,description:'source-directed GateKeeper certification queue UI'},

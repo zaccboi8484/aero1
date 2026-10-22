@@ -10,6 +10,6 @@
       "schedule": "15 9 * * *"
     }
   ],
-  "buildCommand": "node scripts/build-web.mjs",
+  "buildCommand": "npm run build",
   "outputDirectory": "public"
 }

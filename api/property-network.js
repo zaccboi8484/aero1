@@ -4,7 +4,7 @@
 const D='https://raw.githubusercontent.com/zaccboi8484/aero1/main/evidence/data/';
 const FILES={seed:'imagery_manifest.json',rings:'outward_ring_candidates.json',checks:'fast_validation_report.json',
  permits:'municipal_permit_export_audit.json',roof:'roof_evidence_scores.json',
- valuations:'live_property_enrichment.json',storm:'noaa_storm_events_scoped.json'};
+ valuations:'live_property_enrichment.json',storm:'noaa_storm_events_scoped.json',bulk:'parcel_identity_bulk.json'};
 let memo={until:0,result:null};
 const key=v=>String(v??'').trim();
 const saneNum=v=>typeof v==='number'&&Number.isFinite(v)?v:null;
@@ -28,7 +28,18 @@ export function joinEvidence(d){
   all.set(id,p);pins.add(key(p.county_pin));
  }
  if(!Array.isArray(d.checks?.records))throw Error('GIS checks missing');
- const checks=new Map();
+ const bulk=new Map();
+ if(d.bulk?.format==='GATEKEEPER_BULK_GIS_PIN_V1'&&d.bulk.complete===true&&
+    Array.isArray(d.bulk.records)&&d.bulk.records.length===d.bulk.matched){
+  const seen=new Set();
+  for(const x of d.bulk.records){
+   const pin=key(x.county_pin);
+   if(seen.has(pin))throw Error('Duplicate published GIS bulk PIN');
+   seen.add(pin);
+   if(x.status==='OFFICIAL_GIS_PIN_AND_ID_MATCHED')bulk.set(pin,{id:key(x.parcel_objectid),checkedAt:x.checked_at_utc});
+  }
+ }
+  const checks=new Map();
  for(const c of d.checks.records){const k=key(c.county_pin);
   if(k&&(!checks.has(k)||String(c.last_checked_utc||'')>String(checks.get(k).last_checked_utc||'')))checks.set(k,c)}
  const roof=maps(d.roof?.records,'Research priorities'),values=maps(d.valuations?.records,'GIS valuations');
@@ -41,7 +52,8 @@ export function joinEvidence(d){
  if(permitIds.size!==d.permits.matched_permit_events)throw Error('Municipal export count does not match actual records');
  const reports=d.storm?.format==='GATEKEEPER_NOAA_STORM_EVENTS_V1'&&Array.isArray(d.storm.events)?d.storm.events:[];
  const records=[...all].map(([id,p])=>{
-  const pin=key(p.county_pin),seedBatch=seed.has(id),check=checks.get(pin);
+  const pin=key(p.county_pin),seedBatch=seed.has(id),check=checks.get(pin),official=bulk.get(pin);
+  if(official&&official.id!==id)throw Error('Published bulk GIS object ID and original parcel conflict: '+pin);
   const priority=roof.get(id)?.review?.data_review_priority;
   const rv=roof.get(id);
   const evidencePriority=seedBatch&&rv?.review?.not_a_damage_score===true&&
@@ -60,7 +72,8 @@ export function joinEvidence(d){
   return {id,pin,address:p.address,city:'Eagan',plat:p.plat_name||null,
    lat:p.center_lat,lon:p.center_lon,ring:seedBatch?0:p.ring,
    discovery:seedBatch?'ORIGINAL_RESEARCH_BATCH':'OFFICIAL_GIS_DISCOVERY_RING',
-   parcelStatus:check?.parcel_validation||'GIS_SOURCE_CANDIDATE_PENDING_CHECK',
+   parcelStatus:official?'OFFICIAL_PIN_CONFIRMED':(check?.parcel_validation||'GIS_SOURCE_CANDIDATE_PENDING_CHECK'),
+   bulkPinValidated:Boolean(official),
    parcelCheckedAt:check?.last_checked_utc||null,
    parcelSource:sourceUrl(p.source_record_url)?p.source_record_url:null,
    researchPriority:evidencePriority,roofConditionScore:null,mindexScore:null,gatekeeperCertified:false,
@@ -78,7 +91,7 @@ export function joinEvidence(d){
  });
  records.sort((a,b)=>(b.researchPriority??-1)-(a.researchPriority??-1)||a.pin.localeCompare(b.pin));
  return {status:'LIVE_DISCOVERY_NOT_DAMAGE_CERTIFICATION',updatedAt:new Date().toISOString(),
-  sourceRunAt:d.checks.run_utc,stormRunAt:d.storm?.retrieved_at_utc||null,
+  sourceRunAt:d.checks.run_utc,bulkRunAt:d.bulk?.checked_at_utc||null,stormRunAt:d.storm?.retrieved_at_utc||null,
   stormDataPartial:d.storm?.partial??null,
   counts:{parcels:records.length,initialBatch:60,expansion:rings.size,
    checkedPins:records.filter(x=>x.parcelStatus==='OFFICIAL_PIN_CONFIRMED').length,
@@ -86,6 +99,7 @@ export function joinEvidence(d){
    parcelsNeverAttempted:records.filter(x=>x.parcelCheckedAt===null).length,
    publishedAttemptCountLastRun:d.checks.batch_attempted??null,
    sourceScanAt:d.checks.run_utc??null,
+   bulkPinVerified:records.filter(x=>x.bulkPinValidated).length,
    sourceValidatedImagery:records.filter(x=>x.aerialSourceVerified).length,
    municipalReportPermits:permitIds.size,municipalReportProperties:permits.size,
    historicalStormReports:reports.length,nearbyStormProperties:records.filter(x=>x.stormReports.length).length,
@@ -97,7 +111,7 @@ async function load(){
  if(memo.result&&Date.now()<memo.until)return memo.result;
  const values=await Promise.all(Object.entries(FILES).map(async ([k,file])=>{
   const r=await fetch(D+file,{signal:AbortSignal.timeout(17000),cache:'no-store'});
-  if(!r.ok&&k==='storm'&&r.status===404)return[k,null];
+  if(!r.ok&&(k==='storm'||k==='bulk')&&r.status===404)return[k,null];
   if(!r.ok)throw Error(file+' HTTP '+r.status);
   return[k,await r.json()];
  }));
