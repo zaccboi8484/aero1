@@ -1,0 +1,4 @@
+{
+  "trained": false,
+  "reason": "need >= 150 per class; have 0 positive / 0 negative"
+}
