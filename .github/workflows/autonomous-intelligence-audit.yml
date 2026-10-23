@@ -23,19 +23,28 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Independently validate every parcel and missing permit, storm, imagery, valuation, ownership evidence
+      - name: Audit and quarantine invalid records
         run: python3 scripts/autonomous_engine_audit.py
-      - name: Publish evidence gap snapshot
+      - name: Preserve audit evidence even when publishing fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: evidence-audit-${{ github.run_id }}
+          path: evidence/data/autonomous_engine_audit.json
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Publish verified evidence audit snapshot
         run: |
           git config user.name "aeroleadai-engine[bot]"
           git config user.email "aeroleadai-engine@users.noreply.github.com"
           git add evidence/data/autonomous_engine_audit.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Refresh autonomous multi-engine evidence gap audit"
-          for attempt in 1 2 3; do
+          for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then exit 0; fi
             git fetch origin main
             git rebase origin/main || { git rebase --abort; exit 1; }
-            sleep $((attempt * 4))
+            sleep $((attempt * 3))
           done
+          echo "::error::Audit snapshot saved to run artifact but publishing to main failed"
           exit 1
