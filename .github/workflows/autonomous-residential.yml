@@ -3,6 +3,10 @@ on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/autonomous-residential.yml"
+      - "evidence/crawler-pulse.txt"
 permissions:
   contents: write
 concurrency:
