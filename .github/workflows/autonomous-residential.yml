@@ -26,11 +26,13 @@ jobs:
           python-version: "3.12"
       - name: Crawl next geographic ring and validate deduplicated parcels
         run: python3 scripts/autonomous_residential_crawler.py
+      - name: Rank actual evidence coverage without asserting roof damage
+        run: python3 scripts/gatekeeper_field_triage.py
       - name: Publish durable checkpoint and source records
         run: |
           git config user.name "aeroleadai-crawler[bot]"
           git config user.email "aeroleadai-crawler@users.noreply.github.com"
-          git add evidence/data/autonomous_residential_discovery.json
+          git add evidence/data/autonomous_residential_discovery.json evidence/data/autonomous_field_triage.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Update source-backed autonomous residential discovery checkpoint"
           git push origin HEAD:main
