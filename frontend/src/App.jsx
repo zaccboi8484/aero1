@@ -32,12 +32,14 @@ function Sidebar({active,onNavigate,open,onClose}){return <><div className={'scr
 function Stat({icon:Icon,title,value,detail,variation,onClick}){return <button className="statcard" onClick={onClick}><div className="stathead"><span>{title}</span><Icon size={19} className="teal"/></div><strong>{value}</strong><div className="statnote">{detail}</div>{variation&&<span className="statvariation">{variation}</span>}</button>}
 function SourceMeter({name,count,total,detail}){const percent=total?Math.max(0,Math.min(100,Math.round(count/total*100))):0;return <div className="meter"><div className="meter-top"><b>{name}</b><strong>{fmt(count)} / {fmt(total)}</strong></div><div className="track"><span style={{width:percent+'%'}}/></div><small>{detail}</small></div>}
 function GeoMap({properties,selected,onSelect,cinematic=false,large=false}){
- const element=useRef(null),map=useRef(null),ready=useRef(false),latest=useRef(onSelect),[failure,setFailure]=useState('');
+ const element=useRef(null),map=useRef(null),ready=useRef(false),latest=useRef(onSelect),flight=useRef(null),[failure,setFailure]=useState('');
+ const picked=properties.find(p=>p.id===selected);
+ const streetUrl=picked&&Number.isFinite(picked.lat)&&Number.isFinite(picked.lon)?'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint='+encodeURIComponent(picked.lat+','+picked.lon):null;
  latest.current=onSelect;
  useEffect(()=>{if(!element.current)return;
   try{
    const instance=new maplibregl.Map({container:element.current,center:[-93.171,44.816],zoom:13.5,pitch:32,bearing:0,maxPitch:75,
-     style:{version:8,sources:{carto:{type:'raster',tiles:['https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png'],tileSize:256,attribution:'© OpenStreetMap contributors © CARTO'}},
+     style:{version:8,sources:{carto:{type:'raster',tiles:[import.meta.env.VITE_MAPBOX_ACCESS_TOKEN?'https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}@2x.jpg90?access_token='+encodeURIComponent(import.meta.env.VITE_MAPBOX_ACCESS_TOKEN):'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png'],tileSize:256,attribution:import.meta.env.VITE_MAPBOX_ACCESS_TOKEN?'© Mapbox · Imagery providers':'© OpenStreetMap contributors © CARTO'}},
        layers:[{id:'base',type:'raster',source:'carto'}]}});
    map.current=instance;instance.addControl(new maplibregl.NavigationControl(),'top-right');
    instance.on('load',()=>{ready.current=true;instance.addSource('parcels',{type:'geojson',data:{type:'FeatureCollection',features:[]}});
@@ -52,7 +54,7 @@ function GeoMap({properties,selected,onSelect,cinematic=false,large=false}){
      instance.fire('aero-data-ready');
    });
    instance.on('error',()=>{if(!ready.current)setFailure('Map tiles unavailable; source records still accessible')});
-   return()=>{ready.current=false;instance.remove();map.current=null};
+   return()=>{if(flight.current)cancelAnimationFrame(flight.current);ready.current=false;instance.remove();map.current=null};
   }catch(e){setFailure(String(e.message||e))}
  },[]);
  useEffect(()=>{
@@ -65,10 +67,29 @@ function GeoMap({properties,selected,onSelect,cinematic=false,large=false}){
   if(ready.current)refresh();else if(instance)instance.once('aero-data-ready',refresh);
   return()=>{if(instance)instance.off('aero-data-ready',refresh)};
  },[properties,selected]);
- useEffect(()=>{map.current?.easeTo({pitch:cinematic?67:32,bearing:cinematic?-30:0,duration:750})},[cinematic]);
+ useEffect(()=>{
+  if(flight.current){cancelAnimationFrame(flight.current);flight.current=null}
+  const instance=map.current;if(!instance)return;
+  const target=properties.find(p=>p.id===selected);
+  if(!cinematic||!target||!Number.isFinite(target.lon)||!Number.isFinite(target.lat)){
+   instance.easeTo({pitch:32,bearing:0,duration:750});return;
+  }
+  // Visual camera choreography over source imagery; not a reconstruction of unseen roof sides.
+  const began=performance.now(),duration=11000;
+  const animate=now=>{
+   if(map.current!==instance)return;
+   const t=Math.min(1,(now-began)/duration),smooth=t*t*(3-2*t);
+   const pitch=t<.78?Math.min(68,35+44*t):68-36*((t-.78)/.22);
+   const zoom=t<.78?15+1.7*(t/.78):16.7+1.3*((t-.78)/.22);
+   instance.jumpTo({center:[target.lon,target.lat],zoom,pitch,bearing:360*smooth});
+   if(t<1)flight.current=requestAnimationFrame(animate);else flight.current=null;
+  };
+  flight.current=requestAnimationFrame(animate);
+  return()=>{if(flight.current)cancelAnimationFrame(flight.current);flight.current=null};
+ },[cinematic,selected,properties]);
  useEffect(()=>{const p=properties.find(x=>x.id===selected);if(p&&map.current&&Number.isFinite(p.lon))map.current.flyTo({center:[p.lon,p.lat],zoom:Math.max(map.current.getZoom(),14),duration:600})},[selected,properties]);
  useEffect(()=>{const id=setTimeout(()=>map.current?.resize(),220);return()=>clearTimeout(id)},[large]);
- return <div className={'mapbox '+(large?'map-large':'')}><div ref={element} className="mapinner"/><span className="mapbadge"><span className="smallpulse"/>{fmt(properties.length)} SOURCE-LOCATED PARCELS</span><span className="mapdisclaimer">GIS centroids · Camera tilt is a visual effect, not 3D roof imagery</span>{failure&&<div className="maperror">{failure}</div>}</div>
+ return <div className={'mapbox '+(large?'map-large':'')}><div ref={element} className="mapinner"/><span className="mapbadge"><span className="smallpulse"/>{fmt(properties.length)} SOURCE-LOCATED PARCELS</span><span className="mapdisclaimer">GIS centroids · Cinematic orbit is a camera effect, not a verified 3D roof reconstruction</span>{picked&&<div style={{position:'absolute',bottom:42,left:14,display:'flex',gap:8,zIndex:4,alignItems:'center',flexWrap:'wrap'}}><span style={{padding:'9px 11px',borderRadius:10,background:'#0a2331dd',border:'1px solid #427c84',backdropFilter:'blur(12px)',color:'#d8f9f3',fontSize:11}}>{picked.address}</span>{streetUrl&&<a href={streetUrl} target="_blank" rel="noreferrer" style={{padding:'9px 12px',borderRadius:10,background:'#0c5e68',color:'#fff',fontSize:12,fontWeight:700}}>Open Google Street View ↗</a>}</div>}{failure&&<div className="maperror">{failure}</div>}</div>
 }
 
 function PropertyIndexCards({records,onPick,pageSize=30}){
