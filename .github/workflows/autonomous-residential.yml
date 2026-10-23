@@ -46,12 +46,16 @@ jobs:
           python3 scripts/roof_score_v2.py
           python3 scripts/build_review_queue.py --top 100
           python3 collector/weak_label_model.py
+      - name: Assemble parcel-keyed Mindex cards
+        run: python3 scripts/build_mindex_cards.py
       - name: Validate generated records before publication
         run: |
           for f in autonomous_residential_discovery autonomous_field_triage aerial_coverage_ledger roof_priority_v2 parcel_schema weak_label_model_report; do
             test -s "evidence/data/$f.json" || { echo "::error::Required output missing: $f.json"; exit 1; }
             python3 -m json.tool "evidence/data/$f.json" >/dev/null || exit 1
           done
+          test -s evidence/data/mindex_property_cards.json || { echo '::error::Mindex cards missing'; exit 1; }
+          python3 -m json.tool evidence/data/mindex_property_cards.json >/dev/null
           python3 - <<'PY'
           import json
           from pathlib import Path
@@ -62,6 +66,10 @@ jobs:
           assert len(pins) == len(set(pins)), "Duplicate parcel IDs"
           assert score["count"] == len(pins), "Scoring count differs from discovery"
           assert score["scored"] > 0, "No parcels ranked"
+          cards = json.loads((base/"mindex_property_cards.json").read_text())
+          assert cards["count"] == len(pins), "Mindex card count differs from discovery"
+          assert cards["ranked"] == score["scored"], "Mindex ranks differ from V2"
+          assert len({c["county_pin"] for c in cards["cards"]}) == len(pins), "Duplicate Mindex cards"
           assert all(r.get("not_a_damage_score") for r in score["records"]), "Damage claim missing gate"
           print("GateKeeper: JSON, deduplication, ranking and claim safeguards verified")
           PY
@@ -70,7 +78,7 @@ jobs:
           git config user.name "aeroleadai-crawler[bot]"
           git config user.email "aeroleadai-crawler@users.noreply.github.com"
           git add evidence/data/autonomous_residential_discovery.json evidence/data/autonomous_field_triage.json
-          for f in aerial_coverage_ledger.json roof_chip_features.json roof_priority_v2.json parcel_schema.json weak_label_model_report.json review_queue.csv; do
+          for f in aerial_coverage_ledger.json roof_chip_features.json roof_priority_v2.json parcel_schema.json weak_label_model_report.json review_queue.csv mindex_property_cards.json; do
             if [ -f "evidence/data/$f" ]; then git add "evidence/data/$f"; fi
           done
           if git diff --cached --quiet; then exit 0; fi
@@ -97,5 +105,6 @@ jobs:
             evidence/data/roof_priority_v2.json
             evidence/data/weak_label_model_report.json
             evidence/data/review_queue.csv
+            evidence/data/mindex_property_cards.json
           if-no-files-found: warn
           retention-days: 14
