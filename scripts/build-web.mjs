@@ -44,7 +44,7 @@ for(const name of ['mindex_property_cards.json','roof_priority_v2.json','aerial_
  if(!existsSync(source))throw Error('Required deployed evidence missing: '+source);
  copyFileSync(source,join(publicData,name));
 }
-const cards=JSON.parse(readFileSync(join(publicData,'mindex_property_cards.json'),'utf8'));
-if(!Array.isArray(cards.cards)||cards.cards.length!==cards.count||cards.count===0)throw Error('Invalid Mindex deploy dataset');
-console.log('Mindex static deployment dataset:',cards.count,'properties,',cards.ranked,'ranked');
+const payload=JSON.parse(readFileSync(join(publicData,'mindex_property_cards.json'),'utf8'));
+if(!Array.isArray(payload.cards)||payload.cards.length!==payload.count||payload.count===0)throw Error('Invalid Mindex deploy dataset');
+console.log('Mindex static deployment dataset:',payload.count,'properties,',payload.ranked,'ranked');
 console.log('AeroLeadAI deploy build: existing dashboards + zoom/viewer retained; roofing list and permit counters fixed; live evidence synchronization installed.');
