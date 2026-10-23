@@ -2,7 +2,7 @@
 """Source-backed incremental residential parcel discovery.
 Checkpoint persists in Git. No invented owners, permits, roof condition or values.
 """
-import json, os, time, urllib.parse, urllib.request, pathlib, datetime, math
+import json, os, time, urllib.parse, urllib.request, urllib.error, pathlib, datetime, math
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 OUT=ROOT/"evidence"/"data"/"autonomous_residential_discovery.json"
 URL="https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query"
@@ -12,10 +12,17 @@ MAX_RADIUS=40000
 FIELDS="OBJECTID,COUNTY_PIN,CTU_NAME,ANUMBER,ST_NAME,ST_POS_TYP,ZIP,YEAR_BUILT,LAND_USE,USE_CODE,PROPERTY_TYPE"
 def get(params):
     uri=URL+"?"+urllib.parse.urlencode(params)
-    with urllib.request.urlopen(urllib.request.Request(uri,headers={"User-Agent":"AeroLeadAI-public-data-research/1.0"}),timeout=35) as r:
-        value=json.load(r)
-    if value.get("error"): raise RuntimeError(str(value["error"]))
-    return value
+    req=urllib.request.Request(uri,headers={"User-Agent":"AeroLeadAI-public-data-research/1.0"})
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req,timeout=35) as r:
+                value=json.load(r)
+            if value.get("error"): raise RuntimeError(str(value["error"]))
+            return value
+        except (urllib.error.URLError,TimeoutError,ValueError,RuntimeError) as exc:
+            if attempt == 3: raise
+            print(f"GIS source error ({type(exc).__name__}); retry {attempt+1}/3",flush=True)
+            time.sleep(2**attempt * 3)
 def km(lat,lon):
     a,b=map(math.radians,CENTER);c,d=map(math.radians,(lat,lon))
     return 12742.0176*math.asin(min(1,math.sqrt(math.sin((c-a)/2)**2+math.cos(a)*math.cos(c)*math.sin((d-b)/2)**2)))
