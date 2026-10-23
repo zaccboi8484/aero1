@@ -24,35 +24,52 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install image libraries (chip features only)
-        run: pip install numpy pillow
+      - name: Install scoring, imagery and hail dependencies
+        run: pip install geopandas rasterio numpy pillow scipy xarray cfgrib eccodes
+      - name: Check installation and evidence integrity
+        run: python3 scripts/preflight.py
       - name: Offline tests gate the run
         run: |
           python3 tests/test_supercharger_v2.py
+          python3 tests/test_supercharger_v2b.py
+          python3 tests/test_supercharger_v3.py
+          python3 tests/test_footprints.py
           python3 tests/test_roof_evidence_score.py
       - name: Crawl next geographic ring (schema-driven residential classification)
         run: python3 scripts/autonomous_residential_crawler.py
       - name: Backfill source use-type attributes for earlier parcels
-        run: python3 scripts/backfill_parcel_attributes.py --budget-seconds 300
+        run: python3 scripts/backfill_parcel_attributes.py --budget-seconds 120
       - name: Verify aerial coverage for the next parcels (no pixels committed)
-        run: python3 collector/aerial_coverage.py --max-parcels 300 --budget-seconds 210 --both-vintages --chip-dir "$RUNNER_TEMP/chips"
+        run: python3 collector/aerial_coverage.py --max-parcels 300 --budget-seconds 120 --both-vintages --chip-dir "$RUNNER_TEMP/chips"
       - name: Experimental chip features and year-over-year change flags
         run: |
           if [ -d "$RUNNER_TEMP/chips" ]; then python3 collector/roof_chip_features.py --chip-dir "$RUNNER_TEMP/chips"; fi
+      - name: Imagery reroof windows and reviewed cohorts
+        run: |
+          if [ -d "$RUNNER_TEMP/chips" ]; then python3 collector/reroof_timeline.py --chip-dir "$RUNNER_TEMP/chips"; fi
+          python3 scripts/cohorts.py
+      - name: Parcel hail exposure
+        run: python3 collector/hail_swath.py --max-days 1
       - name: Rank evidence coverage without asserting roof damage
         run: python3 scripts/gatekeeper_field_triage.py
       - name: Prospecting priority v2 and human review queue
         run: |
           python3 scripts/roof_score_v2.py
+          python3 scripts/score_interval.py
+          python3 scripts/storm_trigger.py
           python3 scripts/build_review_queue.py --top 100
           python3 collector/weak_label_model.py
+      - name: Drift guard and provenance
+        run: |
+          python3 scripts/drift_guard.py
+          python3 scripts/provenance_chain.py
       - name: Assemble parcel-keyed Mindex cards
         run: |
           python3 scripts/build_mindex_cards.py
           python3 scripts/export_mindex_leads.py
       - name: Validate generated records before publication
         run: |
-          for f in autonomous_residential_discovery autonomous_field_triage aerial_coverage_ledger roof_priority_v2 parcel_schema weak_label_model_report; do
+          for f in autonomous_residential_discovery autonomous_field_triage aerial_coverage_ledger roof_priority_v2 roof_priority_interval hail_exposure cohort_multipliers drift_baseline parcel_schema weak_label_model_report; do
             test -s "evidence/data/$f.json" || { echo "::error::Required output missing: $f.json"; exit 1; }
             python3 -m json.tool "evidence/data/$f.json" >/dev/null || exit 1
           done
@@ -81,7 +98,7 @@ jobs:
           git config user.name "aeroleadai-crawler[bot]"
           git config user.email "aeroleadai-crawler@users.noreply.github.com"
           git add evidence/data/autonomous_residential_discovery.json evidence/data/autonomous_field_triage.json
-          for f in aerial_coverage_ledger.json roof_chip_features.json roof_priority_v2.json parcel_schema.json weak_label_model_report.json review_queue.csv mindex_property_cards.json mindex_lead_export.csv; do
+          for f in aerial_coverage_ledger.json roof_chip_features.json roof_priority_v2.json parcel_schema.json weak_label_model_report.json review_queue.csv roof_priority_interval.json hail_exposure.json reroof_timeline.json cohort_multipliers.json storm_alerts.csv storm_alerts_state.json drift_baseline.json provenance_chain.jsonl mindex_property_cards.json mindex_lead_export.csv; do
             if [ -f "evidence/data/$f" ]; then git add "evidence/data/$f"; fi
           done
           if git diff --cached --quiet; then exit 0; fi

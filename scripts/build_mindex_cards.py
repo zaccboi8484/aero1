@@ -44,6 +44,8 @@ def run():
     storms = read("zcta_storm_index.json", {})
     storm_by_zip = {str(x.get("zcta")): x.get("reports", []) for x in storms.get("events_by_zip", []) if isinstance(x, dict)}
     covered_zip = {str(x.get("zcta")) for x in storms.get("zip_areas", []) if isinstance(x, dict)}
+    footprints = read("building_footprints.json", {}).get("records", {})
+    aerial_source = read("aerial_coverage_ledger.json", {}).get("service_url")
     cards = []
     for pin, p in sorted(discovery.items()):
         lat, lon = p.get("center_lat"), p.get("center_lon")
@@ -65,7 +67,7 @@ def run():
                        "flags": s.get("flags") or [], "not_a_damage_score": True,
                        "condition_claim": "NONE"},
             "imagery": {"status": a.get("status", "NOT_VERIFIED"), "preferred_layer": a.get("preferred_layer"),
-                        "layers": a.get("layers") or {}, "source": read("aerial_coverage_ledger.json", {}).get("service_url")},
+                        "layers": a.get("layers") or {}, "source": aerial_source},
             "permit": {"status": "SOURCE_RECORDED" if perm.get("matched_roof_permits") else "UNKNOWN",
                        "matched_roof_permits": perm.get("matched_roof_permits") or [],
                        "note": "No match does not establish that no permit exists."},
@@ -74,6 +76,7 @@ def run():
                       "note": "ZIP-level event proximity does not establish parcel damage."},
             "ownership": status(owner.get("recorded_owner") if owner else None),
             "valuation": status(valuation if valuation.get("gatekeeper") == "SOURCE_RECORDED" else None),
+            "building_footprint": footprints.get(pin, {}),
             "roof_condition": {"status": "NOT_VERIFIED", "note": "Human-reviewed close-range evidence required."},
             "source_recorded_at_utc": p.get("last_seen_utc")
         }

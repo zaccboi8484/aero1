@@ -19,7 +19,13 @@ import argparse, concurrent.futures as cf, datetime as dt, hashlib, json, pathli
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "collector"))
-import collect_mngeo_aerial as mn  # noqa: E402  (approved layers + url builder)
+def source_adapter():
+    """Resolve the base project's approved source only when live access is needed."""
+    try:
+        import collect_mngeo_aerial
+    except ModuleNotFoundError as exc:
+        raise RuntimeError("Missing base collector/collect_mngeo_aerial.py; run scripts/preflight.py") from exc
+    return collect_mngeo_aerial
 
 DATA = ROOT / "evidence" / "data"
 SRC = DATA / "autonomous_residential_discovery.json"
@@ -54,8 +60,11 @@ def order(records, ledger, now, refresh_days=180):
             missing.append(r)
         else:
             try:
-                ok = dt.datetime.fromisoformat(e["checked_at_utc"]) > cutoff
-            except (KeyError, ValueError):
+                checked = dt.datetime.fromisoformat(e["checked_at_utc"])
+                # Naive timestamps cannot establish freshness. Failed probes retry next run.
+                ok = (checked.tzinfo is not None and checked > cutoff
+                      and checked <= now and e.get("status") == "REMOTE_IMAGE_VERIFIED")
+            except (KeyError, ValueError, TypeError):
                 ok = False
             (fresh.add(pin) if ok else stale.append(r))
     key = lambda r: (not r.get("single_family_verified"), -(r.get("residential_likelihood") or 0), r["county_pin"])
@@ -71,13 +80,14 @@ def fetch_chip(link, opener=urllib.request.urlopen):
     return payload
 
 
-def probe(rec, both, chip_dir, fetcher=fetch_chip):
+def probe(rec, both, chip_dir, fetcher=fetch_chip, url_builder=None):
+    url_builder = url_builder or source_adapter().url
     pin, bbox = rec["county_pin"], bbox_of(rec)
     entry = {"checked_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(), "bbox_4326": bbox,
              "layers": {}, "preferred_layer": None, "status": "NOT_VERIFIED",
              "locally_downloaded": False, "resale_or_redistribution_rights_verified": False}
     for layer in VINTAGES:
-        link = mn.url(bbox, layer)
+        link = url_builder(bbox, layer)
         try:
             payload = fetcher(link)
             entry["layers"][layer] = {"status": "REMOTE_IMAGE_VERIFIED", "bytes": len(payload),
@@ -121,7 +131,7 @@ def run(max_parcels, budget_seconds, workers, both, chip_dir, now=None, fetcher=
                     consecutive += 1
             time.sleep(0.2)
     out = {"format": "AERO_AERIAL_COVERAGE_LEDGER_V1", "generated_at_utc": now.isoformat(),
-           "service_url": mn.BASE,
+           "service_url": source_adapter().BASE,
            "note": "A verified JPEG response proves a reachable government image, NOT roof, tree or driveway condition.",
            "verified": sum(e["status"] == "REMOTE_IMAGE_VERIFIED" for e in ledger.values()),
            "total_in_ledger": len(ledger), "records": ledger}

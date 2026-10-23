@@ -22,6 +22,7 @@ import json
 import math
 import pathlib
 import re
+from pipeline_io import load_suppression, atomic_json
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "evidence" / "data"
@@ -43,6 +44,21 @@ CONST = {
     "tiers": (0.10, 0.40),                # top 10% = A, next 30% = B
 }
 EXCLUDED = {"NONRESIDENTIAL", "VACANT_OR_UNIMPROVED"}
+
+
+import contextlib, copy
+
+
+@contextlib.contextmanager
+def const_override(**overrides):
+    """Temporarily change CONST entries (used by score_interval.py for uncertainty sampling)."""
+    saved = copy.deepcopy(CONST)
+    try:
+        CONST.update(overrides)
+        yield
+    finally:
+        CONST.clear()
+        CONST.update(saved)
 CONF_WEIGHTS = {"year": .25, "class": .20, "storm": .15, "value": .10, "imagery": .20, "permit": .10}
 
 
@@ -60,7 +76,10 @@ def _year(v):
 
 def _date(s):
     m = re.match(r"(\d{4})-(\d{2})-(\d{2})", str(s or ""))
-    return dt.date(int(m[1]), int(m[2]), int(m[3])) if m else None
+    try:
+        return dt.date(int(m[1]), int(m[2]), int(m[3])) if m else None
+    except ValueError:
+        return None
 
 
 def storm_factor(events, ref_year, now_date):
@@ -100,6 +119,8 @@ def score_parcel(rec, ctx, now=None, use_permits=True):
             "residential_class": cls, "not_a_damage_score": True, "condition_claim": "NONE"}
     if rec.get("non_residential_verified") or cls in EXCLUDED:
         return {**base, "status": "EXCLUDED_NOT_RESIDENTIAL_PROSPECT", "prospecting_priority": None}
+    if pin in ctx.get("suppressed", ()):
+        return {**base, "status": "SUPPRESSED_DO_NOT_CONTACT", "prospecting_priority": None}
 
     flags = []
     year_built = _year(rec.get("year_built")) or _year(ctx["year_built"].get(pin))
@@ -111,14 +132,30 @@ def score_parcel(rec, ctx, now=None, use_permits=True):
     if basis == "YEAR_BUILT_PROXY":
         flags.append("ROOF_MAY_HAVE_BEEN_REPLACED_UNDETECTED")  # absent permit = unknown, never "original roof"
     age = now.year - ref if ref else None
-    p_age = (CONST["age_unknown_prior"] if age is None else
-             _clamp(1 / (1 + math.exp(-(age - CONST["roof_life_midpoint_years"]) / CONST["roof_life_spread_years"])), .03, .97))
+
+    def p_of(a):
+        return _clamp(1 / (1 + math.exp(-(a - CONST["roof_life_midpoint_years"]) / CONST["roof_life_spread_years"])), .03, .97)
+    p_age = CONST["age_unknown_prior"] if age is None else p_of(age)
+    window = (ctx.get("reroof_window") or {}).get(pin) if use_permits else None
+    if window and not reroof:
+        est = window["estimated_year"]
+        if window.get("reviewed"):                       # a human confirmed the replacement: full reset
+            ref, basis, age = est, "REVIEWED_IMAGERY_REROOF", now.year - est
+            p_age = p_of(age)
+        else:                                            # unreviewed imagery change: hedge, never reset
+            p_age = 0.5 * p_of(now.year - est) + 0.5 * p_age
+            flags.append("PROBABLE_REROOF_IMAGERY_REVIEW")
 
     z = str(rec.get("zip") or "")[:5]
-    storm_ok = z in ctx["storm_zips"]
-    storm_mult, storm_ids = storm_factor(ctx["storms"].get(z), ref, now.date()) if storm_ok else (1.0, [])
-    if not storm_ok:
-        flags.append("STORM_DATA_NOT_COVERING_THIS_ZIP")
+    hail = ctx.get("hail") or {}
+    if hail.get("covered"):                              # parcel-cell MRMS MESH over the whole lookback window
+        storm_ok, storm_basis = True, "MRMS_MESH_PARCEL_CELL"
+        storm_mult, storm_ids = storm_factor(hail["parcels"].get(pin, []), ref, now.date())
+    else:
+        storm_ok, storm_basis = z in ctx["storm_zips"], "NOAA_ZCTA_REPORT_POINTS"
+        storm_mult, storm_ids = storm_factor(ctx["storms"].get(z), ref, now.date()) if storm_ok else (1.0, [])
+        if not storm_ok:
+            flags.append("STORM_DATA_NOT_COVERING_THIS_ZIP")
 
     chip = ctx["chips"].get(pin) or {}
     imagery_mult = 1.0
@@ -137,6 +174,15 @@ def score_parcel(rec, ctx, now=None, use_permits=True):
     if bv is None:
         flags.append("VALUATION_UNAVAILABLE")
 
+    size_basis = "BUILDING_VALUATION" if bv is not None else "NEUTRAL_NO_SIZE_DATA"
+    footprint = ctx.get("footprints", {}).get(pin, {})
+    area = footprint.get("roof_area_m2_est")
+    if (footprint.get("footprint_status") == "NEAREST_BUILDING_REVIEW_REQUIRED"
+            and isinstance(area, (int, float)) and math.isfinite(area) and area > 0):
+        value_factor = _clamp(0.8 + (area - 200) / 600, 0.8, 1.3)
+        size_basis = "BUILDING_FOOTPRINT_ASSUMED_PITCH"
+        flags.extend(["ROOF_AREA_ASSUMED_PITCH", "FOOTPRINT_MATCH_REVIEW_REQUIRED"])
+
     type_mult = CONST["class_mult"].get(cls, 1.0)
     verified = bool(rec.get("single_family_verified"))
     like = rec.get("residential_likelihood")
@@ -145,7 +191,10 @@ def score_parcel(rec, ctx, now=None, use_permits=True):
     if not verified:
         flags.append("RESIDENTIAL_CLASS_NOT_VERIFIED")
 
-    ev = p_age * storm_mult * imagery_mult * value_factor * class_mult
+    cohort_mult = (ctx.get("cohort_mult") or {}).get(pin, 1.0)
+    if cohort_mult != 1.0:
+        flags.append("COHORT_REVIEW_ADJUSTED")
+    ev = p_age * storm_mult * imagery_mult * value_factor * class_mult * cohort_mult
     priority = round(100 * (1 - math.exp(-CONST["squash_k"] * ev)), 1)
     have = {"year": ref is not None, "class": verified, "storm": storm_ok, "value": bv is not None,
             "imagery": (ctx["aerial"].get(pin) or {}).get("status") == "REMOTE_IMAGE_VERIFIED",
@@ -154,9 +203,10 @@ def score_parcel(rec, ctx, now=None, use_permits=True):
     return {**base, "status": "PROSPECTING_PRIORITY_V2", "prospecting_priority": priority,
             "expected_value": round(ev, 4), "confidence": confidence, "flags": flags,
             "factors": {"roof_age_years": age, "age_basis": basis, "p_age": round(p_age, 3),
-                        "storm_mult": round(storm_mult, 3), "storm_event_ids": storm_ids,
+                        "storm_mult": round(storm_mult, 3), "storm_basis": storm_basis, "storm_event_ids": storm_ids,
+                        "cohort_mult": round(cohort_mult, 3),
                         "imagery_mult": round(imagery_mult, 3), "value_factor": round(value_factor, 3),
-                        "class_mult": round(class_mult, 3)}}
+                        "class_mult": round(class_mult, 3), "size_basis": size_basis}}
 
 
 def assign_tiers(results):
@@ -177,7 +227,20 @@ def _read(name, default):
         return default
 
 
-def build_context(data_dir=None):
+def _hail_ctx(now=None):
+    """MRMS hail counts as coverage only if candidate hail days are processed across the whole lookback
+    window and the store is current."""
+    h = _read("hail_exposure.json", {})
+    if not h.get("coverage_from") or not h.get("coverage_through"):
+        return {"covered": False, "parcels": {}}
+    now = now or dt.datetime.now(dt.timezone.utc)
+    start = now.date() - dt.timedelta(days=int(365.25 * CONST["storm_lookback_years"]))
+    ok = (dt.date.fromisoformat(h["coverage_from"]) <= start + dt.timedelta(days=30) and
+          dt.date.fromisoformat(h["coverage_through"]) >= now.date() - dt.timedelta(days=14))
+    return {"covered": ok, "parcels": h.get("parcels", {})}
+
+
+def build_context(data_dir=None, now=None):
     global DATA
     if data_dir:
         DATA = pathlib.Path(data_dir)
@@ -200,11 +263,16 @@ def build_context(data_dir=None):
             "storm_zips": {x["zcta"] for x in storm.get("zip_areas", [])},
             "reroof_year": reroof,
             "aerial": _read("aerial_coverage_ledger.json", {}).get("records", {}),
-            "chips": _read("roof_chip_features.json", {}).get("records", {})}
+            "chips": _read("roof_chip_features.json", {}).get("records", {}),
+            "hail": _hail_ctx(now),
+            "reroof_window": _read("reroof_timeline.json", {}).get("records", {}),
+            "suppressed": load_suppression(DATA / "outreach_suppression.json"),
+            "cohort_mult": _read("cohort_multipliers.json", {}).get("records", {}),
+            "footprints": _read("building_footprints.json", {}).get("records", {})}
 
 
 def run(data_dir=None, now=None):
-    ctx = build_context(data_dir)
+    ctx = build_context(data_dir, now)
     recs = _read("autonomous_residential_discovery.json", {}).get("records", [])
     results = assign_tiers([score_parcel(r, ctx, now) for r in recs])
     live = [r for r in results if r.get("prospecting_priority") is not None]
@@ -221,7 +289,7 @@ def run(data_dir=None, now=None):
             return body
     except (OSError, ValueError):
         pass
-    out.write_text(json.dumps(body, separators=(",", ":")) + "\n", encoding="utf-8")
+    atomic_json(out, body)
     return body
 
 

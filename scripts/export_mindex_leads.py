@@ -3,12 +3,14 @@
 import csv
 import json
 from pathlib import Path
+from pipeline_io import load_suppression
 
 BASE = Path(__file__).resolve().parents[1] / "evidence" / "data"
 HEADERS = ["county_pin","address","priority","tier","confidence","residential_class","verified_single_family","aerial_status","permit_status","storm_status","owner_status","valuation_status","street_view_url","missing_evidence","qualification"]
 
-def rows_for(cards):
+def rows_for(cards, suppressed=()):
     for card in cards:
+        if card.get("county_pin") in suppressed: continue
         m=card.get("mindex") or {}
         if m.get("prospecting_priority") is None: continue
         missing=[]
@@ -32,11 +34,13 @@ def rows_for(cards):
 def run():
     path=BASE/"mindex_property_cards.json"
     data=json.loads(path.read_text(encoding="utf-8"))
-    rec=list(rows_for(data["cards"]))
+    suppressed=load_suppression(BASE/"outreach_suppression.json")
+    rec=list(rows_for(data["cards"], suppressed))
     rec.sort(key=lambda x:(-float(x["priority"]),str(x["county_pin"])))
     output=BASE/"mindex_lead_export.csv"
     with output.open("w",newline="",encoding="utf-8") as f:
         w=csv.DictWriter(f,fieldnames=HEADERS);w.writeheader();w.writerows(rec)
-    assert len(rec)==data["ranked"], "lead export must contain every ranked property"
+    expected=sum(c.get("mindex",{}).get("prospecting_priority") is not None and c.get("county_pin") not in suppressed for c in data["cards"])
+    assert len(rec)==expected, "lead export must contain every unsuppressed ranked property"
     return {"exported":len(rec),"review_ready":sum(x["qualification"]=="EVIDENCE_COMPLETE_FOR_REVIEW" for x in rec)}
 if __name__=="__main__":print(json.dumps(run()))

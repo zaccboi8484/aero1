@@ -6,7 +6,9 @@
   "scripts": {
     "build": "node scripts/build-web.mjs && vite build --config frontend/vite.config.js",
     "test:frontend": "node --test tests/unified_react_contract.test.mjs",
-    "check": "npm run test:frontend && npm run build"
+    "check": "npm test",
+    "test": "node scripts/test-project.mjs",
+    "test:python": "python3 -m unittest discover -s tests"
   },
   "dependencies": {
     "lucide-react": "0.468.0",

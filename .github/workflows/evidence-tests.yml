@@ -2,14 +2,11 @@ name: Evidence engine tests
 on:
   push:
     paths:
-      - "collector/match_permits.py"
-      - "tests/test_permit_matching.py"
-      - "tests/test_supercharger_v2.py"
-      - "collector/residential_classifier.py"
-      - "collector/aerial_coverage.py"
-      - "collector/roof_chip_features.py"
-      - "scripts/roof_score_v2.py"
+      - "collector/**"
+      - "scripts/**"
+      - "tests/**"
       - ".github/workflows/evidence-tests.yml"
+  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
@@ -21,7 +18,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install numpy pillow
+      - run: pip install geopandas rasterio numpy pillow
+      - run: pip install scipy
       - run: python tests/test_supercharger_v2.py
+      - run: python tests/test_supercharger_v2b.py
+      - run: python tests/test_supercharger_v3.py
+      - run: python tests/test_footprints.py
       - run: python tests/test_permit_matching.py
       - run: python tests/test_gatekeeper_fetch.py

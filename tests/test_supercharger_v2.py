@@ -14,7 +14,7 @@ CTX = {"building_value": {}, "year_built": {}, "storms": {}, "storm_zips": set()
 def ctx(**kw): return {**CTX, **kw}
 def rec(pin="1", yb=1996, cls="SINGLE_FAMILY", verified=True, **kw):
     return {"county_pin": pin, "year_built": yb, "residential_class": cls, "single_family_verified": verified,
-            "residential_likelihood": 0.97 if verified else 0.55, "zip": "55123"} | kw
+            "residential_likelihood": 0.97 if verified else 0.55, "zip": "55123", **kw}
 
 class Classifier(unittest.TestCase):
     F = [{"name": "OBJECTID"}, {"name": "COUNTY_PIN"}, {"name": "USECLASS1"}, {"name": "DWELL_TYPE"},
@@ -100,17 +100,17 @@ class Aerial(unittest.TestCase):
         self.assertEqual(ac.order(recs, {}, NOW), ["b", "a"])
     def test_stale_after_missing(self):
         recs = [rec("a", bbox_4326=[0, 0, 1, 1]), rec("b", bbox_4326=[0, 0, 1, 1])]
-        led = {"a": {"checked_at_utc": (NOW - dt.timedelta(days=400)).isoformat()},
-               "b": {"checked_at_utc": (NOW - dt.timedelta(days=5)).isoformat()}}
+        led = {"a": {"status": "REMOTE_IMAGE_VERIFIED", "checked_at_utc": (NOW - dt.timedelta(days=400)).isoformat()},
+               "b": {"status": "REMOTE_IMAGE_VERIFIED", "checked_at_utc": (NOW - dt.timedelta(days=5)).isoformat()}}
         self.assertEqual(ac.order(recs, led, NOW), ["a"])
     def test_probe_both_vintages_and_failure(self):
         r = rec("a", bbox_4326=[-93.2, 44.8, -93.19, 44.81])
         ok = lambda link: b"\xff\xd8\xff" + b"x" * 400 + b"\xff\xd9"
-        _, e = ac.probe(r, True, None, fetcher=ok)
+        _, e = ac.probe(r, True, None, fetcher=ok, url_builder=lambda b, l: "https://example.invalid/" + l)
         self.assertEqual(set(e["layers"]), {"met25", "dak23"}); self.assertFalse(e["locally_downloaded"])
         self.assertFalse(e["resale_or_redistribution_rights_verified"])
         def bad(link): raise ValueError("down")
-        _, e2 = ac.probe(r, False, None, fetcher=bad)
+        _, e2 = ac.probe(r, False, None, fetcher=bad, url_builder=lambda b, l: "https://example.invalid/" + l)
         self.assertEqual(e2["status"], "NOT_VERIFIED")
     def test_bbox_fallback_from_center(self):
         self.assertEqual(len(ac.bbox_of({"center_lat": 44.8, "center_lon": -93.1})), 4)

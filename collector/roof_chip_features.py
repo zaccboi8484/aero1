@@ -48,27 +48,33 @@ def blue_tarp_fraction(rgb):
     return float(((b > r + 0.12) & (b > g + 0.05) & (sat > 0.35) & (mx > 0.3)).mean())
 
 
-def change_score(a_rgb, b_rgb):
-    a, b = luminance(center_crop(a_rgb)), luminance(center_crop(b_rgb))
+def change_score(a_rgb, b_rgb, mask=None):
+    a, b = (luminance(a_rgb[mask]), luminance(b_rgb[mask])) if mask is not None else (luminance(center_crop(a_rgb)), luminance(center_crop(b_rgb)))
     a = (a - a.mean()) / (a.std() + 1e-6)
     b = (b - b.mean()) / (b.std() + 1e-6)
     return float(np.clip(np.abs(a - b).mean() / 2.0, 0, 1))  # 0 identical .. ~1 unrelated
 
 
-def features_for(new_path, old_path=None):
+def features_for(new_path, old_path=None, mask=None):
     new = load(new_path)
-    c = center_crop(new)
+    if mask is not None:
+        mask = np.asarray(mask, dtype=bool)
+        if mask.shape != new.shape[:2] or mask.sum() < 16:
+            raise ValueError("Roof mask must match image dimensions and contain at least 16 pixels")
+    c = new[mask] if mask is not None else center_crop(new)
     out = {"blue_tarp_fraction": round(blue_tarp_fraction(c), 4),
            "texture_std": round(float(luminance(c).std()), 4),
            "mean_rgb": [round(float(x), 3) for x in c.reshape(-1, 3).mean(0)]}
     out["possible_tarp"] = out["blue_tarp_fraction"] >= TARP_FLAG
     if old_path and pathlib.Path(old_path).exists():
-        out["change_score"] = round(change_score(new, load(old_path)), 4)
+        out["change_score"] = round(change_score(new, load(old_path), mask), 4)
         out["possible_roof_change"] = out["change_score"] >= CHANGE_FLAG
     else:
         out["change_score"], out["possible_roof_change"] = None, None
     out.update(condition_claim="NONE", experimental=True,
-               meaning="Review flag from an orthophoto proxy crop. Not roof condition, not hail, not a reroof finding.")
+               region_basis="BUILDING_FOOTPRINT_CANDIDATE" if mask is not None else "CENTER_CROP_PROXY",
+               analyzed_pixels=int(mask.sum()) if mask is not None else int(c.shape[0] * c.shape[1]),
+               meaning="Review flag from an orthophoto region. Not roof condition, not hail, not a reroof finding.")
     return out
 
 
@@ -76,7 +82,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--chip-dir", required=True)
     ap.add_argument("--out", default=str(DATA / "roof_chip_features.json"))
+    ap.add_argument("--footprints", default=str(DATA / "building_footprints.json"))
+    ap.add_argument("--ledger", default=str(DATA / "aerial_coverage_ledger.json"))
     a = ap.parse_args()
+    footprints = json.loads(pathlib.Path(a.footprints).read_text())["records"] if pathlib.Path(a.footprints).exists() else {}
+    ledger = json.loads(pathlib.Path(a.ledger).read_text())["records"] if footprints else {}
     d = pathlib.Path(a.chip_dir)
     try:
         existing = json.loads(pathlib.Path(a.out).read_text(encoding="utf-8")).get("records", {})
@@ -85,7 +95,12 @@ def main():
     for new in sorted(d.glob("*__met25.jpg")):
         pin = new.name.split("__")[0]
         try:
-            existing[pin] = {**features_for(new, d / f"{pin}__dak23.jpg"),
+            mask = None
+            fp = footprints.get(pin, {})
+            if fp.get("footprint_status") == "NEAREST_BUILDING_REVIEW_REQUIRED":
+                from footprints import roof_mask
+                mask = roof_mask(fp["footprint_geometry_4326"], ledger[pin]["bbox_4326"])
+            existing[pin] = {**features_for(new, d / f"{pin}__dak23.jpg", mask=mask),
                              "computed_at_utc": dt.datetime.now(dt.timezone.utc).isoformat()}
         except Exception as exc:
             existing[pin] = {"error": str(exc)[:120], "condition_claim": "NONE"}

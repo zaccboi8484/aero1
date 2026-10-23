@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 evidence/chips/
+evidence/outreach/
+
+node_modules/
+public/assets/
