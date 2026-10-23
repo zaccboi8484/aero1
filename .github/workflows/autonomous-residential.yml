@@ -1,0 +1,32 @@
+name: Continuous property discovery
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: aero-parcel-discovery
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Crawl next geographic ring and validate deduplicated parcels
+        run: python3 scripts/autonomous_residential_crawler.py
+      - name: Publish durable checkpoint and source records
+        run: |
+          git config user.name "aeroleadai-crawler[bot]"
+          git config user.email "aeroleadai-crawler@users.noreply.github.com"
+          git add evidence/data/autonomous_residential_discovery.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update source-backed autonomous residential discovery checkpoint"
+          git push origin HEAD:main
