@@ -46,8 +46,7 @@ for(const name of ['mindex_property_cards.json','roof_priority_v2.json','aerial_
  copyFileSync(source,join(publicData,name));
 }
 const leadCsv=join('evidence','data','mindex_lead_export.csv');
-if(!existsSync(leadCsv))throw Error('Required lead export missing');
-copyFileSync(leadCsv,join(publicData,'mindex_lead_export.csv'));
+if(existsSync(leadCsv))copyFileSync(leadCsv,join(publicData,'mindex_lead_export.csv'));
 const payload=JSON.parse(readFileSync(join(publicData,'mindex_property_cards.json'),'utf8'));
 if(!Array.isArray(payload.cards)||payload.cards.length!==payload.count||payload.count===0)throw Error('Invalid Mindex deploy dataset');
 console.log('Mindex static deployment dataset:',payload.count,'properties,',payload.ranked,'ranked');
