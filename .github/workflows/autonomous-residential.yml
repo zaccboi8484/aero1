@@ -47,13 +47,16 @@ jobs:
           python3 scripts/build_review_queue.py --top 100
           python3 collector/weak_label_model.py
       - name: Assemble parcel-keyed Mindex cards
-        run: python3 scripts/build_mindex_cards.py
+        run: |
+          python3 scripts/build_mindex_cards.py
+          python3 scripts/export_mindex_leads.py
       - name: Validate generated records before publication
         run: |
           for f in autonomous_residential_discovery autonomous_field_triage aerial_coverage_ledger roof_priority_v2 parcel_schema weak_label_model_report; do
             test -s "evidence/data/$f.json" || { echo "::error::Required output missing: $f.json"; exit 1; }
             python3 -m json.tool "evidence/data/$f.json" >/dev/null || exit 1
           done
+          test -s evidence/data/mindex_lead_export.csv || exit 1
           test -s evidence/data/mindex_property_cards.json || { echo '::error::Mindex cards missing'; exit 1; }
           python3 -m json.tool evidence/data/mindex_property_cards.json >/dev/null
           python3 - <<'PY'
@@ -78,7 +81,7 @@ jobs:
           git config user.name "aeroleadai-crawler[bot]"
           git config user.email "aeroleadai-crawler@users.noreply.github.com"
           git add evidence/data/autonomous_residential_discovery.json evidence/data/autonomous_field_triage.json
-          for f in aerial_coverage_ledger.json roof_chip_features.json roof_priority_v2.json parcel_schema.json weak_label_model_report.json review_queue.csv mindex_property_cards.json; do
+          for f in aerial_coverage_ledger.json roof_chip_features.json roof_priority_v2.json parcel_schema.json weak_label_model_report.json review_queue.csv mindex_property_cards.json mindex_lead_export.csv; do
             if [ -f "evidence/data/$f" ]; then git add "evidence/data/$f"; fi
           done
           if git diff --cached --quiet; then exit 0; fi
@@ -106,5 +109,6 @@ jobs:
             evidence/data/weak_label_model_report.json
             evidence/data/review_queue.csv
             evidence/data/mindex_property_cards.json
+            evidence/data/mindex_lead_export.csv
           if-no-files-found: warn
           retention-days: 14
