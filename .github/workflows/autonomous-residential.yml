@@ -49,8 +49,22 @@ jobs:
       - name: Validate generated records before publication
         run: |
           for f in autonomous_residential_discovery autonomous_field_triage aerial_coverage_ledger roof_priority_v2 parcel_schema weak_label_model_report; do
-            if [ -f "evidence/data/$f.json" ]; then python3 -m json.tool "evidence/data/$f.json" >/dev/null; fi
+            test -s "evidence/data/$f.json" || { echo "::error::Required output missing: $f.json"; exit 1; }
+            python3 -m json.tool "evidence/data/$f.json" >/dev/null || exit 1
           done
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          base = Path("evidence/data")
+          discovery = json.loads((base/"autonomous_residential_discovery.json").read_text())
+          score = json.loads((base/"roof_priority_v2.json").read_text())
+          pins = [r["county_pin"] for r in discovery["records"]]
+          assert len(pins) == len(set(pins)), "Duplicate parcel IDs"
+          assert score["count"] == len(pins), "Scoring count differs from discovery"
+          assert score["scored"] > 0, "No parcels ranked"
+          assert all(r.get("not_a_damage_score") for r in score["records"]), "Damage claim missing gate"
+          print("GateKeeper: JSON, deduplication, ranking and claim safeguards verified")
+          PY
       - name: Publish durable checkpoint and source records
         run: |
           git config user.name "aeroleadai-crawler[bot]"
@@ -79,5 +93,9 @@ jobs:
             evidence/data/autonomous_residential_discovery.json
             evidence/data/autonomous_field_triage.json
             evidence/data/parcel_schema.json
+            evidence/data/aerial_coverage_ledger.json
+            evidence/data/roof_priority_v2.json
+            evidence/data/weak_label_model_report.json
+            evidence/data/review_queue.csv
           if-no-files-found: warn
           retention-days: 14
