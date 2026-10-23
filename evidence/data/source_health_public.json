@@ -1,10 +1,10 @@
 {
   "counts": {
-    "government_jpeg_response_records": 492,
+    "government_jpeg_response_records": 516,
     "human_verified_roof_conditions": 0,
     "indexed_parcels": 593,
     "municipal_report_matches": 25,
-    "official_pin_matches_in_ledger": 639,
+    "official_pin_matches_in_ledger": 640,
     "parcels_checked_at_least_once": 593,
     "parcels_checked_last_run": 24,
     "parcels_not_yet_checked": 0,
@@ -19,8 +19,8 @@
   "no_unreviewed_condition_claims": true,
   "note": "Source-health heartbeat is not a completed municipal permit review, physical roof inspection or released Mindex.",
   "publication_is_not_new_permit_discovery": true,
-  "published_at_utc": "2026-10-23T09:06:38.722851+00:00",
+  "published_at_utc": "2026-10-23T09:47:56.000175+00:00",
   "release_certified": false,
   "source_data_present": true,
-  "source_report_run_utc": "2026-10-23T09:05:46.366917+00:00"
+  "source_report_run_utc": "2026-10-23T09:47:36.309517+00:00"
 }
