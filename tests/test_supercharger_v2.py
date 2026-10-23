@@ -14,7 +14,7 @@ CTX = {"building_value": {}, "year_built": {}, "storms": {}, "storm_zips": set()
 def ctx(**kw): return {**CTX, **kw}
 def rec(pin="1", yb=1996, cls="SINGLE_FAMILY", verified=True, **kw):
     return {"county_pin": pin, "year_built": yb, "residential_class": cls, "single_family_verified": verified,
-            "residential_likelihood": 0.97 if verified else 0.55, "zip": "55123", **kw}
+            "residential_likelihood": 0.97 if verified else 0.55, "zip": "55123"} | kw
 
 class Classifier(unittest.TestCase):
     F = [{"name": "OBJECTID"}, {"name": "COUNTY_PIN"}, {"name": "USECLASS1"}, {"name": "DWELL_TYPE"},
