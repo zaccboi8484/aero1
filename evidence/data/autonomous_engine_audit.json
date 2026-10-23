@@ -1,22 +1,44 @@
 {
   "format": "AERO_ENGINE_AUDIT_V2",
-  "generated_at_utc": "2026-10-23T13:15:55.858861+00:00",
-  "discovery_checkpoint_utc": "2026-10-23T12:49:30.771282+00:00",
-  "source_records": 19014,
-  "unique_properties": 19014,
+  "generated_at_utc": "2026-10-23T14:13:55.325682+00:00",
+  "discovery_checkpoint_utc": "2026-10-23T14:07:57.556505+00:00",
+  "source_records": 19347,
+  "unique_properties": 19347,
   "quarantined_count": 0,
   "quarantined_records": [],
   "unverified_by_type": {
-    "permit_history_verified": 19014,
-    "storm_source_verified": 19014,
-    "roof_imagery_reviewed": 19014,
-    "valuation_verified": 19014,
-    "recorded_owner_verified": 19014,
-    "single_family_verified": 19014
+    "permit_history_verified": 19347,
+    "storm_source_verified": 19347,
+    "roof_imagery_reviewed": 19347,
+    "valuation_verified": 19347,
+    "recorded_owner_verified": 19347,
+    "single_family_verified": 19347
   },
   "readiness": "EVIDENCE_INCOMPLETE",
   "meaning": "Unknown evidence is not evidence of absence or roof damage. Quarantined entries are never promoted.",
   "properties_needing_enrichment": [
+    {
+      "county_pin": "100010002010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "100010003010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
     {
       "county_pin": "100030050010",
       "unverified_evidence": [
@@ -2922,6 +2944,17 @@
       ]
     },
     {
+      "county_pin": "100360075021",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "100380001011",
       "unverified_evidence": [
         "permit_history_verified",
@@ -5606,6 +5639,39 @@
       ]
     },
     {
+      "county_pin": "101235007010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235007020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235007030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "101235007040",
       "unverified_evidence": [
         "permit_history_verified",
@@ -5618,6 +5684,127 @@
     },
     {
       "county_pin": "101235007050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235008010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235008020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235008030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235008040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235008050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235009010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235009020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235009030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235009040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235009050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235009060",
       "unverified_evidence": [
         "permit_history_verified",
         "storm_source_verified",
@@ -5673,6 +5860,17 @@
     },
     {
       "county_pin": "101235010050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101235010060",
       "unverified_evidence": [
         "permit_history_verified",
         "storm_source_verified",
@@ -46350,6 +46548,72 @@
       ]
     },
     {
+      "county_pin": "101672502130",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101672502140",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101672502150",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101672502160",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101672502170",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "101672502180",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "101672502190",
       "unverified_evidence": [
         "permit_history_verified",
@@ -66645,6 +66909,17 @@
       ]
     },
     {
+      "county_pin": "102087501080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "102087502010",
       "unverified_evidence": [
         "permit_history_verified",
@@ -78041,6 +78316,17 @@
       ]
     },
     {
+      "county_pin": "102647501200",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "102650001010",
       "unverified_evidence": [
         "permit_history_verified",
@@ -81914,6 +82200,17 @@
     },
     {
       "county_pin": "103122501010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103122501020",
       "unverified_evidence": [
         "permit_history_verified",
         "storm_source_verified",
@@ -92694,6 +92991,215 @@
     },
     {
       "county_pin": "103340001020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347500010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501110",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501120",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501130",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501140",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501150",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501160",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501170",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "103347501180",
       "unverified_evidence": [
         "permit_history_verified",
         "storm_source_verified",
@@ -111492,6 +111998,556 @@
       ]
     },
     {
+      "county_pin": "104580001010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580001020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580001030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580001040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580001050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580001060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580002010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580002020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580002030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580002040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580002050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580002060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580002070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580002080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580002090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580002100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580003010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580003020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580003030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580003040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580003050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580003060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580003070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580003080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580003090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580003100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101110",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101120",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101130",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101140",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101150",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101160",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101170",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101180",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101190",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101200",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101210",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101220",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580101230",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104580201010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "104630001010",
       "unverified_evidence": [
         "permit_history_verified",
@@ -114177,6 +115233,116 @@
     },
     {
       "county_pin": "104726002190",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104726401010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104726401020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104726401030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104726401040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104726401050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104726401060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104726401070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104726401080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104726401090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "104726401100",
       "unverified_evidence": [
         "permit_history_verified",
         "storm_source_verified",
@@ -135230,6 +136396,17 @@
       ]
     },
     {
+      "county_pin": "105677602040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "105677602050",
       "unverified_evidence": [
         "permit_history_verified",
@@ -135318,7 +136495,84 @@
       ]
     },
     {
+      "county_pin": "105677602130",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105677602140",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105677602150",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "105677602160",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105677602170",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105677602180",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105677603010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105677603020",
       "unverified_evidence": [
         "permit_history_verified",
         "storm_source_verified",
@@ -137133,6 +138387,589 @@
       ]
     },
     {
+      "county_pin": "105765001010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001110",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001140",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001150",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001160",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765001170",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002110",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002120",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002130",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002140",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002150",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002160",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765002170",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003110",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003120",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003130",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003140",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003150",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003160",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003170",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003180",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003190",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765003200",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105765101010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "105766001010",
       "unverified_evidence": [
         "permit_history_verified",
@@ -138586,6 +140423,490 @@
     },
     {
       "county_pin": "105767601020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769001010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769001020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769001030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769001040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769001050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769001060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769001070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769001080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769001090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769002010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769002020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769002030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769002040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769002050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769002060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769003010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769003020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769003030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769003040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769004010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769004020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769004030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769004040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769004050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769004060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769004070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769004080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769004090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769004100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769005010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769005020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769005030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769005040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769005050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769005060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769005070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769005080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769005090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769101010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769101020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769101030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769101040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769201010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "105769301010",
       "unverified_evidence": [
         "permit_history_verified",
         "storm_source_verified",
@@ -169550,6 +171871,105 @@
       ]
     },
     {
+      "county_pin": "107395001010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "107395001020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "107395001030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "107395001040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "107395001050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "107395001060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "107395001070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "107395001080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "107395001090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "107495001010",
       "unverified_evidence": [
         "permit_history_verified",
@@ -185104,6 +187524,39 @@
       ]
     },
     {
+      "county_pin": "108201301040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108201301050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108201401020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "108202001010",
       "unverified_evidence": [
         "permit_history_verified",
@@ -191506,6 +193959,28 @@
       ]
     },
     {
+      "county_pin": "108375002080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375002090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "108375003010",
       "unverified_evidence": [
         "permit_history_verified",
@@ -191737,6 +194212,237 @@
       ]
     },
     {
+      "county_pin": "108375101120",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375101130",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375101140",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375101150",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102110",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102120",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102130",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102140",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102150",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375102160",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375103010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "108375104010",
       "unverified_evidence": [
         "permit_history_verified",
@@ -191914,6 +194620,248 @@
     },
     {
       "county_pin": "108375104170",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105110",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105120",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105130",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105140",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105150",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105160",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105170",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105180",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105190",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105200",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105210",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108375105220",
       "unverified_evidence": [
         "permit_history_verified",
         "storm_source_verified",
@@ -193398,6 +196346,61 @@
       ]
     },
     {
+      "county_pin": "108395401070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395401080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395401090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395401100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395401110",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "108395401120",
       "unverified_evidence": [
         "permit_history_verified",
@@ -193739,6 +196742,50 @@
       ]
     },
     {
+      "county_pin": "108395803050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395803060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395803070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395804010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "108395901010",
       "unverified_evidence": [
         "permit_history_verified",
@@ -193783,6 +196830,193 @@
       ]
     },
     {
+      "county_pin": "108395901050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395901060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395901070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395901080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395901090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395901100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395901110",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395902010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395902020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108395902030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "108396001080",
       "unverified_evidence": [
         "permit_history_verified",
@@ -193805,6 +197039,336 @@
       ]
     },
     {
+      "county_pin": "108396001100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001110",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001120",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001130",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001140",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001150",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001160",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396001170",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396002010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396002020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396101010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396101020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396101030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396101040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396101050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396101060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396101070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396101080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396101090",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396101100",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396101110",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396101120",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396201010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396201020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396201030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396201040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396201050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396201060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396201070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396201080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
       "county_pin": "108396301010",
       "unverified_evidence": [
         "permit_history_verified",
@@ -193817,6 +197381,105 @@
     },
     {
       "county_pin": "108396301020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396302010",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396302020",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396302030",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396302040",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396302050",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396302060",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396302070",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396302080",
+      "unverified_evidence": [
+        "permit_history_verified",
+        "storm_source_verified",
+        "roof_imagery_reviewed",
+        "valuation_verified",
+        "recorded_owner_verified",
+        "single_family_verified"
+      ]
+    },
+    {
+      "county_pin": "108396302090",
       "unverified_evidence": [
         "permit_history_verified",
         "storm_source_verified",
