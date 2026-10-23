@@ -28,6 +28,10 @@ jobs:
         run: python3 scripts/autonomous_residential_crawler.py
       - name: Rank actual evidence coverage without asserting roof damage
         run: python3 scripts/gatekeeper_field_triage.py
+      - name: Validate generated records before publication
+        run: |
+          python3 -m json.tool evidence/data/autonomous_residential_discovery.json >/dev/null
+          python3 -m json.tool evidence/data/autonomous_field_triage.json >/dev/null
       - name: Publish durable checkpoint and source records
         run: |
           git config user.name "aeroleadai-crawler[bot]"
@@ -35,4 +39,22 @@ jobs:
           git add evidence/data/autonomous_residential_discovery.json evidence/data/autonomous_field_triage.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Update source-backed autonomous residential discovery checkpoint"
-          git push origin HEAD:main
+          for attempt in 1 2 3 4; do
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Push conflict or network error; retry $attempt of 4"
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; exit 1; }
+            sleep $((attempt * 5))
+          done
+          echo "Checkpoint publication failed after retries" >&2
+          exit 1
+      - name: Preserve diagnostic data on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: autonomous-discovery-failure-${{ github.run_id }}
+          path: |
+            evidence/data/autonomous_residential_discovery.json
+            evidence/data/autonomous_field_triage.json
+          if-no-files-found: warn
+          retention-days: 14
