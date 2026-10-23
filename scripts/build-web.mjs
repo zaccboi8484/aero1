@@ -29,6 +29,7 @@ requireOnce(network,'</body>','network page');
 writeFileSync(join(out,'index.html'),network,'utf8');
 writeFileSync(join(out,'network.html'),network,'utf8');
 copyFileSync('network.js',join(out,'network.js'));
+copyFileSync('mindex-browser.html',join(out,'mindex-browser.html'));
 let cards=readFileSync('roofing-scorecards.html','utf8');
 cards=attachSync(cards,'scorecards');
 writeFileSync(join(out,'roofing-scorecards.html'),cards,'utf8');
