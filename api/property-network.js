@@ -128,6 +128,13 @@ export function joinEvidence(d){
    researchPriority:evidencePriority,roofConditionScore:null,mindexScore:null,gatekeeperCertified:false,
    yearBuilt:p.year_built==null?null:Number(p.year_built)||null,
    valuationUsd:val?.gatekeeper==='SOURCE_RECORDED'&&saneNum(val.amount_usd)!==null?val.amount_usd:null,
+   valuationEvidence:{amountUsd:val?.gatekeeper==='SOURCE_RECORDED'&&saneNum(val.amount_usd)!==null?val.amount_usd:null,
+    assessmentYear:Number.isInteger(val?.assessment_year)?val.assessment_year:null,
+    sourceStatus:val?.gatekeeper==='SOURCE_RECORDED'?'SOURCE_RECORDED':'NOT_VERIFIED',
+    sourceUrl:sourceUrl(val?.source_url)?val.source_url:null},
+   ownership:{recordedOwnerName:null,ownerType:'UNKNOWN',sourceStatus:'NOT_VERIFIED',
+    sourceUrl:null,checkedAt:null,possibleOccupantName:null,
+    note:'Recorded ownership and current residency require independent authoritative verification'},
    permits:permits.get(id)||[],permitFacts,stormFacts,roofNeeds,
    censusZcta:zcta,postalZipVerified:false,
    zipAreaStormStatus:!d.zip?'ZIP_AREA_INDEX_PENDING':!zipCurrent?'ZIP_AREA_INDEX_STALE':
