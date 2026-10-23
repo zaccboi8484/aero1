@@ -1,0 +1,3 @@
+AeroLeadAI crawler activation request
+Source: user-requested pulse
+Purpose: trigger autonomous-residential.yml on push
