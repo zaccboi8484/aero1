@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-23T08:58:23.706083+00:00",
+  "checked_at_utc": "2026-10-24T08:54:38.755150+00:00",
   "total": 60,
   "remote_jpegs_verified": 0,
   "errors": 3,
@@ -8,7 +8,7 @@
     {
       "parcel_objectid": "44001",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683527%2C44.8165728%2C-93.1669527%2C44.8173728&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "SOURCE_ERROR",
       "response_type": null,
       "bytes": 0,
@@ -19,7 +19,7 @@
     {
       "parcel_objectid": "44002",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683416%2C44.8162813%2C-93.1669416%2C44.8170813&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "SOURCE_ERROR",
       "response_type": null,
       "bytes": 0,
@@ -30,7 +30,7 @@
     {
       "parcel_objectid": "44003",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1683443%2C44.8159861%2C-93.1669443%2C44.8167861&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "SOURCE_ERROR",
       "response_type": null,
       "bytes": 0,
@@ -41,7 +41,7 @@
     {
       "parcel_objectid": "44004",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1684568%2C44.8157096%2C-93.1670568%2C44.8165096&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -51,7 +51,7 @@
     {
       "parcel_objectid": "44005",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1684388%2C44.8152607%2C-93.1670388%2C44.8160607&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -61,7 +61,7 @@
     {
       "parcel_objectid": "44006",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1687487%2C44.8150539%2C-93.1673487%2C44.8158539&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -71,7 +71,7 @@
     {
       "parcel_objectid": "44007",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1688065%2C44.8155582%2C-93.1674065%2C44.8163582&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -81,7 +81,7 @@
     {
       "parcel_objectid": "44008",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1691044%2C44.8153635%2C-93.1677044%2C44.8161635&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -91,7 +91,7 @@
     {
       "parcel_objectid": "44009",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1693268%2C44.8152644%2C-93.1679268%2C44.8160644&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -101,7 +101,7 @@
     {
       "parcel_objectid": "44010",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1699828%2C44.8152569%2C-93.1685828%2C44.8160569&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -111,7 +111,7 @@
     {
       "parcel_objectid": "44011",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704059%2C44.8153327%2C-93.1690059%2C44.8161327&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -121,7 +121,7 @@
     {
       "parcel_objectid": "44012",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704099%2C44.8156763%2C-93.1690099%2C44.8164763&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -131,7 +131,7 @@
     {
       "parcel_objectid": "44013",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1708829%2C44.8156262%2C-93.1694829%2C44.8164262&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -141,7 +141,7 @@
     {
       "parcel_objectid": "44014",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1709177%2C44.815389%2C-93.1695177%2C44.816189&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -151,7 +151,7 @@
     {
       "parcel_objectid": "44015",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1713771%2C44.815227%2C-93.1699771%2C44.816027&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -161,7 +161,7 @@
     {
       "parcel_objectid": "44016",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.171904%2C44.8152842%2C-93.170504%2C44.8160842&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -171,7 +171,7 @@
     {
       "parcel_objectid": "44017",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1719163%2C44.8157118%2C-93.1705163%2C44.8165118&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -181,7 +181,7 @@
     {
       "parcel_objectid": "44018",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1716255%2C44.8159514%2C-93.1702255%2C44.8167514&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -191,7 +191,7 @@
     {
       "parcel_objectid": "44019",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.171276%2C44.8161304%2C-93.169876%2C44.8169304&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -201,7 +201,7 @@
     {
       "parcel_objectid": "44020",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1708807%2C44.8161914%2C-93.1694807%2C44.8169914&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -211,7 +211,7 @@
     {
       "parcel_objectid": "44021",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704089%2C44.8162148%2C-93.1690089%2C44.8170148&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -221,7 +221,7 @@
     {
       "parcel_objectid": "44022",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1705463%2C44.8166044%2C-93.1691463%2C44.8174044&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -231,7 +231,7 @@
     {
       "parcel_objectid": "44023",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.170731%2C44.8167461%2C-93.169331%2C44.8175461&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -241,7 +241,7 @@
     {
       "parcel_objectid": "44024",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1711884%2C44.8166977%2C-93.1697884%2C44.8174977&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -251,7 +251,7 @@
     {
       "parcel_objectid": "44025",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1715133%2C44.816578%2C-93.1701133%2C44.817378&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -261,7 +261,7 @@
     {
       "parcel_objectid": "44026",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1717963%2C44.8163865%2C-93.1703963%2C44.8171865&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -271,7 +271,7 @@
     {
       "parcel_objectid": "44027",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.172078%2C44.816201%2C-93.170678%2C44.817001&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -281,7 +281,7 @@
     {
       "parcel_objectid": "44028",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1723132%2C44.8159829%2C-93.1709132%2C44.8167829&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -291,7 +291,7 @@
     {
       "parcel_objectid": "44029",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1724565%2C44.8157309%2C-93.1710565%2C44.8165309&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -301,7 +301,7 @@
     {
       "parcel_objectid": "44030",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1725097%2C44.8154715%2C-93.1711097%2C44.8162715&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -311,7 +311,7 @@
     {
       "parcel_objectid": "44031",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1725391%2C44.8151831%2C-93.1711391%2C44.8159831&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -321,7 +321,7 @@
     {
       "parcel_objectid": "44032",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1688839%2C44.8169946%2C-93.1674839%2C44.8177946&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -331,7 +331,7 @@
     {
       "parcel_objectid": "44033",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690695%2C44.8169048%2C-93.1676695%2C44.8177048&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -341,7 +341,7 @@
     {
       "parcel_objectid": "44034",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1691128%2C44.816548%2C-93.1677128%2C44.817348&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -351,7 +351,7 @@
     {
       "parcel_objectid": "44035",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690896%2C44.8162942%2C-93.1676896%2C44.8170942&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -361,7 +361,7 @@
     {
       "parcel_objectid": "44036",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1690833%2C44.8159088%2C-93.1676833%2C44.8167088&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -371,7 +371,7 @@
     {
       "parcel_objectid": "44037",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.169708%2C44.815746%2C-93.168308%2C44.816546&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -381,7 +381,7 @@
     {
       "parcel_objectid": "44038",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1697065%2C44.8160672%2C-93.1683065%2C44.8168672&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -391,7 +391,7 @@
     {
       "parcel_objectid": "44039",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1697062%2C44.816365%2C-93.1683062%2C44.817165&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -401,7 +401,7 @@
     {
       "parcel_objectid": "44040",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.169754%2C44.8167184%2C-93.168354%2C44.8175184&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -411,7 +411,7 @@
     {
       "parcel_objectid": "44041",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1698517%2C44.8171132%2C-93.1684517%2C44.8179132&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -421,7 +421,7 @@
     {
       "parcel_objectid": "44042",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1700176%2C44.8173564%2C-93.1686176%2C44.8181564&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -431,7 +431,7 @@
     {
       "parcel_objectid": "44043",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1704811%2C44.8176307%2C-93.1690811%2C44.8184307&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -441,7 +441,7 @@
     {
       "parcel_objectid": "44044",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1712596%2C44.8176437%2C-93.1698596%2C44.8184437&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -451,7 +451,7 @@
     {
       "parcel_objectid": "44045",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1716497%2C44.8173937%2C-93.1702497%2C44.8181937&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -461,7 +461,7 @@
     {
       "parcel_objectid": "44046",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1719013%2C44.8170969%2C-93.1705013%2C44.8178969&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -471,7 +471,7 @@
     {
       "parcel_objectid": "44047",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1722127%2C44.8174237%2C-93.1708127%2C44.8182237&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -481,7 +481,7 @@
     {
       "parcel_objectid": "44048",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1728086%2C44.817414%2C-93.1714086%2C44.818214&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -491,7 +491,7 @@
     {
       "parcel_objectid": "44049",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1729659%2C44.8169658%2C-93.1715659%2C44.8177658&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -501,7 +501,7 @@
     {
       "parcel_objectid": "44050",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1723996%2C44.816688%2C-93.1709996%2C44.817488&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -511,7 +511,7 @@
     {
       "parcel_objectid": "44051",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1727662%2C44.8165293%2C-93.1713662%2C44.8173293&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -521,7 +521,7 @@
     {
       "parcel_objectid": "44052",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1729448%2C44.8163427%2C-93.1715448%2C44.8171427&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -531,7 +531,7 @@
     {
       "parcel_objectid": "44053",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1731016%2C44.8160522%2C-93.1717016%2C44.8168522&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -541,7 +541,7 @@
     {
       "parcel_objectid": "44054",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1732314%2C44.8157669%2C-93.1718314%2C44.8165669&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -551,7 +551,7 @@
     {
       "parcel_objectid": "44055",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1733353%2C44.8154813%2C-93.1719353%2C44.8162813&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -561,7 +561,7 @@
     {
       "parcel_objectid": "44056",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1734355%2C44.8151835%2C-93.1720355%2C44.8159835&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -571,7 +571,7 @@
     {
       "parcel_objectid": "44057",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1732298%2C44.8148474%2C-93.1718298%2C44.8156474&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -581,7 +581,7 @@
     {
       "parcel_objectid": "44058",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1736755%2C44.8148244%2C-93.1722755%2C44.8156244&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -591,7 +591,7 @@
     {
       "parcel_objectid": "44059",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.1741738%2C44.8147277%2C-93.1727738%2C44.8155277&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,
@@ -601,7 +601,7 @@
     {
       "parcel_objectid": "44060",
       "source_url": "https://gisimg.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2025AirPhotoLeafOff6Inch_Spring/ImageServer/exportImage?bbox=-93.174801%2C44.8142873%2C-93.173401%2C44.8150873&bboxSR=4326&imageSR=4326&size=900%2C700&format=jpg&f=image",
-      "checked_utc": "2026-10-23T08:58:23.706083+00:00",
+      "checked_utc": "2026-10-24T08:54:38.755150+00:00",
       "status": "DEFERRED_SOURCE_CIRCUIT_OPEN",
       "response_type": null,
       "bytes": 0,

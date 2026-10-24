@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-23T08:58:09.113930+00:00",
+  "generated_at_utc": "2026-10-24T08:54:16.413547+00:00",
   "source": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query",
   "counts": {
     "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT": 60
@@ -10,7 +10,7 @@
       "parcel_objectid": "44001",
       "county_pin": "104200101010",
       "address": "1402 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1676527%2C+%22y%22%3A+44.8169728%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -20,13 +20,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "7c4a07990cac930bb7adecbf8a29822323198a5ac6e4df90c63f170c8bd32088"
+      "sha256": "0e7fe3b7098c3afaed50454b20bc08b38bbdab6dc85a67d8960a25b062acc552"
     },
     {
       "parcel_objectid": "44002",
       "county_pin": "104200101020",
       "address": "1410 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1676416%2C+%22y%22%3A+44.8166813%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -36,13 +36,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "4bf9108e6174a5c724dcfa0467943ed12a8f7e8ada8198265eeb5ab3626c8e36"
+      "sha256": "6ac31a9826a601e0bcb505bb440a26c65b166c2c4a1a9f84e4efa976c6b05587"
     },
     {
       "parcel_objectid": "44003",
       "county_pin": "104200101030",
       "address": "1414 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1676443%2C+%22y%22%3A+44.8163861%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -52,13 +52,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "a30d821d0ad2b7712009a67c6c7b43eac28f37a246ad0600eb68ba18db6ba491"
+      "sha256": "5b14a68cf6b3084734f15a8fec8ebbb6edaaa296fe30289f2ccecf2b4c021c08"
     },
     {
       "parcel_objectid": "44004",
       "county_pin": "104200101040",
       "address": "1418 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1677568%2C+%22y%22%3A+44.8161096%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -68,13 +68,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "8b8fffa727b25599ca1cded31339d378be627e96b7be2d602e43f9f28a9b37c8"
+      "sha256": "4e11055efeb9eb0e4b7babd1ab4ace07327d51f5f896895c0b409a4e376cf2e1"
     },
     {
       "parcel_objectid": "44005",
       "county_pin": "104200101050",
       "address": "1401 Rocky Lane, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1677388%2C+%22y%22%3A+44.8156607%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -84,13 +84,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "f21b9d2cf102f861797c74a8ba1af6ad24618c10cf06aefa35d3a342c58b348d"
+      "sha256": "85630a0f8737e277e9d7c4765c906bc705f40cc13a560279ca5055001e6ad5c2"
     },
     {
       "parcel_objectid": "44006",
       "county_pin": "104200101060",
       "address": "1405 Rocky Lane, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1680487%2C+%22y%22%3A+44.8154539%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -100,13 +100,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "3f6575ea24a4ad760e54ebb8016ff1d672880f223cbe3d9a7d31d703311c85de"
+      "sha256": "ab1fc12fc02c5a8c1d7f17cb987d1475c2aa16e71a96289a3f48acedd4c4b3c3"
     },
     {
       "parcel_objectid": "44007",
       "county_pin": "104200101070",
       "address": "1422 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1681065%2C+%22y%22%3A+44.8159582%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -116,13 +116,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "4e6bc4815832f60d32c7771370e0ea319a33bd737a0d9744c142b6f0f133e04e"
+      "sha256": "7fc4696db983cd629931cbe8bddc76609fe7834ee3a239e864ef4139c806546e"
     },
     {
       "parcel_objectid": "44008",
       "county_pin": "104200101080",
       "address": "1426 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1684044%2C+%22y%22%3A+44.8157635%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -132,13 +132,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "2bb223b58ef54a0adcb102e5fe1fda841cfaf1b800903323ae69b2b7246135e6"
+      "sha256": "fb39012ae77e6d8cec47d4f4cf08d3b5641ea47f2bd61aeb76040fe37bfb3a24"
     },
     {
       "parcel_objectid": "44009",
       "county_pin": "104200101090",
       "address": "1430 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1686268%2C+%22y%22%3A+44.8156644%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -148,13 +148,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "15af8de6b677ac9c1a7f1261573dd0cf5b191d87c7ab8c19abd09570ba9bd2da"
+      "sha256": "6dd97924e61fd292e263761c85d9da9fdaf46d35609672b023728e99f91db7c2"
     },
     {
       "parcel_objectid": "44010",
       "county_pin": "104200101100",
       "address": "1434 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1692828%2C+%22y%22%3A+44.8156569%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -164,13 +164,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "43301e39c2b9b8eb5bc16e9da36eb22dacadfd2097059dbab034a19a4dd0824d"
+      "sha256": "de00027724bd58cd0a6b81297dafc6ef95e5cc17da2936faccede31fe5414726"
     },
     {
       "parcel_objectid": "44011",
       "county_pin": "104200101110",
       "address": "1438 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1697059%2C+%22y%22%3A+44.8157327%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -180,13 +180,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "fadfa61923ce14226c6e9b49be7814e01618c8767b43fa2e0eb88f0c59bb490b"
+      "sha256": "b7373fcaee60fd842de7c8b8f93031a1df905305c57aacdab26b64c317802b93"
     },
     {
       "parcel_objectid": "44012",
       "county_pin": "104200101120",
       "address": "1444 Kings Wood Lane, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1697099%2C+%22y%22%3A+44.8160763%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -196,13 +196,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "39f86c32bc5b281f551ca25e811c60703276671c19d76ab3d2ba6e2fe5765c6f"
+      "sha256": "fffa98a50c01a80468c73cf70dd7cba1b38609a6ec13db13eb0859b17684b04e"
     },
     {
       "parcel_objectid": "44013",
       "county_pin": "104200101130",
       "address": "1448 Kings Wood Lane, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1701829%2C+%22y%22%3A+44.8160262%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -212,13 +212,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "fdb14b5d94314ce956b0d155e59e797d35a56b931c398eee92d085d2fffac477"
+      "sha256": "48f1d32c79dd9718b01efd7c6cba65810583e9a865f6267d8f44f8fe590d9cd3"
     },
     {
       "parcel_objectid": "44014",
       "county_pin": "104200101140",
       "address": "1452 Kings Wood Lane, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1702177%2C+%22y%22%3A+44.815789%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -228,13 +228,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "c5b2db6dc08fab45cbd62c28fb9d9e0b677186295d5eedb038bb8d907439735b"
+      "sha256": "81e51c4a39353b0b253d88eb25036a8e90f6426f67269ac9830f318236fa6920"
     },
     {
       "parcel_objectid": "44015",
       "county_pin": "104200101150",
       "address": "1456 Kings Wood Lane, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1706771%2C+%22y%22%3A+44.815627%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -244,13 +244,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "0a88dd25e306464db2ed32cc61730587ccc398ba1f43322d38dd6bd41f2b72df"
+      "sha256": "0cc25b13755ab30c01df7de11c46df235211db7d9275ace61e8b7b9b10e9e5c5"
     },
     {
       "parcel_objectid": "44016",
       "county_pin": "104200101160",
       "address": "1460 Kings Wood Lane, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.171204%2C+%22y%22%3A+44.8156842%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -260,13 +260,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "d0934a3ff4bd07f0217a1b7ac47165c418528a4ea049f64e461f79820f7befaa"
+      "sha256": "e80fb7afe0de211bbf2c9578e1f78bd852ba701726402a45792cdafd6144aab2"
     },
     {
       "parcel_objectid": "44017",
       "county_pin": "104200101170",
       "address": "1463 Kings Wood Lane, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1712163%2C+%22y%22%3A+44.8161118%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -276,13 +276,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "8525492ecc21c07d04436f8a6d642e01defed565368965de62cd910db354277a"
+      "sha256": "27614b066c9ab9a15660cc507484e907dc071a13f38920220685c97eca9af017"
     },
     {
       "parcel_objectid": "44018",
       "county_pin": "104200101180",
       "address": "1459 Kings Wood Lane, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1709255%2C+%22y%22%3A+44.8163514%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -292,13 +292,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "3e6df5fe9546ff218ed259a4514dc8b17903cfc5553884654667c1f2665f8e10"
+      "sha256": "df803ea2675ca1f622232e69e7cd8515517b4fd8895e11b09e0c527ba78adc9d"
     },
     {
       "parcel_objectid": "44019",
       "county_pin": "104200101190",
       "address": "1455 Kings Wood Lane, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.170576%2C+%22y%22%3A+44.8165304%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -308,13 +308,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "da460883a0246356f45672e75ab2ea171ed91b42982166ca5e7525c0c9dd69e7"
+      "sha256": "046227a9f531f82ed8afcf46f5ac2af592dc7c3650d8789732620cc5dbae0675"
     },
     {
       "parcel_objectid": "44020",
       "county_pin": "104200101200",
       "address": "1451 Kings Wood Lane, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1701807%2C+%22y%22%3A+44.8165914%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -324,13 +324,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "495ccd3a0034ab6e4f75a7c69205cea0a444f413358e58300e1f9146147f377c"
+      "sha256": "53f9ebaa2d9684cf2e6f234907a6aab73a7a56786dda2b3eee85d73792740cfa"
     },
     {
       "parcel_objectid": "44021",
       "county_pin": "104200101210",
       "address": "1447 Kings Wood Lane, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1697089%2C+%22y%22%3A+44.8166148%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -340,13 +340,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "ec944d443215f2fe55624689dcfc712063c1cdea63c3b19ec0459ca9e25aa031"
+      "sha256": "872e7b9d0e148c33c9507a94f9140bce8cf707c77df7a6cdfc7101017247788f"
     },
     {
       "parcel_objectid": "44022",
       "county_pin": "104200101220",
       "address": "1454 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1698463%2C+%22y%22%3A+44.8170044%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -356,13 +356,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "be59a6f3437f3460eae533b782ceaee7b0494ce70425ca44dd6bc814dc67bd8c"
+      "sha256": "0926e776811b70c13dfe279a8999160befe8c3d6880cee296af52976081b73b7"
     },
     {
       "parcel_objectid": "44023",
       "county_pin": "104200101230",
       "address": "1462 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.170031%2C+%22y%22%3A+44.8171461%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -372,13 +372,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "8024f9027d8a5ed4c91679424bea127cd01a183a496a79d43a74dbeee8d0031a"
+      "sha256": "9fee2e126b0cee0dc15723792c628980740e5fc0a5e8b7149d4d6e6efdee2fa5"
     },
     {
       "parcel_objectid": "44024",
       "county_pin": "104200101240",
       "address": "1470 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1704884%2C+%22y%22%3A+44.8170977%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -388,13 +388,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "2e76e7d1158b5a3d814af07fe023cf375acd6c8e25727b67df2e2a804613bdb4"
+      "sha256": "b95a84d8f4fb38de6930edc2672abbacfac361ad7400994e909e51cd511351dd"
     },
     {
       "parcel_objectid": "44025",
       "county_pin": "104200101250",
       "address": "1474 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1708133%2C+%22y%22%3A+44.816978%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -404,13 +404,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "8cd57f242e04d0885e655195eb81c0c4d36aa85d4e3222ce3fabf6d15bd6a465"
+      "sha256": "705b1aed314326788dd708e0a3cf3df0703c70c7fadabe47c0bd01eb66b22d71"
     },
     {
       "parcel_objectid": "44026",
       "county_pin": "104200101260",
       "address": "1478 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1710963%2C+%22y%22%3A+44.8167865%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -420,13 +420,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "047b1f203345d35364812b2004ea03bfcef05c087804cd1f3ad0242cea1aa15b"
+      "sha256": "e8a56f6a5d3670f7c2c76338a6da2f21f616057089313cd2a5b1a5d02c5d71dd"
     },
     {
       "parcel_objectid": "44027",
       "county_pin": "104200101270",
       "address": "1482 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.171378%2C+%22y%22%3A+44.816601%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -436,13 +436,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "6ac89eb986d1bcf3b8610d06b01102c8ffd097b2fc6d2cacd0f626699bb754c7"
+      "sha256": "e58411bddcdd7579611c11de29e585bbfd286d178c3caf2d6c036b4a8fb1a1ff"
     },
     {
       "parcel_objectid": "44028",
       "county_pin": "104200101280",
       "address": "1486 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1716132%2C+%22y%22%3A+44.8163829%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -452,13 +452,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "dbcd592c56f1017f48934943a3a822f7ed9afe247eae1f497bc365028e18b9ac"
+      "sha256": "b2d5fbde70d212ddc235f54189a1606249879e473f919ee1a8f34baff7aea8f6"
     },
     {
       "parcel_objectid": "44029",
       "county_pin": "104200101290",
       "address": "1490 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1717565%2C+%22y%22%3A+44.8161309%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -468,13 +468,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "f6ea3d308c22b89494a45a5387b6e047515d1e52005e474c85892674b83358eb"
+      "sha256": "6216cbb3c780f475f09d8082bccdff3c76013856478a05f950ebfbfa7389ca5d"
     },
     {
       "parcel_objectid": "44030",
       "county_pin": "104200101300",
       "address": "1494 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1718097%2C+%22y%22%3A+44.8158715%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -484,13 +484,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "bda928efa3db1fdfec0b66a62a8c6b77b7bba514a2be2a81a36d6f262a442c32"
+      "sha256": "385ae4d32836e06e1fd415a6d441c119129ac92f6da6c2efe67d951101e3a658"
     },
     {
       "parcel_objectid": "44031",
       "county_pin": "104200101310",
       "address": "1498 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1718391%2C+%22y%22%3A+44.8155831%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -500,13 +500,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "07b9ed9e8ff0a1ae1d0c5cec509a49b5c79921979d3188b1eeeca82a39c09f93"
+      "sha256": "eaaee556f5ab226bd116431e9f6f3e134e8dfae48eb1179fb7e5538ac6c994d5"
     },
     {
       "parcel_objectid": "44032",
       "county_pin": "104200102010",
       "address": "1401 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1681839%2C+%22y%22%3A+44.8173946%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -516,13 +516,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "a8c920e18e23bbe31530d55b9f7acd0999821275b4f6a2aeacd3566b2f296039"
+      "sha256": "4f9aec62b41602e44d336ab3cf15b1487d5657f6fcbe9f0537d5d67d72e5cf4c"
     },
     {
       "parcel_objectid": "44033",
       "county_pin": "104200102020",
       "address": "1405 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1683695%2C+%22y%22%3A+44.8173048%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -532,13 +532,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "ff9d117f3baede12239d202129ccc0d1b5b54763de8a24c09bb124c711fc9034"
+      "sha256": "06525909367f6a2c723effe628b207d577135d7416a4cbff6ac60eba04b63158"
     },
     {
       "parcel_objectid": "44034",
       "county_pin": "104200102030",
       "address": "1409 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1684128%2C+%22y%22%3A+44.816948%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -548,13 +548,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "235b759e7262a18376b1ebe631e9a0a1ffeda7a8aa1cae5c3f75457cb3cda2c1"
+      "sha256": "9e02a469ab2db94897860ad609f11c448dc1843d7cbb462084e6082dea8c2ab2"
     },
     {
       "parcel_objectid": "44035",
       "county_pin": "104200102040",
       "address": "1413 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1683896%2C+%22y%22%3A+44.8166942%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -564,13 +564,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "13c394875be0aab1ccdd45c2ff15b3d3979aaac49f83d00a670c5500edf6a4f6"
+      "sha256": "2873afb6c2d109da469dd7dddc2f01bfad2dcfe44e83018ef918f4672af8f0e0"
     },
     {
       "parcel_objectid": "44036",
       "county_pin": "104200102050",
       "address": "1421 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1683833%2C+%22y%22%3A+44.8163088%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -580,13 +580,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "d2736df5f34ea7485bd40451d0c1d36fa995996d7579b2e4467751baeb118185"
+      "sha256": "2596eb25b84f66236d868ddf45e24890c0b9261425251d11194435b9af75b056"
     },
     {
       "parcel_objectid": "44037",
       "county_pin": "104200102060",
       "address": "1433 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.169008%2C+%22y%22%3A+44.816146%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -596,13 +596,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "d8a4679f7c0ac56670065dc04acb0bd12e53f1d2038d7b842fa5c7df87b2d73b"
+      "sha256": "f60047db1f46e8866cc74909c2221966cbacbfaffe8276ebcc5c13348c2e5b9f"
     },
     {
       "parcel_objectid": "44038",
       "county_pin": "104200102070",
       "address": "1445 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1690065%2C+%22y%22%3A+44.8164672%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -612,13 +612,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "d6f881610848062f42f4181613919e2e18e005c77407d4158f09c4b6cc099fe3"
+      "sha256": "d51a7d5df506182831a922766ff7b1bc3fa362ee88c7f526c76d612db7818bd2"
     },
     {
       "parcel_objectid": "44039",
       "county_pin": "104200102080",
       "address": "1449 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1690062%2C+%22y%22%3A+44.816765%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -628,13 +628,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "84971e5c46b26c62684ed33686a43a8e16b67e55143b3845f58752e37cb07aac"
+      "sha256": "9c52097c4ae6fb88b6c2695ccebd96d32fa347ec8f8a53dbc7baa897398d3a07"
     },
     {
       "parcel_objectid": "44040",
       "county_pin": "104200102090",
       "address": "1453 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.169054%2C+%22y%22%3A+44.8171184%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -644,13 +644,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "1cbb29c57e4b70c20588b60c23bcc7b0c4e556f75e7405fabc8955d8d39cfa68"
+      "sha256": "b21c4254484ebc311a3146756bacd22f6b4e105ebab575d55a8fecc28c185d0c"
     },
     {
       "parcel_objectid": "44041",
       "county_pin": "104200102100",
       "address": "1457 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1691517%2C+%22y%22%3A+44.8175132%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -660,13 +660,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "c46e69ae487c88aae192fd4529664c7f62b991897a1bc8d852d6800d3d023520"
+      "sha256": "137940382cfa3f7879dc206f5547d6d479f61d47ba2af975ddb6999f9de1fcbe"
     },
     {
       "parcel_objectid": "44042",
       "county_pin": "104200102110",
       "address": "1461 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1693176%2C+%22y%22%3A+44.8177564%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -676,13 +676,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "7f4661949fff9fe458f3ed21747458160ab195cfb7938df4b6fac481c8ff8497"
+      "sha256": "e9950c0495aa7084143e1892c1602d948813a707141d50081f30931b02283573"
     },
     {
       "parcel_objectid": "44043",
       "county_pin": "104200102120",
       "address": "1465 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1697811%2C+%22y%22%3A+44.8180307%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -692,13 +692,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "6bafb153bc06e8f680695222b3bec359786a02abc2d0cb90af5c3369ed2343c3"
+      "sha256": "7b6cfb53e603ef739f9d617658dec22aa1462563a7c8cac41d974a2dbeb88aa1"
     },
     {
       "parcel_objectid": "44044",
       "county_pin": "104200102130",
       "address": "1469 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1705596%2C+%22y%22%3A+44.8180437%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -708,13 +708,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "18a23ca664c56da536bd030dab96c1a8791bff4802e2a182407d1e9f82128b4d"
+      "sha256": "a0fc05d87fc9e88861af24546a899f0dda8048375fffbfdcf554b7eca268bf63"
     },
     {
       "parcel_objectid": "44045",
       "county_pin": "104200102140",
       "address": "1473 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1709497%2C+%22y%22%3A+44.8177937%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -724,13 +724,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "5316af79d86426e9e08be9bf90b7b690c3be8ecdfea9702589e89dd4c0cb1efa"
+      "sha256": "b2b68802bfe5f30f8ecfb812411809261ed13336c39b8b7a15e91d5d4810310c"
     },
     {
       "parcel_objectid": "44046",
       "county_pin": "104200102150",
       "address": "3849 Kings Wood Court, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1712013%2C+%22y%22%3A+44.8174969%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -740,13 +740,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "e6ceb1ec3193179af9dc7651068f0a9bec54ad2d2c81176813d4b748caee1e6c"
+      "sha256": "94d5cab1c6f55455e0f04f2a29cdf4af025a36432e83ed2ad67a798a143b8e4b"
     },
     {
       "parcel_objectid": "44047",
       "county_pin": "104200102160",
       "address": "3853 Kings Wood Court, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1715127%2C+%22y%22%3A+44.8178237%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -756,13 +756,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "f6ae33793461dceed6450804ee9c81fa842426e250408095a786ffcc9f5accd1"
+      "sha256": "89aa0cec26acf88171e8e9c5708630482b95ac5433c58ad7f34750f16f86af80"
     },
     {
       "parcel_objectid": "44048",
       "county_pin": "104200102170",
       "address": "3857 Kings Wood Court, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1721086%2C+%22y%22%3A+44.817814%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -772,13 +772,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "bd015889fb6f5f9e2b1bb7e9246bb4db5a957090b24d818346c43f24a6668448"
+      "sha256": "e077663851a9b122bd7a1f082ab832fc2007abc2d8a9e66f3277b2a175c55029"
     },
     {
       "parcel_objectid": "44049",
       "county_pin": "104200102180",
       "address": "3854 Kings Wood Court, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1722659%2C+%22y%22%3A+44.8173658%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -788,13 +788,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "4693406ff637564d693c0aeb5438d62f32f0f5dcef32eb02f57ab071b5acd3af"
+      "sha256": "45f853257a155957334d73f6511b86da909b7f610f63f5f5dfcd6913bc835fd6"
     },
     {
       "parcel_objectid": "44050",
       "county_pin": "104200102190",
       "address": "1481 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1716996%2C+%22y%22%3A+44.817088%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -804,13 +804,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "69ed35dc7a4bcef457af8aa4ace362725e7d8557934cdef57f218795d0dc5949"
+      "sha256": "8cbe1a8613796820620e7691da57c1ff8f46ee272cd342b0f24f7567a6a1f210"
     },
     {
       "parcel_objectid": "44051",
       "county_pin": "104200102200",
       "address": "1485 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1720662%2C+%22y%22%3A+44.8169293%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -820,13 +820,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "1de9a35b8af22d84e2efd2598b34ae4b4c017eef5eded3eba82cfdb43b92f18e"
+      "sha256": "bc1e874449c25baacd69dc56fd43e33b8c8ef4d058e2598392cf6c894a1ba33d"
     },
     {
       "parcel_objectid": "44052",
       "county_pin": "104200102210",
       "address": "1489 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1722448%2C+%22y%22%3A+44.8167427%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -836,13 +836,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "10e3620a950eeede043ebcd9bcbbdb89883fea5fc882bc8146a5c0b5b9432781"
+      "sha256": "c2968b41a000a6d41143a67368a8d4b227c8ddc18655864d393224ae0d976f99"
     },
     {
       "parcel_objectid": "44053",
       "county_pin": "104200102220",
       "address": "1493 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1724016%2C+%22y%22%3A+44.8164522%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -852,13 +852,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "a10468321423e4b8f802f7b0107ac2673be5c43c26f0bef6dec6dde87c271a4f"
+      "sha256": "e084e77116c7dc13570077561384aaf750cb5d51fe002c05056c81513bc1b768"
     },
     {
       "parcel_objectid": "44054",
       "county_pin": "104200102230",
       "address": "1497 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1725314%2C+%22y%22%3A+44.8161669%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -868,13 +868,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "55ff8ff54024de8f3c4c0899fd18607eb30bc4d931e9f5ba9635333d04007c6b"
+      "sha256": "a78dc3bafcdb52b6b6fe3e683fbc6616d1a2c3ed15c0e1a156237ff97a2605be"
     },
     {
       "parcel_objectid": "44055",
       "county_pin": "104200102240",
       "address": "1501 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1726353%2C+%22y%22%3A+44.8158813%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -884,13 +884,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "6e1e3b037b5e6ea3055a0cacf0c974a3710fd6bcbbe5dc8c846555e48924b8e8"
+      "sha256": "d8850d79128931cf6c65ce224cd72b16c947f6910c30e0f9e5ef54d29e57477b"
     },
     {
       "parcel_objectid": "44056",
       "county_pin": "104200102250",
       "address": "1505 Kings Wood Road, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1727355%2C+%22y%22%3A+44.8155835%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -900,13 +900,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 2ND ADDITION"
       ],
-      "sha256": "1244da753e1ced493fe7921ed48e2861ad5f992da997e0a70510a31873a75383"
+      "sha256": "2d7f31408555d3d12cbf825ccc605b493ad092e334de8471ede4bb82cc809a83"
     },
     {
       "parcel_objectid": "44057",
       "county_pin": "104200201010",
       "address": "1459 Kings Crest, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1725298%2C+%22y%22%3A+44.8152474%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -916,13 +916,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 4TH ADDITION"
       ],
-      "sha256": "e75e53a1d3374f0462ef5560d9c571f495677b70d9ac7c41c2f2c7c9f82830f5"
+      "sha256": "71c209ccca189f7c5c5c10b6bd26a3dd46c80cb486c00c4f7fac8ace328f2a9b"
     },
     {
       "parcel_objectid": "44058",
       "county_pin": "104200201020",
       "address": "1463 Kings Crest, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1729755%2C+%22y%22%3A+44.8152244%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -932,13 +932,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 4TH ADDITION"
       ],
-      "sha256": "f4e9930d55fe96c31d901ced3096e0d34cd8c242c3cb59ab306c99180255d31c"
+      "sha256": "28b975aaa7e21039bf9a8f334c617b45a609d1dbac4bcd0b1477a5ea187c9768"
     },
     {
       "parcel_objectid": "44059",
       "county_pin": "104200201030",
       "address": "1467 Kings Crest, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.1734738%2C+%22y%22%3A+44.8151277%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -948,13 +948,13 @@
       "all_polygon_matches": [
         "KINGS WOOD 4TH ADDITION"
       ],
-      "sha256": "956b0b66407f9d12612cd34cb8620371fd95913572f3d656f36c13d26cb71127"
+      "sha256": "40f9313ed49f81df8554a6b51e5c410ca06e572750cee8c82b5ee9c34b00f1d7"
     },
     {
       "parcel_objectid": "44060",
       "county_pin": "104200201040",
       "address": "1471 Kings Crest, Eagan, MN",
-      "query_timestamp_utc": "2026-10-23T08:58:09.113930+00:00",
+      "query_timestamp_utc": "2026-10-24T08:54:16.413547+00:00",
       "verification_type": "PARCEL_CENTER_INTERSECTS_CITY_SUBDIVISION",
       "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "source_url": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/9/query?f=json&geometry=%7B%22x%22%3A+-93.174101%2C+%22y%22%3A+44.8146873%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=OBJECTID%2CPLATNAME%2CPLATID&returnGeometry=false",
@@ -964,7 +964,7 @@
       "all_polygon_matches": [
         "KINGS WOOD 4TH ADDITION"
       ],
-      "sha256": "5f79a5291600dd3e2349153ec162839657a13777736a99301e3f29b8ee7071fa"
+      "sha256": "81c6927f39fcb024fef3f47d8497057257b1916d28980380430c5ca1d68afa6b"
     }
   ],
   "disclaimer": "Confirmed here means GIS parcel-center point intersected the city plat polygon, not a survey or roof-condition finding."
