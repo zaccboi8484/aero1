@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-24T07:21:41.812984+00:00",
+  "updated_at_utc": "2026-10-24T13:18:02.850097+00:00",
   "decisions": [
     {
       "decision_id": "UPG-92b7280e724c",
@@ -7,6 +7,20 @@
       "priority": "MEDIUM",
       "proposed_action": "Review regional residential permit source and address matches",
       "reason": "CURRENT; current source-backed count=0",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "requires": [
+        "source rights",
+        "automated tests",
+        "human sign-off"
+      ]
+    },
+    {
+      "decision_id": "UPG-6f94d808de59",
+      "source": "municipal_exports",
+      "priority": "MEDIUM",
+      "proposed_action": "Refresh owner-provided City of Eagan export; source matches still need original-document review",
+      "reason": "STALE; current source-backed count=25",
       "status": "NEEDS_HUMAN_REVIEW",
       "approved": false,
       "requires": [

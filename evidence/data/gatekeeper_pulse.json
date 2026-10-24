@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-10-24T07:21:41.812984+00:00",
+  "generated_at_utc": "2026-10-24T13:18:02.850097+00:00",
   "engine": "GateKeeper Source Pulse v1",
   "source_count": 10,
-  "current_sources": 9,
-  "healthy_sources": 8,
+  "current_sources": 8,
+  "healthy_sources": 7,
   "sources": [
     {
       "source": "parcels",
       "file": "collection_manifest.json",
       "status": "CURRENT",
-      "age_hours": 22.39,
+      "age_hours": 4.4,
       "max_age_hours": 36,
       "evidence_count": 60,
       "errors": [],
@@ -19,7 +19,7 @@
       "source": "gis_geometry",
       "file": "subdivision_geometry_checks.json",
       "status": "CURRENT",
-      "age_hours": 22.39,
+      "age_hours": 4.4,
       "max_age_hours": 72,
       "evidence_count": 60,
       "errors": [],
@@ -29,7 +29,7 @@
       "source": "mn_addresses",
       "file": "mn_address_validation.json",
       "status": "CURRENT",
-      "age_hours": 23.53,
+      "age_hours": 5.6,
       "max_age_hours": 72,
       "evidence_count": 56,
       "errors": [],
@@ -39,7 +39,7 @@
       "source": "mngeo_aerial",
       "file": "mngeo_aerial_evidence.json",
       "status": "CURRENT",
-      "age_hours": 23.52,
+      "age_hours": 5.6,
       "max_age_hours": 72,
       "evidence_count": 60,
       "errors": [],
@@ -49,7 +49,7 @@
       "source": "property_values",
       "file": "live_property_enrichment.json",
       "status": "CURRENT",
-      "age_hours": 22.39,
+      "age_hours": 4.39,
       "max_age_hours": 36,
       "evidence_count": 56,
       "errors": [],
@@ -59,7 +59,7 @@
       "source": "regional_permits",
       "file": "regional_residential_permit_matches.json",
       "status": "CURRENT",
-      "age_hours": 22.39,
+      "age_hours": 4.39,
       "max_age_hours": 72,
       "evidence_count": 0,
       "errors": [],
@@ -68,15 +68,15 @@
     {
       "source": "municipal_exports",
       "file": "municipal_permit_export_audit.json",
-      "status": "CURRENT",
-      "age_hours": 164.23,
+      "status": "STALE",
+      "age_hours": 170.17,
       "max_age_hours": 168,
       "evidence_count": 25,
       "errors": [],
       "evidence_stage": "IMPORTED_REPORT_MATCHES_NOT_DOCUMENT_REVIEWED",
       "verified_permit_documents": 0,
       "permit_history_complete": false,
-      "operationally_healthy": true
+      "operationally_healthy": false
     },
     {
       "source": "municipal_permits",
@@ -93,7 +93,7 @@
       "source": "categories",
       "file": "property_category_intelligence.json",
       "status": "CURRENT",
-      "age_hours": 22.39,
+      "age_hours": 4.39,
       "max_age_hours": 72,
       "evidence_count": 60,
       "errors": [],
@@ -103,14 +103,14 @@
       "source": "integrity",
       "file": "pipeline_integrity.json",
       "status": "CURRENT",
-      "age_hours": 22.39,
+      "age_hours": 4.39,
       "max_age_hours": 36,
       "evidence_count": 60,
       "errors": [],
       "operationally_healthy": true
     }
   ],
-  "upgrade_count": 2,
+  "upgrade_count": 3,
   "upgrades_for_human_review": [
     {
       "decision_id": "UPG-92b7280e724c",
@@ -118,6 +118,20 @@
       "priority": "MEDIUM",
       "proposed_action": "Review regional residential permit source and address matches",
       "reason": "CURRENT; current source-backed count=0",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "requires": [
+        "source rights",
+        "automated tests",
+        "human sign-off"
+      ]
+    },
+    {
+      "decision_id": "UPG-6f94d808de59",
+      "source": "municipal_exports",
+      "priority": "MEDIUM",
+      "proposed_action": "Refresh owner-provided City of Eagan export; source matches still need original-document review",
+      "reason": "STALE; current source-backed count=25",
       "status": "NEEDS_HUMAN_REVIEW",
       "approved": false,
       "requires": [
