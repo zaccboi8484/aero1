@@ -1,6 +1,6 @@
 {
   "dataset": "ORIGINAL_KINGS_WOOD_60_REMOTE_AERIAL_SOURCE_REGISTER",
-  "generated_at_utc": "2026-10-28T19:25:59.429024+00:00",
+  "generated_at_utc": "2026-10-29T01:33:41.207131+00:00",
   "local_image_files_published": 0,
   "original_parcels": 60,
   "records": [
@@ -848,6 +848,6 @@
   "remote_jpeg_last_verified": 60,
   "rights_notice": "Dakota County 2025 high-resolution imagery metadata includes Nearmap distribution/commercial-use restrictions; do not mirror third-party image bytes. The linked MnGeo WMS layer is a different source and any further redistribution still needs a source-specific rights check.",
   "source_availability_complete": true,
-  "source_report_run_utc": "2026-10-28T19:24:45.289469+00:00",
+  "source_report_run_utc": "2026-10-29T00:41:31.867684+00:00",
   "verification_notice": "Remote JPEG response hashes are NOT inspections, roof-condition assessments or verified completed permits."
 }
