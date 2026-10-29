@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-28T08:04:18.118153+00:00",
+  "checked_at_utc": "2026-10-29T08:07:30.544602+00:00",
   "address_source": "https://arcgis.metc.state.mn.us/server/rest/services/GISLibrary/VWAddressPointsCommons/FeatureServer/0/query",
   "usps_docs": "https://developers.usps.com/addressesv3",
   "total": 60,
