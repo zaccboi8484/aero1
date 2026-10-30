@@ -1,23 +1,23 @@
 {
-  "run_at_utc": "2026-10-29T09:14:09.203576+00:00",
+  "run_at_utc": "2026-10-30T09:14:58.412716+00:00",
   "checks": [
     {
-      "timestamp_utc": "2026-10-29T09:14:09.203576+00:00",
+      "timestamp_utc": "2026-10-30T09:14:58.412716+00:00",
       "stage": "valuation",
       "state": "SOURCE_RETURNED",
       "source": "https://gis.cityofeagan.com/arcgis/rest/services/EA_PropertyInformation/MapServer/19/query",
       "detail": "",
       "count": 56,
-      "digest_sha256": "3950cd426972aa775eb0ea8253b049dad8269928aa0dc181d16006f025155f23"
+      "digest_sha256": "3d90584f92dafb9143ccd5314b4a251cbb6dfc2d8ecfee4fe86c06a31b83e9dd"
     },
     {
-      "timestamp_utc": "2026-10-29T09:14:09.203576+00:00",
+      "timestamp_utc": "2026-10-30T09:14:58.412716+00:00",
       "stage": "noaa_active_alerts",
       "state": "SOURCE_RETURNED",
       "source": "https://api.weather.gov/alerts/active?point=44.819,-93.167",
       "detail": "",
       "count": 0,
-      "digest_sha256": "effaf3f1408231a2f3f1c727524f7862203a6bad57438bd1b253ffe2d6ad4fb3"
+      "digest_sha256": "c5a34d7993751ad9900d6b56917da1cb3e2f4e6b8e90e2758ba7c73c415ef365"
     }
   ],
   "no_assumed_success": true
