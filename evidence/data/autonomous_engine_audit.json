@@ -1,7 +1,7 @@
 {
   "format": "AERO_ENGINE_AUDIT_V2",
-  "generated_at_utc": "2026-10-30T18:11:03.759046+00:00",
-  "discovery_checkpoint_utc": "2026-10-30T18:08:28.657827+00:00",
+  "generated_at_utc": "2026-10-30T19:21:30.707582+00:00",
+  "discovery_checkpoint_utc": "2026-10-30T18:52:42.689140+00:00",
   "source_records": 19347,
   "unique_properties": 19347,
   "quarantined_count": 0,
