@@ -3,9 +3,9 @@
   "center_lat": 44.816482341666664,
   "center_lon": -93.17033227666667,
   "ring_width_m": 500,
-  "next_ring": 68,
-  "last_completed_ring": 67,
-  "last_completed_at_utc": "2026-10-31T10:04:24.892575+00:00",
+  "next_ring": 69,
+  "last_completed_ring": 68,
+  "last_completed_at_utc": "2026-10-31T10:48:12.904089+00:00",
   "last_ring_candidates": 0,
   "last_ring_excluded_nonresidential": 0,
   "schema_use_fields": [
