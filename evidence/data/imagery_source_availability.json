@@ -1,6 +1,6 @@
 {
   "dataset": "ORIGINAL_KINGS_WOOD_60_REMOTE_AERIAL_SOURCE_REGISTER",
-  "generated_at_utc": "2026-11-07T01:36:39.178072+00:00",
+  "generated_at_utc": "2026-11-07T07:37:59.509431+00:00",
   "local_image_files_published": 0,
   "original_parcels": 60,
   "records": [
@@ -825,7 +825,7 @@
       "parcel_objectid": "44059",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-11-06T02:10:49.894815+00:00",
+      "source_checked_at_utc": "2026-11-07T02:28:23.460639+00:00",
       "source_sha256": "6f125c0b97b2e36900deb9a7cf71553c4d9b6ac1a3cfcaaf8c302bfeecbc30ec",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1741738%2C44.8147277%2C-93.1727738%2C44.8155277&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -839,7 +839,7 @@
       "parcel_objectid": "44060",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-11-06T02:10:49.894815+00:00",
+      "source_checked_at_utc": "2026-11-07T02:28:23.460639+00:00",
       "source_sha256": "d2b02c814ed71c01c87d5b87ef75616bdf415fa6ab73a0939bf081dc8caa648c",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.174801%2C44.8142873%2C-93.173401%2C44.8150873&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -848,6 +848,6 @@
   "remote_jpeg_last_verified": 60,
   "rights_notice": "Dakota County 2025 high-resolution imagery metadata includes Nearmap distribution/commercial-use restrictions; do not mirror third-party image bytes. The linked MnGeo WMS layer is a different source and any further redistribution still needs a source-specific rights check.",
   "source_availability_complete": true,
-  "source_report_run_utc": "2026-11-07T01:32:10.019269+00:00",
+  "source_report_run_utc": "2026-11-07T07:33:37.629261+00:00",
   "verification_notice": "Remote JPEG response hashes are NOT inspections, roof-condition assessments or verified completed permits."
 }
