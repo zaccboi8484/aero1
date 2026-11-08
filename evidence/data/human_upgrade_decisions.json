@@ -1,6 +1,34 @@
 {
-  "updated_at_utc": "2026-11-07T19:25:20.238195+00:00",
+  "updated_at_utc": "2026-11-08T01:47:25.233821+00:00",
   "decisions": [
+    {
+      "decision_id": "UPG-6adbb9af93f6",
+      "source": "parcels",
+      "priority": "HIGH",
+      "proposed_action": "Repair official GIS parcel import and dedupe by county PIN",
+      "reason": "STALE; current source-backed count=60",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "requires": [
+        "source rights",
+        "automated tests",
+        "human sign-off"
+      ]
+    },
+    {
+      "decision_id": "UPG-aba7f289090f",
+      "source": "property_values",
+      "priority": "MEDIUM",
+      "proposed_action": "Reconcile parcel ID and official city valuation layer",
+      "reason": "STALE; current source-backed count=56",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "requires": [
+        "source rights",
+        "automated tests",
+        "human sign-off"
+      ]
+    },
     {
       "decision_id": "UPG-92b7280e724c",
       "source": "regional_permits",
@@ -35,6 +63,20 @@
       "priority": "HIGH",
       "proposed_action": "Review original Eagan permit documents and inspections through authorized access; do not evade 403",
       "reason": "MISSING; current source-backed count=0",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "approved": false,
+      "requires": [
+        "source rights",
+        "automated tests",
+        "human sign-off"
+      ]
+    },
+    {
+      "decision_id": "UPG-78587c41ed99",
+      "source": "integrity",
+      "priority": "CRITICAL",
+      "proposed_action": "BLOCK score promotion and investigate cross-file integrity errors",
+      "reason": "STALE; current source-backed count=60",
       "status": "NEEDS_HUMAN_REVIEW",
       "approved": false,
       "requires": [
