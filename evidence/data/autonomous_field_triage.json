@@ -1,6 +1,6 @@
 {
   "format": "GATEKEEPER_FIELD_TRIAGE_V1",
-  "source_run_at_utc": "2026-11-10T23:44:45.473092+00:00",
+  "source_run_at_utc": "2026-11-11T00:16:16.061344+00:00",
   "meaning": "Evidence coverage only; not roof condition, storm impact, reroof need, or selling leads",
   "count": 19347,
   "eligible_count": 0,
