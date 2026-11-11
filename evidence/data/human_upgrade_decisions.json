@@ -1,12 +1,12 @@
 {
-  "updated_at_utc": "2026-11-11T07:57:14.478489+00:00",
+  "updated_at_utc": "2026-11-11T13:55:37.949141+00:00",
   "decisions": [
     {
       "decision_id": "UPG-92b7280e724c",
       "source": "regional_permits",
       "priority": "MEDIUM",
       "proposed_action": "Review regional residential permit source and address matches",
-      "reason": "CURRENT; current source-backed count=0",
+      "reason": "SOURCE_ISSUE; current source-backed count=0",
       "status": "NEEDS_HUMAN_REVIEW",
       "approved": false,
       "requires": [
