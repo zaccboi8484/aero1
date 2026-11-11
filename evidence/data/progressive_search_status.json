@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-10T09:13:29.146416+00:00",
+  "generated_at_utc": "2026-11-11T09:18:54.978423+00:00",
   "policy": "real evidence only; no inferred damage",
   "territory": "Kings Wood, Eagan",
   "properties": [
@@ -53,8 +53,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -138,8 +138,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -223,8 +223,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -308,8 +308,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -393,8 +393,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -478,8 +478,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -563,8 +563,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -648,8 +648,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -733,8 +733,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -818,8 +818,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -903,8 +903,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -988,8 +988,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -1073,8 +1073,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -1158,8 +1158,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -1243,8 +1243,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -1328,8 +1328,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -1413,8 +1413,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -1498,8 +1498,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -1583,8 +1583,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -1668,8 +1668,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -1753,8 +1753,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -1838,8 +1838,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -1923,8 +1923,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -2008,8 +2008,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -2093,8 +2093,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -2178,8 +2178,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -2263,8 +2263,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -2348,8 +2348,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -2433,8 +2433,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -2518,8 +2518,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -2603,8 +2603,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -2688,8 +2688,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -2773,8 +2773,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -2858,8 +2858,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -2943,8 +2943,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -3028,8 +3028,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -3113,8 +3113,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -3198,8 +3198,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -3283,8 +3283,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -3368,8 +3368,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -3453,8 +3453,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -3538,8 +3538,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -3623,8 +3623,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -3708,8 +3708,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -3793,8 +3793,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -3878,8 +3878,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -3963,8 +3963,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -4048,8 +4048,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -4133,8 +4133,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -4218,8 +4218,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -4303,8 +4303,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -4388,8 +4388,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -4473,8 +4473,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -4558,8 +4558,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -4643,8 +4643,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -4728,8 +4728,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -4813,8 +4813,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -4898,8 +4898,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -4983,8 +4983,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -5068,8 +5068,8 @@
         {
           "search_id": "regional_permit",
           "source": "Metropolitan Council residential permit GIS",
-          "status": "REGIONAL_SOURCE_NO_MATCH",
-          "detail": "Regional source searched; Eagan municipal history is still blocked",
+          "status": "REGIONAL_SOURCE_NOT_COMPLETE",
+          "detail": "Regional query not completed",
           "next_action": "Human review any exact address matches; continue authorized Eagan municipal roof permit export"
         },
         {
@@ -5127,7 +5127,7 @@
       "SOURCE_RECORDED_PENDING_REVIEW": 56,
       "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT": 60,
       "REGIONAL_MATCH_PENDING_REVIEW": 0,
-      "REGIONAL_SOURCE_NO_MATCH": 60,
+      "REGIONAL_SOURCE_NO_MATCH": 0,
       "SOURCE_EXPORT_MATCH_PENDING_REVIEW": 0,
       "SOURCE_EXPORT_NO_MATCH_IN_PROVIDED_REPORTS": 0
     }
