@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-11T14:22:41.233783+00:00",
+  "generated_at_utc": "2026-11-12T14:24:02.721012+00:00",
   "version": "GATEKEEPER_CERTIFICATION_GAP_V1",
   "territory": "kings-wood-001",
   "original_residential_parcels": 60,
@@ -15,7 +15,7 @@
   "certified_mindex_scores": 0,
   "full_property_certifications": 0,
   "public_eagan_portal_403_observed": true,
-  "portal_source_run_at_utc": "2026-11-11T14:12:56.868981+00:00",
+  "portal_source_run_at_utc": "2026-11-12T13:57:40.839484+00:00",
   "release_certified": false,
   "task_count": 333,
   "open_tasks_by_kind": {
