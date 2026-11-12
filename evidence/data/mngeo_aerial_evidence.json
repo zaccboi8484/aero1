@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-11T08:22:36.149573+00:00",
+  "generated_at_utc": "2026-11-12T08:23:30.512732+00:00",
   "service_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll",
   "total": 60,
   "remote_image_verified": 60,
@@ -21,7 +21,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:27.406051+00:00"
+      "checked_at_utc": "2026-11-12T08:23:21.863341+00:00"
     },
     {
       "parcel_objectid": "44002",
@@ -39,7 +39,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:27.659927+00:00"
+      "checked_at_utc": "2026-11-12T08:23:22.053949+00:00"
     },
     {
       "parcel_objectid": "44003",
@@ -57,7 +57,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:27.807215+00:00"
+      "checked_at_utc": "2026-11-12T08:23:22.202222+00:00"
     },
     {
       "parcel_objectid": "44004",
@@ -75,7 +75,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:27.955658+00:00"
+      "checked_at_utc": "2026-11-12T08:23:22.343185+00:00"
     },
     {
       "parcel_objectid": "44005",
@@ -93,7 +93,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:28.099883+00:00"
+      "checked_at_utc": "2026-11-12T08:23:22.482583+00:00"
     },
     {
       "parcel_objectid": "44006",
@@ -111,7 +111,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:28.243788+00:00"
+      "checked_at_utc": "2026-11-12T08:23:22.622985+00:00"
     },
     {
       "parcel_objectid": "44007",
@@ -129,7 +129,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:28.401130+00:00"
+      "checked_at_utc": "2026-11-12T08:23:22.761342+00:00"
     },
     {
       "parcel_objectid": "44008",
@@ -147,7 +147,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:28.549171+00:00"
+      "checked_at_utc": "2026-11-12T08:23:22.897300+00:00"
     },
     {
       "parcel_objectid": "44009",
@@ -165,7 +165,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:28.698831+00:00"
+      "checked_at_utc": "2026-11-12T08:23:23.036970+00:00"
     },
     {
       "parcel_objectid": "44010",
@@ -183,7 +183,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:28.847230+00:00"
+      "checked_at_utc": "2026-11-12T08:23:23.185021+00:00"
     },
     {
       "parcel_objectid": "44011",
@@ -201,7 +201,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:29.003378+00:00"
+      "checked_at_utc": "2026-11-12T08:23:23.323105+00:00"
     },
     {
       "parcel_objectid": "44012",
@@ -219,7 +219,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:29.156292+00:00"
+      "checked_at_utc": "2026-11-12T08:23:23.466577+00:00"
     },
     {
       "parcel_objectid": "44013",
@@ -237,7 +237,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:29.298167+00:00"
+      "checked_at_utc": "2026-11-12T08:23:23.607067+00:00"
     },
     {
       "parcel_objectid": "44014",
@@ -255,7 +255,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:29.451071+00:00"
+      "checked_at_utc": "2026-11-12T08:23:23.745296+00:00"
     },
     {
       "parcel_objectid": "44015",
@@ -273,7 +273,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:29.594315+00:00"
+      "checked_at_utc": "2026-11-12T08:23:23.892830+00:00"
     },
     {
       "parcel_objectid": "44016",
@@ -291,7 +291,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:29.757384+00:00"
+      "checked_at_utc": "2026-11-12T08:23:24.031820+00:00"
     },
     {
       "parcel_objectid": "44017",
@@ -309,7 +309,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:29.896328+00:00"
+      "checked_at_utc": "2026-11-12T08:23:24.175566+00:00"
     },
     {
       "parcel_objectid": "44018",
@@ -327,7 +327,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:30.049062+00:00"
+      "checked_at_utc": "2026-11-12T08:23:24.324956+00:00"
     },
     {
       "parcel_objectid": "44019",
@@ -345,7 +345,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:30.185409+00:00"
+      "checked_at_utc": "2026-11-12T08:23:24.462990+00:00"
     },
     {
       "parcel_objectid": "44020",
@@ -363,7 +363,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:30.333864+00:00"
+      "checked_at_utc": "2026-11-12T08:23:24.601020+00:00"
     },
     {
       "parcel_objectid": "44021",
@@ -381,7 +381,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:30.476625+00:00"
+      "checked_at_utc": "2026-11-12T08:23:24.735748+00:00"
     },
     {
       "parcel_objectid": "44022",
@@ -399,7 +399,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:30.617051+00:00"
+      "checked_at_utc": "2026-11-12T08:23:24.874834+00:00"
     },
     {
       "parcel_objectid": "44023",
@@ -417,7 +417,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:30.760947+00:00"
+      "checked_at_utc": "2026-11-12T08:23:25.013244+00:00"
     },
     {
       "parcel_objectid": "44024",
@@ -435,7 +435,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:30.898281+00:00"
+      "checked_at_utc": "2026-11-12T08:23:25.151475+00:00"
     },
     {
       "parcel_objectid": "44025",
@@ -453,7 +453,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:31.043620+00:00"
+      "checked_at_utc": "2026-11-12T08:23:25.295918+00:00"
     },
     {
       "parcel_objectid": "44026",
@@ -471,7 +471,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:31.201652+00:00"
+      "checked_at_utc": "2026-11-12T08:23:25.434686+00:00"
     },
     {
       "parcel_objectid": "44027",
@@ -489,7 +489,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:31.343168+00:00"
+      "checked_at_utc": "2026-11-12T08:23:25.575717+00:00"
     },
     {
       "parcel_objectid": "44028",
@@ -507,7 +507,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:31.506801+00:00"
+      "checked_at_utc": "2026-11-12T08:23:25.713799+00:00"
     },
     {
       "parcel_objectid": "44029",
@@ -525,7 +525,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:31.655535+00:00"
+      "checked_at_utc": "2026-11-12T08:23:25.907158+00:00"
     },
     {
       "parcel_objectid": "44030",
@@ -543,7 +543,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:31.801463+00:00"
+      "checked_at_utc": "2026-11-12T08:23:26.084199+00:00"
     },
     {
       "parcel_objectid": "44031",
@@ -561,7 +561,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:31.945884+00:00"
+      "checked_at_utc": "2026-11-12T08:23:26.253690+00:00"
     },
     {
       "parcel_objectid": "44032",
@@ -579,7 +579,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:32.082193+00:00"
+      "checked_at_utc": "2026-11-12T08:23:26.402790+00:00"
     },
     {
       "parcel_objectid": "44033",
@@ -597,7 +597,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:32.233440+00:00"
+      "checked_at_utc": "2026-11-12T08:23:26.540811+00:00"
     },
     {
       "parcel_objectid": "44034",
@@ -615,7 +615,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:32.369289+00:00"
+      "checked_at_utc": "2026-11-12T08:23:26.680842+00:00"
     },
     {
       "parcel_objectid": "44035",
@@ -633,7 +633,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:32.505258+00:00"
+      "checked_at_utc": "2026-11-12T08:23:26.824527+00:00"
     },
     {
       "parcel_objectid": "44036",
@@ -651,7 +651,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:32.647586+00:00"
+      "checked_at_utc": "2026-11-12T08:23:26.965067+00:00"
     },
     {
       "parcel_objectid": "44037",
@@ -669,7 +669,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:32.784461+00:00"
+      "checked_at_utc": "2026-11-12T08:23:27.102637+00:00"
     },
     {
       "parcel_objectid": "44038",
@@ -687,7 +687,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:32.921225+00:00"
+      "checked_at_utc": "2026-11-12T08:23:27.240880+00:00"
     },
     {
       "parcel_objectid": "44039",
@@ -705,7 +705,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:33.057077+00:00"
+      "checked_at_utc": "2026-11-12T08:23:27.381462+00:00"
     },
     {
       "parcel_objectid": "44040",
@@ -723,7 +723,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:33.200993+00:00"
+      "checked_at_utc": "2026-11-12T08:23:27.519037+00:00"
     },
     {
       "parcel_objectid": "44041",
@@ -741,7 +741,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:33.341850+00:00"
+      "checked_at_utc": "2026-11-12T08:23:27.666583+00:00"
     },
     {
       "parcel_objectid": "44042",
@@ -759,7 +759,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:33.486804+00:00"
+      "checked_at_utc": "2026-11-12T08:23:27.802370+00:00"
     },
     {
       "parcel_objectid": "44043",
@@ -777,7 +777,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:33.624487+00:00"
+      "checked_at_utc": "2026-11-12T08:23:27.941979+00:00"
     },
     {
       "parcel_objectid": "44044",
@@ -795,7 +795,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:33.762017+00:00"
+      "checked_at_utc": "2026-11-12T08:23:28.086548+00:00"
     },
     {
       "parcel_objectid": "44045",
@@ -813,7 +813,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:33.908023+00:00"
+      "checked_at_utc": "2026-11-12T08:23:28.227945+00:00"
     },
     {
       "parcel_objectid": "44046",
@@ -831,7 +831,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:34.046272+00:00"
+      "checked_at_utc": "2026-11-12T08:23:28.367252+00:00"
     },
     {
       "parcel_objectid": "44047",
@@ -849,7 +849,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:34.182592+00:00"
+      "checked_at_utc": "2026-11-12T08:23:28.508644+00:00"
     },
     {
       "parcel_objectid": "44048",
@@ -867,7 +867,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:34.322383+00:00"
+      "checked_at_utc": "2026-11-12T08:23:28.653006+00:00"
     },
     {
       "parcel_objectid": "44049",
@@ -885,7 +885,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:34.471097+00:00"
+      "checked_at_utc": "2026-11-12T08:23:28.805486+00:00"
     },
     {
       "parcel_objectid": "44050",
@@ -903,7 +903,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:34.613705+00:00"
+      "checked_at_utc": "2026-11-12T08:23:28.950045+00:00"
     },
     {
       "parcel_objectid": "44051",
@@ -921,7 +921,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:34.757996+00:00"
+      "checked_at_utc": "2026-11-12T08:23:29.092027+00:00"
     },
     {
       "parcel_objectid": "44052",
@@ -939,7 +939,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:34.895235+00:00"
+      "checked_at_utc": "2026-11-12T08:23:29.231650+00:00"
     },
     {
       "parcel_objectid": "44053",
@@ -957,7 +957,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:35.037242+00:00"
+      "checked_at_utc": "2026-11-12T08:23:29.369763+00:00"
     },
     {
       "parcel_objectid": "44054",
@@ -975,7 +975,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:35.185091+00:00"
+      "checked_at_utc": "2026-11-12T08:23:29.511784+00:00"
     },
     {
       "parcel_objectid": "44055",
@@ -993,7 +993,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:35.327810+00:00"
+      "checked_at_utc": "2026-11-12T08:23:29.664186+00:00"
     },
     {
       "parcel_objectid": "44056",
@@ -1011,7 +1011,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:35.467672+00:00"
+      "checked_at_utc": "2026-11-12T08:23:29.807781+00:00"
     },
     {
       "parcel_objectid": "44057",
@@ -1029,7 +1029,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:35.602782+00:00"
+      "checked_at_utc": "2026-11-12T08:23:29.944310+00:00"
     },
     {
       "parcel_objectid": "44058",
@@ -1047,7 +1047,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:35.738136+00:00"
+      "checked_at_utc": "2026-11-12T08:23:30.088380+00:00"
     },
     {
       "parcel_objectid": "44059",
@@ -1065,7 +1065,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:35.872095+00:00"
+      "checked_at_utc": "2026-11-12T08:23:30.228706+00:00"
     },
     {
       "parcel_objectid": "44060",
@@ -1083,7 +1083,7 @@
         }
       },
       "preferred_layer": "met25",
-      "checked_at_utc": "2026-11-11T08:22:36.012949+00:00"
+      "checked_at_utc": "2026-11-12T08:23:30.370675+00:00"
     }
   ],
   "gatekeeper_note": "Successful JPEG response verifies government-hosted imagery, NOT roof, tree or driveway conditions."
