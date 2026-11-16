@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-15T15:44:22.271525+00:00",
+  "generated_at_utc": "2026-11-16T18:42:13.817835+00:00",
   "policy": "real evidence only; no inferred damage",
   "territory": "Kings Wood, Eagan",
   "properties": [
@@ -437,21 +437,21 @@
       "gis_url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query?f=json&where=OBJECTID%3D44006&outFields=OBJECTID%2CCOUNTY_PIN%2CSTATE_PIN%2CANUMBER%2CST_NAME%2CST_POS_TYP%2CCTU_NAME%2CPLAT_NAME%2CZIP%2CYEAR_BUILT&returnGeometry=false",
       "street_view": "OUTBOUND_LINK_ONLY",
       "identity_status": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision_status": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
+      "subdivision_status": "SUBDIVISION_NOT_CONFIRMED",
       "valuation_status": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence_status": "NOT_COMPLETE",
-      "geometry_source_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+      "geometry_source_status": "SOURCE_ERROR",
       "municipal_export_permit_count": 0,
       "explicit_2025_roof_permit_candidates": 0,
       "evidence_streams": {
         "official_gis_identity": true,
-        "city_subdivision_point_intersection": true,
+        "city_subdivision_point_intersection": false,
         "city_valuation_source_match": true,
         "reviewed_municipal_permit_evidence": false,
         "validated_aerial_image_source": false,
         "reviewed_historical_storm_evidence": false
       },
-      "streams_confirmed": 3,
+      "streams_confirmed": 2,
       "streams_possible": 6,
       "checks": [
         {
@@ -464,8 +464,8 @@
         {
           "search_id": "subdivision",
           "source": "Eagan subdivision GIS",
-          "status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
-          "detail": "City spatial query: OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT; point-in-polygon does not certify all parcel boundaries",
+          "status": "SOURCE_ERROR",
+          "detail": "City spatial query: SOURCE_ERROR; point-in-polygon does not certify all parcel boundaries",
           "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition"
         },
         {
@@ -5108,9 +5108,9 @@
     "property_records": 60,
     "gis_identities_confirmed": 60,
     "plat_names_corroborated": 0,
-    "gis_center_point_in_kings_wood": 60,
+    "gis_center_point_in_kings_wood": 59,
     "city_values_source_matched": 56,
-    "source_evidence_streams_total": 176,
+    "source_evidence_streams_total": 175,
     "municipal_export_permit_matches": 25,
     "municipal_export_properties_with_matches": 18,
     "explicit_2025_roof_candidates": 1,
@@ -5125,7 +5125,7 @@
       "MATCH_PENDING_REVIEW": 0,
       "NOT_RETRIEVED": 4,
       "SOURCE_RECORDED_PENDING_REVIEW": 56,
-      "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT": 60,
+      "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT": 59,
       "REGIONAL_MATCH_PENDING_REVIEW": 0,
       "REGIONAL_SOURCE_NO_MATCH": 0,
       "SOURCE_EXPORT_MATCH_PENDING_REVIEW": 0,
