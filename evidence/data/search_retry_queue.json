@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-16T18:42:13.817835+00:00",
+  "generated_at_utc": "2026-11-17T17:42:33.606006+00:00",
   "tasks": [
     {
       "parcel_objectid": "44001",
@@ -62,7 +62,7 @@
       "address": "1405 Rocky Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "SOURCE_ERROR",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"

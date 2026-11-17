@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-16T18:42:13.817835+00:00",
+  "generated_at_utc": "2026-11-17T17:42:33.606006+00:00",
   "audit": [
     {
       "parcel_objectid": "44001",
@@ -89,19 +89,19 @@
     {
       "parcel_objectid": "44006",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
+      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "SOURCE_ERROR",
+        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "regional_permit": "REGIONAL_SOURCE_NOT_COMPLETE",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "1cc1ba9ec973305c4ce35168c157d824daf63bcf02fb28f1b66181c45b356edf"
+      "sha256": "2cd428058a9ad1a7d7f7af88a441ae142ccab6e7bec7102f0e4127678eb30eb1"
     },
     {
       "parcel_objectid": "44007",
