@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-22T16:28:45.983406+00:00",
+  "generated_at_utc": "2026-11-23T20:23:56.896036+00:00",
   "audit": [
     {
       "parcel_objectid": "44001",
@@ -208,19 +208,19 @@
     {
       "parcel_objectid": "44013",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+        "subdivision": "SOURCE_ERROR",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "regional_permit": "REGIONAL_SOURCE_NOT_COMPLETE",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "a6921c6df573f0b09b4553ed32199fb5547ecf4cd4ad148f73108d5517441ad0"
+      "sha256": "f2fd5d5c35450ad89da253876d59b0a0e019aba13fc945fa30a906d3ff660542"
     },
     {
       "parcel_objectid": "44014",
@@ -667,19 +667,19 @@
     {
       "parcel_objectid": "44040",
       "identity": "OFFICIAL_GIS_SOURCE_CONFIRMED",
-      "subdivision": "OFFICIAL_GIS_POINT_IN_PLAT_CONFIRMED",
+      "subdivision": "SUBDIVISION_NOT_CONFIRMED",
       "valuation": "CITY_PIN_ADDRESS_SOURCE_MATCHED_PENDING_REVIEW",
       "evidence": "NOT_COMPLETE",
       "checks": {
         "parcel": "SOURCE_RECORDED",
-        "subdivision": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
+        "subdivision": "SOURCE_ERROR",
         "permit": "SOURCE_ACCESS_BLOCKED",
         "regional_permit": "REGIONAL_SOURCE_NOT_COMPLETE",
         "imagery": "FETCH_FAILED",
         "value": "SOURCE_RECORDED_PENDING_REVIEW",
         "gatekeeper": "AWAITING_EVIDENCE"
       },
-      "sha256": "1a630763e2f92eb9a8f7674613a0509ac5bba876f8a9612890c89841e3047f96"
+      "sha256": "250532497062e379e9db9fbbae0b66fea4ccdd2a2bd38426e76653afef9f974f"
     },
     {
       "parcel_objectid": "44041",
