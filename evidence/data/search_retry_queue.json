@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-23T20:23:56.896036+00:00",
+  "generated_at_utc": "2026-11-24T19:35:28.502937+00:00",
   "tasks": [
     {
       "parcel_objectid": "44001",
@@ -139,7 +139,7 @@
       "address": "1448 Kings Wood Lane, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "SOURCE_ERROR",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
@@ -436,7 +436,7 @@
       "address": "1453 Kings Wood Road, Eagan, MN",
       "search_type": "subdivision",
       "priority": 1,
-      "previous_status": "SOURCE_ERROR",
+      "previous_status": "OFFICIAL_CENTER_IN_KINGS_WOOD_PLAT",
       "next_action": "Review municipal plat polygon and parcel boundary; do not infer property condition",
       "attempted": false,
       "gatekeeper": "PENDING_OR_BLOCKED"
