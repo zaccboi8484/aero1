@@ -1,6 +1,6 @@
 {
   "dataset": "ORIGINAL_KINGS_WOOD_60_REMOTE_AERIAL_SOURCE_REGISTER",
-  "generated_at_utc": "2026-11-26T08:50:11.561476+00:00",
+  "generated_at_utc": "2026-11-26T21:52:27.231090+00:00",
   "local_image_files_published": 0,
   "original_parcels": 60,
   "records": [
@@ -13,7 +13,7 @@
       "parcel_objectid": "44001",
       "resale_or_redistribution_rights_verified": false,
       "roof_condition_verified": false,
-      "source_checked_at_utc": "2026-11-19T01:04:46.457042+00:00",
+      "source_checked_at_utc": "2026-11-26T21:35:42.748276+00:00",
       "source_sha256": "d6a4c8467d256981b410b08de4b9bc626903106150822d66965d813215ea0e5e",
       "source_status": "REMOTE_GOVERNMENT_JPEG_LAST_VERIFIED",
       "source_url": "https://imageserver.gisdata.mn.gov/cgi-bin/wmsll?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=met25&STYLES=&SRS=EPSG%3A4326&BBOX=-93.1683527%2C44.8165728%2C-93.1669527%2C44.8173728&WIDTH=800&HEIGHT=620&FORMAT=image%2Fjpeg"
@@ -848,6 +848,6 @@
   "remote_jpeg_last_verified": 60,
   "rights_notice": "Dakota County 2025 high-resolution imagery metadata includes Nearmap distribution/commercial-use restrictions; do not mirror third-party image bytes. The linked MnGeo WMS layer is a different source and any further redistribution still needs a source-specific rights check.",
   "source_availability_complete": true,
-  "source_report_run_utc": "2026-11-26T02:52:07.263220+00:00",
+  "source_report_run_utc": "2026-11-26T21:35:42.748276+00:00",
   "verification_notice": "Remote JPEG response hashes are NOT inspections, roof-condition assessments or verified completed permits."
 }
