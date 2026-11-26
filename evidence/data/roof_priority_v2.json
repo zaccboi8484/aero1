@@ -1,6 +1,6 @@
 {
   "format": "AERO_ROOF_PROSPECTING_PRIORITY_V2",
-  "generated_at_utc": "2026-11-25T16:45:50.797302+00:00",
+  "generated_at_utc": "2026-11-26T00:45:38.963271+00:00",
   "method": "HEURISTIC_UNCALIBRATED",
   "constants": {
     "roof_life_midpoint_years": 19.0,
