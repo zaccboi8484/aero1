@@ -1,5 +1,5 @@
 {
-  "collected_at_utc": "2026-11-26T18:30:08.451149+00:00",
+  "collected_at_utc": "2026-11-27T18:17:33.085817+00:00",
   "source_layer": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels_2025/FeatureServer/2/query",
   "filter": "UPPER(CTU_NAME) = 'EAGAN' AND (UPPER(ST_NAME) LIKE '%KINGS WOOD%' OR UPPER(PLAT_NAME) LIKE '%KINGS WOOD%')",
   "count": 60,
